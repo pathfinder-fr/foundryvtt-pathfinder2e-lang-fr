@@ -1,0 +1,16 @@
+image: python:3-alpine
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - python -mjson.tool 'fr.json' > /dev/null
+    - python -mjson.tool 'module.json' > /dev/null
+  artifacts:
+    name: lang-fr-pf2e
+    when: on_success
+    paths:
+      - fr.json
+      - module.json
