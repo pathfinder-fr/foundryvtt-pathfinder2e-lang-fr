@@ -440,7 +440,8 @@
   "PF2E.AddSpellTitle": "Ajouter un sort",
   "PF2E.CreateSpellTitle": "Créer un sort",
   "PF2E.UnprepareItemTitle": "Objet non préparés",
-  "PF2E.UnpreparedSpellsLabel": "Sorts non préparés",
+  "PF2E.UnpreparedSpellsLabel": "Liste de préparation",
+  "PF2E.UnpreparedSpellsLabelArcanePrepared": "Grimoire arcanique",
   "PF2E.SpellcastingTypeLabel": "Type de lancement de sort",
   "PF2E.SpellAbilityLabel": "Caractéristique d’incantation",
   "PF2E.SpellsSchoolHeader": "École",
@@ -1121,7 +1122,7 @@
   "PF2E.ActorSizeHuge": "Très Grande",
   "PF2E.ActorSizeGargantuan": "Gigantesque",
 
-  "PF2E.BulkTypeLight": "Lumière",
+  "PF2E.BulkTypeLight": "Léger",
 
   "PF2E.ConditionTypeBlinded": "Aveuglé",
   "PF2E.ConditionTypeBroken": "Brisé",
