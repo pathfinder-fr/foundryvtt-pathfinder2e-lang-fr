@@ -11,3 +11,17 @@
 ## Remerciements, vielen danke & Many thanks to :
 1. Henry4K : German translation and help
 2. Hooking : System and english version
+
+##Notes pour la validation des changements
+Pour mettre à jour à partir du master :
+1. Aller dans tags/étiquette
+2. tag name : numéro de version avec v devant. par ex : v1.1
+3. notes de version : détailler les modifications apportées. Par ex. correction sur tel aspect, ajout de telle fonctionnalité
+4. Puis créer l'étiquette
+
+##changer le module
+1. Une fois le tag/étiquette créée, éditer le module en changeant à deux endroits les numéros de version portées.
+2. Remplir les notes de changements. Si le changement est justifié par des modifications du projet anglo-saxon, indiquer le numéro de version pris en compte si possible.
+3. Puis valider : commit changes
+
+##Déclarer sur Foundry les changements
