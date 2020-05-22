@@ -62,6 +62,9 @@
   "PF2E.condition.helpful.name": "Serviable",
   "PF2E.condition.helpful.summary": "Un PNJ dans cet état souhaite vous porter assistance.",
   "PF2E.condition.helpful.rules": "<p>Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur. Une créature serviable souhaite activement aider le personnage qui lui inspire cette attitude. Elle acceptera que ce personnage la Sollicite, tant que ces requêtes n’iront pas à l’encontre des objectifs ou de la qualité de vie de la créature serviable. Si le personnage ou l’un de ses alliés entreprend une action hostile contre la créature, l’attitude de cette dernière se dégrade proportionnellement à l’hostilité de l’action, dont le degré est déterminé par le MJ.</p>",
+  "PF2E.condition.hidden.name": "Hidden",
+  "PF2E.condition.hidden.summary": "A creature you’re hidden from knows your location but can’t see you.",
+  "PF2E.condition.hidden.rules": "<p>Quand vous êtes caché d’une créature, celle-ci sait dans quel espace vous vous trouvez, mais elle ne peut pas dire précisément où vous vous trouvez. Vous devenez généralement caché après avoir utilisé Discrétion pour Vous cacher. Quand vous Cherchez une créature en utilisant seulement des sens imprécis, celle-ci se trouve dans l’état caché plutôt qu’observé. Une créature par rapport à laquelle vous êtes caché est prise au dépourvu face à vous. Elle doit réussir un test nu DD 11 quand elle vous cible avec une attaque, un sort ou un autre effet pour avoir une chance de vous affecter. Les zones d’effet ne sont pas sujettes à ce test nu.</p><p>Une créature peut tenter de faire appel à l’action Chercher pour tenter de changer votre état en observé.</p>",
   "PF2E.condition.hostile.name": "Hostile",
   "PF2E.condition.hostile.summary": "Un PNJ dans cet état souhaite vous blesser.",
   "PF2E.condition.hostile.rules": "<p>Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur. Une créature hostile souhaite activement faire du mal au personnage qui lui inspire cette attitude. Elle ne l’attaquera pas nécessairement, mais refusera d’accéder aux Sollicitations de ce personnage. </p>",
@@ -122,6 +125,40 @@
   "PF2E.condition.wounded.name": "Blessé",
   "PF2E.condition.wounded.summary": "Vous avez été ramené des portes de la mort mais n’avez pas entièrement recouvré votre santé.",
   "PF2E.condition.wounded.rules": "<p>Vous avez été gravement blessé. Si vous perdez l’état mourant et que vous n’êtes pas encore dans l’état blessé, vous devenez blessé 1. Si vous êtes déjà dans l’état blessé quand vous perdez l’état mourant, l’intensité de votre état blessé augmente de 1. Si vous gagnez l’état mourant alors que vous êtes blessé, vous ajoutez alors à l’intensité de votre état mourant celle de votre état blessé.</p><p>L’état blessé prend fin si quelqu’un réussit à vous rendre des points de vie grâce à Soigner les blessures, ou si vous regagnez l’ensemble de vos points de vie et vous reposez pendant 10 min.</p>",
+
+  "PF2E.SETTINGS.statusEffectType.name": "Icône de statut",
+  "PF2E.SETTINGS.statusEffectType.hint": "Détermine quel jeu d'icônes est utilisée pour les effets de statut. Remerciements à errational#2007 pour l'inspiration et Ediwir#7664 pour les jetons N&B par Lorc@OpenGameArt.",
+  "PF2E.SETTINGS.statusEffectType.default": "Icônes par défaut",
+  "PF2E.SETTINGS.statusEffectType.blackWhite": "icônes Noir et Blanc",
+  "PF2E.SETTINGS.statusEffectType.legacy": "icônes héritées",
+
+  "PF2E.SETTINGS.statusEffectKeepFoundry.name": "Status Icon Foundry Set",
+  "PF2E.SETTINGS.statusEffectKeepFoundry.hint": "Détermine si vous voulez montrer les icônes de base de Foundry sous les icônes Pathfinder 2E. Cela déclenche un reload.",
+
+  "PF2E.UI.shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus",
+  "PF2E.UI.shiftModifyDamageLabel": "Modificateur:",
+  "PF2E.UI.errorTargetToken": "Vous n'avez pas ciblé de jeton.",
+  "PF2E.UI.applyDamage.shieldActive": "et son bouclier subit",
+  "PF2E.UI.applyDamage.shieldInActive": "subit",
+  "PF2E.UI.applyDamage.damaged": "subit des dégâts de ",
+  "PF2E.UI.applyDamage.healed": "est soigné de ",
+  "PF2E.UI.applyDamage.by": "par",
+
+  "PF2E.ui.armorEquipped": "Active porter votre équipement",
+
+  "PF2E.Dying.label": "Mourant",
+  "PF2E.Dying.title": "Lorsque vous êtes mourant, vous êtes inconscient . Si elle atteint l'intensité maximale, vous êtes mort. Lancez un teste de récupération à chaque tour. See the full rules in CRB page 459-460.",
+  "PF2E.WoundsLabel": "Blessé",
+  "PF2E.WoundsTitle": "Chaque fois que vous perdez la condition mourant, votre condition blessé augmente de 1. Chaque fois que vous augmentez votre condition mourant en subissant des dégâts, l'intensité de la condition blessé est également ajoutée à celle de mourant. ",
+  "PF2E.DoomedLabel": "Condamné",
+  "PF2E.DoomedTitle": "L'intensité maximale de l'état mourant à laquelle vous mourrez est réduite par votre la valeur l'intensité condamné.",
+  "PF2E.Recovery.roll": "Cliquez pour lancer le Test de récupération",
+  "PF2E.Recovery.critSuccess": "Réduisez l'intensité de mourant de 2.",
+  "PF2E.Recovery.success": "Réduisez l'intensité de mourant de 1.",
+  "PF2E.Recovery.failure": "Augmentez l'intensité de mourant de 1.",
+  "PF2E.Recovery.critFailure": "Augmentez l'intensité de mourant de 2.",
+  "PF2E.Recovery.rollingPartA": "Test de Récupération lancé",
+  "PF2E.Recovery.rollingPartB": "contre un DD",
 
   "PF2E.AbilityTitle": "Caractéristique",
   "PF2E.ModifierTitle": "Modificateur",
@@ -191,7 +228,8 @@
   "PF2E.CurrentHitPointsShortLabel": "PV actuels",
   "PF2E.CurrentHPTitle": "Vos points de vie actuels",
   "PF2E.MaxHitPointsShortLabel": "PV Max",
-  "PF2E.MaxHPTitle": "Votre maximum de points de vie",
+  "PF2E.MaxHPTitle": "Votre maximum de points de vie. Ce montant est automatiquement calculé.",
+  "PF2E.MaxHPTitleNPC": "Votre maximum de points de vie",
   "PF2E.StaminaPointsHeader": "Points d’Endurance",
   "PF2E.CurrentStaminaPointsShortLabel": "PE actuels",
   "PF2E.CurrentStaminaTitle": "Le nombre de points d’endurance que vous possédez",
@@ -213,16 +251,6 @@
   "PF2E.Success": "<strong>Succès</strong>",
   "PF2E.Failure": "<strong>Échec</strong>",
   "PF2E.CritFailure": "<strong>Échec critique</strong>",
-  "PF2E.Dying.label": "Mourant",
-  "PF2E.Dying.title": "Niveau actuel dans l’état Mourant",
-  "PF2E.Recovery.roll": "Cliquez pour effectuer votre test de Récupération",
-  "PF2E.Recovery.critSuccess": "Réduisez la valeur de votre état Mourant de 2.",
-  "PF2E.Recovery.success": "Réduisez la valeur de votre état Mourant de 1.",
-  "PF2E.Recovery.failure": "Augmentez la valeur de votre état Mourant de 1.",
-  "PF2E.Recovery.critFailure": "Augmentez la valeur de votre état Mourant de 2.",
-  "PF2E.WoundsLabel": "Blessé",
-  "PF2E.WoundsTitle": "votre niveau actuel de Blessure",
-  "PF2E.DoomedLabel": "Condamné",
   "PF2E.Focus.label": "Points de focalisation",
   "PF2E.Focus.pointLabel": "Points",
   "PF2E.Focus.pointTitle": "Votre nombre restant de Points de focalisation",
@@ -230,18 +258,18 @@
   "PF2E.Focus.poolTitle": "La taille de votre réserve de focalisation",
   "PF2E.PerceptionHeader": "Perception",
   "PF2E.PerceptionLabel": "Perception",
+  "PF2E.ClassDCHeader": "DD Classe",
+  "PF2E.ClassDCLabel": "DD des capacités de classe",
+  "PF2E.ClassDCBase": "DD de classe de base 10",
   "PF2E.InitiativeHeader": "Bonus à l’Initiative",
   "PF2E.SizeLabel": "Taille",
   "PF2E.ProficiencyRankLabel": "Comp",
   "PF2E.StatusBonusTitle": "Bonus de statut",
-  "PF2E.StatusBonusQuestion": "Bonus de statut ?",
   "PF2E.StatusBonusShortLabel": "Statut",
   "PF2E.CircumstanceBonusTitle": "Bonus de circonstance",
-  "PF2E.CircumstanceBonusQuestion": "Bonus de circonstance ?",
   "PF2E.CircumstanceBonusShortLabel": "Circonstance",
   "PF2E.ItemBonusLabel": "Bonus d’Objet",
   "PF2E.ItemBonusShortLabel": "Objet",
-  "PF2E.SituationalBonusQuestion": "Bonus de situation ?",
   "PF2E.SavesHeader": "Jets de sauvegarde.",
   "PF2E.AbilityScoresHeader": "Scores de caractéristiques.",
   "PF2E.TabActionsLabel": "Actions",
@@ -249,7 +277,7 @@
   "PF2E.TabSpellbookLabel": "Grimoire",
   "PF2E.TabSkillsLabel": "Compétences",
   "PF2E.TabFeatsLabel": "Dons",
-  "PF2E.TabCharacterLabel": "Personnages",
+  "PF2E.TabCharacterLabel": "Personnage",
 
   "PF2E.AllSavesLabel": "Tous les jets de sauvegarde",
   "PF2E.SavesReflex": "Réflexes",
@@ -265,7 +293,7 @@
   "PF2E.AbilityInt": "Intelligence",
   "PF2E.AbilityWis": "sagesse",
   "PF2E.AbilityCha": "Charisme",
-  "PF2E.KeyAbility": "Score de Caractéristique clé",
+  "PF2E.KeyAbility": "Score Carac. clé",
 
   "PF2E.CurrencyPP": "Platine",
   "PF2E.CurrencyGP": "Or",
@@ -353,6 +381,19 @@
   "PF2E.CharacterTraits": "Traits du personnage",
   "PF2E.Biography": "Biographie",
 
+  "PF2E.NoStackGroup":  "Ne se cumule pas",   
+  "PF2E.StackGroupLabel":  "Se cumule avec",
+  "PF2E.StackGroupBolts":  "Carreaux",
+  "PF2E.StackGroupArrows": "Flêches",
+  "PF2E.StackGroupSlingBullets":  "Billes de fronde",
+  "PF2E.StackGroupBlowgunDarts": "Fléchettes de sabacane",
+  "PF2E.StackGroupRations":  "Rations",
+  "PF2E.StackGroupCoins": "Pièces",  
+   
+  "PF2E.AddCoinsTitle": "Ajouter des pièces",
+  "PF2E.AddCoinsCombineStacksLabel": "Cumuler",
+    
+  "PF2E.Rarity": "Rareté",
   "PF2E.Size": "Taille",
   "PF2E.Senses": "Sens",
   "PF2E.SensesTitle": "Les sens de votre personnage",
@@ -373,11 +414,13 @@
   "PF2E.AddShortLabel": "Ajouter",
   "PF2E.DeleteShortLabel": "Effacer",
   "PF2E.NegligibleOption": "Négligeable",
+  "PF2E.EquippedBulkLabel": "Encombrement porté",
+  "PF2E.EquippedSameBulkValue": "Identique à transporté",  
   "PF2E.FormulaPlaceholder": "Formule",
   "PF2E.ToolHeading": "Sommaire des outils",
   "PF2E.ConsumableHeading": "Consommable",
   "PF2E.ConsumableUseLabel": "Utilisation",
-  "PF2E.ConsumableNoChargesLabel": "Pas de charges",
+  "PF2E.ConsumableNoChargesLabel": "Pas de charge",
   "PF2E.ConsumableChargesLabel": "Charges",
 
   "PF2E.ActionActionSummary": "Sommaire des actions",
@@ -397,11 +440,12 @@
   "PF2E.ArmorStrengthRequiredLabel": "Force requise",
   "PF2E.ArmorGroupLabel": "Groupe",
   "PF2E.ArmorEquippedLabel": "Équipé",
+  "PF2E.ArmorClassBase": "Base CA 10",
   "PF2E.ArmorClassValueTitle": "Valeur à la CA",
 
   "PF2E.ConsumableTypeLabel": "Type de Consommable",
   "PF2E.ConsumableConsumeLabel": "Sur utilisation",
-  "PF2E.ConsumableAutoUseLabel": "Usure automatique",
+  "PF2E.ConsumableAutoUseLabel": "Utilisation automatique",
   "PF2E.ConsumableAutoDestroyLabel": "Auto Destruction",
 
   "PF2E.EquipmentSummary": "Sommaire de l’équipement",
@@ -412,12 +456,14 @@
   "PF2E.FeatTypeLabel": "Type de don",
   "PF2E.FeatActionTypeLabel": "Type d’action",
   "PF2E.FeatActionsLabel": "Nombre d’actions",
-  "PF2E.FeatPrereqLabel": "Conditions",
+  "PF2E.FeatPrereqLabel": "Prérequis",
   "PF2E.FeatLevelLabel": "Niveau",
 
   "PF2E.NPCWeaponAttackLabel": "Modificateur d’attaque",
   "PF2E.NPCWeaponDamageLabel": "Formule de dégâts",
   "PF2E.NPCWeaponDamageTypeLabel": "Type de dégâts",
+  "PF2E.NPCWeaponAddDamage": "Ajouter des Dégâts particuliers",
+  "PF2E.NPCWeaponAttackEffect": "Effets supplémentaires d'attaque",
 
   "PF2E.SpellSummary": "Sommaire des sorts",
   "PF2E.SpellLevelLabel": "Niveau de sort",
@@ -425,7 +471,7 @@
   "PF2E.SpellTraditionsLabel": "Tradition du sort",
   "PF2E.SpellSchoolLabel": "École du sort",
   "PF2E.SpellDamageLabel": "Dégâts du sort",
-  "PF2E.SpellAbilityModLabel": "+ Mod. de Caractéristique",
+  "PF2E.SpellAbilityModLabel": "+ Mod. de Carac.",
   "PF2E.SpellDamageTypeLabel": "Type de dégâts",
   "PF2E.SpellScalingLabel": "Intensification",
   "PF2E.SpellSaveLabel": "DD du Sort",
@@ -441,16 +487,17 @@
   "PF2E.DeleteSpellcastEntryQuestion": "êtes vous certain de vouloir effacer cette entrée d’Incantation des sorts ?",
   "PF2E.DeleteSpellcastEntryWarning": "ATTENTION: Tous les sorts de cette entrée d’incantation des sorts vont aussi être effacés",
   "PF2E.ToggleSpellVisibilityTitle": "Activez la visibilité des sorts",
+  "PF2E.ToggleSpellVisibilityLevelTitle": "Activer un chapitre de votre Grimoire",
   "PF2E.AddSpellcastingEntryTitle": "Ajoutez l’entrée Incantation des sort",
   "PF2E.RemoveSpellcastingEntryTitle": "Supprimez l’entrée Incantation des sorts",
   "PF2E.SpellAttackLabel": "Attaque de sort",
   "PF2E.AddSpellTitle": "Ajouter un sort",
   "PF2E.CreateSpellTitle": "Créer un sort",
-  "PF2E.UnprepareItemTitle": "Objet non préparés",
+  "PF2E.UnprepareItemTitle": "Abandonner un sort préparé",
   "PF2E.UnpreparedSpellsLabel": "Liste de préparation",
   "PF2E.UnpreparedSpellsLabelArcanePrepared": "Grimoire arcanique",
   "PF2E.SpellcastingTypeLabel": "Type de lancement de sort",
-  "PF2E.SpellAbilityLabel": "Caractéristique d’incantation",
+  "PF2E.SpellAbilityLabel": "Carac d’incant.",
   "PF2E.SpellsSchoolHeader": "École",
   "PF2E.SpellsActionHeader": "Action",
   "PF2E.OrphanedSpellsHeader": "Sorts orphelins (déplacer dans l’entrée de lancement de sort ci-dessus)",
@@ -460,6 +507,10 @@
   "PF2E.SpellRitualLabel": "Rituel",
   "PF2E.SpellCantripLabel": "Tour de magie",
   "PF2E.SpellFocusLabel": "Focalisation",
+
+  "PF2E.ValueLabel": "Valeur",
+  "PF2E.DenominationLabel": "Dénomination",
+  "PF2E.InventoryTreasureHeader": "Trésor",
 
   "PF2E.WeaponSummary": "Sommaire des armes",
   "PF2E.WeaponTypeLabel": "Maîtrise des armes",
@@ -486,6 +537,8 @@
   "PF2E.BulkLabel": "Encombrement",
   "PF2E.PriceLabel": "Prix",
   "PF2E.TraitsLabel": "Traits",
+
+  "PF2E.TraitExtradimensional": "Extradimensionnel",  
 
   "PF2E.SettingsColorLabel": "Schéma de couleur",
   "PF2E.SettingsColorBlue": "gris bleu",
@@ -591,6 +644,7 @@
   "PF2E.TraitSorcerer": "Ensorceleur",
   "PF2E.TraitWizard": "Magicien",
 
+  "PF2E.TraitCommon": "Commun",
   "PF2E.TraitUncommon": "Peu courant",
   "PF2E.TraitRare": "Rare",
   "PF2E.TraitUnique": "Unique",
@@ -599,8 +653,10 @@
   "PF2E.TraitAttached": "Attachée",
   "PF2E.TraitBackstabber": "Traitre",
   "PF2E.TraitBackswing": "Prise d’élan",
+  "PF2E.TraitBomb": "Bombe",
   "PF2E.TraitBrutal": "Brutal",
   "PF2E.TraitColdiron": "Fer froid",
+  "PF2E.TraitConsumable": "Consommable",
   "PF2E.TraitDeadlyD6": "Mortel d6",
   "PF2E.TraitDeadlyD8": "Mortel d8",
   "PF2E.TraitDeadlyD10": "Mortel d10",
@@ -613,6 +669,7 @@
   "PF2E.TraitForceful": "Percutant",
   "PF2E.TraitFreeHand": "Main-libre",
   "PF2E.TraitGrapple": "Saisir",
+  "PF2E.TraitImprovised": "Improvisé",
   "PF2E.TraitJoustingD6": "Joute d6",
   "PF2E.TraitMagical": "Magical",
   "PF2E.TraitNonlethal": "Non létal",
@@ -620,12 +677,48 @@
   "PF2E.TraitPropulsive": "Propulsif",
   "PF2E.TraitRange": "À distance",
   "PF2E.TraitRangedTrip": "Croc-en-jambe à distance",
+  "PF2E.TraitRangeIncrement10": "Facteur de portée 3m",
+  "PF2E.TraitRangeIncrement20":"Facteur de portée 6m",
+  "PF2E.TraitRangeIncrement30": "Facteur de portée 9m",
+  "PF2E.TraitRangeIncrement40":"Facteur de portée 12m",
+  "PF2E.TraitRangeIncrement50": "Facteur de portée 15m",
+  "PF2E.TraitRangeIncrement60":"Facteur de portée 18m",
+  "PF2E.TraitRangeIncrement70": "Facteur de portée 21m",
+  "PF2E.TraitRangeIncrement80":"Facteur de portée 24m",
+  "PF2E.TraitRangeIncrement90": "Facteur de portée 27m",
+  "PF2E.TraitRangeIncrement100":"Facteur de portée 30m",
+  "PF2E.TraitRangeIncrement110": "Facteur de portée 33m",
+  "PF2E.TraitRangeIncrement120":"Facteur de portée 36m",
+  "PF2E.TraitRangeIncrement130": "Facteur de portée 39m",
+  "PF2E.TraitRangeIncrement140":"Facteur de portée 42m",
+  "PF2E.TraitRangeIncrement150": "Facteur de portée 45m",
+  "PF2E.TraitRangeIncrement160":"Facteur de portée 48m",
+  "PF2E.TraitRangeIncrement170": "Facteur de portée 51m",
+  "PF2E.TraitRangeIncrement180":"Facteur de portée 54m",
+  "PF2E.TraitRangeIncrement190": "Facteur de portée 57m",
+  "PF2E.TraitRangeIncrement200":"Facteur de portée 60m",
+  "PF2E.TraitRangeIncrement210": "Facteur de portée 63m",
+  "PF2E.TraitRangeIncrement220":"Facteur de portée 66m",
+  "PF2E.TraitRangeIncrement230": "Facteur de portée 69m",
+  "PF2E.TraitRangeIncrement240":"Facteur de portée 72m",
+  "PF2E.TraitRangeIncrement250": "Facteur de portée 75m",
+  "PF2E.TraitRangeIncrement260":"Facteur de portée 78m",
+  "PF2E.TraitRangeIncrement270": "Facteur de portée 81m",
+  "PF2E.TraitRangeIncrement280":"Facteur de portée 84m",
+  "PF2E.TraitRangeIncrement290": "Facteur de portée 87m",
+  "PF2E.TraitRangeIncrement300":"Facteur de portée 90m",
+  "PF2E.TraitRangeIncrement310": "Facteur de portée 93m",
+  "PF2E.TraitRangeIncrement320":"Facteur de portée 96m",
   "PF2E.TraitReach": "Allonge",
-  "PF2E.TraitReach10": "Allonge 3 m",
-  "PF2E.TraitReach15": "Allonge 4,5 m",
-  "PF2E.TraitReach20": "Allonge 6 m",
-  "PF2E.TraitReach25": "Allonge 7,5 m",
+  "PF2E.TraitReach10": "Allonge 3m",
+  "PF2E.TraitReach15": "Allonge 4,5m",
+  "PF2E.TraitReach20": "Allonge 6m",
+  "PF2E.TraitReach25": "Allonge 7,5m",
+  "PF2E.TraitReload0": "Rechargement 0",
+  "PF2E.TraitReload1": "Rechargement 1",
+  "PF2E.TraitReload2": "Rechargement 2", 
   "PF2E.TraitShove": "Pousser",
+  "PF2E.TraitSplash": "Aspersion",
   "PF2E.TraitSweep": "Balayage",
   "PF2E.TraitTethered": "Rappel",
   "PF2E.TraitThrown10": "Jet 3 m",
@@ -657,6 +750,7 @@
   "PF2E.TraitFocus": "Focalisation",
   "PF2E.TraitRitual": "Rituel",
   "PF2E.TraitScroll": "Parchemins",
+  "PF2E.TraitWand": "Baguettes",
 
   "PF2E.TraitCantrip": "Tour de magie",
 
@@ -700,6 +794,7 @@
   "PF2E.TraitFungus": "Champignon",
   "PF2E.TraitLinguistic": "Linguistique",
   "PF2E.TraitMorph": "Transformation",
+
   "PF2E.TraitMove": "Déplacement",
   "PF2E.TraitManipulate": "Manipulation",
   "PF2E.TraitConcentrate": "Concentration",
@@ -726,12 +821,14 @@
   "PF2E.TraitOpen": "Ouverture",
   "PF2E.TraitPress": "Persévérer",
   "PF2E.TraitStance": "Posture",
+  "PF2e.TraitStamina": "Endurance",
   "PF2E.TraitAlchemical": "Alchimique",
   "PF2E.TraitInteract": "Interagir",
   "PF2E.TraitAura": "Aura",
   "PF2E.TraitOlfactory": "Olfactif",
 
   "PF2E.TraitAberration": "aberration",
+  "PF2E.TraitAcid": "acide",
   "PF2E.TraitAeon": "aéon",
   "PF2E.TraitAmphibious": "amphibie",
   "PF2E.TraitAnadi": "anadi",
@@ -792,6 +889,7 @@
   "PF2E.TraitRatfolk": "homme-rat",
   "PF2E.TraitSeaDevil": "diable des mers",
   "PF2E.TraitSkeleton": "squelette",
+  "PF2E.TraitSonic": "son",
   "PF2E.TraitSoulbound": "âme",
   "PF2E.TraitSpirit": "esprit",
   "PF2E.TraitSprite": "esprit follet",
@@ -814,6 +912,8 @@
   "PF2E.TraitDescriptionAttached": "Une arme attachée doit être combinée avec un autre équipement pour pouvoir être utilisée. Le trait indique le type d’objet auquel l’arme doit être attachée. Vous devez manier ou porter l’objet auquel l’arme est attachée pour pouvoir attaquer avec. Par exemple, les pointes de bouclier sont attachées à un bouclier, ce qui vous permet d’attaquer avec les pointes au lieu d’un coup de bouclier, mais uniquement si vous le maniez. L’arme attachée est généralement vissée ou intégrée à l’objet auquel elle est attachée. En règle générale, un objet ne peut être attaché qu’à une seule arme. Une arme attachée peut être fixée à un objet moyennant 10 minutes de travail et un test réussi d’Artisanat DD 10, ce qui inclut le temps nécessaire pour retirer l’arme d’un objet précédent, si nécessaire. Si un objet est détruit, son arme attachée peut généralement être récupérée.",
   "PF2E.TraitDescriptionBackstabber": "Lorsque vous touchez une créature prise au dépourvu, cette arme inflige 1 dégât de précision en plus de ses dégâts normaux. Les dégâts de précision montent à 2 si l’arme est une arme +3.",
   "PF2E.TraitDescriptionBackswing": "Vous pouvez utiliser l’élan d’une attaque manquée avec cette arme pour mener votre prochaine attaque. Après avoir raté votre attaque avec cette arme à votre tour, vous gagnez un bonus de circonstance de +1 lors de votre prochaine attaque avec cette arme avant la fin de votre tour.",
+  "PF2E.TraitDescriptionBomb": "Une bombe alchimique réunit des éléments alchimiques volatils qui explosent quand la bombe percute une créature ou un objet. La plupart des bombes alchimiques infligent des dégâts, mais certaines d’entre elles causent d’autres effets.",
+  "PF2E.TraitDescriptionConsumable": "Un objet avec ce trait ne peut être utilisé qu’une seule fois. Sauf indication contraire, il est détruit après son activation. Les objets consommables sont parfois des objets alchimiques et les objets magiques consommables sont parfois des parchemins ou des talismans. Quand un personnage crée des objets consommables, il peut les faire par lots de quatre.",
   "PF2E.TraitDescriptionDeadlyD6": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
   "PF2E.TraitDescriptionDeadlyD8": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
   "PF2E.TraitDescriptionDeadlyD10": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
@@ -1198,9 +1298,20 @@
   "PF2E.ResistanceTypeAll": "Tous",
   "PF2E.ResistanceTypePhysical": "Physiques",
 
+  "PF2E.AttackEffectGrab": "Empoignade",
+  "PF2E.AttackEffectImprovedGrab": "Empoignade améliorée",
+  "PF2E.AttackEffectConstrict": "Constriction",
+  "PF2E.AttackEffectGreaterConstrict": "Constriction supérieure",
+  "PF2E.AttackEffectKnockdown": "Renversement",
+  "PF2E.AttackEffectImprovedKnockdown": "Renversement amélioré",
+  "PF2E.AttackEffectPush": "Bousculade",
+  "PF2E.AttackEffectImprovedPush": "Bousculade améliorée",
+  "PF2E.AttackEffectTrip": "Croc-en-jambe",
+
   "PF2E.LanguageCommon": "Commun",
   "PF2E.LanguageAbyssal": "Abyssal",
   "PF2E.LanguageAklo": "Aklo",
+  "PF2E.LanguageAnadi": "Anadi",
   "PF2E.LanguageAquan": "Aquatique",
   "PF2E.LanguageAuran": "Aérien",
   "PF2E.LanguageBoggard": "Bourbiérin",
@@ -1212,6 +1323,7 @@
   "PF2E.LanguageGnomish": "Gnome",
   "PF2E.LanguageGoblin": "Gobelin",
   "PF2E.LanguageGnoll": "Gnoll",
+  "PF2E.LanguageGrippli": "Grippli",
   "PF2E.LanguageHalfling": "Halfelin",
   "PF2E.LanguageIgnan": "Igné",
   "PF2E.LanguageIruxi": "Iruxi",
@@ -1219,14 +1331,23 @@
   "PF2E.LanguageInfernal": "Infernal",
   "PF2E.LanguageOrcish": "Orquien",
   "PF2E.LanguageNecril": "Nécril",
-  "PF2E.LanguageSylvan": "Sylvestren",
+  "PF2E.LanguageStrix": "Strix",
+  "PF2E.LanguageSylvan": "Sylvestre",
   "PF2E.LanguageShadowtongue": "Langue de l’ombre",
+  "PF2E.LanguageShoony": "Shoony",
   "PF2E.LanguageTerran": "Terreux",
   "PF2E.LanguageUndercommon": "Commun des profondeurs",
-  
+  "PF2E.LanguageHallit" : "Hallit",
+  "PF2E.LanguageKelish" : "Kellide",
+  "PF2E.LanguageMwangi" : "Mwangi",
+  "PF2E.LanguageOsirian" : "Osirien",
+  "PF2E.LanguageShoanti" : "Shoanti",
+  "PF2E.LanguageSkald" : "Scalde",
+  "PF2E.LanguageTien" : "Tianais",
+  "PF2E.LanguageVarisian" : "Varisien",
+  "PF2E.LanguageVudrani" : "Vudrain",
   "PF2E.LanguageAlghollthu": "Algollthu",
   "PF2E.LanguageAmurrun" : "Amurrun",
-  "PF2E.LanguageAnadi" : "Anadi",
   "PF2E.LanguageArboreal" : "Arboréen",
   "PF2E.LanguageAzlanti" : "Azlant",
   "PF2E.LanguageCaligni" : "Caligni",
@@ -1234,26 +1355,15 @@
   "PF2E.LanguageDaemonic" : "Daémonique",
   "PF2E.LanguageErutaki" : "Erutaki",
   "PF2E.LanguageGarundi" : "Garundais",
-  "PF2E.LanguageGrippli" : "Grippli",
-  "PF2E.LanguageHallit" : "Hallit",
-  "PF2E.LanguageKelish" : "Kellide",
-  "PF2E.LanguageMwangi" : "Mwangi",
   "PF2E.LanguageOsiriani" : "Osirien",
   "PF2E.LanguageProtean" : "Protéen",
   "PF2E.LanguageRequian" : "Réquien",
-  "PF2E.LanguageShoanti" : "Shoanti",
-  "PF2E.LanguageShoony" : "Shoony",
-  "PF2E.LanguageSkald" : "Scalde",
   "PF2E.LanguageSphinx" : "Sphinx",
-  "PF2E.LanguageStrix" : "Strix",
   "PF2E.LanguageTengu" : "Tengu",
   "PF2E.LanguageThassilonian" : "Thassilonien",
-  "PF2E.LanguageTien" : "Tianais",
   "PF2E.LanguageUtopian" : "Utopien",
-  "PF2E.LanguageVarisian" : "Varisien",
   "PF2E.LanguageVarki" : "Varki",
-  "PF2E.LanguageVudrani" : "Vudrain",
-  
+
   "PF2E.SpellScalingModeNone": "Sans",
   "PF2E.SpellScalingModeLevel1": "Intensifié (+1)",
   "PF2E.SpellScalingModeLevel2": "Intensifié (+2)",
@@ -1276,6 +1386,7 @@
   "PF2E.BrowserSortyByLevelLabel": "Niveau",
   "PF2E.BrowserFilterSkills": "Compétence",
   "PF2E.BrowserFilterTraits": "Traits",
+  "PF2E.BrowserFilterSource": "Source",
   "PF2E.BrowserFilterProficiencyRequirements": "Conditions requises",
   "PF2E.BrowserFilterSizes": "Tailles",
   "PF2E.BrowserFilterAlignments": "Alignements",
@@ -1302,3 +1413,85 @@
   "PF2E.InventroyBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
   "PF2E.SpellBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts."
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
