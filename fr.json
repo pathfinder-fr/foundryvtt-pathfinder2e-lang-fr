@@ -62,8 +62,8 @@
   "PF2E.condition.helpful.name": "Serviable",
   "PF2E.condition.helpful.summary": "Un PNJ dans cet état souhaite vous porter assistance.",
   "PF2E.condition.helpful.rules": "<p>Cet état reflète l’attitude d’une créature envers un personnage donné et seul un effet surnaturel (comme un sort) peut imposer cet état à un personnage joueur. Une créature serviable souhaite activement aider le personnage qui lui inspire cette attitude. Elle acceptera que ce personnage la Sollicite, tant que ces requêtes n’iront pas à l’encontre des objectifs ou de la qualité de vie de la créature serviable. Si le personnage ou l’un de ses alliés entreprend une action hostile contre la créature, l’attitude de cette dernière se dégrade proportionnellement à l’hostilité de l’action, dont le degré est déterminé par le MJ.</p>",
-  "PF2E.condition.hidden.name": "Hidden",
-  "PF2E.condition.hidden.summary": "A creature you’re hidden from knows your location but can’t see you.",
+  "PF2E.condition.hidden.name": "Caché",
+  "PF2E.condition.hidden.summary": "Une créature sait où vous vous trouvez mais ne peut vous voir.",
   "PF2E.condition.hidden.rules": "<p>Quand vous êtes caché d’une créature, celle-ci sait dans quel espace vous vous trouvez, mais elle ne peut pas dire précisément où vous vous trouvez. Vous devenez généralement caché après avoir utilisé Discrétion pour Vous cacher. Quand vous Cherchez une créature en utilisant seulement des sens imprécis, celle-ci se trouve dans l’état caché plutôt qu’observé. Une créature par rapport à laquelle vous êtes caché est prise au dépourvu face à vous. Elle doit réussir un test nu DD 11 quand elle vous cible avec une attaque, un sort ou un autre effet pour avoir une chance de vous affecter. Les zones d’effet ne sont pas sujettes à ce test nu.</p><p>Une créature peut tenter de faire appel à l’action Chercher pour tenter de changer votre état en observé.</p>",
   "PF2E.condition.hostile.name": "Hostile",
   "PF2E.condition.hostile.summary": "Un PNJ dans cet état souhaite vous blesser.",
@@ -125,31 +125,31 @@
   "PF2E.condition.wounded.name": "Blessé",
   "PF2E.condition.wounded.summary": "Vous avez été ramené des portes de la mort mais n’avez pas entièrement recouvré votre santé.",
   "PF2E.condition.wounded.rules": "<p>Vous avez été gravement blessé. Si vous perdez l’état mourant et que vous n’êtes pas encore dans l’état blessé, vous devenez blessé 1. Si vous êtes déjà dans l’état blessé quand vous perdez l’état mourant, l’intensité de votre état blessé augmente de 1. Si vous gagnez l’état mourant alors que vous êtes blessé, vous ajoutez alors à l’intensité de votre état mourant celle de votre état blessé.</p><p>L’état blessé prend fin si quelqu’un réussit à vous rendre des points de vie grâce à Soigner les blessures, ou si vous regagnez l’ensemble de vos points de vie et vous reposez pendant 10 min.</p>",
-
-  "PF2E.SETTINGS.statusEffectType.name": "Icône de statut",
-  "PF2E.SETTINGS.statusEffectType.hint": "Détermine quel jeu d'icônes est utilisée pour les effets de statut. Remerciements à errational#2007 pour l'inspiration et Ediwir#7664 pour les jetons N&B par Lorc@OpenGameArt.",
+      
+  "PF2E.SETTINGS.statusEffectType.name": "Icône d'état",
+  "PF2E.SETTINGS.statusEffectType.hint": "Détermine le jeu d'icônes utilisé pour marquer les états. Remerciements à errational#2007 pour l'inspiration et Ediwir#7664 pour les dessins N&B par Lorc@OpenGameArt.",
   "PF2E.SETTINGS.statusEffectType.default": "Icônes par défaut",
   "PF2E.SETTINGS.statusEffectType.blackWhite": "icônes Noir et Blanc",
-  "PF2E.SETTINGS.statusEffectType.legacy": "icônes héritées",
-
-  "PF2E.SETTINGS.statusEffectKeepFoundry.name": "Status Icon Foundry Set",
+  "PF2E.SETTINGS.statusEffectType.legacy": "icônes hérités",
+      
+  "PF2E.SETTINGS.statusEffectKeepFoundry.name": "Icônes par défaut de Foundry",
   "PF2E.SETTINGS.statusEffectKeepFoundry.hint": "Détermine si vous voulez montrer les icônes de base de Foundry sous les icônes Pathfinder 2E. Cela déclenche un reload.",
-
+      
   "PF2E.UI.shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus",
   "PF2E.UI.shiftModifyDamageLabel": "Modificateur:",
-  "PF2E.UI.errorTargetToken": "Vous n'avez pas ciblé de jeton.",
+  "PF2E.UI.errorTargetToken": "Vous n'avez pas ciblé de Token.",
   "PF2E.UI.applyDamage.shieldActive": "et son bouclier subit",
   "PF2E.UI.applyDamage.shieldInActive": "subit",
-  "PF2E.UI.applyDamage.damaged": "subit des dégâts de ",
-  "PF2E.UI.applyDamage.healed": "est soigné de ",
+  "PF2E.UI.applyDamage.damaged": "subit des dégâts de",
+  "PF2E.UI.applyDamage.healed": "est soigné de",
   "PF2E.UI.applyDamage.by": "par",
-
+      
   "PF2E.ui.armorEquipped": "Active porter votre équipement",
-
+      
   "PF2E.Dying.label": "Mourant",
   "PF2E.Dying.title": "Lorsque vous êtes mourant, vous êtes inconscient . Si elle atteint l'intensité maximale, vous êtes mort. Lancez un teste de récupération à chaque tour. See the full rules in CRB page 459-460.",
   "PF2E.WoundsLabel": "Blessé",
-  "PF2E.WoundsTitle": "Chaque fois que vous perdez la condition mourant, votre condition blessé augmente de 1. Chaque fois que vous augmentez votre condition mourant en subissant des dégâts, l'intensité de la condition blessé est également ajoutée à celle de mourant. ",
+  "PF2E.WoundsTitle": "Chaque fois que vous perdez la condition mourant, votre condition blessé augmente de 1. Chaque fois que vous augmentez votre condition mourant en subissant des dégâts, l'intensité de la condition blessé est également ajoutée à celle de mourant.",
   "PF2E.DoomedLabel": "Condamné",
   "PF2E.DoomedTitle": "L'intensité maximale de l'état mourant à laquelle vous mourrez est réduite par votre la valeur l'intensité condamné.",
   "PF2E.Recovery.roll": "Cliquez pour lancer le Test de récupération",
@@ -159,7 +159,7 @@
   "PF2E.Recovery.critFailure": "Augmentez l'intensité de mourant de 2.",
   "PF2E.Recovery.rollingPartA": "Test de Récupération lancé",
   "PF2E.Recovery.rollingPartB": "contre un DD",
-
+      
   "PF2E.AbilityTitle": "Caractéristique",
   "PF2E.ModifierTitle": "Modificateur",
   "PF2E.ScoreTitle": "Score",
@@ -210,17 +210,17 @@
   "PF2E.CharacterNamePlaceholder": "Nom du Personnage",
   "PF2E.ArmorClassLabel": "Classe d’Armure",
   "PF2E.ArmorClassShortLabel": "CA",
-  "PF2E.AncestryHP": "PV de l’Ascendance",
+  "PF2E.AncestryHP": "PV d’Ascendance",
   "PF2E.ClassHP": "PV de Classe",
   "PF2E.BonusHPperLevel": "PV Bonus par Niveau",
   "PF2E.BonusHPperLevelTitle": "S’applique une fois par niveau (le modif. de CON est ajouté séparément)",
-  "PF2E.FlatBonusHP": "Bonus de base de PV",
+  "PF2E.FlatBonusHP": "Bonus fixe de PV",
   "PF2E.FlatBonusHPTitle": "Ajoute un nombre fixe à vos PV",
   "PF2E.BonusSPperLevel": "PE bonus par Niv.",
   "PF2E.BonusSPperLevelTitle": "S'applique une fois à chaque niveau (le modif. de CON est ajouté séparément)",
   "PF2E.FlatBonusSP": "Bonus fixe au PE",
   "PF2E.FlatBonusSPTitle": "Ajoute un nombre fixe à vos Points d'Endurance'",
-  "PF2E.BonusBulk": "Modificateur à l'Encombrement Maxi",
+  "PF2E.BonusBulk": "Encombrement",
   "PF2E.BonusBulkTitle": "Ajoutez ou retirez à votre limite d'Encombrement",
   "PF2E.HitPointsHeader": "Points de Vie",
   "PF2E.TempHitPointsShortLabel": "PV temp.",
@@ -232,12 +232,12 @@
   "PF2E.MaxHPTitleNPC": "Votre maximum de points de vie",
   "PF2E.StaminaPointsHeader": "Points d’Endurance",
   "PF2E.CurrentStaminaPointsShortLabel": "PE actuels",
-  "PF2E.CurrentStaminaTitle": "Le nombre de points d’endurance que vous possédez",
+  "PF2E.CurrentStaminaTitle": "Le nombre de Points d’Endurance que vous possédez",
   "PF2E.MaxStaminaPointsShortLabel": "PE Max",
-  "PF2E.MaxStaminaTitle": "Votre Maximum de points d’endurance",
+  "PF2E.MaxStaminaTitle": "Votre Maximum de Points d’Endurance",
   "PF2E.ResolvePointsShortLabel": "Persévérance",
   "PF2E.ResolveTitle": "Le nombre de points de Persévérance que vous possédez",
-  "PF2E.ShieldCurrentLabel": "PV du Bouclier",
+  "PF2E.ShieldCurrentLabel": "PV Bouclier",
   "PF2E.ShieldMaxLabel": "Max",
   "PF2E.ShieldBTLabel": "Brisé",
   "PF2E.ShieldACBonusTitle": "Le bonus à la CA de votre bouclier (lorsque vous utilisez l’action lever un bouclier)",
@@ -258,19 +258,19 @@
   "PF2E.Focus.poolTitle": "La taille de votre réserve de focalisation",
   "PF2E.PerceptionHeader": "Perception",
   "PF2E.PerceptionLabel": "Perception",
-  "PF2E.ClassDCHeader": "DD Classe",
-  "PF2E.ClassDCLabel": "DD des capacités de classe",
+  "PF2E.ClassDCHeader": "DD de Classe",
+  "PF2E.ClassDCLabel": "DD classe",
   "PF2E.ClassDCBase": "DD de classe de base 10",
   "PF2E.InitiativeHeader": "Bonus à l’Initiative",
   "PF2E.SizeLabel": "Taille",
-  "PF2E.ProficiencyRankLabel": "Comp",
+  "PF2E.ProficiencyRankLabel": "Rang",
   "PF2E.StatusBonusTitle": "Bonus de statut",
   "PF2E.StatusBonusShortLabel": "Statut",
   "PF2E.CircumstanceBonusTitle": "Bonus de circonstance",
   "PF2E.CircumstanceBonusShortLabel": "Circonstance",
   "PF2E.ItemBonusLabel": "Bonus d’Objet",
   "PF2E.ItemBonusShortLabel": "Objet",
-  "PF2E.SavesHeader": "Jets de sauvegarde.",
+  "PF2E.SavesHeader": "Jets de sauvegarde",
   "PF2E.AbilityScoresHeader": "Scores de caractéristiques.",
   "PF2E.TabActionsLabel": "Actions",
   "PF2E.TabInventoryLabel": "Inventaire",
@@ -278,7 +278,7 @@
   "PF2E.TabSkillsLabel": "Compétences",
   "PF2E.TabFeatsLabel": "Dons",
   "PF2E.TabCharacterLabel": "Personnage",
-
+      
   "PF2E.AllSavesLabel": "Tous les jets de sauvegarde",
   "PF2E.SavesReflex": "Réflexes",
   "PF2E.SavesReflexShort": "Réf.",
@@ -286,34 +286,34 @@
   "PF2E.SavesFortitudeShort": "Vig.",
   "PF2E.SavesWill": "Volonté",
   "PF2E.SavesWillShort": "Vol.",
-
+      
   "PF2E.AbilityStr": "Force",
   "PF2E.AbilityDex": "Dextérité",
   "PF2E.AbilityCon": "Constitution",
   "PF2E.AbilityInt": "Intelligence",
   "PF2E.AbilityWis": "sagesse",
   "PF2E.AbilityCha": "Charisme",
-  "PF2E.KeyAbility": "Score Carac. clé",
-
+  "PF2E.KeyAbility": "Carac. principale",
+      
   "PF2E.CurrencyPP": "Platine",
   "PF2E.CurrencyGP": "Or",
   "PF2E.CurrencySP": "Argent",
   "PF2E.CurrencyCP": "Cuivre",
-
-  "PF2E.ActionsActionsHeader": "Actions",
+      
+  "PF2E.ActionsActionsHeader": "Actions Uniques",
   "PF2E.ActionsReactionsHeader": "Réactions",
-  "PF2E.ActionsFreeActionsHeader": "Actions libres",
-
+  "PF2E.ActionsFreeActionsHeader": "Actions Gratuites",
+      
   "PF2E.InventoryWeaponsHeader": "Armes",
   "PF2E.InventoryArmorHeader": "Armures",
   "PF2E.InventoryEquipmentHeader": "Équipement",
   "PF2E.InventoryConsumablesHeader": "Consommables",
   "PF2E.InventoryBackpackHeader": "Sac à dos",
-
+      
   "PF2E.CoreSkillsHeader": "Compétences diverses",
   "PF2E.MartialSkillsHeader": "Compétences martiales",
   "PF2E.LoreSkillsHeader": "Compétences de connaissances",
-
+      
   "PF2E.SkillAcr": "Acrobaties",
   "PF2E.SkillArc": "Arcanes",
   "PF2E.SkillAth": "Athlétisme",
@@ -330,7 +330,7 @@
   "PF2E.SkillSte": "Discrétion",
   "PF2E.SkillSur": "Survie",
   "PF2E.SkillThi": "Vol",
-
+      
   "PF2E.SkillAcrobatics": "Acrobaties",
   "PF2E.SkillArcana": "Arcanes",
   "PF2E.SkillAthletics": "Athlétisme",
@@ -348,7 +348,7 @@
   "PF2E.SkillSurvival": "Survie",
   "PF2E.SkillThievery": "Vol",
   "PF2E.SkillLore": "Connaissance",
-
+      
   "PF2E.MartialUnarmored": "sans armure",
   "PF2E.MartialLight": "Armure légère",
   "PF2E.MartialMedium": "Armure intermédiaire",
@@ -357,7 +357,7 @@
   "PF2E.MartialMartial": "Armes de guerre",
   "PF2E.MartialAdvanced": "Armes évoluées",
   "PF2E.MartialUnarmed": "À mains nues",
-
+      
   "PF2E.FeatAncestryHeader": "Dons d’ascendance",
   "PF2E.FeatSkillHeader": "Dons de compétences",
   "PF2E.FeatGeneralHeader": "Dons généraux",
@@ -366,7 +366,7 @@
   "PF2E.FeaturesClassHeader": "Capacités de classe",
   "PF2E.FeatArchetypeHeader": "Dons d’archétype",
   "PF2E.FeaturesAncestryHeader": "Capacités d’ascendance",
-
+      
   "PF2E.CharacterDetails": "Détails du personnage",
   "PF2E.Ancestry": "Ascendance",
   "PF2E.Heritage": "Héritage",
@@ -380,19 +380,19 @@
   "PF2E.Deity": "Divinité",
   "PF2E.CharacterTraits": "Traits du personnage",
   "PF2E.Biography": "Biographie",
-
-  "PF2E.NoStackGroup":  "Ne se cumule pas",   
-  "PF2E.StackGroupLabel":  "Se cumule avec",
-  "PF2E.StackGroupBolts":  "Carreaux",
+      
+  "PF2E.NoStackGroup": "Ne se cumule pas",
+  "PF2E.StackGroupLabel": "Se cumule avec",
+  "PF2E.StackGroupBolts": "Carreaux",
   "PF2E.StackGroupArrows": "Flêches",
-  "PF2E.StackGroupSlingBullets":  "Billes de fronde",
+  "PF2E.StackGroupSlingBullets": "Billes de fronde",
   "PF2E.StackGroupBlowgunDarts": "Fléchettes de sabacane",
-  "PF2E.StackGroupRations":  "Rations",
-  "PF2E.StackGroupCoins": "Pièces",  
-   
+  "PF2E.StackGroupRations": "Rations",
+  "PF2E.StackGroupCoins": "Pièces",
+      
   "PF2E.AddCoinsTitle": "Ajouter des pièces",
   "PF2E.AddCoinsCombineStacksLabel": "Cumuler",
-    
+      
   "PF2E.Rarity": "Rareté",
   "PF2E.Size": "Taille",
   "PF2E.Senses": "Sens",
@@ -402,12 +402,12 @@
   "PF2E.Languages": "Langues",
   "PF2E.Speed": "Vitesse",
   "PF2E.SpeedTitle": "La vitesse de déplacement de votre personnage",
-  "PF2E.SpeedTypes": "Types de déplacement",
+  "PF2E.SpeedTypes": "Déplacements",
   "PF2E.SpeedTypesTitle": "Les modes de déplacement alternatifs",
-
+      
   "PF2E.ItemsLabel": "Objets",
   "PF2E.ItemTitle": "Objet",
-  "PF2E.ItemNamePlaceholder": "Nom",
+  "PF2E.ItemNamePlaceholder": "Nom du conteneur",
   "PF2E.EditItemTitle": "Éditer l’objet",
   "PF2E.DeleteItemTitle": "Effacer l’objet",
   "PF2E.CreateItemTitle": "Créer l’objet",
@@ -415,21 +415,21 @@
   "PF2E.DeleteShortLabel": "Effacer",
   "PF2E.NegligibleOption": "Négligeable",
   "PF2E.EquippedBulkLabel": "Encombrement porté",
-  "PF2E.EquippedSameBulkValue": "Identique à transporté",  
+  "PF2E.EquippedSameBulkValue": "Identique à transporté",
   "PF2E.FormulaPlaceholder": "Formule",
   "PF2E.ToolHeading": "Sommaire des outils",
   "PF2E.ConsumableHeading": "Consommable",
   "PF2E.ConsumableUseLabel": "Utilisation",
   "PF2E.ConsumableNoChargesLabel": "Pas de charge",
   "PF2E.ConsumableChargesLabel": "Charges",
-
+      
   "PF2E.ActionActionSummary": "Sommaire des actions",
   "PF2E.ActionActionTypeLabel": "Type d’Action",
   "PF2E.ActionActionsLabel": "Actions",
   "PF2E.ActionCategoryLabel": "Catégorie d’action",
   "PF2E.ActionWeaponLabel": "Arme associée",
   "PF2E.ActionSkillRequirementLabel": "Condition requise",
-
+      
   "PF2E.ArmorArmorSummary": "Sommaire des armures",
   "PF2E.ArmorArmorTypeLabel": "Type d’armure",
   "PF2E.ArmorArmorLabel": "Bonus à la CA",
@@ -442,29 +442,29 @@
   "PF2E.ArmorEquippedLabel": "Équipé",
   "PF2E.ArmorClassBase": "Base CA 10",
   "PF2E.ArmorClassValueTitle": "Valeur à la CA",
-
+      
   "PF2E.ConsumableTypeLabel": "Type de Consommable",
   "PF2E.ConsumableConsumeLabel": "Sur utilisation",
   "PF2E.ConsumableAutoUseLabel": "Utilisation automatique",
   "PF2E.ConsumableAutoDestroyLabel": "Auto Destruction",
-
+      
   "PF2E.EquipmentSummary": "Sommaire de l’équipement",
   "PF2E.EquipmentEquippedLabel": "Equipé",
   "PF2E.LoreLoreSummary": "Sommaire de compétence",
-
+      
   "PF2E.FeatFeatSummary": "Sommaire des dons",
   "PF2E.FeatTypeLabel": "Type de don",
   "PF2E.FeatActionTypeLabel": "Type d’action",
   "PF2E.FeatActionsLabel": "Nombre d’actions",
   "PF2E.FeatPrereqLabel": "Prérequis",
   "PF2E.FeatLevelLabel": "Niveau",
-
+      
   "PF2E.NPCWeaponAttackLabel": "Modificateur d’attaque",
   "PF2E.NPCWeaponDamageLabel": "Formule de dégâts",
   "PF2E.NPCWeaponDamageTypeLabel": "Type de dégâts",
   "PF2E.NPCWeaponAddDamage": "Ajouter des Dégâts particuliers",
   "PF2E.NPCWeaponAttackEffect": "Effets supplémentaires d'attaque",
-
+      
   "PF2E.SpellSummary": "Sommaire des sorts",
   "PF2E.SpellLevelLabel": "Niveau de sort",
   "PF2E.SpellTypeLabel": "Type de sort",
@@ -507,11 +507,11 @@
   "PF2E.SpellRitualLabel": "Rituel",
   "PF2E.SpellCantripLabel": "Tour de magie",
   "PF2E.SpellFocusLabel": "Focalisation",
-
+      
   "PF2E.ValueLabel": "Valeur",
   "PF2E.DenominationLabel": "Dénomination",
   "PF2E.InventoryTreasureHeader": "Trésor",
-
+      
   "PF2E.WeaponSummary": "Sommaire des armes",
   "PF2E.WeaponTypeLabel": "Maîtrise des armes",
   "PF2E.WeaponGroupLabel": "Groupe d’armes",
@@ -528,7 +528,7 @@
   "PF2E.WeaponAbilityLabel": "Capacité d’arme",
   "PF2E.WeaponMAPLabel": "Pénalité d’attaque multiple",
   "PF2E.WeaponMAPDefaultOption": "Défaut (utilisation du trait agile s’il est présent)",
-
+      
   "PF2E.ItemSummary": "Sommaire des objets",
   "PF2E.ItemDescription": "Description",
   "PF2E.ItemDetails": "Détails",
@@ -537,9 +537,9 @@
   "PF2E.BulkLabel": "Encombrement",
   "PF2E.PriceLabel": "Prix",
   "PF2E.TraitsLabel": "Traits",
-
-  "PF2E.TraitExtradimensional": "Extradimensionnel",  
-
+      
+  "PF2E.TraitExtradimensional": "Extradimensionnel",
+      
   "PF2E.SettingsColorLabel": "Schéma de couleur",
   "PF2E.SettingsColorBlue": "gris bleu",
   "PF2E.SettingsColorRed": "rouge noir",
@@ -547,9 +547,9 @@
   "PF2E.SettingsColorNotes": "Vous pouvez définir le schéma de couleur du système ici, principalement utilisé sur les feuilles.",
   "PF2E.SettingsQuickRollsLabel": "Lancers de dés rapides",
   "PF2E.SettingsQuickRollsNotes": "S’il est utilisé, lorsque vous lancez les dés à partir d’une feuille, vous obtenez seulement une fenêtre pour modifier le jet à la volée lorsque vous appuyez sur le boutton SHIFT.",
-
-  "PF2E.ClickToSetInitiative": "Cliquez pour définir l’Initiative du ou des jeton(s) sélectionnés.",
-
+      
+  "PF2E.ClickToSetInitiative": "Cliquez pour définir l’Initiative du ou des Token(s) sélectionnés.",
+      
   "PF2E.DamageTypeAcid": "Acide",
   "PF2E.DamageTypeBludgeoning": "Contondant",
   "PF2E.DamageTypeCold": "Froid",
@@ -570,15 +570,15 @@
   "PF2E.DamageTypeGood": "Bien",
   "PF2E.DamageTypeEvil": "Mal",
   "PF2E.DamageTypeModular": "Modulable",
-
+      
   "PF2E.HealingTypeHealing": "Soins",
   "PF2E.HealingTypeTemporaryHealing": "Soins (Temporaire)",
-
+      
   "PF2E.WeaponTypeSimple": "Arme simple",
   "PF2E.WeaponTypeMartial": "Arme de guerre",
   "PF2E.WeaponTypeAdvanced": "Arme évoluée",
   "PF2E.WeaponTypeUnarmed": "Attaque sans arme",
-
+      
   "PF2E.WeaponGroupClub": "Gourdin",
   "PF2E.WeaponGroupKnife": "Couteau",
   "PF2E.WeaponGroupBrawling": "Pugilat",
@@ -594,7 +594,7 @@
   "PF2E.WeaponGroupBow": "Arc",
   "PF2E.WeaponGroupSling": "Fronde",
   "PF2E.WeaponGroupBomb": "Bombe",
-
+      
   "PF2E.WeaponDescriptionClub": "La cible est repoussée jusqu’à 3 m de vous (vous choisissez la distance). Il s’agit d’un mouvement forcé.",
   "PF2E.WeaponDescriptionKnife": "La cible subit 1d6 dégâts de saignement persistants. Vous obtenez un bonus d’objet à ces dégâts de saignement égal au bonus d’objet de l’arme aux jets d’attaque.",
   "PF2E.WeaponDescriptionBrawling": "La cible doit réussir un jet de Vigueur contre votre DD de classe ou être ralentie 1 jusqu’à la fin de votre prochain tour.",
@@ -606,11 +606,11 @@
   "PF2E.WeaponDescriptionPick": "L’arme perfore vicieusement la cible, qui subit 2 dégâts supplémentaires par dé de dégâts de l’arme.",
   "PF2E.WeaponDescriptionHammer": "La cible tombe À terre.",
   "PF2E.WeaponDescriptionShield": "Vous repoussez la cible de 1,5 m. Il s’agit d’un mouvement forcé (page 475).",
-  "PF2E.WeaponDescriptionDart": "La cible subit 1d6 dégâts de saignement persistants. Vous obtenez un bonus d’objet à ces dégâts de saignement égal au bonus d’objet de l’arme aux jets d’attaque. ",
-  "PF2E.WeaponDescriptionBow": "Si la cible du coup critique est adjacente à une surface, elle se retrouve fichée sur cette surface par le projectile. La cible est immobilisée et doit dépenser une action Interagir pour tenter un test d’Athlétisme DD 10 afin de se libérer du projectile ; elle ne peut pas quitter son espace tant qu’elle n’a pas réussi ce test. La créature n’est pas fichée sur la surface si elle est intangible, si elle est liquide (comme un élémentaire d’eau ou certaines vases), ou peut autrement s’échapper sans effort. ",
+  "PF2E.WeaponDescriptionDart": "La cible subit 1d6 dégâts de saignement persistants. Vous obtenez un bonus d’objet à ces dégâts de saignement égal au bonus d’objet de l’arme aux jets d’attaque.",
+  "PF2E.WeaponDescriptionBow": "Si la cible du coup critique est adjacente à une surface, elle se retrouve fichée sur cette surface par le projectile. La cible est immobilisée et doit dépenser une action Interagir pour tenter un test d’Athlétisme DD 10 afin de se libérer du projectile ; elle ne peut pas quitter son espace tant qu’elle n’a pas réussi ce test. La créature n’est pas fichée sur la surface si elle est intangible, si elle est liquide (comme un élémentaire d’eau ou certaines vases), ou peut autrement s’échapper sans effort.",
   "PF2E.WeaponDescriptionSling": "La cible doit réussir un jet de Vigueur contre votre DD de classe ou être Étourdie 1.",
   "PF2E.WeaponDescriptionBomb": "Augmentez le rayon d’effet des dégâts d’éclaboussure de la bombe (s’il y a lieu) à 3 m.",
-
+      
   "PF2E.TraitDwarf": "Nain",
   "PF2E.TraitElf": "Elfe",
   "PF2E.TraitGnome": "Gnome",
@@ -619,7 +619,7 @@
   "PF2E.TraitHalfElf": "Demi-elfe",
   "PF2E.TraitHalfOrc": "Demi-orc",
   "PF2E.TraitHuman": "Humain",
-  
+      
   "PF2E.TraitTengu": "Tengu",
   "PF2E.TraitTroll": "Troll",
   "PF2E.TraitUndead": "Mort-vivant",
@@ -630,7 +630,7 @@
   "PF2E.TraitWraith": "Âme-en-peine",
   "PF2E.TraitXulgath": "Xulgath",
   "PF2E.TraitZombie": "Zombi",
-
+      
   "PF2E.TraitAlchemist": "Alchimiste",
   "PF2E.TraitBarbarian": "Barbare",
   "PF2E.TraitBard": "Barde",
@@ -643,12 +643,12 @@
   "PF2E.TraitRogue": "Roublard",
   "PF2E.TraitSorcerer": "Ensorceleur",
   "PF2E.TraitWizard": "Magicien",
-
+      
   "PF2E.TraitCommon": "Commun",
   "PF2E.TraitUncommon": "Peu courant",
   "PF2E.TraitRare": "Rare",
   "PF2E.TraitUnique": "Unique",
-
+      
   "PF2E.TraitAgile": "Agile",
   "PF2E.TraitAttached": "Attachée",
   "PF2E.TraitBackstabber": "Traitre",
@@ -678,37 +678,37 @@
   "PF2E.TraitRange": "À distance",
   "PF2E.TraitRangedTrip": "Croc-en-jambe à distance",
   "PF2E.TraitRangeIncrement10": "Facteur de portée 3m",
-  "PF2E.TraitRangeIncrement20":"Facteur de portée 6m",
+  "PF2E.TraitRangeIncrement20"  :   "Facteur de portée 6m",
   "PF2E.TraitRangeIncrement30": "Facteur de portée 9m",
-  "PF2E.TraitRangeIncrement40":"Facteur de portée 12m",
+  "PF2E.TraitRangeIncrement40"  :   "Facteur de portée 12m",
   "PF2E.TraitRangeIncrement50": "Facteur de portée 15m",
-  "PF2E.TraitRangeIncrement60":"Facteur de portée 18m",
+  "PF2E.TraitRangeIncrement60"  :   "Facteur de portée 18m",
   "PF2E.TraitRangeIncrement70": "Facteur de portée 21m",
-  "PF2E.TraitRangeIncrement80":"Facteur de portée 24m",
+  "PF2E.TraitRangeIncrement80"  :   "Facteur de portée 24m",
   "PF2E.TraitRangeIncrement90": "Facteur de portée 27m",
-  "PF2E.TraitRangeIncrement100":"Facteur de portée 30m",
+  "PF2E.TraitRangeIncrement100"  :   "Facteur de portée 30m",
   "PF2E.TraitRangeIncrement110": "Facteur de portée 33m",
-  "PF2E.TraitRangeIncrement120":"Facteur de portée 36m",
+  "PF2E.TraitRangeIncrement120"  :   "Facteur de portée 36m",
   "PF2E.TraitRangeIncrement130": "Facteur de portée 39m",
-  "PF2E.TraitRangeIncrement140":"Facteur de portée 42m",
+  "PF2E.TraitRangeIncrement140"  :   "Facteur de portée 42m",
   "PF2E.TraitRangeIncrement150": "Facteur de portée 45m",
-  "PF2E.TraitRangeIncrement160":"Facteur de portée 48m",
+  "PF2E.TraitRangeIncrement160"  :   "Facteur de portée 48m",
   "PF2E.TraitRangeIncrement170": "Facteur de portée 51m",
-  "PF2E.TraitRangeIncrement180":"Facteur de portée 54m",
+  "PF2E.TraitRangeIncrement180"  :   "Facteur de portée 54m",
   "PF2E.TraitRangeIncrement190": "Facteur de portée 57m",
-  "PF2E.TraitRangeIncrement200":"Facteur de portée 60m",
+  "PF2E.TraitRangeIncrement200"  :   "Facteur de portée 60m",
   "PF2E.TraitRangeIncrement210": "Facteur de portée 63m",
-  "PF2E.TraitRangeIncrement220":"Facteur de portée 66m",
+  "PF2E.TraitRangeIncrement220"  :   "Facteur de portée 66m",
   "PF2E.TraitRangeIncrement230": "Facteur de portée 69m",
-  "PF2E.TraitRangeIncrement240":"Facteur de portée 72m",
+  "PF2E.TraitRangeIncrement240"  :   "Facteur de portée 72m",
   "PF2E.TraitRangeIncrement250": "Facteur de portée 75m",
-  "PF2E.TraitRangeIncrement260":"Facteur de portée 78m",
+  "PF2E.TraitRangeIncrement260"  :   "Facteur de portée 78m",
   "PF2E.TraitRangeIncrement270": "Facteur de portée 81m",
-  "PF2E.TraitRangeIncrement280":"Facteur de portée 84m",
+  "PF2E.TraitRangeIncrement280"  :   "Facteur de portée 84m",
   "PF2E.TraitRangeIncrement290": "Facteur de portée 87m",
-  "PF2E.TraitRangeIncrement300":"Facteur de portée 90m",
+  "PF2E.TraitRangeIncrement300"  :   "Facteur de portée 90m",
   "PF2E.TraitRangeIncrement310": "Facteur de portée 93m",
-  "PF2E.TraitRangeIncrement320":"Facteur de portée 96m",
+  "PF2E.TraitRangeIncrement320"  :   "Facteur de portée 96m",
   "PF2E.TraitReach": "Allonge",
   "PF2E.TraitReach10": "Allonge 3m",
   "PF2E.TraitReach15": "Allonge 4,5m",
@@ -716,7 +716,7 @@
   "PF2E.TraitReach25": "Allonge 7,5m",
   "PF2E.TraitReload0": "Rechargement 0",
   "PF2E.TraitReload1": "Rechargement 1",
-  "PF2E.TraitReload2": "Rechargement 2", 
+  "PF2E.TraitReload2": "Rechargement 2",
   "PF2E.TraitShove": "Pousser",
   "PF2E.TraitSplash": "Aspersion",
   "PF2E.TraitSweep": "Balayage",
@@ -736,24 +736,24 @@
   "PF2E.TraitVersatileB": "Polyvalent C",
   "PF2E.TraitVolley30": "Volée 9 m",
   "PF2E.TraitModular": "Polyvalent C, P ou T",
-
+      
   "PF2E.TraitArcane": "Arcanique",
   "PF2E.TraitOccult": "Occulte",
   "PF2E.TraitDivine": "Divine",
   "PF2E.TraitPrimal": "Primordial",
-
+      
   "PF2E.SpellTraditionArcane": "Arcanique",
   "PF2E.SpellTraditionOccult": "Occulte",
   "PF2E.SpellTraditionDivine": "Divine",
   "PF2E.SpellTraditionPrimal": "Primordiale",
-
+      
   "PF2E.TraitFocus": "Focalisation",
   "PF2E.TraitRitual": "Rituel",
   "PF2E.TraitScroll": "Parchemins",
   "PF2E.TraitWand": "Baguettes",
-
+      
   "PF2E.TraitCantrip": "Tour de magie",
-
+      
   "PF2E.TraitAbjuration": "Abjuration",
   "PF2E.TraitConjuration": "Invocation",
   "PF2E.TraitDivination": "Divination",
@@ -762,7 +762,7 @@
   "PF2E.TraitIllusion": "Illusion",
   "PF2E.TraitNecromancy": "Nécromancie",
   "PF2E.TraitTransmutation": "Transmutation",
-
+      
   "PF2E.SpellSchoolAbj": "Abjuration",
   "PF2E.SpellSchoolCon": "Invocation",
   "PF2E.SpellSchoolDiv": "Divination",
@@ -771,7 +771,7 @@
   "PF2E.SpellSchoolIll": "Illusion",
   "PF2E.SpellSchoolNec": "Nécromancie",
   "PF2E.SpellSchoolTrs": "Transmutation",
-
+      
   "PF2E.TraitAttack": "Attaque",
   "PF2E.TraitDisease": "Maladie",
   "PF2E.TraitPolymorph": "Métamorphose",
@@ -794,7 +794,7 @@
   "PF2E.TraitFungus": "Champignon",
   "PF2E.TraitLinguistic": "Linguistique",
   "PF2E.TraitMorph": "Transformation",
-
+      
   "PF2E.TraitMove": "Déplacement",
   "PF2E.TraitManipulate": "Manipulation",
   "PF2E.TraitConcentrate": "Concentration",
@@ -826,7 +826,7 @@
   "PF2E.TraitInteract": "Interagir",
   "PF2E.TraitAura": "Aura",
   "PF2E.TraitOlfactory": "Olfactif",
-
+      
   "PF2E.TraitAberration": "aberration",
   "PF2E.TraitAcid": "acide",
   "PF2E.TraitAeon": "aéon",
@@ -903,11 +903,11 @@
   "PF2E.TraitChangeling": "Changelin",
   "PF2E.TraitGeniekin": "Génie",
   "PF2E.TraitShoony": "Shoony",
-
+      
   "PF2E.TraitDescriptionCommon": "Tout ce qui n’est pas associé à un autre trait de rareté (peu courant, rare ou unique) possède automatiquement le trait ordinaire.  Cette rareté indique qu’un pouvoir, un objet ou un sort est accessible par tous les joueurs dans la mesure où ils remplissent les prérequis.  Une créature qui possède cette rareté est courante et peut être convoquée à l’aide du sort de convocation approprié.",
   "PF2E.TraitDescriptionUncommon": "Un objet peu courant est accessible à ceux qui ont suivi un entraînement particulier, grandi au sein d’une culture spécifique ou qui viennent d’une région spécifique. Certains choix de personnage donnent accès à des options peu courantes et le MJ peut choisir d’autoriser chacun à y avoir accès.  On en sait moins sur les créatures peu courantes que sur les créatures ordinaires. Elles ne peuvent généralement pas être convoquées. Le DD des tests permettant de Se souvenir d’informations sur cette créature est augmenté de 2.",
   "PF2E.TraitDescriptionRare": "Cette rareté signifie qu’un élément de règle est très difficile à trouver dans le monde de jeu. Un don, un sort, un objet ou quelque chose de rare n’est accessible aux joueurs que si le MJ décide de l’inclure dans le jeu, typiquement au travers d’une découverte durant la partie. Comme le nom l’indique, ces créatures sont rares. Elles ne peuvent généralement pas être convoquées. Le DD des tests permettant de Se souvenir d’informations sur cette créature est augmenté de 5.",
-  "PF2E.TraitDescriptionUnique": "Un élément de règle avec ce trait est le seul de son genre.  Une créature qui possède cette rareté est la seule de son espèce. Le DD des tests permettant de Se souvenir d’informations sur cette créature est augmenté de 10. ",
+  "PF2E.TraitDescriptionUnique": "Un élément de règle avec ce trait est le seul de son genre.  Une créature qui possède cette rareté est la seule de son espèce. Le DD des tests permettant de Se souvenir d’informations sur cette créature est augmenté de 10.",
   "PF2E.TraitDescriptionAgile": "Le malus d’attaques multiples que vous subissez avec cette arme lors de la deuxième attaque de votre tour est de −4 au lieu de −5, et de −8 au lieu de −10 pour la troisième attaque et les suivantes dans le tour.",
   "PF2E.TraitDescriptionAttached": "Une arme attachée doit être combinée avec un autre équipement pour pouvoir être utilisée. Le trait indique le type d’objet auquel l’arme doit être attachée. Vous devez manier ou porter l’objet auquel l’arme est attachée pour pouvoir attaquer avec. Par exemple, les pointes de bouclier sont attachées à un bouclier, ce qui vous permet d’attaquer avec les pointes au lieu d’un coup de bouclier, mais uniquement si vous le maniez. L’arme attachée est généralement vissée ou intégrée à l’objet auquel elle est attachée. En règle générale, un objet ne peut être attaché qu’à une seule arme. Une arme attachée peut être fixée à un objet moyennant 10 minutes de travail et un test réussi d’Artisanat DD 10, ce qui inclut le temps nécessaire pour retirer l’arme d’un objet précédent, si nécessaire. Si un objet est détruit, son arme attachée peut généralement être récupérée.",
   "PF2E.TraitDescriptionBackstabber": "Lorsque vous touchez une créature prise au dépourvu, cette arme inflige 1 dégât de précision en plus de ses dégâts normaux. Les dégâts de précision montent à 2 si l’arme est une arme +3.",
@@ -924,9 +924,9 @@
   "PF2E.TraitDescriptionFatalD8": "Le trait fatal inclut un type de dé donné. En cas de coup critique, l’arme utilise le dé de dégâts du trait fatal au lieu du dé normal, et l’arme ajoute un dé de dégâts supplémentaire du même type.",
   "PF2E.TraitDescriptionFatalD10": "Le trait fatal inclut un type de dé donné. En cas de coup critique, l’arme utilise le dé de dégâts du trait fatal au lieu du dé normal, et l’arme ajoute un dé de dégâts supplémentaire du même type.",
   "PF2E.TraitDescriptionFatalD12": "Le trait fatal inclut un type de dé donné. En cas de coup critique, l’arme utilise le dé de dégâts du trait fatal au lieu du dé normal, et l’arme ajoute un dé de dégâts supplémentaire du même type.",
-  "PF2E.TraitDescriptionFinesse": "Vous pouvez utiliser votre modificateur de Dextérité à la place de votre modificateur de Force pour les jets d’attaque avec cette arme de corps à corps. Vous utilisez toujours votre modificateur de Force pour calculer les dégâts. ",
+  "PF2E.TraitDescriptionFinesse": "Vous pouvez utiliser votre modificateur de Dextérité à la place de votre modificateur de Force pour les jets d’attaque avec cette arme de corps à corps. Vous utilisez toujours votre modificateur de Force pour calculer les dégâts.",
   "PF2E.TraitDescriptionForceful": "Cette arme devient plus dangereuse à mesure qu’elle gagne de l’élan. Lorsque vous attaquez plus d’une fois avec elle à votre tour, la deuxième attaque gagne un bonus de circonstances aux dégâts égal au nombre de dés de dégâts de l’arme, et chaque attaque suivante gagne un bonus de circonstances aux dégâts égal au double du nombre de dés de dégâts de l’arme.",
-  "PF2E.TraitDescriptionFreeHand": "Cette arme n’occupe pas votre main, généralement parce qu’elle est intégrée à votre armure. Une arme main-libre ne peut pas être Désarmée. Vous pouvez utiliser la main couverte par votre arme main-libre pour brandir d’autres objets, effectuer des actions de manipulation, etc. Vous ne pouvez pas attaquer avec une arme main-libre si vous brandissez quoi que ce soit dans cette main ou utilisez autrement cette main. Lorsque vous ne maniez aucun objet et que vous n’utilisez pas autrement la main, vous pouvez utiliser des capacités qui exigent que vous ayez une main libre ainsi que celles qui nécessitent que vous portiez une arme dans cette main. Chacune de vos mains ne peut avoir qu’une seule arme main-libre. ",
+  "PF2E.TraitDescriptionFreeHand": "Cette arme n’occupe pas votre main, généralement parce qu’elle est intégrée à votre armure. Une arme main-libre ne peut pas être Désarmée. Vous pouvez utiliser la main couverte par votre arme main-libre pour brandir d’autres objets, effectuer des actions de manipulation, etc. Vous ne pouvez pas attaquer avec une arme main-libre si vous brandissez quoi que ce soit dans cette main ou utilisez autrement cette main. Lorsque vous ne maniez aucun objet et que vous n’utilisez pas autrement la main, vous pouvez utiliser des capacités qui exigent que vous ayez une main libre ainsi que celles qui nécessitent que vous portiez une arme dans cette main. Chacune de vos mains ne peut avoir qu’une seule arme main-libre.",
   "PF2E.TraitDescriptionGnome": "Une créature avec ce trait est un membre de l’ascendance gnome. Les gnomes sont un petit peuple capables avec la magie qui recherchent de nouvelles expériences et possèdent généralement une vision nocturne. Une capacité avec ce trait peut être utilisée ou sélectionnée seulement par les gnomes. Une arme avec ce  trait est créée et utilisée par les gnomes.",
   "PF2E.TraitDescriptionGoblin": "Une créature avec ce trait peut provenir de plusieurs tribus de créatures, incluant les gobelins, les hobgobelins et les gobelours. Les gobelins possèdent généralement une vision dans le noir. Une capacité avec ce trait peut être utilisée ou sélectionnée seulement par les gobelinoïdes. Une arme avec ce  trait est créée et utilisée par les gobelinoïdes.",
   "PF2E.TraitDescriptionGrapple": "Vous pouvez utiliser cette arme pour Saisir avec la compétence Athlétisme même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test pour Saisir avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique.",
@@ -939,20 +939,20 @@
   "PF2E.TraitDescriptionPropulsive": "Vous ajoutez la moitié de votre modificateur de Force (s’il est positif) aux dégâts infligés avec une arme à distance propulsive. Si vous avez un modificateur de Force négatif, vous ajoutez à la place votre modificateur de Force complet.",
   "PF2E.TraitDescriptionRange": "Ces attaques vont soit lister une portée finie soit un facteur de portée, lequel suit les règles normales des facteurs de portée.",
   "PF2E.TraitDescriptionRangedTrip": "Cette arme peut servir à faire un Croc-en-jambe avec la compétence Athlétisme à une distance égale au premier facteur de portée de l’arme. Le test de compétence subit une prénalité de circonstance de –2. Vous pouvez ajouter le bonus d’objet du jet d’attaque comme bonus à ce test. Comme pour une arme de corps-à-corps qui fait un Croc-en-jambe, une arme avec ce trait n’inflige aucun dégât lorsqu’elle est utilisée pour faire un Croc-en-jambe.",
-  "PF2E.TraitDescriptionReach": "Cette arme est longue et peut être utilisée pour attaquer des créatures jusqu’à 3 m au lieu qu’elles soient seulement adjacentes. Pour les créatures qui possèdent déjà une allonge avec le ou les membres qui manient l’arme, l’arme augmente leur allonge de 1,5 m. ",
+  "PF2E.TraitDescriptionReach": "Cette arme est longue et peut être utilisée pour attaquer des créatures jusqu’à 3 m au lieu qu’elles soient seulement adjacentes. Pour les créatures qui possèdent déjà une allonge avec le ou les membres qui manient l’arme, l’arme augmente leur allonge de 1,5 m.",
   "PF2E.TraitDescriptionReach10": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
   "PF2E.TraitDescriptionReach15": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
   "PF2E.TraitDescriptionReach20": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
   "PF2E.TraitDescriptionReach25": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
-  "PF2E.TraitDescriptionShove": "Vous pouvez utiliser cette arme pour Pousser avec la compétence Athlétisme, même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test de Pousser avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique. ",
+  "PF2E.TraitDescriptionShove": "Vous pouvez utiliser cette arme pour Pousser avec la compétence Athlétisme, même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test de Pousser avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique.",
   "PF2E.TraitDescriptionSweep": "Cette arme effectue de larges attaques par balayage ou par rotation, ce qui facilite l’attaque de plusieurs ennemis. Lorsque vous attaquez avec cette arme, vous obtenez un bonus de circonstances de +1 à votre jet d’attaque si vous avez déjà tenté d’attaquer une cible différente ce tour-ci en utilisant cette arme.",
   "PF2E.TraitDescriptionTethered": "Cette arme est attachée à une longueur de corde ou à une chaîne qui vous permet de la récupérer après l’avoir lancée. Si vous avez une main libre alors que vous maniez cette arme, vous pouvez utiliser une action Interagir pour la reprendre en main après l’avoir lancée lors d’une attaque à distance ou si vous avez été désarmé (à moins qu’elle ne soit tenue par une autre créature).",
-  "PF2E.TraitDescriptionThrown10": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme. ",
-  "PF2E.TraitDescriptionThrown20": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme. ",
-  "PF2E.TraitDescriptionThrown30": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme. ",
-  "PF2E.TraitDescriptionThrown40": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme. ",
-  "PF2E.TraitDescriptionTrip": "Vous pouvez utiliser cette arme pour Saisir avec la compétence Athlétisme même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test pour Saisir avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique. ",
-  "PF2E.TraitDescriptionTwin": "Ces armes sont utilisées par paire et se complètent. Lorsque vous attaquez avec une arme jumelle, vous ajoutez un bonus de circonstances au jet de dégâts égal au nombre de dés de dégâts de votre arme si vous avez déjà attaqué avec une arme différente du même type ce tour-ci. Les armes doivent être du même type pour bénéficier de ce trait, mais elles n’ont pas besoin d’avoir les mêmes runes. ",
+  "PF2E.TraitDescriptionThrown10": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme.",
+  "PF2E.TraitDescriptionThrown20": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme.",
+  "PF2E.TraitDescriptionThrown30": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme.",
+  "PF2E.TraitDescriptionThrown40": "Vous pouvez lancer cette arme lors d’une attaque à distance. Dans ce cas, elle fonctionne comme une arme à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée. Les armes à distance dotées de ce trait utilisent le facteur de portée spécifié dans l’entrée Portée de l’arme.",
+  "PF2E.TraitDescriptionTrip": "Vous pouvez utiliser cette arme pour Saisir avec la compétence Athlétisme même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test pour Saisir avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique.",
+  "PF2E.TraitDescriptionTwin": "Ces armes sont utilisées par paire et se complètent. Lorsque vous attaquez avec une arme jumelle, vous ajoutez un bonus de circonstances au jet de dégâts égal au nombre de dés de dégâts de votre arme si vous avez déjà attaqué avec une arme différente du même type ce tour-ci. Les armes doivent être du même type pour bénéficier de ce trait, mais elles n’ont pas besoin d’avoir les mêmes runes.",
   "PF2E.TraitDescriptionTwoHandD8": "Cette arme peut être maniée à deux mains. Cela change le dé de dégâts de votre arme à la valeur indiquée. Ce changement s’applique à tous les dés de dégâts de l’arme, tels que ceux provenant de runes de frappe.",
   "PF2E.TraitDescriptionTwoHandD10": "Cette arme peut être maniée à deux mains. Cela change le dé de dégâts de votre arme à la valeur indiquée. Ce changement s’applique à tous les dés de dégâts de l’arme, tels que ceux provenant de runes de frappe.",
   "PF2E.TraitDescriptionTwoHandD12": "Cette arme peut être maniée à deux mains. Cela change le dé de dégâts de votre arme à la valeur indiquée. Ce changement s’applique à tous les dés de dégâts de l’arme, tels que ceux provenant de runes de frappe.",
@@ -962,22 +962,22 @@
   "PF2E.TraitDescriptionVersatileB": "Une arme polyvalente peut être utilisée pour infliger un type de dégâts différent de celui indiqué dans l’entrée Dégâts. Ce trait indique le type de dégâts alternatif. Par exemple, une arme Perforante Polyvalente C peut être utilisée pour infliger des dégâts Perforants ou Contondants. Vous choisissez le type de dégâts chaque fois que vous effectuez une attaque.",
   "PF2E.TraitDescriptionVolley30": "Cette arme à distance est moins efficace à courte distance. Vos attaques contre des cibles situées à une distance incluse dans la Portée indiquée subissent un malus de −2.",
   "PF2E.TraitDescriptionAttack": "Une capacité dotée de ce trait permet d’attaquer. Pour chaque attaque que vous faites au‑delà de la première lors de votre tour, vous subissez un malus d’attaques multiples.",
-  "PF2E.TraitDescriptionDeath": "Un effet doté du trait mort vous tue instantanément s’il vous réduit à 0 PV. Certains effets de mort peuvent vous rapprocher du seuil de la mort ou vous tuer sur‑le‑champ sans avoir besoin de vous réduire à 0 PV. ",
+  "PF2E.TraitDescriptionDeath": "Un effet doté du trait mort vous tue instantanément s’il vous réduit à 0 PV. Certains effets de mort peuvent vous rapprocher du seuil de la mort ou vous tuer sur‑le‑champ sans avoir besoin de vous réduire à 0 PV.",
   "PF2E.TraitDescriptionDisease": "Un effet doté de ce trait est capable de transmettre une ou plusieurs maladies. Une maladie est généralement une affliction.",
   "PF2E.TraitDescriptionDowntime": "Une activité dotée de ce trait dure au moins une journée et peut seulement être entreprise lors d’un intermède.",
   "PF2E.TraitDescriptionDrug": "Un objet avec ce trait est une drogue, un poison qui apporte des bénéfices à court terme en plus d’effets secondaires dommageables et de conséquences à long terme. Chaque fois qu’une créature utilise une drogue donnée elle doit aussi lancer un jet de sauvegarde contre l’addiction à cette drogue.",
-  "PF2E.TraitDescriptionEnvironement": "Un danger doté de ce trait est un élément naturel dangereux, comme des sables mouvants ou une moisissure nocive. ",
-  "PF2E.TraitDescriptionExtradimensional": "Cet effet ou objet crée un espace extradimensionnel. Un effet extradimensionnel placé dans un autre espace extradimensionnel cesse de fonctionner jusqu’à ce qu’il en soit retiré. ",
+  "PF2E.TraitDescriptionEnvironement": "Un danger doté de ce trait est un élément naturel dangereux, comme des sables mouvants ou une moisissure nocive.",
+  "PF2E.TraitDescriptionExtradimensional": "Cet effet ou objet crée un espace extradimensionnel. Un effet extradimensionnel placé dans un autre espace extradimensionnel cesse de fonctionner jusqu’à ce qu’il en soit retiré.",
   "PF2E.TraitDescriptionFocused": "Un objet doté de ce trait peut vous accorder un point de focalisation supplémentaire. Ce point est séparé de votre réserve de focalisation et n’est pas comptabilisé dans votre maximum de points de focalisation. Vous profitez de cet avantage uniquement si vous avez une réserve de focalisation et le point peut s’accompagner de restrictions quant à son utilisation. Vous ne pouvez pas gagner plus de 1 point de focalisation par jour grâce à vos objets focalisés.",
   "PF2E.TraitDescriptionFortune": "Un effet de fortune altère vos jets de dés à votre avantage. Vous ne pouvez pas bénéficier de plus d’un effet de fortune par jet de dés. Si plusieurs effets de fortune s’appliquent à un jet de dé, vous devez choisir lequel utiliser. Si un effet de fortune et un effet d’infortune s’appliquent à un même jet de dé, les deux s’annulent et vous lancez les dés normalement",
   "PF2E.TraitDescriptionGeneral": "Un type de don qui peut être choisi par tous les personnages, peu importe leur ascendance et leur classe, tant qu’ils possèdent les prérequis. Vous pouvez sélectionner un don doté de ce trait quand votre classe vous confère un don général.",
   "PF2E.TraitDescriptionHaunt": "Un danger doté de ce trait est bien souvent l’écho de quelqu’un qui a connu une fin tragique. Apaiser une apparition nécessite souvent de terminer ce qu’elle a laissé d’inachevé. Une apparition qui n’a pas été convenablement apaisée revient toujours au bout d’un certain temps.",
-  "PF2E.TraitDescriptionHealing": "Un effet de guérison soigne le corps d’une créature, généralement en lui permettant de regagner des points de vie, mais parfois en le soignant de maladies ou d’autres effets handicapants. ",
+  "PF2E.TraitDescriptionHealing": "Un effet de guérison soigne le corps d’une créature, généralement en lui permettant de regagner des points de vie, mais parfois en le soignant de maladies ou d’autres effets handicapants.",
   "PF2E.TraitDescriptionIncorporeal": "Une créature ou un objet intangible n’a pas de forme physique. Elle peut passer au travers des objets solides, incluant les murs. Lorsqu’elle se trouve à l’intérieur d’un objet, une créature intangible ne peut percevoir, attaquer ou interagir avec rien en dehors de l’objet et s’il débute son tour dans un objet, elle est Ralentie 1. Les créatures tangibles peuvent passer à travers une créature intangible mais ne peuvent terminer leur déplacement dans l’espace qu’elle occupe. Une créature intangible ne peut pas tenter de tests basés sur la Force contre les créatures ou les objets tangibles — seulement contre les créatures ou objets intangibles — à moins que ces objets possèdent la propriété de rune spectrale. De la même manière, une créature tangible ne peut tenter de tests basés sur la Force contre les créatures ou objets intagibles. Les créatures intangibles possèdent habituellement une immunité aux effecs ou aux états préjudiciables qui nécessitent de posséder un corps physique, comme la maladie, le poison et les dégâts de précision. Elle possèdent habituellement une résistance contre tous les dégâts (à l’exception des dégâts de force et les dégats de frappes infligées avec la rune de propriété spectrale), avec le double de la résistance contre les dégâts non magiques.",
   "PF2E.TraitDescriptionInfused": "Vous créez un objet alchimique avec le trait imprégné quand vous utilisez vos réactifs imprégnés. Cet objet a une durée de vie limitée au bout de laquelle il devient inerte. Tous les effets non permanents de vos objets alchimiques imprégnés, à l’exception des afflictions comme les poisons à action lente, prennent fin quand vous entamez vos préparatifs quotidiens.",
   "PF2E.TraitDescriptionLight": "Les effets de lumière prennent le pas sur les ténèbres non magiques qui couvrent une zone et peuvent contrer les ténèbres magiques. Vous devez généralement cibler directement de la magie de ténèbres avec votre magie de lumière afin de la contrer, mais certains sorts tentent automatiquement de contrer ces ténèbres.",
   "PF2E.TraitDescriptionLinguistic": "Un effet doté de ce trait repose sur la compréhension d’une langue. Un effet linguistique qui cible une créature fonctionne seulement si la cible comprend la langue que vous parlez.",
-  "PF2E.TraitDescriptionLitany": "Les litanies sont des sorts de dévotion spéciaux, typiquement utilisés par les champions, qui coûtent une action unique et qui confèrent généralement une immunité temporaire aux autres litanies. ",
+  "PF2E.TraitDescriptionLitany": "Les litanies sont des sorts de dévotion spéciaux, typiquement utilisés par les champions, qui coûtent une action unique et qui confèrent généralement une immunité temporaire aux autres litanies.",
   "PF2E.TraitDescriptionMechanical": "Un danger doté de ce trait est un objet physique artificiel.",
   "PF2E.TraitDescriptionMental": "Un effet mental peut influencer l’esprit de sa cible. Il n’aura aucun effet sur un objet ou une créature dénuée d’intelligence.",
   "PF2E.TraitDescriptionMinion": "Les sbires sont des créatures directement sous les ordres d’une autre créature. Une créature dotée de ce trait est limitée à deux actions par tour et ne peut pas exécuter de réaction. En combat, votre sbire agit à votre tour, une fois par tour, lorsque vous utilisez une action pour lui donner un ordre. Pour un compagnon animal, vous utilisez Diriger un animal, mais pour un sbire issu d’un effet de sort ou d’un objet magique comme un sbire convoqué, vous utilisez Maintenir un sort ou Maintenir une activation. Sauf indication contraire, vous donnez un ordre verbal par une action unique dotée des traits audible et concentration. En l’absence d’ordre, les sbires n’entreprennent aucune action, sauf pour se défendre ou échapper à un danger évident. S’ils sont livrés à eux‑mêmes assez longtemps, généralement 1 minute, les sbires dénués d’intelligence n’agissent pas, les animaux suivent leurs instincts et les sbires intelligents agissent à leur guise.",
@@ -1005,25 +1005,25 @@
   "PF2E.TraitDescriptionAdditive1": "Les dons avec le trait additif vous permettent d’utiliser des actions pour ajouter des substances spéciales à vos bombes ou élixirs. Vous ne pouvez ajouter qu’un seul additif à un objet alchimique. Ajouter un second additif revient à gâcher l’objet. Vous pouvez généralement utiliser les actions avec le trait additif seulement quand vous êtes en train de préparer un objet alchimique imprégné et certains d’entre eux ne peuvent être utilisés qu’avec l’action Alchimie rapide. Le trait additif est toujours accompagné d’un niveau, comme additif 2. Un additif ajoute son niveau à celui de l’objet alchimique que vous modifiez. Le résultat de cette addition indique le nouveau niveau du mélange. Le niveau d’objet du mélange ne peut pas être supérieur à votre niveau d’alchimie avancée.",
   "PF2E.TraitDescriptionAdditive2": "Les dons avec le trait additif vous permettent d’utiliser des actions pour ajouter des substances spéciales à vos bombes ou élixirs. Vous ne pouvez ajouter qu’un seul additif à un objet alchimique. Ajouter un second additif revient à gâcher l’objet. Vous pouvez généralement utiliser les actions avec le trait additif seulement quand vous êtes en train de préparer un objet alchimique imprégné et certains d’entre eux ne peuvent être utilisés qu’avec l’action Alchimie rapide. Le trait additif est toujours accompagné d’un niveau, comme additif 2. Un additif ajoute son niveau à celui de l’objet alchimique que vous modifiez. Le résultat de cette addition indique le nouveau niveau du mélange. Le niveau d’objet du mélange ne peut pas être supérieur à votre niveau d’alchimie avancée.",
   "PF2E.TraitDescriptionAdditive3": "Les dons avec le trait additif vous permettent d’utiliser des actions pour ajouter des substances spéciales à vos bombes ou élixirs. Vous ne pouvez ajouter qu’un seul additif à un objet alchimique. Ajouter un second additif revient à gâcher l’objet. Vous pouvez généralement utiliser les actions avec le trait additif seulement quand vous êtes en train de préparer un objet alchimique imprégné et certains d’entre eux ne peuvent être utilisés qu’avec l’action Alchimie rapide. Le trait additif est toujours accompagné d’un niveau, comme additif 2. Un additif ajoute son niveau à celui de l’objet alchimique que vous modifiez. Le résultat de cette addition indique le nouveau niveau du mélange. Le niveau d’objet du mélange ne peut pas être supérieur à votre niveau d’alchimie avancée.",
-  "PF2E.TraitDescriptionAlchemical": "Les objets alchimiques sont alimentés par les réactions de réactifs alchimiques. Les objets alchimiques ne sont pas magiques et n’émettent pas d’aura magique. ",
+  "PF2E.TraitDescriptionAlchemical": "Les objets alchimiques sont alimentés par les réactions de réactifs alchimiques. Les objets alchimiques ne sont pas magiques et n’émettent pas d’aura magique.",
   "PF2E.TraitDescriptionArchetype": "Ce don appartient à un archétype.",
   "PF2E.TraitDescriptionAuditory": "Les actions et les effets audibles dépendent du son. Une action possédant le trait audible peut seulement être accomplie avec succès si la créature qui y fait appel peut parler ou produire autrement les sons nécessaires. Un sort ou un effet doté du trait audible affecte seulement les cibles qui peuvent l’entendre. Cela ne s’applique qu’aux parties sonores de l’effet telles que déterminées par le MJ. Cet effet est différent d’un effet de son, ce dernier affectant même les cibles qui ne peuvent pas l’entendre (comme les cibles sourdes) tant que l’effet lui‑même produit un son.",
   "PF2E.TraitDescriptionAura": "Une aura est une émanation qui se dégage de vous en permanence et affecte les créatures qui se trouvent dans un certain rayon autour de vous. Une aura peut également faire référence à la signature magique d’un objet ou d’une créature dont l’alignement est très marqué.",
   "PF2E.TraitDescriptionCantrip": "Un sort que vous pouvez lancer à volonté et qui est automatiquement intensifié de la moitié de votre niveau arrondi à l’entier supérieur.",
   "PF2E.TraitDescriptionCompanion": "Un objet avec ce trait peut être porté par un compagnon animal ou une créature comparable. Un compagnon peut porter jusqu’à deux objets investis.",
   "PF2E.TraitDescriptionComposition": "Vous utilisez un type de Représentation pour lancer un tour de magie de composition ou un sort focalisé. Si le sort comprend un composant verbal, vous devez accomplir une représentation audible, et s’il comprend un composant somatique, votre représentation doit être visuelle. Ce sort adopte tous les traits de la représentation que vous accomplissez. Vous ne pouvez lancer qu’un sort de composition par tour et vous ne pouvez en avoir qu’un seul d’actif à la fois. Si vous lancez un autre sort de composition, tous les effets actifs de votre sort de composition précédent prennent fin immédiatement.",
-  "PF2E.TraitDescriptionConcentrate": "Une action dotée de ce trait nécessite de faire appel à un degré important de concentration mentale et de discipline. ",
+  "PF2E.TraitDescriptionConcentrate": "Une action dotée de ce trait nécessite de faire appel à un degré important de concentration mentale et de discipline.",
   "PF2E.TraitDescriptionConsecration": "Un sort de consécration valorise une zone pendant une durée étendue. Une zone ne peut bénéficier que d’un seul effet de consécration à la fois. Si des portions de la zone sont déjà soumises à un effet de consécration, le nouvel effet tente de les contrer.",
   "PF2E.TraitDescriptionContact": "Un poison de contact s’active en l’appliquant sur un objet ou directement sur la peau d’une créature vivante. La première créature à toucher l’objet affecté doit faire un jet de sauvegarde contre le poison. S’il est appliqué directement sur elle, elle doit faire ce jet dès qu’il touche sa peau. Il est impossible d’appliquer un poison de contact sur une créature via une attaque armée, à cause de la difficulté à transmettre le poison sans s’empoisonner soi-même. En général, le délai d’activation d’un poison de contact est de 1 min.",
   "PF2E.TraitDescriptionCurse": "Une malédiction est un effet qui inflige une affliction de longue durée à une créature. Les malédictions sont toujours magiques. Elles sont généralement causées par un sort ou un piège.",
   "PF2E.TraitDescriptionDarkness": "Les effets de ténèbres éteignent les lumières non magiques d’une zone et peuvent contrer des effets de lumière magique moins puissants qu’eux. Vous devez généralement cibler une magie de lumière avec votre magie de ténèbres afin de la contrer, mais certains sorts de ténèbres tentent automatiquement de contrer la lumière.",
   "PF2E.TraitDescriptionDedication": "Vous devez sélectionner un don doté de ce trait pour ajouter un archétype à votre personnage.",
   "PF2E.TraitDescriptionDetection": "Les effets possédant ce trait tentent de déterminer la présence ou l’emplacement d’une personne, d’un objet ou d’une aura.",
-  "PF2E.TraitDescriptionEmotion": "Cet effet altère les émotions d’une créature. Les effets qui possèdent ce trait possèdent toujours le trait mental. Certaines créatures qui ont subi un entraînement spécial ou celles qui sont douées d’une intelligence mécanique ou artificielle sont immunisées contre les effets d’émotion. ",
+  "PF2E.TraitDescriptionEmotion": "Cet effet altère les émotions d’une créature. Les effets qui possèdent ce trait possèdent toujours le trait mental. Certaines créatures qui ont subi un entraînement spécial ou celles qui sont douées d’une intelligence mécanique ou artificielle sont immunisées contre les effets d’émotion.",
   "PF2E.TraitDescriptionExploration": "Une activité dotée de ce trait se déroule en plus d’un tour et ne peut généralement être entreprise que pendant le mode exploration.",
   "PF2E.TraitDescriptionFear": "Les effets de terreur suscitent cette émotion. Les effets qui possèdent ce trait possèdent toujours les traits mental et émotion.",
   "PF2E.TraitDescriptionFlourish": "Les actions sophistiquées demandent trop d’efforts pour qu’il soit possible de les enchaîner à la suite. Vous ne pouvez accomplir qu’une seule action avec le trait sophistication par tour.",
-  "PF2E.TraitDescriptionIncapacitation": "Un pouvoir doté de ce trait peut mettre un personnage hors de combat ou même le tuer, mais il est plus difficile à utiliser contre une créature plus puissante que soi. Si un sort est doté du trait mise hors de combat, une créature dont le niveau est supérieur au double du niveau du sort considère le résultat de son test pour éviter d’être mise hors de combat comme étant d’un degré de succès supérieur à son résultat réel, ou considère le résultat du test de l’incantateur pour la mettre hors de combat comme étant d’un degré de succès inférieur à son résultat réel. Si un autre effet est doté du trait mise hors de combat, une créature de plus haut niveau que l’objet, l’être ou le danger qui génère l’effet bénéficie des mêmes avantages. ",
+  "PF2E.TraitDescriptionIncapacitation": "Un pouvoir doté de ce trait peut mettre un personnage hors de combat ou même le tuer, mais il est plus difficile à utiliser contre une créature plus puissante que soi. Si un sort est doté du trait mise hors de combat, une créature dont le niveau est supérieur au double du niveau du sort considère le résultat de son test pour éviter d’être mise hors de combat comme étant d’un degré de succès supérieur à son résultat réel, ou considère le résultat du test de l’incantateur pour la mettre hors de combat comme étant d’un degré de succès inférieur à son résultat réel. Si un autre effet est doté du trait mise hors de combat, une créature de plus haut niveau que l’objet, l’être ou le danger qui génère l’effet bénéficie des mêmes avantages.",
   "PF2E.TraitDescriptionInstinct": "Les pouvoirs d’instinct requièrent de posséder un instinct spécifique. Vous ne pouvez plus les utiliser si vous accomplissez des actions anathèmes à votre instinct.",
   "PF2E.TraitDescriptionMagical": "Chaque chose dotée du trait magique est imprégnée d’énergies magiques qui ne sont pas liées à une tradition magique spécifique. Un objet magique possède une aura magique imprégnée de l’école de magie dominante qui le caractérise. Certains objets ou effets sont étroitement liés à une tradition magique particulière. L’objet possède alors le trait arcanique, divin, occulte ou primordial au lieu de magique. Ces traits indiquent tous que l’objet est magique.",
   "PF2E.TraitDescriptionMetamagic": "Les actions dotées du trait métamagie, généralement associées à des dons de métamagie, vous permettent d’ajuster les caractéristiques de vos sorts. Vous devez utiliser l’action de métamagie directement avant le sort à modifier. Si vous utilisez une action (y compris une action gratuite ou une réaction) autre que Lancer un sort immédiatement après l’action de métamagie, vous perdez ses bénéfices. Tout effet ajouté par une action métamagique fait partie de l’effet du sort, pas de l’action métamagique.",
@@ -1032,8 +1032,8 @@
   "PF2E.TraitDescriptionOath": "un serment ajoute un principe à votre code. Vous ne pouvez avoir normalement qu’un seul don avec ce trait.",
   "PF2E.TraitDescriptionOpen": "Ces manœuvres fonctionnent seulement au début de votre tour. Vous ne pouvez utiliser d’ouverture que si vous n’avez pas encore utilisé d’action dotée du trait attaque ou ouverture lors de votre tour.",
   "PF2E.TraitDescriptionPolymorph": "<p>Ces effets donnent une nouvelle forme à leur cible. Une cible ne peut pas être affectée par plusieurs effets de métamorphose à la fois. Si elle subit un deuxième effet de métamorphose, il tente de contrer le premier. S’il y parvient, il fait effet, sinon il reste sans effet sur la cible. Les Frappes accordées par un effet de transformation sont magiques. Sauf indication contraire, un sort de métamorphose ne permet pas de prendre l’apparence d’un individu précis, seulement celle d’un individu générique d’un type ou d’une lignée générale.</p><p> Si vous prenez une forme de combat avec un sort de métamorphose, les statistiques spéciales sont ajustées uniquement à l’aide de malus et de bonus de circonstances et de statut. Sauf indication contraire, la forme de combat vous empêche de lancer des sorts, de parler et d’utiliser la plupart des actions de manipulation exigeant des mains (en cas de doute, c’est au MJ de décider). Votre équipement est absorbé dans votre nouvelle forme, mais ses pouvoirs constants fonctionnent toujours, en revanche vous ne pouvez pas activer d’objet.</p>",
-  "PF2E.TraitDescriptionPress": "Les actions dotées de ce trait vous permettent d’enchaîner vos précédentes attaques par d’autres manœuvres. Une action dotée du trait persévérer peut être utilisée uniquement lorsque vous êtes affecté par un malus d’attaques multiples. Certaines actions dotées du trait persévérer confèrent également un effet en cas d’échec. Les effets ajoutés en cas d’échec ne s’appliquent pas en cas d’échec critique. Si votre action dotée du trait persévérer est un succès, vous pouvez décider d’appliquer l’effet d’échec à la place (par exemple, vous pouvez faire ce choix quand une attaque n’inflige aucun dégât à cause d’une résistance). Étant donné que vous devez être affecté par un malus d’attaques multiples pour pouvoir utiliser une action dotée du trait persévérer, vous ne pouvez pas entreprendre une telle action en dehors de votre tour, même si vous utilisez l’activité Préparer. ",
-  "PF2E.TraitDescriptionRage": "Vous devez être enragé pour utiliser les pouvoirs qui possèdent le trait rage et les effets de ceux‑ci prennent automatiquement fin quand vous n’êtes plus enragé. ",
+  "PF2E.TraitDescriptionPress": "Les actions dotées de ce trait vous permettent d’enchaîner vos précédentes attaques par d’autres manœuvres. Une action dotée du trait persévérer peut être utilisée uniquement lorsque vous êtes affecté par un malus d’attaques multiples. Certaines actions dotées du trait persévérer confèrent également un effet en cas d’échec. Les effets ajoutés en cas d’échec ne s’appliquent pas en cas d’échec critique. Si votre action dotée du trait persévérer est un succès, vous pouvez décider d’appliquer l’effet d’échec à la place (par exemple, vous pouvez faire ce choix quand une attaque n’inflige aucun dégât à cause d’une résistance). Étant donné que vous devez être affecté par un malus d’attaques multiples pour pouvoir utiliser une action dotée du trait persévérer, vous ne pouvez pas entreprendre une telle action en dehors de votre tour, même si vous utilisez l’activité Préparer.",
+  "PF2E.TraitDescriptionRage": "Vous devez être enragé pour utiliser les pouvoirs qui possèdent le trait rage et les effets de ceux‑ci prennent automatiquement fin quand vous n’êtes plus enragé.",
   "PF2E.TraitDescriptionSecret": "Le MJ fait secrètement le test correspondant à ce pouvoir.",
   "PF2E.TraitDescriptionStance": "Une posture est une stratégie de combat générale que vous adoptez en effectuant une action dotée du trait posture, puis conservez pendant un certain temps. Vous conservez votre posture jusqu’à ce que vous soyez Assommé, jusqu’à ce que les conditions qui lui sont associées (s’il y en a) ne soient plus respectées ou jusqu’à ce que vous adoptiez une nouvelle posture. Après avoir utilisé une action dotée du trait posture, vous ne pouvez pas entreprendre une autre action de ce type pendant 1 round. Vous ne pouvez adopter ou conserver une posture que lors du mode rencontre.",
   "PF2E.TraitDescriptionVisual": "Un effet visuel affecte seulement les créatures qui peuvent le voir. Il ne s’applique qu’aux éléments visibles de l’effet, qui sont déterminés par le MJ.",
@@ -1046,9 +1046,9 @@
   "PF2E.TraitDescriptionOccult": "Cette magie est issue de la tradition magique occulte et fait appel à des mystères occultes bizarres et éphémères. Tout ce qui est doté de ce trait est magique.",
   "PF2E.TraitDescriptionPrimal": "Cette magie, issue de la tradition primordiale, est liée au monde naturel et à l’instinct. Tout ce qui est doté de ce trait est magique.",
   "PF2E.TraitDescriptionAir": "Les effets dotés du trait air permettent de manipuler ou de créer de l’air. Ceux qui permettent de manipuler l’air n’ont aucun effet dans le vide ou une zone dépourvue d’air. Les créatures dotées de ce trait sont essentiellement constituées d’air ou ont une connexion magique avec cet élément.",
-  "PF2E.TraitDescriptionEarth": "Les effets associés au trait terre permettent de manipuler ou de créer de la terre. Ceux qui permettent de manipuler la terre n’ont aucun effet dans une zone dépourvue de terre. Les créatures dotées de ce trait sont essentiellement constituées de terre ou ont une connexion magique avec cet élément. ",
+  "PF2E.TraitDescriptionEarth": "Les effets associés au trait terre permettent de manipuler ou de créer de la terre. Ceux qui permettent de manipuler la terre n’ont aucun effet dans une zone dépourvue de terre. Les créatures dotées de ce trait sont essentiellement constituées de terre ou ont une connexion magique avec cet élément.",
   "PF2E.TraitDescriptionFire": "Les effets dotés du trait feu infligent des dégâts de feu, ou permettent de créer ou manipuler du feu. Ceux qui permettent de manipuler du feu n’ont aucun effet dans une zone dépourvue de feu. Les créatures dotées de ce trait sont essentiellement constituées de feu ou ont une connexion magique avec cet élément.",
-  "PF2E.TraitDescriptionWater": "Les effets dotés du trait eau permettent de manipuler ou de créer de l’eau. Ceux qui permettent de manipuler de l’eau n’ont aucun effet dans une zone dépourvue d’eau. Les créatures dotées de ce trait sont essentiellement constituées d’eau ou ont une connexion magique avec cet élément. ",
+  "PF2E.TraitDescriptionWater": "Les effets dotés du trait eau permettent de manipuler ou de créer de l’eau. Ceux qui permettent de manipuler de l’eau n’ont aucun effet dans une zone dépourvue d’eau. Les créatures dotées de ce trait sont essentiellement constituées d’eau ou ont une connexion magique avec cet élément.",
   "PF2E.TraitDescriptionAbjuration": "Les effets et objets magiques dotés de ce trait sont associés à l’école de magie d’abjuration, qui privilégie la magie protectrice et de défense.",
   "PF2E.TraitDescriptionConjuration": "Les effets et objets magiques possédant ce trait sont associés à l’école de magie d’invocation, qui implique généralement la convocation, la création, la téléportation, ou le déplacement de choses d’un lieu à un autre.",
   "PF2E.TraitDescriptionDivination": "L’école de magie de divination est basée sur l’obtention ou le transfert d’information, ou la prédiction d’événements.",
@@ -1058,16 +1058,16 @@
   "PF2E.TraitDescriptionNecromancy": "Les effets et les objets magiques dotés de ce trait sont as‑ sociés avec l’école de magie de la nécromancie, qui fait appel à de la magie de vie et de mort.",
   "PF2E.TraitDescriptionTransmutation": "Les effets et les objets magiques dotés de ce trait sont associés à l’école de magie de transmutation, qui étudie les changements de formes.",
   "PF2E.TraitDescriptionAcid": "Les effets possédant ce trait infligent des dégâts d’acide. Les créatures qui possèdent ce trait ont une connexion magique à l’acide.",
-  "PF2E.TraitDescriptionCold": " Les effets possédant ce trait infligent des dégâts de froid. Les créa‑ tures qui possèdent ce trait ont une connexion magique au froid. ",
-  "PF2E.TraitDescriptionElectricity": "Les effets qui possèdent ce trait infligent des dégâts d’électricité. Une créature dotée de ce trait a une connexion magique avec l’électricité. ",
+  "PF2E.TraitDescriptionCold": " Les effets possédant ce trait infligent des dégâts de froid. Les créa‑ tures qui possèdent ce trait ont une connexion magique au froid.",
+  "PF2E.TraitDescriptionElectricity": "Les effets qui possèdent ce trait infligent des dégâts d’électricité. Une créature dotée de ce trait a une connexion magique avec l’électricité.",
   "PF2E.TraitDescriptionForce": "Les effets qui possèdent ce trait infligent des dégâts de force ou créent des objets faits de force magique pure.",
-  "PF2E.TraitDescriptionPositive": "Les effets dotés de ce trait soignent les créatures vivantes grâce à de l’énergie positive, infligent des dégâts positifs aux créatures mortes‑vivantes, ou permettent de manipuler de l’énergie positive. ",
+  "PF2E.TraitDescriptionPositive": "Les effets dotés de ce trait soignent les créatures vivantes grâce à de l’énergie positive, infligent des dégâts positifs aux créatures mortes‑vivantes, ou permettent de manipuler de l’énergie positive.",
   "PF2E.TraitDescriptionSonic": "Les effets dotés du trait son fonctionne seulement s’ils peuvent produire un son et ils se trouvent ainsi inopérants dans une zone de silence ou dans le vide. Il s’agit d’un fonctionnement différent de celui d’un sort audible, qui est seulement efficace contre une cible capable de l’entendre. Un effet de son peut infliger des dégâts de son.",
-  "PF2E.TraitDescriptionNegative": "Les effets dotés de ce trait soignent les créatures mortes‑vivantes grâce à de l’énergie négative, infligent des dégâts négatifs aux créatures vivantes, ou permettent de manipuler de l’énergie négative. ",
+  "PF2E.TraitDescriptionNegative": "Les effets dotés de ce trait soignent les créatures mortes‑vivantes grâce à de l’énergie négative, infligent des dégâts négatifs aux créatures vivantes, ou permettent de manipuler de l’énergie négative.",
   "PF2E.TraitDescriptionComplex": "Un danger doté de ce trait a un tour lors d’une rencontre.",
   "PF2E.TraitDescriptionAlchemist": "Ce trait caractérise les pouvoirs liés à la classe Alchimiste.",
   "PF2E.TraitDescriptionBarbarian": "Ce trait caractérise les pouvoirs liés à la classe Barbare.",
-  "PF2E.TraitDescriptionBard": "Ce trait caractérise les pouvoirs liés à la classe Barde. ",
+  "PF2E.TraitDescriptionBard": "Ce trait caractérise les pouvoirs liés à la classe Barde.",
   "PF2E.TraitDescriptionChampion": "Ce trait caractérise les pouvoirs liés à la classe Champion.",
   "PF2E.TraitDescriptionCleric": "Ce trait caractérise les pouvoirs liés à la classe Prêtre.",
   "PF2E.TraitDescriptionDruid": "Ce trait caractérise les pouvoirs liés à la classe Druide.",
@@ -1085,26 +1085,26 @@
   "PF2E.TraitDescriptionInhaled": "Un poison inhalé s’active en le laissant sortir de son récipient. Une fois libéré, il crée un nuage remplissant un cube de 3 m d’arête qui dure 1 min ou jusqu’à ce qu’un vent fort le dissipe. Toute créature qui entre dans ce nuage est exposée au poison et doit tenter un jet de sauvegarde contre lui. Une créature repérant le poison avant d’entrer dans le nuage peut utiliser une action unique pour retenir sa respiration et gagner un bonus de circonstances de +2 au jet de sauvegarde pendant 1 round.",
   "PF2E.TraitDescriptionInjury": "Un poison de blessure s’active en l’appliquant sur une arme ou une munition. Il affecte la cible touchée par la première Frappe effectuée avec l’objet empoisonné. Si cette Frappe est un succès et inflige des dégâts perforants ou tranchants, la cible doit faire un jet de sauvegarde contre le poison. Si votre Frappe se solde par un échec, la cible n’est pas affectée, mais le poison reste sur la lame et vous pouvez réessayer. Sur un échec critique ou si la Frappe n’inflige pas de dégâts tranchants ou perforants pour une autre raison, le poison est dépensé, mais la cible n’est pas affectée.",
   "PF2E.TraitDescriptionPoison": " Un effet doté de ce trait inocule un poison ou inflige des dégâts de poison. Un objet doté de ce trait est empoisonné et peut être à l’origine d’une affliction.",
-
+      
   "PF2E.WeaponHands1": "Une",
   "PF2E.WeaponHands1Plus": "Une Plus",
   "PF2E.WeaponHands2": "Deux",
-
+      
   "PF2E.ItemBonusMinus2": "Improvisé (-2)",
   "PF2E.ItemBonus0": "0",
   "PF2E.ItemBonus1": "puissance d’arme +1",
   "PF2E.ItemBonus2": "puissance d’arme +2",
   "PF2E.ItemBonus3": "puissance d’arme +3",
-
+      
   "PF2E.DamageDieD4": "d4",
   "PF2E.DamageDieD6": "d6",
   "PF2E.DamageDieD8": "d8",
   "PF2E.DamageDieD10": "d10",
   "PF2E.DamageDieD12": "d12",
-
+      
   "PF2E.WeaponRangeMelee": "Corps à corps",
   "PF2E.WeaponRangeReach": "À distance",
-
+      
   "PF2E.WeaponRange10": "3 m",
   "PF2E.WeaponRange20": "6 m",
   "PF2E.WeaponRange30": "9 m",
@@ -1115,34 +1115,34 @@
   "PF2E.WeaponRange100": "30 m",
   "PF2E.WeaponRange120": "36 m",
   "PF2E.WeaponRange140": "42 m",
-
+      
   "PF2E.ArmorTypeUnarmored": "Sans armure",
   "PF2E.ArmorTypeLight": "Armure légère",
   "PF2E.ArmorTypeMedium": "Armure intermédiaire",
   "PF2E.ArmorTypeHeavy": "Armure lourde",
   "PF2E.ArmorTypeShield": "Bouclier",
-
+      
   "PF2E.ArmorGroupLeather": "Cuir",
   "PF2E.ArmorGroupComposite": "Composite",
   "PF2E.ArmorGroupChain": "Chaîne",
   "PF2E.ArmorGroupPlate": "Plate",
-
+      
   "PF2E.ConsumableTypeAmmo": "Munition",
   "PF2E.ConsumableTypePotion": "Potion",
   "PF2E.ConsumableTypeOil": "Huile",
   "PF2E.ConsumableTypeScroll": "Parchemin",
   "PF2E.ConsumableTypeTalisman": "Talisman",
   "PF2E.ConsumableTypeOther": "Autre",
-
+      
   "PF2E.PreparationTypePrepared": "Preparé",
   "PF2E.PreparationTypeSpontaneous": "Spontané",
   "PF2E.PreparationTypeInnate": "Inné",
-
+      
   "PF2E.AreaTypeBurst": "Explosion",
   "PF2E.AreaTypeCone": "Cône",
-  "PF2E.AreaTypeEmanation": "Emanation",
+  "PF2E.AreaTypeEmanation": "Émanation",
   "PF2E.AreaTypeLine": "Ligne",
-
+      
   "PF2E.AreaSize5": "1,5 m",
   "PF2E.AreaSize10": "3 m",
   "PF2E.AreaSize15": "4,5 m",
@@ -1152,7 +1152,7 @@
   "PF2E.AreaSize50": "15 m",
   "PF2E.AreaSize60": "18 m",
   "PF2E.AreaSize120": "36 m",
-
+      
   "PF2E.AlignmentLG": "Loyal Bon",
   "PF2E.AlignmentNG": "Neutre Bon",
   "PF2E.AlignmentCG": "Chaotique Bon",
@@ -1162,16 +1162,16 @@
   "PF2E.AlignmentLE": "Loyal Mauvais",
   "PF2E.AlignmentNE": "Neutre Mauvais",
   "PF2E.AlignmentCE": "Chaotique Mauvais",
-
+      
   "PF2E.SpellComponentV": "Verbal",
   "PF2E.SpellComponentS": "Somatique",
   "PF2E.SpellComponentM": "Matériel",
-
+      
   "PF2E.SpellTypeAttack": "Attaque magique",
   "PF2E.SpellTypeSave": "Jet de Sauvegarde",
   "PF2E.SpellTypeHeal": "Guérison",
   "PF2E.SpellTypeUtility": "Utilitaire",
-
+      
   "PF2E.SpellLevel0": "Tour de magie",
   "PF2E.SpellLevel1": "1er Niveau",
   "PF2E.SpellLevel2": "2ème Niveau",
@@ -1183,7 +1183,7 @@
   "PF2E.SpellLevel8": "8ème Niveau",
   "PF2E.SpellLevel9": "9ème Niveau",
   "PF2E.SpellLevel10": "10ème Niveau",
-
+      
   "PF2E.FeatTypeBonus": "Don supplémentaire",
   "PF2E.FeatTypeAncestry": "Don ancestral",
   "PF2E.FeatTypeSkill": "Don de compétence",
@@ -1192,45 +1192,45 @@
   "PF2E.FeatTypeClassfeature": "Capacité de classe",
   "PF2E.FeatTypeArchetype": "Don de Dévouement",
   "PF2E.FeatTypeAncestryfeature": "Capacité d’héritage",
-
+      
   "PF2E.FeatActionTypePassive": "Passive",
-  "PF2E.FeatActionTypeAction": "Action",
+  "PF2E.FeatActionTypeAction": "Action Unique",
   "PF2E.FeatActionTypeReaction": "Réaction",
-  "PF2E.FeatActionTypeFree": "Action gratuite",
-
-  "PF2E.ActionTypeAction": "Action",
+  "PF2E.FeatActionTypeFree": "Action Gratuite",
+      
+  "PF2E.ActionTypeAction": "Action Unique",
   "PF2E.ActionTypeReaction": "Réaction",
-  "PF2E.ActionTypeFree": "Action gratuite",
+  "PF2E.ActionTypeFree": "Action Gratuite",
   "PF2E.ActionTypePassive": "Passive",
-
+      
   "PF2E.ActionNumber1": "Une",
   "PF2E.ActionNumber2": "Deux",
   "PF2E.ActionNumber3": "Trois",
-
+      
   "PF2E.ActionCategoryInteraction": "Manipulation",
   "PF2E.ActionCategoryDefensive": "Défense",
   "PF2E.ActionCategoryOffensive": "Attaque",
-
+    
   "PF2E.ProficiencyLevel0": "Inexpérimenté",
   "PF2E.ProficiencyLevel1": "Qualifié",
   "PF2E.ProficiencyLevel2": "Expert",
   "PF2E.ProficiencyLevel3": "Maître",
   "PF2E.ProficiencyLevel4": "Légendaire",
-
+      
   "PF2E.HeroPointLevel0": "Zéro Point d’héroïsme",
   "PF2E.HeroPointLevel1": "Un Point d’héroïsme",
   "PF2E.HeroPointLevel2": "Deux Points d’héroïsme",
   "PF2E.HeroPointLevel3": "Trois Points d’héroïsme",
-
+      
   "PF2E.ActorSizeTiny": "Très petite",
   "PF2E.ActorSizeSmall": "Petite",
   "PF2E.ActorSizeMedium": "Moyenne",
   "PF2E.ActorSizeLarge": "Grande",
   "PF2E.ActorSizeHuge": "Très Grande",
   "PF2E.ActorSizeGargantuan": "Gigantesque",
-
+      
   "PF2E.BulkTypeLight": "Léger",
-
+      
   "PF2E.ConditionTypeBlinded": "Aveuglé",
   "PF2E.ConditionTypeBroken": "Brisé",
   "PF2E.ConditionTypeClumsy": "Maladroit",
@@ -1273,7 +1273,7 @@
   "PF2E.ConditionTypeUnfriendly": "Inamical",
   "PF2E.ConditionTypeUnnoticed": "Inaperçu",
   "PF2E.ConditionTypeWounded": "Blessé",
-
+      
   "PF2E.ImmunityTypeDeathEffects": "Effets de mort",
   "PF2E.ImmunityTypeCriticalHits": "Coups critiques",
   "PF2E.ImmunityTypeObjectImmunities": "Immunités des objets",
@@ -1285,7 +1285,7 @@
   "PF2E.ImmunityTypeNecromancy": "Nécromancie",
   "PF2E.ImmunityTypeHealing": "Guérison",
   "PF2E.ImmunityTypeSwarmMind": "Esprit de la nuée",
-
+      
   "PF2E.WeaknessTypeAdamantine": "Adamantium",
   "PF2E.WeaknessTypeColdIron": "Fer froid",
   "PF2E.WeaknessTypeDarkwood": "Ébénite",
@@ -1294,10 +1294,10 @@
   "PF2E.WeaknessTypeSilver": "Argent",
   "PF2E.WeaknessTypeAreaDamage": "Dégâts de zone",
   "PF2E.WeaknessTypeSplashDamage": "Dégâts d’éclaboussure",
-
+      
   "PF2E.ResistanceTypeAll": "Tous",
   "PF2E.ResistanceTypePhysical": "Physiques",
-
+      
   "PF2E.AttackEffectGrab": "Empoignade",
   "PF2E.AttackEffectImprovedGrab": "Empoignade améliorée",
   "PF2E.AttackEffectConstrict": "Constriction",
@@ -1307,7 +1307,7 @@
   "PF2E.AttackEffectPush": "Bousculade",
   "PF2E.AttackEffectImprovedPush": "Bousculade améliorée",
   "PF2E.AttackEffectTrip": "Croc-en-jambe",
-
+      
   "PF2E.LanguageCommon": "Commun",
   "PF2E.LanguageAbyssal": "Abyssal",
   "PF2E.LanguageAklo": "Aklo",
@@ -1337,33 +1337,33 @@
   "PF2E.LanguageShoony": "Shoony",
   "PF2E.LanguageTerran": "Terreux",
   "PF2E.LanguageUndercommon": "Commun des profondeurs",
-  "PF2E.LanguageHallit" : "Hallit",
-  "PF2E.LanguageKelish" : "Kellide",
-  "PF2E.LanguageMwangi" : "Mwangi",
-  "PF2E.LanguageOsirian" : "Osirien",
-  "PF2E.LanguageShoanti" : "Shoanti",
-  "PF2E.LanguageSkald" : "Scalde",
-  "PF2E.LanguageTien" : "Tianais",
-  "PF2E.LanguageVarisian" : "Varisien",
-  "PF2E.LanguageVudrani" : "Vudrain",
+  "PF2E.LanguageHallit": "Hallit",
+  "PF2E.LanguageKelish": "Kellide",
+  "PF2E.LanguageMwangi": "Mwangi",
+  "PF2E.LanguageOsirian": "Osirien",
+  "PF2E.LanguageShoanti": "Shoanti",
+  "PF2E.LanguageSkald": "Scalde",
+  "PF2E.LanguageTien": "Tianais",
+  "PF2E.LanguageVarisian": "Varisien",
+  "PF2E.LanguageVudrani": "Vudrain",
   "PF2E.LanguageAlghollthu": "Algollthu",
-  "PF2E.LanguageAmurrun" : "Amurrun",
-  "PF2E.LanguageArboreal" : "Arboréen",
-  "PF2E.LanguageAzlanti" : "Azlant",
-  "PF2E.LanguageCaligni" : "Caligni",
-  "PF2E.LanguageCyclops" : "Cyclope",
-  "PF2E.LanguageDaemonic" : "Daémonique",
-  "PF2E.LanguageErutaki" : "Erutaki",
-  "PF2E.LanguageGarundi" : "Garundais",
-  "PF2E.LanguageOsiriani" : "Osirien",
-  "PF2E.LanguageProtean" : "Protéen",
-  "PF2E.LanguageRequian" : "Réquien",
-  "PF2E.LanguageSphinx" : "Sphinx",
-  "PF2E.LanguageTengu" : "Tengu",
-  "PF2E.LanguageThassilonian" : "Thassilonien",
-  "PF2E.LanguageUtopian" : "Utopien",
-  "PF2E.LanguageVarki" : "Varki",
-
+  "PF2E.LanguageAmurrun": "Amurrun",
+  "PF2E.LanguageArboreal": "Arboréen",
+  "PF2E.LanguageAzlanti": "Azlant",
+  "PF2E.LanguageCaligni": "Caligni",
+  "PF2E.LanguageCyclops": "Cyclope",
+  "PF2E.LanguageDaemonic": "Daémonique",
+  "PF2E.LanguageErutaki": "Erutaki",
+  "PF2E.LanguageGarundi": "Garundais",
+  "PF2E.LanguageOsiriani": "Osirien",
+  "PF2E.LanguageProtean": "Protéen",
+  "PF2E.LanguageRequian": "Réquien",
+  "PF2E.LanguageSphinx": "Sphinx",
+  "PF2E.LanguageTengu": "Tengu",
+  "PF2E.LanguageThassilonian": "Thassilonien",
+  "PF2E.LanguageUtopian": "Utopien",
+  "PF2E.LanguageVarki": "Varki",
+      
   "PF2E.SpellScalingModeNone": "Sans",
   "PF2E.SpellScalingModeLevel1": "Intensifié (+1)",
   "PF2E.SpellScalingModeLevel2": "Intensifié (+2)",
@@ -1378,7 +1378,7 @@
   "PF2E.SpellScalingModeLeveleighth": "Intensifié (8ème)",
   "PF2E.SpellScalingModeLevelninth": "Intensifié (9ème)",
   "PF2E.SpellScalingModeLeveltenth": "Intensifié (10ème)",
-
+      
   "PF2E.BrowserSearchPlaceholder": "Chercher le texte",
   "PF2E.BrowserSearchTitle": "Clic droit pour le guide",
   "PF2E.BrowserSortyByLabel": "Trier par",
@@ -1402,96 +1402,14 @@
   "PF2E.BrowserFilterTraditions": "Traditions",
   "PF2E.BrowserFilterClass": "Classe",
   "PF2E.BrowserFilterSchools": "Écoles",
-
+    
   "PF2E.OpenActionBrowserTitle": "Ouvrir le menu des Actions",
   "PF2E.OpenFeatBrowserTitle": "Ouvrir le menu des Dons",
   "PF2E.OpenInventoryBrowser": "Ouvrir le Menu Inventaire",
   "PF2E.OpenSpellBrowserTitle": "Ouvrir le Menu Sort",
-  "PF2E.ActionBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
-  "PF2E.BestiaryBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
-  "PF2E.FeatBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
-  "PF2E.InventroyBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
-  "PF2E.SpellBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont :<br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts."
+  "PF2E.ActionBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
+  "PF2E.BestiaryBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
+  "PF2E.FeatBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
+  "PF2E.InventroyBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
+  "PF2E.SpellBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts."
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
