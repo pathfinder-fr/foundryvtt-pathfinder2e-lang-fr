@@ -584,6 +584,8 @@
   "PF2E.TraitComfort": "Confort",
   "PF2E.TraitFlexible":  "Souple",
   "PF2E.TraitNoisy": "Bruyante",
+  "PF2E.TraitVirulent": "Virulent",
+  "PF2E.TraitIntelligent": "Intelligent",
 
   "PF2E.SettingsColorLabel": "Schéma de couleur",
   "PF2E.SettingsColorBlue": "gris bleu",
@@ -1180,6 +1182,7 @@
       
   "PF2E.ConsumableTypeAmmo": "Munition",
   "PF2E.ConsumableTypePotion": "Potion",
+  "PF2E.ConsumableTypeBomb": "Bombe",
   "PF2E.ConsumableTypeOil": "Huile",
   "PF2E.ConsumableTypeScroll": "Parchemin",
   "PF2E.ConsumableTypeTalisman": "Talisman",
@@ -1188,7 +1191,9 @@
   "PF2E.ConsumableTypeMutagen": "Mutagène",
   "PF2E.ConsumableTypeSnare": "Piège artisanal",
   "PF2E.ConsumableTypeOther": "Autre",
-      
+  "PF2E.ConsumableTypePoison": "Poison",
+  "PF2E.ConsumableTypeTool": "Outil",
+
   "PF2E.PreparationTypePrepared": "Preparé",
   "PF2E.PreparationTypeSpontaneous": "Spontané",
   "PF2E.PreparationTypeInnate": "Inné",
@@ -1339,6 +1344,8 @@
   "PF2E.ImmunityTypeDisease": "Maladie",
   "PF2E.ImmunityTypeNecromancy": "Nécromancie",
   "PF2E.ImmunityTypeHealing": "Guérison",
+  "PF2E.ImmunityTypeVisual": "Visuel",
+  "PF2E.ImmunityTypeSpellDeflection": "Spell Deflection",
   "PF2E.ImmunityTypeSwarmMind": "Esprit de la nuée",
       
   "PF2E.WeaknessTypeAdamantine": "Adamantium",
@@ -1418,7 +1425,18 @@
   "PF2E.LanguageThassilonian": "Thassilonien",
   "PF2E.LanguageUtopian": "Utopien",
   "PF2E.LanguageVarki": "Varki",
-      
+
+  "PF2E.SpeedTypesSwim": "Nage",
+  "PF2E.SpeedTypesClimb": "Escalade",
+  "PF2E.SpeedTypesFly": "Vol",
+  "PF2E.SpeedTypesBurrow": "Creusement",
+  
+  "PF2E.SensesDarkvision": "Vision dans le noir",
+  "PF2E.SensesGreaterDarkvision": "Vision dans le noir supérieure",
+  "PF2E.SensesLowLightVision": "Vision nocturne",
+  "PF2E.SensesScent": "Odorat",
+  "PF2E.SensesTremorsense": "Perception des vibrations",
+
   "PF2E.SpellScalingModeNone": "Sans",
   "PF2E.SpellScalingModeLevel1": "Intensifié (+1)",
   "PF2E.SpellScalingModeLevel2": "Intensifié (+2)",
