@@ -11,6 +11,7 @@
 ## Remerciements, vielen danke & Many thanks to :
 1. Henry4K : German translation and help
 2. Hooking : System and english version
+3. Noires/Cyriak : improvements with i18n-editor
 
 ##Notes pour la validation des changements
 Pour mettre à jour à partir du master :
@@ -25,3 +26,4 @@ Pour mettre à jour à partir du master :
 3. Puis valider : commit changes
 
 ##Déclarer sur Foundry les changements
+1. Demander à rectulo qui dispose des droits
