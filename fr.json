@@ -3,6 +3,14 @@
     "AbilityCha": "Charisme",
     "AbilityCon": "Constitution",
     "AbilityDex": "Dextérité",
+    "AbilityId": {
+      "cha": "Cha",
+      "con": "Con",
+      "dex": "Dex",
+      "int": "Int",
+      "str": "For",
+      "wis": "SAg"
+    },
     "AbilityInt": "Intelligence",
     "AbilityModifierLabel": "Modif. de Carac.",
     "AbilityScoresHeader": "Caractéristiques",
