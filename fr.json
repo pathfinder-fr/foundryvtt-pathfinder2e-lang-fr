@@ -9,11 +9,11 @@
       "dex": "Dex",
       "int": "Int",
       "str": "For",
-      "wis": "SAg"
+      "wis": "Sag"
     },
     "AbilityInt": "Intelligence",
     "AbilityModifierLabel": "Modif. de Carac.",
-    "AbilityScoresHeader": "Caractéristiques",
+    "AbilityScoresHeader": "Les Caractéristiques",
     "AbilityStr": "Force",
     "AbilityTitle": "Caractéristique",
     "AbilityWis": "sagesse",
