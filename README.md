@@ -2,6 +2,10 @@
 1. Traduction par rectulo à partir de la version officielle de Black Book Editions
 2. Appuyé par Styx31
 
+## Nous rejoindre
+1. Vous pouvez retrouver toutes les mises à jour en français pour FoundryVTT sur le discord officiel francophone
+2. Lien vers [Discord Francophone](https://discord.gg/pPSDNJk)
+
 ## Installation
 
 1. Copy this link and use it in Foundrys module manager to install the module. Copier ce lien et chargez-le dans le menu modules de Foundry
