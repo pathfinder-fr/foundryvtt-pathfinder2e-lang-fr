@@ -555,7 +555,7 @@
     "OpenActionBrowserTitle": "Ouvrir le menu des Actions",
     "OpenFeatBrowserTitle": "Ouvrir le menu des Dons",
     "OpenInventoryBrowser": "Ouvrir le Menu Inventaire",
-    "OpenItemTitle": "Activer le conteu du conteneur",
+    "OpenItemTitle": "Activer le contenu du conteneur",
     "OpenSpellBrowserTitle": "Ouvrir le Menu Sort",
     "OrphanedSpellsHeader": "Sorts orphelins (déplacer dans l’entrée de lancement de sort ci-dessus)",
     "PenaltyLabel": {
@@ -1697,7 +1697,7 @@
       }
     },
     "ui": {
-      "armorEquipped": "Active porter votre équipement"
+      "armorEquipped": "Activer pour porter l'équipement"
     }
   },
   "PF2e": {
