@@ -1745,8 +1745,8 @@
     "loot": {
         "LootNamePlaceholder": "Butin",
         "EditLootLabel": "Editer le butin ?",
-        "IsShopLabel": "Une Boutique ?",
-        "ShopLabel": "Une Boutique"
+        "IsShopLabel": "C'est un Magasin ?",
+        "ShopLabel": "Magasin"
     }
   },
   "PF2e": {
