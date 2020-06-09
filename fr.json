@@ -610,7 +610,7 @@
     "QuantityLabel": "Quantité",
     "QuantityShortLabel": "Qté",
     "Rarity": "Rareté",
-    "Usage": "Usage",
+    "Usage": "Utilisation",
     "Recovery": {
       "critFailure": "Augmentez l'intensité de mourant de 2.",
       "critSuccess": "Réduisez l'intensité de mourant de 2.",
