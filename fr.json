@@ -579,7 +579,7 @@
     "PerceptionCheck": "Jet de Perception",
     "PerceptionHeader": "Perception",
     "PerceptionLabel": "Perception",
-    "PotencyRuneLabel": "Rune de puissance",
+    "PotencyRuneLabel": "Rune de Puissance",
     "PreciousMaterialAdamantite": "Adamantium",
     "PreciousMaterialColdIron": "Fer froid",
     "PreciousMaterialDarkwood": "Ébénite",
@@ -597,6 +597,7 @@
     "PreparationTypeSpontaneous": "Spontané",
     "PriceLabel": "Prix",
     "ProficiencyLabel": "Maîtrise",
+    "ProficiencyLevelUntrainedImprovisation": "Improvisation Inexpérimentée",
     "ProficiencyLevel0": "Inexp.",
     "ProficiencyLevel1": "Qualifié",
     "ProficiencyLevel2": "Expert",
@@ -836,9 +837,11 @@
         "Description": "Vous attaquez avec une arme que vous tenez en main ou une attaque à mains nues,  en prenant pour cible une créature qui se trouve dans votre zone d’allonge (pour une attaque au corps à corps) ou à portée (pour une attaque à distance).  Faites le jet d’attaque pour l’arme ou l’attaque à mains nues que vous utilisez et comparez le résultat à la CA de la créature ciblée afin de déterminer son effet.",
         "Success": "Vous infligez les dégâts de l’arme ou de l’attaque à mains nues en tenant compte de tous les modificateurs, bonus et malus aux dégâts appropriés"
       },
+      "Fist": {
+        "Label": "Poing"
+      },
       "Unarmed": {
         "Description": "Vous attaquez avec une attaque à mains nues, en prenant pour cible une créature qui se trouve dans votre zone d’allonge. Faites le jet d’attaque pour l’arme ou l’attaque à mains nues que vous utilisez et comparez le résultat à la CA de la créature ciblée afin de déterminer son effet.",
-        "Label": "Attaque à mains nues",
         "Success": "Vous infligez les dégâts de l’attaque à mains nues en tenant compte de tous les modificateurs, bonus et malus aux dégâts appropriés"
       },
       "Melee": {
@@ -854,7 +857,7 @@
         "Success": "Vous infligez les dégâts de l’arme en tenant compte de tous les modificateurs, bonus et malus aux dégâts appropriés"
       }
     },
-    "StrikingRuneLabel": "Rune de frappe",
+    "StrikingRuneLabel": "Rune de Frappe",
     "Success": "<strong>Succès</strong>",
     "TabActionsLabel": "Actions",
     "TabCharacterLabel": "Personnage",
@@ -1424,7 +1427,12 @@
     "WeaponAbilityLabel": "Capacité d’arme",
     "WeaponBonusAttackLabel": "Bonus d'Attaque",
     "WeaponBonusDamageLabel": "Bonus aux dégâts",
-    "WeaponCustomDamageLabel": "Dommage supplémentaire personnalisé",
+    "WeaponBaseDamageLabel": "Dommages de Base de l'Arme",
+    "WeaponBaseDamageTitle": "Cette section permet de configurer les dégâts de base de l'arme. Il ne faut pas ajouter de dé supplémentaire de Runes de frappe ici, mais le configurer dans la section Runes d'Arme ci-dessus.",
+    "WeaponRunesLabel": "Runes d'Arme",
+    "WeaponMaterialLabel": "Martériau & Qualité",
+    "WeaponCustomDamageLabel": "Dommages Additionnels Personnalisés",
+    "WeaponCustomDamageTitle": "Cette section ajoute tout dommage personnalisé qui n'est pas couvert par le système Rune. Note : Cette section ne fonctionne pas actuellement sur les jets de dommages 'Frappe'. Les effets de frappe et les effets critiques ne sont pas actuellement utilisés par le système et sont uniquement à titre informatif.",
     "WeaponDamageLabel": "Dégâts de l’arme",
     "WeaponDescriptionAxe": "Choisissez une créature adjacente à la cible initiale et à portée d’allonge. Si sa CA est inférieure au résultat de votre jet d’attaque pour le coup critique, vous infligez à cette créature un nombre de dégâts égal au résultat du dé de dégâts de l’arme que vous avez obtenu (y compris, le cas échéant, les dés supplémentaires pour sa rune de puissance). Ce montant n’est pas doublé et aucun bonus ou autre dé supplémentaire ne s’applique à ces dégâts.",
     "WeaponDescriptionBomb": "Augmentez le rayon d’effet des dégâts d’éclaboussure de la bombe (s’il y a lieu) à 3 m.",
