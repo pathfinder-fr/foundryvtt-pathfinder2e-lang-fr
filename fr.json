@@ -823,7 +823,7 @@
     "StackGroupBolts": "Carreaux",
     "StackGroupCoins": "Pièces",
     "StackGroupGems": "Gemmes",
-    "StackGroupLabel": "Se cumule avec",
+    "StackGroupLabel": "S'empile avec",
     "StackGroupRations": "Rations",
     "StackGroupSlingBullets": "Billes de fronde",
     "StaminaPointsHeader": "Points d’Endurance",
@@ -1397,7 +1397,7 @@
     "UI": {
       "applyDamage": {
         "by": "par",
-        "damaged": "subit des dégâts de",
+        "damaged": " en dégâts : ",
         "healed": "est soigné de",
         "shieldActive": "et son bouclier subit",
         "shieldInActive": "subit"
