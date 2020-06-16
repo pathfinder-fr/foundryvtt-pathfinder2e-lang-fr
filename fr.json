@@ -1755,8 +1755,12 @@
         "LootNamePlaceholder": "Butin",
         "EditLootLabel": "Editer le butin ?",
         "IsShopLabel": "C'est une Boutique ?",
-        "ShopLabel": "Boutique"
-    }
+        "ShopLabel": "Boutique",
+        "MoveLootPopupTitle": "Déplacer un butin",
+        "MoveLootMessage": "Combien d'objets voulez-vous déplacer ?",
+        "MoveLoot": "Déplacer des objets",
+        "Quantity": "Quantité"
+      }
   },
   "PF2e": {
     "TraitStamina": "Endurance"
