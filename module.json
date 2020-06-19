@@ -3,9 +3,9 @@
    "title" : "Français [Pathfinder 2e]",
    "version" : "1.5.4",
    "minimumCoreVersion" : "0.6.0",
-   "compatibleCoreVersion" : "0.6.2",
+   "compatibleCoreVersion" : "0.6.3",
    "author" : "rectulo/Sasmira",
-   "description" : "langue française pour le système de jeu Pathfinder 2e",
+   "description" : "langue française pour le système de jeu Pathfinder 2e <p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
    "languages" : [
       {
          "lang" : "fr",
