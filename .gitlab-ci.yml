@@ -9,6 +9,7 @@ build:
     - python -mjson.tool 'fr.json' > /dev/null
     - python -mjson.tool 'module.json' > /dev/null
   artifacts:
+    expire_in: never
     name: lang-fr-pf2e
     when: on_success
     paths:
