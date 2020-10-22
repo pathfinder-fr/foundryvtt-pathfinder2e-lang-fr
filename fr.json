@@ -376,7 +376,7 @@
     "DoomedTitle": "L'intensité maximale de l'état mourant à laquelle vous mourrez est réduite par la valeur de l'intensité condamné.",
     "Dying": {
       "label": "Mourant",
-      "title": "Lorsque vous êtes mourant, vous êtes inconscient . Si elle atteint l'intensité maximale, vous êtes mort. Lancez un test de récupération à chaque tour."
+      "title": "Lorsque vous êtes mourant, vous êtes inconscient. Si elle atteint l'intensité maximale, vous êtes mort. Lancez un test de récupération à chaque tour."
     },
     "EditHazardLabel": "Éditer un Danger ?",
     "EditItemTitle": "Éditer l’objet",
@@ -448,7 +448,7 @@
     "HazardDescriptionTitle": "Ceci explique à quoi ressemble le danger et peut inclure des règles spéciales",
     "HazardDisableLabel": "Désamorçage",
     "HazardHardnessLabel": "Solidité",
-    "HazardHardnessTitle": "Les dégats sont réduit par la valeur de solidité du danger",
+    "HazardHardnessTitle": "Les dégats sont réduits par la valeur de solidité du danger",
     "HazardResetLabel": "Réinitialisation",
     "HazardResetTitle": "Si le danger peut être réinitialisé, l'information se trouve ici",
     "HazardRoutineLabel": "Routine",
@@ -785,12 +785,12 @@
     },
     "SaveDCLabel": "DD du jet",
     "SavesFortitude": "Vigueur",
-    "SavesFortitudeShort": "Vig.",
+    "SavesFortitudeShort": "Vig",
     "SavesHeader": "Jets de sauvegarde",
     "SavesReflex": "Réflexe",
-    "SavesReflexShort": "Réf.",
+    "SavesReflexShort": "Réf",
     "SavesWill": "Volonté",
-    "SavesWillShort": "Vol.",
+    "SavesWillShort": "Vol",
     "SavingThrowWithName": "Jet de Sauvegarde: {saveName}",
     "ScoreTitle": "Score",
     "SellAllTreasureTitle": "Vendre tout le Trésor",
