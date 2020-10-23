@@ -1,7 +1,7 @@
 {
    "name" : "lang-fr-pf2e",
    "title" : "Français [Pathfinder 2e]",
-   "version" : "1.10.14",
+   "version" : "1.10.14B",
    "minimumCoreVersion" : "0.6.6",
    "compatibleCoreVersion" : "0.7.5",
    "author" : "rectulo/Sasmira",
