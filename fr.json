@@ -213,6 +213,12 @@
     "CharacterNamePlaceholder": "Nom du Personnage",
     "CharacterTraits": "Traits du personnage",
     "CharacterTraitsHeader": "Traits & autres Détails",
+    "CheckOutcome": {
+      "criticalFailure": "Échec critique",
+      "criticalSuccess": "Succès critique",
+      "failure": "Échec",
+      "success": "Succès"
+    },
     "CircumstanceBonusShortLabel": "Circonstance",
     "CircumstanceBonusTitle": "Bonus de circonstance",
     "Class": "Classe",
@@ -970,6 +976,7 @@
     "StaminaPointsHeader": "Points d’Endurance",
     "StatusBonusShortLabel": "Statut",
     "StatusBonusTitle": "Bonus de statut",
+    "StatusEffects": "effets de statut de {name}",
     "StealthLabel": "Discrétion",
     "Strike": {
       "Combined": {
@@ -1080,6 +1087,7 @@
     "TraitConcealable": "Dissimulable",
     "TraitConcentrate": "Concentration",
     "TraitConjuration": "Invocation",
+    "TraitConsecration": "Consécration",
     "TraitConstruct": "Créature artificielle",
     "TraitConsumable": "Consommable",
     "TraitContact": "Contact",
@@ -1523,8 +1531,8 @@
     "TraitStamina": "Endurance",
     "TraitStance": "Posture",
     "TraitStructure": "Structure",
-    "TraitSummon": "Convocation",
     "TraitSuli": "Suli",
+    "TraitSummon": "Convocation",
     "TraitSwarm": "Nuée",
     "TraitSwashbuckler": "Bretteur",
     "TraitSweep": "Balayage",
