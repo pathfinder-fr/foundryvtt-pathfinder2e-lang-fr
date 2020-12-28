@@ -1,6 +1,6 @@
 {
   "ACTOR": {
-    "TypeCharacter": "Personnage joueur",
+    "TypeCharacter": "Personnage",
     "TypeFamiliar": "Familier",
     "TypeHazard": "Danger",
     "TypeLoot": "Butin",
