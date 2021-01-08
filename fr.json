@@ -2184,6 +2184,7 @@
       "LootDescription": "Permet la répartition des pièces parmi les joueurs",
       "LootLabel": "Butin",
       "LootNamePlaceholder": "Butin",
+      "LootNPCsPopupHeader":"Choisissez les jetons dont vous voulez tirer du butin",
       "MerchantDescription": "Permet aux joueurs d'acheter des objets directement à partir de la feuille",
       "MerchantLabel": "Marchand",
       "MoveLoot": "Déplacer des objets",
@@ -2191,6 +2192,7 @@
       "MoveLootPopupTitle": "Déplacer un butin",
       "Quantity": "Quantité",
       "SplitCoinsLabel": "Distribuer les pièces"
+      "SplitCoinsPopupHeader": "Choisissez les acteurs qui reçoivent une part"
     },
     "ui": {
       "armorEquipped": "Activer pour porter l'équipement",
