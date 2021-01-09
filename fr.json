@@ -2191,7 +2191,7 @@
       "MoveLootMessage": "Combien d'objets voulez-vous déplacer ?",
       "MoveLootPopupTitle": "Déplacer un butin",
       "Quantity": "Quantité",
-      "SplitCoinsLabel": "Distribuer les pièces"
+      "SplitCoinsLabel": "Distribuer les pièces",
       "SplitCoinsPopupHeader": "Choisissez les acteurs qui reçoivent une part"
     },
     "ui": {
