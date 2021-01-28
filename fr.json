@@ -7,17 +7,20 @@
     "TypeNpc": "Personnage Non Joueur",
     "TypeVehicle": "Véhicule"
   },
+  "COMPENDIUM": {
+    "Search": "Chercher dans les compendiums"
+  },
   "CONTROLS": {
     "EffectPanel": "Tableau d'effet",
     "WorldClock": "Horloge du Monde"
   },
   "ITEM": {
     "TypeAction": "Action",
-    "TypeAncestry": "Ascendance (NE PAS UTILISER)",
+    "TypeAncestry": "Ascendance",
     "TypeArmor": "Armure",
-    "TypeBackground": "Historique (NE PAS UTILISER)",
+    "TypeBackground": "Historique",
     "TypeBackpack": "Contenant",
-    "TypeClass": "Classe (NE PAS UTILISER)",
+    "TypeClass": "Classe",
     "TypeCondition": "Condition",
     "TypeConsumable": "Consommable",
     "TypeEffect": "Effet",
@@ -80,7 +83,23 @@
     "ActionTypeReaction": "Réaction",
     "ActionTypeSingle": "Action unique",
     "ActionWeaponLabel": "Arme associée",
+    "Actions": {
+      "Climb": "Escalader",
+      "Disarm": "Désarmer",
+      "ForceOpen": "Ouvrir de force",
+      "Grapple": "Saisir",
+      "HighJump": "Sauter en hauteur",
+      "LongJump": "Sauter en longueur",
+      "Seek": "Chercher",
+      "Shove": "Pousser",
+      "Swim": "Nager",
+      "Trip": "Mettre à terre"
+    },
     "ActionsActionsHeader": "Actions Uniques",
+    "ActionsCheck": {
+      "Athletics": "Test d'Athlétisme",
+      "Perception": "Test de Perception"
+    },
     "ActionsFreeActionsHeader": "Actions Gratuites",
     "ActionsReactionsHeader": "Réactions",
     "ActorSizeGargantuan": "Gigantesque",
@@ -1949,6 +1968,7 @@
     "UpdateActorLabel": "Mettre à jour l’Acteur",
     "Usage": "Utilisation",
     "ValueLabel": "Valeur",
+    "WandFromSpell": "Baguette de {name} (Niveau {level})",
     "WeaknessTypeAdamantine": "Adamantium",
     "WeaknessTypeAreaDamage": "Dégâts de zone",
     "WeaknessTypeColdIron": "Fer froid",
@@ -2360,9 +2380,15 @@
       "UnidentifiedItem": "Objet non identifié"
     },
     "loot": {
+      "DepositMessage": "{depositor} dépose {quantity} × {item} dans {container}.",
+      "DepositSubtitle": "Déposer un objet",
       "EditLootLabel": "Editer le butin ?",
       "GMSettings": "Réglages MJ",
+      "GMSupervisionError": "Un MJ doit être en ligne en vue d'interagir avec {loot}.",
+      "GiveMessage": "{giver} donne {quantity} × {item} à {recipient}.",
+      "GiveSubtitle": "Donner un objet",
       "InsufficientCurrencyError": "Pas suffisamment de fonds pour acheter par",
+      "InsufficientFundsMessage": "{buyer} n'a pas assez de pièces !",
       "LootDescription": "Permet la répartition des pièces parmi les joueurs",
       "LootLabel": "Butin",
       "LootNPCsLabel": "Piller les jetons choisis",
@@ -2373,10 +2399,16 @@
       "MoveLoot": "Déplacer des objets",
       "MoveLootMessage": "Combien d'objets voulez-vous déplacer ?",
       "MoveLootPopupTitle": "Déplacer un butin",
-      "PurchasedItem": "acheté par",
+      "PermissionError": "Un MJ doit être en ligne pour récupérer ou ranger un objet.",
       "Quantity": "Quantité",
+      "SellMessage": "{seller} vend {quantity} × {item} à {buyer}.",
+      "SellSubtitle": "Vendre un objet",
       "SplitCoinsLabel": "Distribuer les pièces",
-      "SplitCoinsPopupHeader": "Choisissez les acteurs qui reçoivent une part"
+      "SplitCoinsPopupHeader": "Choisissez les acteurs qui reçoivent une part",
+      "TakeMessage": "{taker} prend {quantity} × {item} dans {container}.",
+      "TakeSubtitle": "Prendre un objet",
+      "TransferMessage": "{transferrer} déplace {quantity} × {item} de {fromContainer} à {toContainer}.",
+      "TransferSubtitle": "Déplacer un objet"
     },
     "ui": {
       "armorEquipped": "Activer pour porter l'équipement",
