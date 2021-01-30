@@ -84,7 +84,10 @@
     "ActionTypeSingle": "Action unique",
     "ActionWeaponLabel": "Arme associée",
     "Actions": {
+      "Balance": "Garder l'équilibre",
       "Climb": "Escalader",
+      "Coerce": "Contraindre",
+      "Demoralize": "Démoraliser",
       "Disarm": "Désarmer",
       "ForceOpen": "Ouvrir de force",
       "Grapple": "Saisir",
@@ -97,8 +100,11 @@
     },
     "ActionsActionsHeader": "Actions Uniques",
     "ActionsCheck": {
+      "Acrobatics": "Test d'Acrobaties",
       "Athletics": "Test d'Athlétisme",
-      "Perception": "Test de Perception"
+      "Intimidation": "Test d'Intimisation",
+      "Perception": "Test de Perception",
+      "WarningNoActor": "Choisissez au moins un acteur avant de lancer ou assigner un personnage par défaut"
     },
     "ActionsFreeActionsHeader": "Actions Gratuites",
     "ActionsReactionsHeader": "Réactions",
@@ -884,6 +890,8 @@
     },
     "NoStackGroup": "Ne se cumule pas",
     "NoneOption": "Aucune",
+    "OneDegreeBetter": "un degré meilleur",
+    "OneDegreeWorse": "un degré pire",
     "OpenActionBrowserTitle": "Ouvrir le menu des Actions",
     "OpenFeatBrowserTitle": "Ouvrir le menu des Dons",
     "OpenInventoryBrowser": "Ouvrir le Menu Inventaire",
@@ -1012,6 +1020,7 @@
     "ResistancesLabel": "Résistances",
     "ResolvePointsShortLabel": "Persévérance",
     "ResolveTitle": "Le nombre de points de Persévérance que vous possédez",
+    "ResultLabel": "Résultat",
     "RollBonusPlaceholder": "ex : +3 sur +1d4",
     "RollModeLabel": "Mode de tirage",
     "RuleElement": {
@@ -1937,6 +1946,7 @@
       "FeetAcronym": "ft",
       "GreaterDifficultTerrain": "Vitesse sur Terrain très difficile",
       "Hours": "Heures",
+      "HustleMinutes": "Minutes passées à se presser par jour",
       "Journey": "Parcours",
       "Miles": "Miles",
       "Name": "Nom",
