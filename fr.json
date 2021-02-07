@@ -87,27 +87,42 @@
       "Balance": "Garder l'équilibre",
       "Climb": "Escalader",
       "Coerce": "Contraindre",
+      "CreateADiversion": {
+        "DistractingWords": "Faire diversion par la parole",
+        "Gesture": "Faire diversion par un geste",
+        "Trick": "Faire diversion par un tour de passe-passe"
+      },
       "Demoralize": "Démoraliser",
       "Disarm": "Désarmer",
+      "Feint": "Feinter",
       "ForceOpen": "Ouvrir de force",
       "Grapple": "Saisir",
       "HighJump": "Sauter en hauteur",
+      "Impersonate": "Se déguiser",
+      "Lie": "Mentir",
       "LongJump": "Sauter en longueur",
+      "ManeuverInFlight": "Manœuvrer en vol",
       "Seek": "Chercher",
       "Shove": "Pousser",
+      "Squeeze": "Se faufiler",
       "Swim": "Nager",
-      "Trip": "Mettre à terre"
+      "Trip": "Mettre à terre",
+      "TumbleThrough": "Déplacement acrobatique"
     },
     "ActionsActionsHeader": "Actions Uniques",
     "ActionsCheck": {
       "Acrobatics": "Test d'Acrobaties",
       "Athletics": "Test d'Athlétisme",
+      "Deception": "Test de compétence de Duperie",
       "Intimidation": "Test d'Intimisation",
-      "Perception": "Test de Perception",
-      "WarningNoActor": "Choisissez au moins un acteur avant de lancer ou assigner un personnage par défaut"
+      "Perception": "Test de Perception"
     },
     "ActionsFreeActionsHeader": "Actions Gratuites",
     "ActionsReactionsHeader": "Réactions",
+    "ActionsWarning": {
+      "DeceptionUnknownVariant": "Variante inconnue '{variant}' utilisée pour Duperie, utilisez soit des paroles, des gestes ou un tour de passe-passe",
+      "NoActor": "Choisissez au moins un jeton avant de lancer les dés ou assigner un personnage par défaut"
+    },
     "ActorSizeGargantuan": "Gigantesque",
     "ActorSizeHuge": "Très Grande",
     "ActorSizeLarge": "Grande",
@@ -969,6 +984,7 @@
     "QuantityLabel": "Quantité",
     "QuantityShortLabel": "Qté",
     "Rarity": "Rareté",
+    "Reach": "Allonge (feet)",
     "RecallKnowledge": {
       "Breakdown": "Essais",
       "BreakdownTitle": "Essais d'identification d'une créature",
@@ -1718,6 +1734,7 @@
     "TraitLinguistic": "Linguistique",
     "TraitLitany": "Litanie",
     "TraitLizardfolk": "Homme-lézard",
+    "TraitMagic": "Magique",
     "TraitMagical": "Magique",
     "TraitManipulate": "Manipulation",
     "TraitMechanical": "Mécanique",
