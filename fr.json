@@ -424,6 +424,14 @@
     "ConsumableTypeWand": "Baguette",
     "ConsumableUseLabel": "Utiliser",
     "CoreSkillsHeader": "Compétences diverses",
+    "Counteract": "Contrer",
+    "CounteractDescription": {
+      "CritFailure": "Vous manquez votre contre de la cible",
+      "CritSuccess": "Contrer la cible si son niveau de contre est {level} ou moins.",
+      "Failure": "Contrer la cible si son niveau de contre est de moins de {level}.",
+      "Hint": "Si vous contrez une affliction, le DCD est dans les statistiques de l'affliction. Si c'est un sort, utilisez le DD du lanceur. Le MJ peut aussi calculer un DD basé sur le niveau de l'effet cible.",
+      "Success": "Countrer la cible si son niveau de contre est {level} ou moins."
+    },
     "CreateActionTitle": "Créer une Action",
     "CreateAttackTitle": "Créer une Attaque",
     "CreateFeatTitle": "Créer un Don",
@@ -535,6 +543,7 @@
     },
     "EffectSummary": "Résumé de l'effet",
     "EffectsLabel": "Effets",
+    "EmptySlot": "Emplacement vide",
     "EquipmentEquippedLabel": "Équipé",
     "EquipmentSummary": "Résumé de l’équipement",
     "EquippedBulkLabel": "Enc. porté",
@@ -1062,6 +1071,46 @@
       "WeaponPotency": "Puissance d'arme"
     },
     "SETTINGS": {
+      "RAI": {
+        "TreatWoundsAltSkills": {
+          "Hint": "Lorsqu'il est activé, les personnages avec le don Médecine naturelle ou le champ de découverte Chirurgien peuvent lancer contre des DD supérieurs.",
+          "Name": "Les compétences alternatives pour Signer les blessures peuvent lancer contre des DD supérieurs."
+        }
+      },
+      "Settings": "Réglages",
+      "WorldClock": {
+        "DateTheme": {
+          "AD": "Terre (calendrier grégorien)",
+          "AR": "Golarion (Fondation d'Absalom)",
+          "CE": "Sans thème (Calendrier grégorien)",
+          "Hint": "Choisissez un thème pour l'application Horloge du monde.",
+          "IC": "Golarion (Calendrier impérial)",
+          "Name": "Thême de date"
+        },
+        "Hint": "Configurez l'apparence de l'application Horloge du monde",
+        "Label": "Configurer Horloge du monde",
+        "Name": "Réglage de l'Horloge du monde",
+        "PlayersCanView": {
+          "Hint": "rérglez si les joueurs peuvent voir l'Horloge du monde.",
+          "Name": "Accès des joueurs"
+        },
+        "SyncDarkness": {
+          "GlobalLightOff": "Éteint",
+          "GlobalLightOn": "Allumé",
+          "Hint": "Choisissez si le niveau d'obscurité d'une scène reflète le moment donné du jour si l'illumination globale est aussi activée (actuellement {globalLight}).",
+          "Name": "Synchroniser l'obscurité"
+        },
+        "TimeConvention": {
+          "Hint": "Montrer soit une horloge sur 24h ou 12h",
+          "Name": "Convention de temps",
+          "Twelve": "12 heures",
+          "TwentyFour": "24 heures"
+        },
+        "WorldCreatedOn": {
+          "Hint": "Fixer la date et le moment où ce monde a été créée dans Foundry. Cela n'aura pas besoin d'être changé.",
+          "Name": "Date de création du monde (UTC)"
+        }
+      },
       "critFumbleCardButtons": {
         "hint": "Montrer les boutons de carte de réussite et d'échec critiques sur les jets d'attaque",
         "name": "Boutons de carte de Coups et d'échec critiques"
@@ -1290,6 +1339,7 @@
     "StackGroupGems": "Gemmes",
     "StackGroupLabel": "S'empile avec",
     "StackGroupRations": "Rations",
+    "StackGroupSacks": "sacs",
     "StackGroupSlingBullets": "Billes de fronde",
     "StaminaPointsHeader": "Points d’Endurance",
     "StatusBonusShortLabel": "Statut",
@@ -1346,6 +1396,7 @@
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
     "ToggleWithName": "Activer : {property}",
     "ToolHeading": "Sommaire des outils",
+    "TotalTreasure": "Trésor total",
     "TotalWealth": "Fortune totale",
     "TrainedSkillsLabel": "Choix des compétences qualifiées",
     "TraitAasimar": "Aasimar",
@@ -1365,9 +1416,11 @@
     "TraitAlchemist": "Alchimiste",
     "TraitAmphibious": "Amphibie",
     "TraitAnadi": "Anadi",
+    "TraitAndroid": "Androïde",
     "TraitAngel": "Ange",
     "TraitAnimal": "Animal",
     "TraitApex": "Apogée",
+    "TraitAphorite": "Aphorite",
     "TraitAquatic": "Aquatique",
     "TraitArcane": "Arcanique",
     "TraitArchetype": "Archétype",
@@ -1378,12 +1431,14 @@
     "TraitAttack": "Attaque",
     "TraitAuditory": "Audible",
     "TraitAura": "Aura",
+    "TraitAzarketi": "Azarketi",
     "TraitAzata": "Azata",
     "TraitBackstabber": "Traître",
     "TraitBackswing": "Prise d’élan",
     "TraitBarbarian": "Barbare",
     "TraitBard": "Barde",
     "TraitBeast": "Bête",
+    "TraitBeastkin": "Féral",
     "TraitBoggard": "Bourbiérin",
     "TraitBomb": "Bombe",
     "TraitBonded": "Collé",
@@ -1409,6 +1464,7 @@
     "TraitConcealable": "Dissimulable",
     "TraitConcentrate": "Concentration",
     "TraitConjuration": "Invocation",
+    "TraitConrasu": "Conrasu",
     "TraitConsecration": "Consécration",
     "TraitConstruct": "Créature artificielle",
     "TraitConsumable": "Consommable",
@@ -1674,6 +1730,7 @@
     "TraitFinesse": "Finesse",
     "TraitFinisher": "Botte",
     "TraitFire": "Feu",
+    "TraitFleshwarp": "Distordu",
     "TraitFlexible": "Souple",
     "TraitFlourish": "Sophistication",
     "TraitFocus": "Focalisation",
@@ -1683,6 +1740,7 @@
     "TraitFortune": "Fortune",
     "TraitFreeHand": "Main-libre",
     "TraitFungus": "Champignon",
+    "TraitGanzi": "Ganzi",
     "TraitGeneral": "Général",
     "TraitGenie": "Génie",
     "TraitGeniekin": "Génie",
@@ -1702,6 +1760,7 @@
     "TraitHalfElf": "Demi-elfe",
     "TraitHalfOrc": "Demi-orc",
     "TraitHalfling": "Halfelin",
+    "TraitHampering": "Ralentissant",
     "TraitHaunt": "Apparition",
     "TraitHealing": "Guérison",
     "TraitHeldOneHand": "Tenir à 1 main",
@@ -1726,6 +1785,7 @@
     "TraitInvested": "Investi",
     "TraitInvestigator": "Enquêteur",
     "TraitJoustingD6": "Joute d6",
+    "TraitKitsune": "Kitsune",
     "TraitKobold": "Kobold",
     "TraitLawful": "Loyal",
     "TraitLeshy": "Léchi",
@@ -1831,6 +1891,7 @@
     "TraitReload0": "Rechargement 0",
     "TraitReload1": "Rechargement 1",
     "TraitReload2": "Rechargement 2",
+    "TraitResonant": "Résonant",
     "TraitRevelation": "Révélation",
     "TraitRitual": "Rituel",
     "TraitRogue": "Roublard",
@@ -1860,6 +1921,7 @@
     "TraitStaff": "Bâton",
     "TraitStamina": "Endurance",
     "TraitStance": "Posture",
+    "TraitStrix": "Strix",
     "TraitStructure": "Structure",
     "TraitSuli": "Suli",
     "TraitSummon": "Convocation",
