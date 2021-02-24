@@ -123,6 +123,28 @@
       "DeceptionUnknownVariant": "Variante inconnue '{variant}' utilisée pour Duperie, utilisez soit des paroles, des gestes ou un tour de passe-passe",
       "NoActor": "Choisissez au moins un jeton avant de lancer les dés ou assigner un personnage par défaut"
     },
+    "ActiveEffects": {
+      "Controls": {
+        "Delete": "Effacer",
+        "Disable": "Désactiver",
+        "Edit": "Éditer",
+        "Enable": "Activer",
+        "Label": "Contrôles"
+      },
+      "DisableAutomation": "Désactiver l'automatisation",
+      "Duration": {
+        "Label": "Durée",
+        "Permanent": "Permanente",
+        "Round": "{quantity} round",
+        "Rounds": "{quantity} rounds",
+        "Second": "{quantity} seconde",
+        "Seconds": "{quantity} secondes",
+        "Turn": "{quantity} tour",
+        "Turns": "{quantity} tours"
+      },
+      "EnableAutomation": "Activer l'automatisation",
+      "Label": "Effets actifs"
+    },
     "ActorSizeGargantuan": "Gigantesque",
     "ActorSizeHuge": "Très Grande",
     "ActorSizeLarge": "Grande",
@@ -223,6 +245,7 @@
     "ArmorPropertyRuneShadow": "Ombre",
     "ArmorPropertyRuneSinisterKnight": "Chevalier sinistre",
     "ArmorPropertyRuneSlick": "Glissante",
+    "ArmorPropertyRuneSoaring": "Flambante",
     "ArmorPropertyRuneWinged": "Ailée",
     "ArmorResilientRune": "Résilience",
     "ArmorSpeedLabel": "Pénalité à la vitesse",
@@ -342,8 +365,9 @@
       "TabEquipment": "Équipement",
       "TabFeat": "Dons",
       "TabHazard": "Pièges",
-      "TabSettings": "Sauvegarder packs",
+      "TabSettings": "Charger packs",
       "TabSpell": "Sorts",
+      "TakeLabel": "Prendre",
       "Title": "Navigateur de compendiums"
     },
     "Condition": {
@@ -550,7 +574,9 @@
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
-      "CantMoveItemSource": "Vous n'êtes pas autorisés à déplacer les objets de ce personnagee"
+      "CantMoveItemSource": "Vous n'êtes pas autorisés à déplacer les objets de ce personnagee",
+      "NoTokenSelected": "Pas de jeton valide sélectionné.",
+      "NotEnoughAmmo": "Pas assez de munitions pour cette frappe"
     },
     "Ethnicity": "Ethnie",
     "ExpendSpellTitle": "Sort dépensé",
@@ -565,11 +591,14 @@
     "FeatActionsLabel": "Nombre d’actions",
     "FeatAncestryHeader": "Dons d’ascendance",
     "FeatArchetypeHeader": "Dons d’archétype",
+    "FeatBackgroundShort": "Hist",
     "FeatBonusHeader": "Dons supplémentaires",
     "FeatBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
     "FeatClassHeader": "Dons de classe",
     "FeatCurseHeader": "Malédictions",
+    "FeatDeityBoonCursesHeader": "Bénédictions/Malédictions",
     "FeatDeityBoonHeader": "Faveurs de la divinité",
+    "FeatDeityboonHeader": "Bénédiction de divinité",
     "FeatFeatSummary": "Sommaire des dons",
     "FeatGeneralHeader": "Dons généraux",
     "FeatLevelLabel": "Niveau",
@@ -582,8 +611,11 @@
     "FeatTypeBonus": "Don supplémentaire",
     "FeatTypeClass": "Don de classe",
     "FeatTypeClassfeature": "Capacité de classe",
+    "FeatTypeCurse": "Malédiction",
+    "FeatTypeDeityboon": "Malédiction de divinité",
     "FeatTypeGeneral": "Don général",
     "FeatTypeLabel": "Type de don",
+    "FeatTypePfsboon": "Bénédiction de la Société",
     "FeatTypeSkill": "Don de compétence",
     "FeaturesAncestryHeader": "Capacités d’ascendance",
     "FeaturesClassHeader": "Capacités de classe",
@@ -626,6 +658,8 @@
     "HeroPointLevel2": "Deux Points d’Héroïsme",
     "HeroPointLevel3": "Trois Points d’Héroïsme",
     "HeroPointsLabel": "Points d’Héroïsme",
+    "HitPointsDetailsLabel": "Détails PV",
+    "HitPointsDetailsTitle": "Informations supplémentaires relatifs aux Points de vie, tels que Guérison accélérée ou Régénération",
     "HitPointsHeader": "Points de Vie",
     "HitPointsShortLabel": "PV",
     "ImageLabel": "Image",
@@ -682,6 +716,7 @@
     "LanguageAlghollthu": "Algollthu",
     "LanguageAmurrun": "Amurrun",
     "LanguageAnadi": "Anadi",
+    "LanguageAndroffan": "Androffan",
     "LanguageAquan": "Aquatique",
     "LanguageArboreal": "Arboréen",
     "LanguageAuran": "Aérien",
@@ -700,6 +735,7 @@
     "LanguageElven": "Elfique",
     "LanguageErutaki": "Erutaki",
     "LanguageGarundi": "Garundais",
+    "LanguageGiant": "Géant",
     "LanguageGnoll": "Gnoll",
     "LanguageGnomish": "Gnomien",
     "LanguageGoblin": "Gobelin",
@@ -1019,6 +1055,7 @@
     },
     "RemoveCoinsByValueLabel": "Retirer la valeur, pas de type particulier",
     "RemoveCoinsTitle": "Retirer des pièces",
+    "RemoveModifierTitle": "Retirer le modificateur",
     "RemoveSpellcastingEntryTitle": "Supprimez l’entrée Incantation des sorts",
     "RerollMenu": {
       "ErrorCantDelete": "Vous êtes incapable d'effacer le jet originel",
@@ -1087,12 +1124,23 @@
           "IC": "Golarion (Calendrier impérial)",
           "Name": "Thême de date"
         },
+        "DeferredToModule": "Ce réglage est assuré par le module Calendar/Weather",
         "Hint": "Configurez l'apparence de l'application Horloge du monde",
         "Label": "Configurer Horloge du monde",
         "Name": "Réglage de l'Horloge du monde",
         "PlayersCanView": {
           "Hint": "rérglez si les joueurs peuvent voir l'Horloge du monde.",
           "Name": "Accès des joueurs"
+        },
+        "ResetWorldTime": {
+          "Button": "Remettre à 0",
+          "Confirm": {
+            "Question": "Êtes vous certain de vouloir remettre à 0 le temps écoulé de ce monde ?",
+            "Warning1": "Les effets de jeu dépendant du temps pourraient être affectés.",
+            "Warning2": "Ce changement est définitif"
+          },
+          "Hint": "Remettre à zéro le temps écoulée de ce monde",
+          "Name": "Remettre à zéro Temps/date de ce monde"
         },
         "SyncDarkness": {
           "GlobalLightOff": "Éteint",
@@ -1105,10 +1153,6 @@
           "Name": "Convention de temps",
           "Twelve": "12 heures",
           "TwentyFour": "24 heures"
-        },
-        "WorldCreatedOn": {
-          "Hint": "Fixer la date et le moment où ce monde a été créée dans Foundry. Cela n'aura pas besoin d'être changé.",
-          "Name": "Date de création du monde (UTC)"
         }
       },
       "critFumbleCardButtons": {
@@ -1166,6 +1210,7 @@
     "SensesScent": "Odorat",
     "SensesTitle": "Les sens de votre personnage",
     "SensesTremorsense": "Perception des vibrations",
+    "SensesWavesense": "Perception des ondes",
     "SettingsColorBlue": "gris bleu",
     "SettingsColorFoundry-UI": "Sexy Foundry UI",
     "SettingsColorLabel": "Schéma de couleur",
@@ -1248,6 +1293,12 @@
     "SpellAbilityLabel": "Carac d’incant.",
     "SpellAbilityModLabel": "+ Mod. Carac.",
     "SpellAreaLabel": "Area",
+    "SpellAttack": {
+      "arcane": "Attaque de sort arcanique",
+      "divine": "Attaque de sort divin",
+      "occult": "Attaque de sort occulte",
+      "primal": "Attaque de sort primordial"
+    },
     "SpellAttackLabel": "Attaque de sort",
     "SpellBasicSaveOption": "Basique",
     "SpellBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom contenant le mot feu et des d6 pour les dégâts.",
@@ -1265,6 +1316,7 @@
     "SpellComponentsLabel": "Composantes",
     "SpellConcentrationLabel": "Concentration",
     "SpellCostLabel": "Coût",
+    "SpellDCBase": "DD de base du sort 10",
     "SpellDamageLabel": "Dégâts du sort",
     "SpellDamageTypeLabel": "Type de dégâts",
     "SpellDurationLabel": "Durée",
@@ -1341,6 +1393,7 @@
     "StackGroupRations": "Rations",
     "StackGroupSacks": "sacs",
     "StackGroupSlingBullets": "Billes de fronde",
+    "StackGroupTaws": "Billes de bois",
     "StaminaPointsHeader": "Points d’Endurance",
     "StatusBonusShortLabel": "Statut",
     "StatusBonusTitle": "Bonus de statut",
@@ -2038,6 +2091,10 @@
       "TravelDuration": "Durée du voyage",
       "Weeks": "Semaine"
     },
+    "TrickMagicItemPopup": {
+      "Label": "Choisissez une compétence pour Usurpation d'objet magique",
+      "Title": "Usurpation d'objet magique"
+    },
     "UI": {
       "applyDamage": {
         "by": "par",
@@ -2127,6 +2184,7 @@
     "WeaponPropertyRuneAncestralEchoing": "Écho ancestral",
     "WeaponPropertyRuneAxiomatic": "Axiomatique",
     "WeaponPropertyRuneBloodbane": "Ennemi ancestral",
+    "WeaponPropertyRuneConducting": "Conductrice",
     "WeaponPropertyRuneCorrosive": "Corrosif",
     "WeaponPropertyRuneCunning": "Astucieuse",
     "WeaponPropertyRuneDancing": "Dansante",
@@ -2189,6 +2247,35 @@
     "Weight": "Poids",
     "WeightTitle": "Votre Poids",
     "WorldClock": {
+      "AD": {
+        "Era": "Jésus-Christ"
+      },
+      "AR": {
+        "Era": "Fondation Absalom",
+        "Months": {
+          "April": "Gozran",
+          "August": "Arodus",
+          "December": "Kuthona",
+          "February": "Calistril",
+          "January": "Abadius",
+          "July": "Érastus",
+          "June": "Sarénith",
+          "March": "Pharast",
+          "May": "Desnus",
+          "November": "Neth",
+          "October": "Lamashan",
+          "September": "Rova"
+        },
+        "Weekdays": {
+          "Friday": "Juredi",
+          "Monday": "Lunedi",
+          "Saturday": "Astredi",
+          "Sunday": "Solardi",
+          "Thursday": "Juredi",
+          "Tuesday": "Marnedi",
+          "Wednesday": "Mercantdi"
+        }
+      },
       "Button": {
         "AddOneDay": "+1 jour",
         "AddOneHour": "+1 heure",
@@ -2197,6 +2284,19 @@
         "AddOneWeek": "+1 semaine",
         "AddTenMinutes": "+10 minutes",
         "Advance": "Avancer"
+      },
+      "CE": {
+        "Era": "Ere commune"
+      },
+      "Date": "{weekday}, {day}{ordinalSuffix} du {month}, {year} {era}",
+      "IC": {
+        "Era": "Calendier Impérial"
+      },
+      "OrdinalSuffixes": {
+        "Few": "e",
+        "One": "er",
+        "Other": "e",
+        "Two": "e"
       },
       "Placeholder": "Nombre",
       "Title": "Horloge du monde",
