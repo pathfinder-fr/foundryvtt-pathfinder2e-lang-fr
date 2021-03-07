@@ -1,5 +1,6 @@
 {
   "ACTOR": {
+    "TypeAnimalcompanion": "Compagnon animal",
     "TypeCharacter": "Personnage",
     "TypeFamiliar": "Familier",
     "TypeHazard": "Danger",
@@ -102,6 +103,12 @@
       "Lie": "Mentir",
       "LongJump": "Sauter en longueur",
       "ManeuverInFlight": "Manœuvrer en vol",
+      "RaiseAShield": {
+        "BadArgs": "Cette action doit être accompli avec exctement un PJ ou un PNJ.",
+        "Content": "{actor} lève son bouclier.",
+        "NoShieldEquipped": "{actor} doit avoir un bouclier équipé.",
+        "Title": "Lever un bouclier"
+      },
       "Seek": "Chercher",
       "Shove": "Pousser",
       "Squeeze": "Se faufiler",
@@ -573,9 +580,11 @@
     "EquippedBulkLabel": "Enc. porté",
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
+      "ActorMustHaveToken": "Ajouter des confitions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisés à déplacer les objets de ce personnagee",
       "NoTokenSelected": "Pas de jeton valide sélectionné.",
+      "NoUpdatePermission": "Vous n'avez pas la permission de mettre à jour cet acteur",
       "NotEnoughAmmo": "Pas assez de munitions pour cette frappe"
     },
     "Ethnicity": "Ethnie",
@@ -664,6 +673,7 @@
     "HitPointsShortLabel": "PV",
     "ImageLabel": "Image",
     "ImmunitiesLabel": "Immunités",
+    "ImmunityTypeAuditory": "Audible",
     "ImmunityTypeCriticalHits": "Coups critiques",
     "ImmunityTypeDeathEffects": "Effets de mort",
     "ImmunityTypeDisease": "Maladie",
@@ -689,6 +699,11 @@
     "InventoryWeaponsHeader": "Armes",
     "InventroyBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom contenant feu et des d6 pour les dégâts.",
     "InvestedLabel": "Investi",
+    "Item": {
+      "ABC": {
+        "InvalidDrop": "{badType} ne peut être déposé ici (cela doit être {goodType})"
+      }
+    },
     "ItemBonus0": "0",
     "ItemBonus1": "Puissance d’arme +1",
     "ItemBonus2": "Puissance d’arme +2",
@@ -1506,6 +1521,7 @@
     "TraitChaotic": "Chaotique",
     "TraitCharauKa": "Charau-ka",
     "TraitCleric": "Prêtre",
+    "TraitClimbing": "Escalade",
     "TraitClockwork": "Mécanique",
     "TraitCold": "Froid",
     "TraitColdiron": "Fer froid",
@@ -1819,6 +1835,7 @@
     "TraitHeldOneHand": "Tenir à 1 main",
     "TraitHeldTwoHands": "Tenir à 2 mains",
     "TraitHerald": "Héraut divin",
+    "TraitHeritage": "Héritage",
     "TraitHex": "Malédiction",
     "TraitHobgoblin": "Hobgobelin",
     "TraitHuman": "Humain",
@@ -1927,6 +1944,7 @@
     "TraitRangeIncrement310": "Facteur de portée 93m (310 ft)",
     "TraitRangeIncrement320": "Facteur de portée 96m (320 ft)",
     "TraitRangeIncrement40": "Facteur de portée 12m (40 ft)",
+    "TraitRangeIncrement5": "Facteur de portée 1,5m (5 ft)",
     "TraitRangeIncrement50": "Facteur de portée 15m (50 ft)",
     "TraitRangeIncrement60": "Facteur de portée 18m (60 ft)",
     "TraitRangeIncrement70": "Facteur de portée 21m (70 ft)",
@@ -2011,6 +2029,7 @@
     "TraitVampire": "Vampire",
     "TraitVelstrac": "Velstrac",
     "TraitVersatileB": "Polyvalent C",
+    "TraitVersatileHeritage": "Héritage polyvalent",
     "TraitVersatileP": "Polyvalent P",
     "TraitVersatileS": "Polyvalent T",
     "TraitVigilante": "Justicier",
