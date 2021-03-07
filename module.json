@@ -1,7 +1,7 @@
 {
    "name" : "lang-fr-pf2e",
    "title" : "Français [Pathfinder 2e]",
-   "version" : "1.11.5",
+   "version" : "1.11.10",
    "minimumCoreVersion" : "0.7.5",
    "compatibleCoreVersion" : "1.0.0",
    "author" : "rectulo",
@@ -18,5 +18,5 @@
    "styles": ["style.css"],
    "url" : "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr",
    "manifest" : "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/raw/master/module.json",
-   "download" : "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/jobs/artifacts/v1.11.5/download?job=build"
+   "download" : "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/jobs/artifacts/v1.11.10/download?job=build"
 }
