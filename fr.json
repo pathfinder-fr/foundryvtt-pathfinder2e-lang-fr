@@ -340,7 +340,7 @@
     "BulkLabel": "Encombrement",
     "BulkMaxLabel": "Encombrement Max",
     "BulkReductionLabel": "Réduit l'encombrement de",
-    "BulkShortLabel": "Encombrement",
+    "BulkShortLabel": "Enc.",
     "BulkTypeLight": "Léger",
     "CapacityBarLabel": "Capacité",
     "CharacterDetails": "Détails du personnage",
@@ -2135,7 +2135,7 @@
       "shiftModifyDamageLabel": "Modificateur:",
       "shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus"
     },
-    "UnitPriceLabel": "Unité de prix",
+    "UnitPriceLabel": "Prix",
     "UnprepareItemTitle": "Abandonner un sort préparé",
     "UnpreparedSpellsLabel": "Liste de préparation",
     "UnpreparedSpellsLabelArcanePrepared": "Grimoire arcanique",
