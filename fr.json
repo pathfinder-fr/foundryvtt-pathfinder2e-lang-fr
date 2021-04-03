@@ -97,19 +97,26 @@
       "Disarm": "Désarmer",
       "Feint": "Feinter",
       "ForceOpen": "Ouvrir de force",
+      "GatherInformation": "Recueillir des informations",
       "Grapple": "Saisir",
       "HighJump": "Sauter en hauteur",
       "Impersonate": "Se déguiser",
       "Lie": "Mentir",
       "LongJump": "Sauter en longueur",
+      "MakeAnImpression": "Faire bonne impression",
       "ManeuverInFlight": "Manœuvrer en vol",
       "RaiseAShield": {
         "BadArgs": "Cette action doit être accompli avec exctement un PJ ou un PNJ.",
         "Content": "{actor} lève son bouclier.",
         "NoShieldEquipped": "{actor} doit avoir un bouclier équipé.",
+        "ShieldIsBroken": "{shield} de {actor} est cassé.",
         "Title": "Lever un bouclier"
       },
+      "Request": "Solliciter",
       "Seek": "Chercher",
+      "ShieldBlock": {
+        "SelectAShield": "Choisir un bouclier"
+      },
       "Shove": "Pousser",
       "Squeeze": "Se faufiler",
       "Swim": "Nager",
@@ -118,11 +125,23 @@
     },
     "ActionsActionsHeader": "Actions Uniques",
     "ActionsCheck": {
-      "Acrobatics": "Test d'Acrobaties",
-      "Athletics": "Test d'Athlétisme",
-      "Deception": "Test de compétence de Duperie",
-      "Intimidation": "Test d'Intimisation",
-      "Perception": "Test de Perception"
+      "acrobatics": "Test d'Acrobaties",
+      "arcana": "Test d'Arcane",
+      "athletics": "Test d'Athlétisme",
+      "crafting": "Test d'Artisanat",
+      "deception": "Test de Duperie",
+      "diplomacy": "Test de Diplomatie",
+      "intimidation": "Test d'Intimidation",
+      "medicine": "Test de Médecine",
+      "nature": "Test de Nature",
+      "occultism": "Test d'Occultisme",
+      "perception": "Test de Perception",
+      "performance": "Test de Représentation",
+      "religion": "Test de Religion",
+      "society": "Test de Société",
+      "stealth": "Test de Discrétion",
+      "survival": "Test de Survie",
+      "thievery": "Test de Vol"
     },
     "ActionsFreeActionsHeader": "Actions Gratuites",
     "ActionsReactionsHeader": "Réactions",
@@ -151,6 +170,9 @@
       },
       "EnableAutomation": "Activer l'automatisation",
       "Label": "Effets actifs"
+    },
+    "Actor": {
+      "Plural": "Acteurs"
     },
     "ActorSizeGargantuan": "Gigantesque",
     "ActorSizeHuge": "Très Grande",
@@ -274,6 +296,12 @@
     "AttackEffectPush": "Bousculade",
     "AttackEffectTrip": "Croc-en-jambe",
     "AttackLabel": "Attaque",
+    "AttackOutcome": {
+      "criticalFailure": "Échec critique",
+      "criticalSuccess": "Coup critique",
+      "failure": "Manqué",
+      "success": "Touché"
+    },
     "AttitudeLabel": "Attitude",
     "Attitudes": {
       "Friendly": "Amicale",
@@ -343,6 +371,7 @@
     "BulkShortLabel": "Enc.",
     "BulkTypeLight": "Léger",
     "CapacityBarLabel": "Capacité",
+    "CastLabel": "Lancer",
     "CharacterDetails": "Détails du personnage",
     "CharacterLevelLabel": "Niveau",
     "CharacterNamePlaceholder": "Nom du Personnage",
@@ -376,6 +405,19 @@
       "TabSpell": "Sorts",
       "TakeLabel": "Prendre",
       "Title": "Navigateur de compendiums"
+    },
+    "CompendiumDirectory": {
+      "Folders": {
+        "bestiaries": "Bestiaires",
+        "bestiaries/campaign": "Campagne",
+        "bestiaries/pfs": "Société des Éclaireurs",
+        "bestiaries/rulebook": "Livre de règles",
+        "character-building": "Construction de personnage",
+        "character-building/feats": "Dons",
+        "effects": "Effets",
+        "equipment": "Équipement",
+        "pregenerated": "PJ prêts à l'emploi"
+      }
     },
     "Condition": {
       "ActiveLabel": "Active",
@@ -470,6 +512,7 @@
     "CreateLabelUniversal": "Créer",
     "CreateSkillTitle": "Créer une Compétence",
     "CreateSpellTitle": "Créer un Sort",
+    "CreatureArmorClass": "CA de {creature}",
     "CritFailure": "<strong>Échec critique</strong>",
     "CritSuccess": "<strong>Succès Critique</strong>",
     "CriticalDamageLabel": "Critique",
@@ -497,6 +540,13 @@
     "DCAdjustmentVeryEasy": "très facile",
     "DCAdjustmentVeryHard": "très difficile",
     "DCLabel": "DD",
+    "DamageButton": {
+      "Double": "Appliquer double dégâts aux cibles sélectionnées",
+      "Full": "Appliquer les dégâts normaux aux cibles sélectionnées",
+      "Half": "Appliquer demi-dégâts aux cibles sélectionnées",
+      "Healing": "Appliquer les soins normaux aux cibles sélectionnées",
+      "ShieldBlock": "Activer le blocage au bouclier des cibles sélectionnées"
+    },
     "DamageDieD10": "d10",
     "DamageDieD12": "d12",
     "DamageDieD4": "d4",
@@ -624,6 +674,7 @@
     "FeatTypeCurse": "Malédiction",
     "FeatTypeDeityboon": "Malédiction de divinité",
     "FeatTypeGeneral": "Don général",
+    "FeatTypeHeritage": "Héritage",
     "FeatTypeLabel": "Type de don",
     "FeatTypePfsboon": "Bénédiction de la Société",
     "FeatTypeSkill": "Don de compétence",
@@ -703,7 +754,8 @@
     "Item": {
       "ABC": {
         "InvalidDrop": "{badType} ne peut être déposé ici (cela doit être {goodType})"
-      }
+      },
+      "Plural": "Objets"
     },
     "ItemBonus0": "0",
     "ItemBonus1": "Puissance d’arme +1",
@@ -723,11 +775,16 @@
     "ItemSummary": "Sommaire des objets",
     "ItemTitle": "Objet",
     "ItemsLabel": "Objets",
+    "JournalEntry": {
+      "Plural": "Entrées de journal"
+    },
     "KeyAbility": "Carac. principale",
     "KeyAbilityLabel": "Caractéristique principale",
     "KitItems": "Objets",
     "KitWorldItem": "Cet objet n'est pas trouvé dans un compendium et ne fonctionnera pas dans d'autres mondes",
+    "LackCastConsumableCapability": "Vous n\"êtes pas qualifié pour utiliser {name} et ne possédez pas le don Usurpation d'objet magique",
     "LanguageAbyssal": "Abyssal",
+    "LanguageAdlet": "Adlet",
     "LanguageAklo": "Aklo",
     "LanguageAlghollthu": "Algollthu",
     "LanguageAmurrun": "Amurrun",
@@ -752,9 +809,11 @@
     "LanguageErutaki": "Erutaki",
     "LanguageGarundi": "Garundais",
     "LanguageGiant": "Géant",
+    "LanguageGirtablilu": "Girtablilu",
     "LanguageGnoll": "Gnoll",
     "LanguageGnomish": "Gnomien",
     "LanguageGoblin": "Gobelin",
+    "LanguageGrioth": "Grioth",
     "LanguageGrippli": "Grippli",
     "LanguageHalfling": "Halfelin",
     "LanguageHallit": "Hallit",
@@ -765,13 +824,19 @@
     "LanguageJotun": "Jotun",
     "LanguageJyoti": "Jyoti",
     "LanguageKelish": "Kellide",
+    "LanguageKovintal": "Kovintal",
+    "LanguageMiGo": "Mi-Go",
+    "LanguageMunavri": "Munavrain",
     "LanguageMwangi": "Mwangi",
     "LanguageNecril": "Nécril",
     "LanguageOrcish": "Orquien",
     "LanguageOsiriani": "Osirien",
     "LanguageProtean": "Protéen",
     "LanguageRequian": "Réquien",
+    "LanguageSamsaran": "Samsaran",
+    "LanguageSasquatch": "Sasquatch",
     "LanguageShadowtongue": "Langue de l’ombre",
+    "LanguageShae": "Shae",
     "LanguageShoanti": "Shoanti",
     "LanguageShoony": "Shoony",
     "LanguageSkald": "Scalde",
@@ -784,9 +849,12 @@
     "LanguageTien": "Tianais",
     "LanguageUndercommon": "Commun des profondeurs",
     "LanguageUtopian": "Utopien",
+    "LanguageVanara": "Vanara",
     "LanguageVarisian": "Varisien",
     "LanguageVarki": "Varki",
+    "LanguageVishkanyan": "Vishkanyen",
     "LanguageVudrani": "Vudrain",
+    "LanguageYithian": "Yithien",
     "LanguageYsoki": "Ysoki",
     "Languages": "Langues",
     "LanguagesAdditional": "Langues supplémentaires",
@@ -816,6 +884,10 @@
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
     "LoreSkillFormat": "Connaissance {name}",
     "LoreSkillsHeader": "Compétences de Connaissances",
+    "MAPAbbreviationLabel": "PAM",
+    "Macro": {
+      "Plural": "Macros"
+    },
     "MacroActionNoActionError": "Cette action n'existe plus!",
     "MacroActionNoActorError": "Cet acteur n'existe plus!",
     "MagicTraditionLabel": "Tradition magique",
@@ -846,6 +918,7 @@
     },
     "MaxHPTitle": "Votre maximum de Points de Vie. Ce montant est automatiquement calculé.",
     "MaxHPTitleNPC": "Maximum de Points de Vie",
+    "MaxHitPointsBaseLabel": "PV Base max {base}",
     "MaxHitPointsHeader": "Points de vie Maximum",
     "MaxHitPointsShortLabel": "PV Max",
     "MaxStaminaPointsShortLabel": "PE Max",
@@ -886,7 +959,9 @@
         "WeakLabel": "Faible",
         "WeakNameFormat": "{name} faible"
       },
+      "ArmorBaseLabel": "CA base",
       "ArmorExtraInfoLabelPlaceholder": "Détails de la CA",
+      "AttackEffectMissing": "L'effet d'attaque '{attackEffect}' est manquant dans les actions de l'acteur. Ajoutez le à partir du compendium des capacités du Bestiaire.",
       "AttackType": {
         "Melee": "Attaque au corps à corps du PNJ",
         "Ranged": "Attaque à distance du PNJ",
@@ -903,6 +978,7 @@
       "EditSpeed": "Éditer la Vitesse",
       "EditTraits": "Éditer les traits",
       "EditWeaknesses": "Éditer les faiblesses",
+      "HPExtraInfoLabelPlaceholder": "Détails PV...",
       "Inventory": {
         "Header": {
           "NameLabel": "Nom",
@@ -912,9 +988,11 @@
       "InventoryTab": "Inventaire",
       "MainTab": "Principal",
       "NotesTab": "Notes",
+      "PassivesLabel": "Passifs",
       "Remove": "Retirer",
+      "SavesExtraInfoLabelPlaceholder": "Bonus à tous les jets de sauvegarde...",
+      "SendToChat": "Envoyer vers le chat",
       "SensesLabel": "Sens",
-      "ShowInChat": "Montre dans le journal",
       "SkillRollFlavor": "Test de la compétence {skillName} ({rank})",
       "SkillsEditor": {
         "BonusLabel": "Bonus",
@@ -956,6 +1034,7 @@
       "Feat": "Nouveau don",
       "Kit": "Nouveau kit",
       "Lore": "Nouvelle connaissance",
+      "Martial": "Nouveau de guerre",
       "Melee": "Nouvelle attaque au corps à corps",
       "Skill": "Nouvelle compétence",
       "Spell": "Nouveau sort",
@@ -964,6 +1043,7 @@
       "Treasure": "Nouveau trésor",
       "Weapon": "Nouvelle arme"
     },
+    "NoAmmoLabel": "Pas de munition",
     "NoStackGroup": "Ne se cumule pas",
     "NoneOption": "Aucune",
     "OneDegreeBetter": "un degré meilleur",
@@ -1092,7 +1172,6 @@
     "ResiliencyRuneLabel": "Rune de résilience",
     "ResistanceTypeAll": "Tous",
     "ResistanceTypeCriticalHits": "Coups critiques",
-    "ResistanceTypeDragonResistance": "Résistance Draconique",
     "ResistanceTypePhysical": "Physiques",
     "ResistanceTypeProteanAnatomy": "Anatomie Protéenne",
     "ResistanceTypeWeapon": "Armes",
@@ -1102,7 +1181,11 @@
     "ResultLabel": "Résultat",
     "RollBonusPlaceholder": "ex : +3 sur +1d4",
     "RollModeLabel": "Mode de tirage",
+    "RollTable": {
+      "Plural": "Tables aléatoires"
+    },
     "RuleElement": {
+      "ActorTraits": "Traits de l'acteur",
       "BaseSpeed": "Vitesse de base",
       "DamageDice": "Dé de dégât",
       "DexterityModifierCap": "Modif. Max. de Dextérité",
@@ -1111,6 +1194,7 @@
       "FlatModifier": "Test nu/pur",
       "MultipleAttackPenalty": "Pénalité d'attaques multiples",
       "Note": "Note",
+      "RecoveryCheckDC": "DD du test de récupération",
       "Sense": "Sens",
       "SetProperty": "Définir la propriété",
       "Strike": "Frappe",
@@ -1125,6 +1209,56 @@
       "WeaponPotency": "Puissance d'arme"
     },
     "SETTINGS": {
+      "CompendiumBrowserPacks": {
+        "Hint": "Réglages pour exclure le chargement des compendiums",
+        "Name": "Packs de compendiums"
+      },
+      "CritRule": {
+        "Choices": {
+          "Doubledamage": "Doubler les dégâts",
+          "Doubledice": "Doubler le nombre de dés"
+        },
+        "Hint": "Utiliser une règle différente de doublement des dégâts en cas de coup critique",
+        "Name": "Règles de coup critique"
+      },
+      "DefaultTokenSettings": {
+        "Hint": "Disposer du prototype de jeton conseillé sur les acteurs nouvellement créés",
+        "Name": "Réglages des prototype de jeton par défaut"
+      },
+      "DefaultTokenSettingsBar": {
+        "Hint": "Le réglage de la vue de la barre du jeton par défaut",
+        "Name": "Vue de la barre de jeton par défaut"
+      },
+      "DefaultTokenSettingsName": {
+        "Hint": "Le réglage de la vue du nom du jeton par défaut",
+        "Name": "Vue du nom du jeton par défaut"
+      },
+      "EnabledRulesUI": {
+        "Hint": "Lorsqu'il est activé, montre l'élément de règle avancé de l'Interface Utilisateur. Soyez précautionneux avec ceci. Cela peut dérégler les acteurs et objets si vous ne savez pas ce que vous faites ou faites une erreur.",
+        "Name": "IU de l'élément de règle avancé"
+      },
+      "IdentifyMagicNotMatchingTraditionModifier": {
+        "Choices": {
+          "0": "0",
+          "10": "+10",
+          "2": "+2",
+          "5": "+5"
+        },
+        "Hint": "Modificateur pour ajouter au DD du test de Compétence pour Identifier la magie si la compétence ne correspond pas à la tradition magique du personnage",
+        "Name": "Modificateur de compétence pour Identifier la magie"
+      },
+      "IgnoreCoinBulk": {
+        "Hint": "Activer pour ignorer le poids de la monnaie",
+        "Name": "Les ièces n'ont pas de poids"
+      },
+      "IgnoreContainerOverflow": {
+        "Hint": "Lorsqu'activé, un sac à dos et une sacoche avec chacun 999 pièces aboutiront à 0 Encombrement. Lorsque désactivé, l'exemple donné se cumule pour donner un Encombrement de 1.",
+        "Name": "Ne combine pas les piles de différents conteneurs lorsque vous calculez l'Encombrement"
+      },
+      "PFSSheetTab": {
+        "Hint": "Montrer l'onglet de la Société des Éclaireurs sur la Feuille de Personnage",
+        "Name": "Onglet de Feulle PFS"
+      },
       "Player": {
         "QuickRolls": {
           "DialogHint": "Montrez cette fenêtre seulement si je Shift-click pour lancer les dés"
@@ -1137,6 +1271,60 @@
         }
       },
       "Settings": "Réglages",
+      "Variant": {
+        "AncestryParagon": {
+          "Hint": "Accorde des emplacements de dons supplémentaires pour les variantes de règles du Guide du maître (p.194)",
+          "Name": "Variantes de règles : Parangon ancestral",
+          "Title": "Parangon ancestral"
+        },
+        "ExpertModifier": {
+          "Hint": "Ajuster à votre convenance la maîtrise sans niveau des variantes de règles. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
+          "Name": "Modificateur de maîtrise experte"
+        },
+        "FreeArchetype": {
+          "Hint": "Accorde les emplacements de dons des règles variantes du Guide de maîtrise (p.194)",
+          "Name": "Variantes de règles d'Archétype libre",
+          "Title": "Archétype supplémentaire"
+        },
+        "Hint": "Autoriser et configurer les variantes de règles comme la maîtrise sans niveau ou le système d'Endurance.",
+        "Label": "Réglages des variantes de règles",
+        "LegendaryModifier": {
+          "Hint": "Ajuster à votre convenance la maîtrise sans niveau des variantes de règles. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
+          "Name": "Modificateur de maîtrise légendaire"
+        },
+        "MasterModifier": {
+          "Hint": "Ajuster à votre convenance la maîtrise sans niveau des variantes de règles. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
+          "Name": "Modificateur de maîtrise maître"
+        },
+        "Name": "Variantes de règles",
+        "Proficiency": {
+          "Choices": {
+            "ProficiencyWithLevel": "Utiliser les règles de base",
+            "ProficiencyWithoutLevel": "Utiliser les variantes de règles"
+          },
+          "Hint": "Jouer avec les variantes de règles de maîtrise sans niveau du Guide du Maître (p.198)",
+          "Name": "Variantes de règles de maîtrise sans niveau",
+          "Title": "Maîtrise sans niveau"
+        },
+        "Stamina": {
+          "Choices": {
+            "0": "Ne pas utilisez l'Endurance",
+            "1": "Utiliser l'Endurance"
+          },
+          "Hint": "Jouer avec les variantes d'Endurance du guide du maître (p.200)",
+          "Name": "Variantes de règles de l'Endurance",
+          "Title": "Endurance"
+        },
+        "Title": "Réglages des variantes de règles",
+        "TrainedModifier": {
+          "Hint": "Ajuster à votre convenance la maîtrise sans niveau des variantes de règles. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
+          "Name": "Modificateur de maîtrise qualifié"
+        },
+        "UntrainedModifier": {
+          "Hint": "Ajuster à votre convenance la maîtrise sans niveau des variantes de règle, les variantes de règles recommandant un ajustement de -2. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
+          "Name": "Modificateur de maîtrise inexpérimenté"
+        }
+      },
       "WorldClock": {
         "DateTheme": {
           "AD": "Terre (calendrier grégorien)",
@@ -1176,6 +1364,10 @@
           "Twelve": "12 heures",
           "TwentyFour": "24 heures"
         }
+      },
+      "WorldSchemaVersion": {
+        "Hint": "Enregistre la version du schéma d'acteur pour les données d'acteur du système F2. (Ne modifiez pas ceci à moins de savoir ce que vous faites)",
+        "Name": "Version du schéma d'acteur"
       },
       "critFumbleCardButtons": {
         "hint": "Montrer les boutons de carte de réussite et d'échec critiques sur les jets d'attaque",
@@ -1243,6 +1435,8 @@
     "SettingsDataUriHighlightNotes": "Images qui utilisent une donnée: URI sont liés à la feuille de personnage. Cela entraîne des performances négatives sur le personnage. Si elles sont autorisées, de telles images seront surlignés avec un cadre rouge pour les rendre plus faciles à trouver et à retirer.<br>Ce réglage n'est actif pour la session actuelle.",
     "SettingsQuickRollsLabel": "Lancers de dés rapides",
     "SettingsQuickRollsNotes": "S’il est utilisé, lorsque vous lancez les dés à partir d’une feuille, vous obtenez seulement une fenêtre pour modifier le jet à la volée lorsque vous appuyez sur le boutton SHIFT.",
+    "SheetLabel": "Feuille de {type}",
+    "SheetLabelNew": "Feuille de {type} (aperçu)",
     "ShieldACBonusTitle": "Le bonus à la CA du bouclier (lorsque vous utilisez l’action lever un bouclier)",
     "ShieldBTLabel": "Brisé",
     "ShieldBTShortLabel": "SR",
@@ -1325,6 +1519,7 @@
     "SpellBasicSaveOption": "Basique",
     "SpellBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom contenant le mot feu et des d6 pour les dégâts.",
     "SpellCantripLabel": "Tour de magie",
+    "SpellCastingFormat": "Sort {tradition} {preparation Type}",
     "SpellCategoryFocus": "Focalisation",
     "SpellCategoryLabel": "Catégorie de sort",
     "SpellCategoryRitual": "Rituel",
@@ -1344,6 +1539,7 @@
     "SpellDurationLabel": "Durée",
     "SpellFocusLabel": "Focalisation",
     "SpellLabel": "Sort",
+    "SpellLabelPlural": "Sorrts",
     "SpellLevel0": "Tour de magie",
     "SpellLevel1": "Niveau 1",
     "SpellLevel10": "Niveau 10",
@@ -1471,6 +1667,7 @@
     "ToggleSpellVisibilityTitle": "Activez la visibilité des sorts",
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
     "ToggleWithName": "Activer : {property}",
+    "TogglesLabel": "Activations",
     "ToolHeading": "Sommaire des outils",
     "TotalTreasure": "Trésor total",
     "TotalWealth": "Fortune totale",
@@ -1483,9 +1680,11 @@
     "TraitAdditive2": "Additif 2",
     "TraitAdditive3": "Additif 3",
     "TraitAeon": "Aéon",
+    "TraitAesir": "Aesir",
     "TraitAffixedToAShield": "Fixé à un bouclier",
     "TraitAffixedToArmor": "Fixé à une armure",
     "TraitAffixedToWeapon": "Fixé à une arme",
+    "TraitAgathion": "Agathion",
     "TraitAgile": "Agile",
     "TraitAir": "Air",
     "TraitAlchemical": "Alchimique",
@@ -1503,6 +1702,7 @@
     "TraitArchon": "Archon",
     "TraitArtifact": "Artefact",
     "TraitAstral": "Astral",
+    "TraitAsura": "Asura",
     "TraitAttached": "Attachée",
     "TraitAttack": "Attaque",
     "TraitAuditory": "Audible",
@@ -1553,6 +1753,7 @@
     "TraitCursed": "Maudit",
     "TraitDaemon": "Daémon",
     "TraitDarkness": "Ténèbres",
+    "TraitDeadly2D8": "Mortel 2d8",
     "TraitDeadlyD10": "Mortel d10",
     "TraitDeadlyD12": "Mortel d12",
     "TraitDeadlyD6": "Mortel d6",
@@ -1710,12 +1911,13 @@
     "TraitDescriptionRanger": "Ce trait caractérise les pouvoirs liés à la classe Rôdeur.",
     "TraitDescriptionRare": "Cette rareté signifie qu’un élément de règle est très difficile à trouver dans le monde de jeu. Un don, un sort, un objet ou quelque chose de rare n’est accessible aux joueurs que si le MJ décide de l’inclure dans le jeu, typiquement au travers d’une découverte durant la partie. Comme le nom l’indique, ces créatures sont rares. Elles ne peuvent généralement pas être convoquées. Le DD des tests permettant de Se souvenir d’informations sur cette créature est augmenté de 5.",
     "TraitDescriptionRatfolk": "Une créature avec ce trait possède l'héritage homme-rat",
-    "TraitDescriptionReach": "Cette arme est longue et peut être utilisée pour attaquer des créatures jusqu’à 3 m au lieu qu’elles soient seulement adjacentes. Pour les créatures qui possèdent déjà une allonge avec le ou les membres qui manient l’arme, l’arme augmente leur allonge de 1,5 m.",
+    "TraitDescriptionReach": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaques des créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes. Les armes avec ce trait sont longues et peuvent être utilisées pour attaquer des créatures jusqu’à 3 m de distance au lieu des seules créatures adjacentes. Pour les créatures qui ont déjà une allonge avec un membre ou des membres qui manient l’arme, l’arme accroît leur portée de 1,5 m.",
     "TraitDescriptionReach10": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
     "TraitDescriptionReach15": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
     "TraitDescriptionReach20": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
     "TraitDescriptionReach25": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
-    "TraitDescriptionReload": "<p>Si toutes les armes nécessitent un certain temps pour être mises en position, de nombreuses armes à distance doivent en outre être chargées et rechargées. Cette entrée indique le nombre d’actions Interagir nécessaires pour recharger de telles armes. Il peut être indiqué 0 si sortir des munitions et tirer avec l’arme font partie de la même action. Si une arme nécessite 2 actions ou plus pour la recharger, le MJ détermine si elles doivent être exécutées ensemble en tant qu’activité ou si vous pouvez dépenser certaines de ces actions lors d’un tour et le reste durant votre prochain tour.</p><p>Un objet ayant une entrée « – ” doit être sorti avant de pouvoir être lancé, ce qui nécessite généralement une action Interagir, tout comme le fait de sortir n’importe quelle autre arme. Recharger une arme à distance et sortir une arme de jet nécessite d’avoir une main libre. Changer votre prise pour libérer une main, puis placer vos mains pour la prise nécessaire afin de manier l’arme, tout cela est inclus dans les actions que vous effectuez pour recharger une arme.</p>",
+    "TraitDescriptionReach30": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
+    "TraitDescriptionReload": "Si toutes les armes nécessitent un certain temps pour être mises en position, de nombreuses armes à distance doivent en outre être chargées et rechargées. Cette entrée indique le nombre d’actions Interagir nécessaires pour recharger de telles armes. Il peut être indiqué 0 si sortir des munitions et tirer avec l’arme font partie de la même action. Si une arme nécessite 2 actions ou plus pour la recharger, le MJ détermine si elles doivent être exécutées ensemble en tant qu’activité ou si vous pouvez dépenser certaines de ces actions lors d’un tour et le reste durant votre prochain tour. Un objet ayant une entrée « – » doit être sorti avant de pouvoir être lancé, ce qui nécessite généralement une action Interagir, tout comme le fait de sortir n’importe quelle autre arme. Recharger une arme à distance et sortir une arme de jet nécessite d’avoir une main libre. Changer votre prise pour libérer une main, puis placer vos mains pour la prise nécessaire afin de manier l’arme, tout cela est inclus dans les actions que vous effectuez pour recharger une arme.",
     "TraitDescriptionRevelation": "Les effets dotés de ce trait permettent de voir les choses telles qu’elles sont réellement",
     "TraitDescriptionRogue": "Ce trait caractérise les pouvoirs liés à la classe Roublard",
     "TraitDescriptionScrying": "Un effet de scrutation vous permet de voir, d’entendre, ou d’obtenir une information sensorielle à distance à l’aide d’un capteur ou d’un autre dispositif remplaçant vos propres yeux et oreilles.",
@@ -1766,6 +1968,7 @@
     "TraitDinosaur": "Dinosaure",
     "TraitDisarm": "Désarmer",
     "TraitDisease": "Maladie",
+    "TraitDiv": "Div",
     "TraitDivination": "Divination",
     "TraitDivine": "Divine",
     "TraitDowntime": "Intermède",
@@ -1821,6 +2024,7 @@
     "TraitGeneral": "Général",
     "TraitGenie": "Génie",
     "TraitGeniekin": "Génie",
+    "TraitGhoran": "Ghoran",
     "TraitGhost": "Fantôme",
     "TraitGhoul": "Goule",
     "TraitGiant": "Géant",
@@ -1831,6 +2035,7 @@
     "TraitGood": "Bon",
     "TraitGrapple": "Saisir",
     "TraitGremlin": "Gremlin",
+    "TraitGrioth": "Grioth",
     "TraitGrippli": "Grippli",
     "TraitHag": "Guenaude",
     "TraitHalcyon": "Paisible",
@@ -1864,8 +2069,10 @@
     "TraitInvested": "Investi",
     "TraitInvestigator": "Enquêteur",
     "TraitJoustingD6": "Joute d6",
+    "TraitKami": "Kami",
     "TraitKitsune": "Kitsune",
     "TraitKobold": "Kobold",
+    "TraitKovintus": "Kovintus",
     "TraitLawful": "Loyal",
     "TraitLeshy": "Léchi",
     "TraitLight": "Lumière",
@@ -1873,6 +2080,7 @@
     "TraitLinguistic": "Linguistique",
     "TraitLitany": "Litanie",
     "TraitLizardfolk": "Homme-lézard",
+    "TraitLocathah": "Locathah",
     "TraitMagic": "Magique",
     "TraitMagical": "Magique",
     "TraitManipulate": "Manipulation",
@@ -1887,11 +2095,14 @@
     "TraitMonitor": "Veilleur",
     "TraitMonk": "Moine",
     "TraitMorph": "Transformation",
+    "TraitMortic": "Mortic",
     "TraitMove": "Déplacement",
     "TraitMulticlass": "Multiclasse",
     "TraitMummy": "Momie",
+    "TraitMunavri": "Munavri",
     "TraitMutagen": "Mutagène",
     "TraitMutant": "Mutant",
+    "TraitNagaji": "Nagaji",
     "TraitNecromancy": "Nécromancie",
     "TraitNegative": "Négatif",
     "TraitNoisy": "Bruyante",
@@ -1907,8 +2118,10 @@
     "TraitOracle": "Oracle",
     "TraitOrc": "Orque",
     "TraitOread": "Oréade",
+    "TraitPaaridar": "Paaridar",
     "TraitParry": "Parade",
     "TraitPetitioner": "Pétitionnaire",
+    "TraitPhantom": "Fantôme",
     "TraitPlant": "Plante",
     "TraitPoison": "Poison",
     "TraitPolymorph": "Métamorphose",
@@ -1968,6 +2181,7 @@
     "TraitReach15": "Allonge 4,5 m (15 ft)",
     "TraitReach20": "Allonge 6 m (20 ft)",
     "TraitReach25": "Allonge 7,5 m (25 ft)",
+    "TraitReach30": "Allonge 9 m (30 ft)",
     "TraitReload0": "Rechargement 0",
     "TraitReload1": "Rechargement 1",
     "TraitReload2": "Rechargement 2",
@@ -1976,17 +2190,21 @@
     "TraitRitual": "Rituel",
     "TraitRogue": "Roublard",
     "TraitSaggorak": "Saggorak",
+    "TraitSahkil": "Sahkil",
     "TraitSalt": "Salé",
+    "TraitSamsaran": "Samsaran",
     "TraitScroll": "Parchemins",
     "TraitScrying": "Révélation",
     "TraitSeaDevil": "Diable des mers",
     "TraitSecret": "Secret",
     "TraitSerpentfolk": "Homme-serpent",
+    "TraitShabti": "Shabti",
     "TraitShadow": "Ombre",
     "TraitShoony": "Shoony",
     "TraitShove": "Pousser",
     "TraitSimple": "Simple",
     "TraitSkeleton": "Squelette",
+    "TraitSkelm": "Skelm",
     "TraitSkill": "Compétence",
     "TraitSkulk": "Crâne",
     "TraitSleep": "Sommeil",
@@ -2001,6 +2219,7 @@
     "TraitStaff": "Bâton",
     "TraitStamina": "Endurance",
     "TraitStance": "Posture",
+    "TraitStheno": "Stheno",
     "TraitStrix": "Strix",
     "TraitStructure": "Structure",
     "TraitSuli": "Suli",
@@ -2011,6 +2230,7 @@
     "TraitSylph": "Sylphe",
     "TraitTalisman": "Talisman",
     "TraitTane": "Tane",
+    "TraitTanggal": "tanggal",
     "TraitTattoo": "Tatouage",
     "TraitTeleportation": "Téléportation",
     "TraitTengu": "Tengu",
@@ -2019,16 +2239,20 @@
     "TraitThrown20": "Jet 6 m (20 ft)",
     "TraitThrown30": "Jet 9 m (30 ft)",
     "TraitThrown40": "Jet 12 m (40 ft)",
+    "TraitThrown60": "Jet 18 m (60 ft)",
     "TraitTiefling": "Tieffelin",
     "TraitTime": "Temps",
+    "TraitTitan": "Titan",
     "TraitTransmutation": "Transmutation",
     "TraitTrap": "Piège",
     "TraitTrip": "Croc-en-jambe",
     "TraitTroll": "Troll",
+    "TraitTroop": "Troupe",
     "TraitTwin": "Jumelle",
     "TraitTwoHandD10": "Deux-mains d10",
     "TraitTwoHandD12": "Deux-mains d12",
     "TraitTwoHandD8": "Deux-mains d8",
+    "TraitTwoHandedHelp": "Cet objet peut être manié à deux mains. Pour activer la Frappe à deux mains, cliquez le trait deux mains dans l'étiquette Frappes.",
     "TraitUnarmed": "Mains nues",
     "TraitUncommon": "Peu courant",
     "TraitUndead": "Mort-vivant",
@@ -2036,6 +2260,7 @@
     "TraitUnique": "Unique",
     "TraitUrdefhan": "Urdefhan",
     "TraitVampire": "Vampire",
+    "TraitVanara": "Vanara",
     "TraitVelstrac": "Velstrac",
     "TraitVersatileB": "Polyvalent C",
     "TraitVersatileHeritage": "Héritage polyvalent",
@@ -2043,10 +2268,12 @@
     "TraitVersatileS": "Polyvalent T",
     "TraitVigilante": "Justicier",
     "TraitVirulent": "Virulent",
+    "TraitVishkanya": "Vishkanya",
     "TraitVisual": "Visuel",
     "TraitVolley30": "Volée 9 m (30 ft)",
     "TraitWand": "Baguettes",
     "TraitWater": "Eau",
+    "TraitWayang": "Wayang",
     "TraitWerecreature": "Garou",
     "TraitWight": "Nécrophage",
     "TraitWitch": "Sorcière",
@@ -2075,6 +2302,7 @@
     "TraitWornSaddle": "Selle Portée",
     "TraitWornShoes": "Chaussures Portées",
     "TraitWraith": "Âme-en-peine",
+    "TraitWyrwood": "Virebois",
     "TraitXulgath": "Xulgath",
     "TraitZombie": "Zombi",
     "Traits": "Traits",
@@ -2106,6 +2334,7 @@
       "FeetAcronym": "ft",
       "GreaterDifficultTerrain": "Vitesse sur Terrain très difficile",
       "Hours": "Heures",
+      "HoursPerDay": "Heures passées à voyager par jour",
       "HustleMinutes": "Minutes passées à se presser par jour",
       "Journey": "Parcours",
       "Miles": "Miles",
@@ -2132,6 +2361,7 @@
         "shieldInActive": "subit"
       },
       "errorTargetToken": "Vous n'avez pas ciblé de Token.",
+      "noDamageInfoForOutcome": "Pas d'informations sur les dégâts de l'issue {outcome}",
       "shiftModifyDamageLabel": "Modificateur:",
       "shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus"
     },
@@ -2160,6 +2390,7 @@
     "WeaponAbilityLabel": "Capacité d’arme",
     "WeaponBaseDamageLabel": "Dommages de base de l'arme",
     "WeaponBaseDamageTitle": "Cette section permet de configurer les dégâts de base de l'arme. Il ne faut pas ajouter de dé supplémentaire de Runes de frappe ici, mais le configurer dans la section Runes d'Arme ci-dessus.",
+    "WeaponBaseLabel": "Base",
     "WeaponBonusAttackLabel": "Bonus d'attaque",
     "WeaponBonusDamageLabel": "Bonus aux dégâts",
     "WeaponCustomDamageLabel": "Dégâts personnalisés",
@@ -2562,6 +2793,7 @@
       "IdentifyAlchemyDCs": "DD Identifier l'Alchimie",
       "IdentifyGenericDCs": "DD Identifier Générique",
       "IdentifyMagicDCs": "DD Identifier la Magie",
+      "IsIdentified": "Identifié ?",
       "ItemType": {
         "ArmorType": {
           "heavy": "Armure lourde non identifiée",
