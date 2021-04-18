@@ -119,6 +119,14 @@
       },
       "Shove": "Pousser",
       "Squeeze": "Se faufiler",
+      "SteelYourResolve": {
+        "BadArgs": "Cette action doit être accomplie avec seulement un personnage ou un PNJ",
+        "Content": "Dépenser un point de persévérance et regagner de l'Endurance ?",
+        "NoStamina": "{name} est fatigué et a besoin d'aller au lit ! Il n'a plus de points d'endurance.",
+        "RecoverStamina": "{name} possède {ratio} PE et dépense un point de persévérance, regagnant la moitié du maximum d'Endurance.",
+        "StaminaNotEnabled": "La variante d'endurance n'est pas autorisée",
+        "Title": "Moral d'acier"
+      },
       "Swim": "Nager",
       "Trip": "Mettre à terre",
       "TumbleThrough": "Déplacement acrobatique"
@@ -183,6 +191,10 @@
     "AdamantineStrikes": "Frappes Adamantium",
     "AddCoinsCombineStacksLabel": "Cumuler",
     "AddCoinsTitle": "Ajouter des pièces",
+    "AddCombatProficiency": {
+      "Message": "Choisissez un groupe d'arme ou une arme de base",
+      "Title": "Ajouter une maîtrise d'arme"
+    },
     "AddLoreSkill": "Ajouter une compétence de connaissance",
     "AddModifierTitle": "Ajouter Modificateur",
     "AddShortLabel": "Ajouter",
@@ -317,6 +329,7 @@
     "BackgroundSkillFeats": "Dons de compétence",
     "BackgroundTitle": "Historique de votre personnage",
     "BaseModifier": "Modif. Base",
+    "BaseWeapons": "Armes de base",
     "BestiaryBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
     "Biography": "Biographie",
     "BiographyPrivateHeading": "Notes privées",
@@ -688,6 +701,7 @@
     "FlatBonusSPTitle": "Ajoute un nombre fixe à vos Points d'Endurance'",
     "FlatBonusSPperLevel": "Bonus PE / Niv",
     "Focus": {
+      "NotEnoughFocusPointsError": "Vous n'avez pas suffisamment de points de focalisation pour lancer ce sort.",
       "label": "Points de Focalisation",
       "pointLabel": "Points",
       "pointTitle": "Votre nombre restant de Points de focalisation",
@@ -969,6 +983,7 @@
       },
       "Attacks": "Attaques",
       "Creature": "Créature",
+      "Dead": "Mort",
       "Edit": "Éditer",
       "EditImmunities": "Éditer les immunités",
       "EditLanguages": "Éditer les langues",
@@ -1155,6 +1170,10 @@
     },
     "RemoveCoinsByValueLabel": "Retirer la valeur, pas de type particulier",
     "RemoveCoinsTitle": "Retirer des pièces",
+    "RemoveCombatProficiency": {
+      "Message": "Retirer la maîtrise de {proficiency} ?",
+      "Title": "Retirer une maîtrise d'arme"
+    },
     "RemoveModifierTitle": "Retirer le modificateur",
     "RemoveSpellcastingEntryTitle": "Supprimez l’entrée Incantation des sorts",
     "RerollMenu": {
@@ -1212,6 +1231,12 @@
       "WeaponPotency": "Puissance d'arme"
     },
     "SETTINGS": {
+      "Automation": {
+        "LootableNPCs": {
+          "Hint": "Lorsqu'ils sont défaits, les PNJ peuvent être fouillés par les joueurs.",
+          "Name": "Les PNJ peuvent être fouillés"
+        }
+      },
       "CompendiumBrowserPacks": {
         "Hint": "Réglages pour exclure le chargement des compendiums",
         "Name": "Packs de compendiums"
@@ -1239,6 +1264,40 @@
       "EnabledRulesUI": {
         "Hint": "Lorsqu'il est activé, montre l'élément de règle avancé de l'Interface Utilisateur. Soyez précautionneux avec ceci. Cela peut dérégler les acteurs et objets si vous ne savez pas ce que vous faites ou faites une erreur.",
         "Name": "IU de l'élément de règle avancé"
+      },
+      "Homebrew": {
+        "BaseWeapons": {
+          "Hint": "Le plus bas niveau de la taxonomie des armes de Pathfinder 2 (ex : arbalète lourde, épée longue)",
+          "Name": "Armes de base"
+        },
+        "ConfirmDelete": {
+          "Message": "effacer l'élément  <strong>{element}</strong> de votre monde ?",
+          "Title": "Effacer un élément maison ?"
+        },
+        "CreatureTraits": {
+          "Hint": "Les traits peuvent être appliqués à toute créature aussi bien qu'à la plupart des types d'objet (ex : dragon, gnome)",
+          "Name": "Traits de créature"
+        },
+        "Hint": "Régler les traits, les langues et d'autres éléments maison pour votre monde.",
+        "Instructions": "Ces réglages permettent aux MJ d'ajouter des traits, des langues et d'autres éléments pour fabriquer leur propre monde. Pour ajouter de tels éléments, taper simplement les termes désirés dans les champs appropriés, séparés par des virgules ou la touche tabulation.ils vont alors apparaître dans les lieux appropriés sur les feuilles des acteurs et des objets. Pour mettre à jour un terme, cliquez dessus pour faire les changements désiré.",
+        "Label": "Choisir les réglages maison",
+        "Languages": {
+          "Hint": "Langues à savoir ou à apprendre pour les personnages (ex: draconique, gnomien)",
+          "Name": "Langues"
+        },
+        "Name": "Réglages maison",
+        "SpellSchools": {
+          "Hint": "Les écoles de magie auxquelles appartiennent tous les sort et la plupart des objets magiques (ex : conjuration, évocation)",
+          "Name": "Écoles de magie"
+        },
+        "WeaponCategories": {
+          "Hint": "Le niveau maximal de la taxonomie des armes de Pathfinder 2 (ex : Simple, de guerre)",
+          "Name": "Catégories d'arme"
+        },
+        "WeaponGroups": {
+          "Hint": "Le niveau moyen de la taxonomie des armes de Patthfinder 2 (ex: arbalètes, épée)",
+          "Name": "Groupes d'armes"
+        }
       },
       "IdentifyMagicNotMatchingTraditionModifier": {
         "Choices": {
@@ -1273,7 +1332,14 @@
           "Name": "Les compétences alternatives pour Soigner les blessures peuvent lancer les dés contre des DD supérieurs."
         }
       },
+      "ResetChanges": "Effacer les changements",
       "Settings": "Réglages",
+      "User": {
+        "EffectPanel": {
+          "Hint": "Montrer le panneau des effets lorsque le jeton est sélectionné.",
+          "Name": "Montrer le tableau des effets"
+        }
+      },
       "Variant": {
         "AncestryParagon": {
           "Hint": "Accorde des emplacements de dons supplémentaires pour les variantes de règles du Guide du maître (p.194)",
@@ -1427,6 +1493,7 @@
     "SensesGreaterDarkvision": "Vision dans le noir supérieure",
     "SensesLifesense": "Sens de la vie",
     "SensesLowLightVision": "Vision nocturne",
+    "SensesMotionsense": "Perception du déplacement",
     "SensesScent": "Odorat",
     "SensesTitle": "Les sens de votre personnage",
     "SensesTremorsense": "Perception des vibrations",
@@ -1592,6 +1659,7 @@
     "SpellSchoolTrs": "Transmutation",
     "SpellSecondaryCasters": "Incantateurs secondaires",
     "SpellSecondaryChecksLabel": "Tests secondaires",
+    "SpellSlotEmpty": "Emplacement libre (déposer le sort ici)",
     "SpellSummary": "Sommaire des sorts",
     "SpellTargetLabel": "Cible",
     "SpellTimeLabel": "Temps d’incantation",
@@ -1619,7 +1687,7 @@
     "StackGroupRations": "Rations",
     "StackGroupSacks": "sacs",
     "StackGroupSlingBullets": "Billes de fronde",
-    "StackGroupTaws": "Billes de bois",
+    "StackGroupWoodenTaws": "Billes de bois",
     "StaminaPointsHeader": "Points d’Endurance",
     "StatusBonusShortLabel": "Statut",
     "StatusBonusTitle": "Bonus de statut",
