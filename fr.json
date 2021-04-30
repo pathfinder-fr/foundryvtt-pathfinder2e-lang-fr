@@ -225,6 +225,7 @@
     },
     "AncestryTitle": "Ascendance de votre personnage",
     "AreaSize10": "10 Feet (3 m)",
+    "AreaSize100": "100 foot (30 m)",
     "AreaSize120": "120 Feet (36 m)",
     "AreaSize15": "15 Feet (4,5 m)",
     "AreaSize20": "20 Feet (6 m)",
@@ -321,6 +322,13 @@
       "Hostile": "Hostile",
       "Indifferent": "Indifférent",
       "Unfriendly": "Inamical"
+    },
+    "AutomaticBonusProgression": {
+      "attackPotency": "Puissance d'attaque",
+      "defensePotency": "Puissance de défense",
+      "devastatingAttacks": "Attaques dévastatrices",
+      "perceptionPotency": "Puissance de perception",
+      "savePotency": "Puissance de jet de sauvegarde"
     },
     "Background": "Historique",
     "BackgroundItem": {
@@ -423,6 +431,7 @@
       "Folders": {
         "bestiaries": "Bestiaires",
         "bestiaries/campaign": "Campagne",
+        "bestiaries/other": "Autres",
         "bestiaries/pfs": "Société des Éclaireurs",
         "bestiaries/rulebook": "Livre de règles",
         "character-building": "Construction de personnage",
@@ -553,6 +562,7 @@
     "DCAdjustmentVeryEasy": "très facile",
     "DCAdjustmentVeryHard": "très difficile",
     "DCLabel": "DD",
+    "DCWithValue": "{text} DD {dc}",
     "DamageButton": {
       "Double": "Appliquer double dégâts aux cibles sélectionnées",
       "Full": "Appliquer les dégâts normaux aux cibles sélectionnées",
@@ -597,6 +607,8 @@
     "DefencesLabel": "Défenses",
     "Deity": "Divinité",
     "DeityTitle": "Votre divinité",
+    "DeleteConditionQuestion": "Êtes vous certain d'effacer {condition}?",
+    "DeleteConditionTitle": "Effacer l'état",
     "DeleteItemQuestion": "Êtes vous certain d'effacer :",
     "DeleteItemTitle": "Effacer l’objet",
     "DeleteShortLabel": "Effacer",
@@ -691,6 +703,7 @@
     "FeatTypeLabel": "Type de don",
     "FeatTypePfsboon": "Bénédiction de la Société",
     "FeatTypeSkill": "Don de compétence",
+    "FeatVariantRule": "Variante de règle",
     "FeaturesAncestryHeader": "Capacités d’ascendance",
     "FeaturesClassHeader": "Capacités de classe",
     "Feet": "pieds",
@@ -769,6 +782,9 @@
       "ABC": {
         "InvalidDrop": "{badType} ne peut être déposé ici (cela doit être {goodType})"
       },
+      "Effect": {
+        "ShowTokenIcon": "Montrer l'icône du jeton ?"
+      },
       "Plural": "Objets"
     },
     "ItemBonus0": "0",
@@ -780,6 +796,8 @@
     "ItemBonusShortLabel": "Objet",
     "ItemDescription": "Description",
     "ItemDetails": "Détails",
+    "ItemMystified": "Mystifié",
+    "ItemMystify": "Mystifier",
     "ItemNamePlaceholder": "Nom du conteneur",
     "ItemNewRuleElement": "Nouvel élément de règle",
     "ItemNewSkillVariant": "Nouvelle variante de compétence",
@@ -893,6 +911,7 @@
     "Level8": "Niveau 8",
     "Level9": "Niveau 9",
     "LevelLabel": "Niveau",
+    "LevelN": "Niveau  {level}",
     "Lore": "Connaissance",
     "LoreLoreSummary": "Sommaire des connaissances",
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
@@ -943,6 +962,7 @@
       "ability": "Caractéristique",
       "circumstance": "Circonstance",
       "item": "Objet",
+      "potency": "Puissance",
       "proficiency": "Maîtrise",
       "status": "Statut",
       "untyped": "Sans-type"
@@ -1278,6 +1298,10 @@
           "Hint": "Les traits peuvent être appliqués à toute créature aussi bien qu'à la plupart des types d'objet (ex : dragon, gnome)",
           "Name": "Traits de créature"
         },
+        "FeatTraits": {
+          "Hint": "Traits qui ne peuvent pas être appliqués aux dons (ie Lignage, Moine)",
+          "Name": "Traits de don"
+        },
         "Hint": "Régler les traits, les langues et d'autres éléments maison pour votre monde.",
         "Instructions": "Ces réglages permettent aux MJ d'ajouter des traits, des langues et d'autres éléments pour fabriquer leur propre monde. Pour ajouter de tels éléments, taper simplement les termes désirés dans les champs appropriés, séparés par des virgules ou la touche tabulation.ils vont alors apparaître dans les lieux appropriés sur les feuilles des acteurs et des objets. Pour mettre à jour un terme, cliquez dessus pour faire les changements désiré.",
         "Label": "Choisir les réglages maison",
@@ -1285,10 +1309,14 @@
           "Hint": "Langues à savoir ou à apprendre pour les personnages (ex: draconique, gnomien)",
           "Name": "Langues"
         },
-        "Name": "Réglages maison",
-        "SpellSchools": {
+        "MagicSchools": {
           "Hint": "Les écoles de magie auxquelles appartiennent tous les sort et la plupart des objets magiques (ex : conjuration, évocation)",
           "Name": "Écoles de magie"
+        },
+        "Name": "Réglages maison",
+        "SpellTraits": {
+          "Hint": "Les traits qui peuvent être appliqués à tout sort (ie Malédiction oraculaire, Soins)",
+          "Name": "Traits de sort"
         },
         "WeaponCategories": {
           "Hint": "Le niveau maximal de la taxonomie des armes de Pathfinder 2 (ex : Simple, de guerre)",
@@ -1345,6 +1373,16 @@
           "Hint": "Accorde des emplacements de dons supplémentaires pour les variantes de règles du Guide du maître (p.194)",
           "Name": "Variantes de règles : Parangon ancestral",
           "Title": "Parangon ancestral"
+        },
+        "AutomaticBonus": {
+          "Choices": {
+            "ABPFundamentalPotency": "Traiter la progression des bonus comme les runes fondamentales",
+            "ABPRulesAsWritten": "Utilisez les règles varaibles telles qu'écrites",
+            "noABP": "Utiliser les règles par défaut"
+          },
+          "Hint": "rechargement nécessaire : supporte la variante de règle de progression automatique du bonus, sauf les capacité de compétences et d'apogée",
+          "Name": "Variantes de règles de bonus automatique",
+          "Title": "Progression automatique du bonus"
         },
         "ExpertModifier": {
           "Hint": "Ajuster à votre convenance la maîtrise sans niveau issue des variantes de règles. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
@@ -1587,6 +1625,7 @@
     "SpellAttack": {
       "arcane": "Attaque de sort arcanique",
       "divine": "Attaque de sort divin",
+      "focus": "Attaque de sort focalisé",
       "occult": "Attaque de sort occulte",
       "primal": "Attaque de sort primordial"
     },
@@ -2441,6 +2480,7 @@
       "Weeks": "Semaine"
     },
     "TrickMagicItemPopup": {
+      "InvalidActor": "Seul un personnage ou un PNJ peut utiliser Usurpation d'objet magique",
       "Label": "Choisissez une compétence pour Usurpation d'objet magique",
       "Title": "Usurpation d'objet magique"
     },
@@ -2502,6 +2542,7 @@
         "bolts": "Carreaux",
         "buugeng": "Buugeng",
         "clan-dagger": "Dague de clan",
+        "claw": "Griffe",
         "claw-blade": "Lames griffues",
         "club": "Gourdin",
         "combat-grapnel": "Grappin de combat",
@@ -2543,6 +2584,7 @@
         "heavy-crossbow": "Arbalète lourde",
         "horsechopper": "Coupecheval",
         "javelin": "Javelot",
+        "jaws": "Morsure",
         "juggling-club": "Massue de jongleur",
         "kama": "Kama",
         "katana": "Katana",
