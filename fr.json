@@ -2556,7 +2556,7 @@
       "Base": {
         "adze": "Adze",
         "aklys": "Aklys",
-        "alchemical-bomb": "Bombre alchimique",
+        "alchemical-bomb": "Bombe alchimique",
         "alchemical-crossbow": "Arbalète alchimique",
         "aldori-dueling-sword": "Épée de duel aldorie",
         "arrows": "Flèches",
@@ -3138,7 +3138,7 @@
         "weapon": "Arme non identifiée"
       },
       "Mystify": "Mystifier un objet",
-      "UnidentifiedItem": "Objet non identifié"
+      "UnidentifiedItem": "Objet inhabituel"
     },
     "loot": {
       "DepositMessage": "{depositor} dépose {quantity} × {item} dans {container}.",
