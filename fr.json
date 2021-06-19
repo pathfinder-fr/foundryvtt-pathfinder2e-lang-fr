@@ -119,6 +119,7 @@
       "ForceOpen": "Ouvrir de force",
       "GatherInformation": "Recueillir des informations",
       "Grapple": "Saisir",
+      "Hide": "Se Cacher",
       "HighJump": "Sauter en hauteur",
       "Impersonate": "Se déguiser",
       "Lie": "Mentir",
@@ -129,15 +130,18 @@
         "BadArgs": "Cette action doit être accompli avec exctement un PJ ou un PNJ.",
         "Content": "{actor} lève son bouclier.",
         "NoShieldEquipped": "{actor} doit avoir un bouclier équipé.",
+        "ReactionTitle": "Bouclier réactif",
         "ShieldIsBroken": "{shield} de {actor} est cassé.",
-        "Title": "Lever un bouclier"
+        "SingleActionTitle": "Lever un bouclier"
       },
       "Request": "Solliciter",
       "Seek": "Chercher",
+      "SenseMotive": "DEviner les intentions",
       "ShieldBlock": {
         "SelectAShield": "Choisir un bouclier"
       },
       "Shove": "Pousser",
+      "Sneak": "Être furtif",
       "Squeeze": "Se faufiler",
       "SteelYourResolve": {
         "BadArgs": "Cette action doit être accomplie avec seulement un personnage ou un PNJ",
@@ -251,9 +255,12 @@
     "AreaSize20": "20 Feet (6 m)",
     "AreaSize30": "30 Feet (9 m)",
     "AreaSize40": "40 Feet (12 m)",
+    "AreaSize45": "45 Feet (13,5 m)",
     "AreaSize5": "5 Feet (1,5 m)",
     "AreaSize50": "50 Feet (15 m)",
     "AreaSize60": "60 Feet (18 m)",
+    "AreaSize75": "75 Feet (22,5 m)",
+    "AreaSize90": "90 Feet (27 m)",
     "AreaTypeBurst": "Explosion",
     "AreaTypeCone": "Cône",
     "AreaTypeEmanation": "Émanation",
@@ -556,7 +563,15 @@
     "CreateLabelUniversal": "Créer",
     "CreateSkillTitle": "Créer une Compétence",
     "CreateSpellTitle": "Créer un Sort",
-    "CreatureArmorClass": "CA de {creature}",
+    "CreatureStatisticDC": {
+      "ac": "CA de {creature} : {dc}",
+      "deception": "DD Duperie de {creature} : {dc}",
+      "fortitude": "DD Vigueur de {creature} : {dc}",
+      "perception": "DD Perception de {creature} : {dc}",
+      "reflex": "DD de Réflexes de {creature} : {dc}",
+      "stealth": "DD de Discrétion de {creature} : {dc}",
+      "will": "DD de Volonté de {creature} : {dc}"
+    },
     "CritFailure": "<strong>Échec critique</strong>",
     "CritSuccess": "<strong>Succès Critique</strong>",
     "CriticalDamageLabel": "Critique",
@@ -638,13 +653,7 @@
     "DeleteSpellcastEntryWarning": "ATTENTION: Tous les sorts de cette entrée d’incantation des sorts vont aussi être effacés",
     "DenominationLabel": "Dénomination",
     "DetailsHeading": "Détails",
-    "DoomedLabel": "Condamné",
-    "DoomedTitle": "L'intensité maximale de l'état mourant à laquelle vous mourrez est réduite par la valeur de l'intensité condamné.",
     "DragDropFeats": "Glisser & déposer les dons pour les ajouter",
-    "Dying": {
-      "label": "Mourant",
-      "title": "Lorsque vous êtes mourant, vous êtes inconscient. Si elle atteint l'intensité maximale, vous êtes mort. Lancez un test de récupération à chaque tour."
-    },
     "EditHazardLabel": "Éditer un Danger ?",
     "EditItemTitle": "Éditer l’objet",
     "EditLabel": "Éditer ?",
@@ -735,6 +744,7 @@
     "FlatBonusSP": "Bonus fixe au PE",
     "FlatBonusSPTitle": "Ajoute un nombre fixe à vos Points d'Endurance'",
     "FlatBonusSPperLevel": "Bonus PE / Niv",
+    "FlatCheck": "Test nu",
     "Focus": {
       "NotEnoughFocusPointsError": "Vous n'avez pas suffisamment de points de focalisation pour lancer ce sort.",
       "label": "Points de Focalisation",
@@ -998,6 +1008,13 @@
     "MaxStaminaPointsShortLabel": "PE Max",
     "MaxStaminaTitle": "Votre Maximum de Points d’Endurance",
     "MetalStrikes": "Frappe de métal",
+    "Migrations": {
+      "Finished": "Migration du Systèle PF2 vers la version {version} terminée !",
+      "OnlyGMCanUse": "Seul un MJ peut utiliser cet outil.",
+      "OutsideSchemaRange": "La portée spécifiée est en dehors du schéma du système (entre {minimum} et {maximum}).",
+      "Starting": "Applique la migration du système PF2 vers la version {version}. Soyez patient et ne fermez pas votre partie ou n'éteignez pas votre serveur.",
+      "WorldNotReady": "Le monde n'est pas prêt: essayez de nouveau dans quelques secondes."
+    },
     "ModifierTitle": "Modif.",
     "ModifierType": {
       "ability": "Caractéristique",
@@ -1291,9 +1308,21 @@
     },
     "SETTINGS": {
       "Automation": {
+        "EffectExpiration": {
+          "Hint": "Les effets désactivent automatiquement les éléments de règle attachées lorsque la durée expire.",
+          "Name": "Expiration auto des effets"
+        },
+        "Hint": "Décidez combien et quelle sorte d'automatisation appliquer à votre monde.",
+        "Instructions": "Décidez combien et quelle sorte d'automatisation appliquer à votre monde.",
+        "Label": "régler l'automatisation",
         "LootableNPCs": {
           "Hint": "Lorsqu'ils sont défaits, les PNJ peuvent être fouillés par les joueurs.",
           "Name": "Les PNJ peuvent être fouillés"
+        },
+        "Name": "Automatisation",
+        "RulesBasedVision": {
+          "Hint": "Appliquer les mécaniques des règles de vision de Pathfinder 2e. Activer ce règlage va désactiver la vision globale sans restriction et la configuration de la vision du jeton. ATTENTION: ce dispositif est expérimental et incompatible avec le module Perfect vision.",
+          "Name": "vision basée sur les règles."
         }
       },
       "CompendiumBrowserPacks": {
@@ -1380,9 +1409,23 @@
         "Hint": "Activer pour ignorer le poids de la monnaie",
         "Name": "Les pièces n'ont pas de poids"
       },
-      "IgnoreContainerOverflow": {
-        "Hint": "Lorsqu'activé, un sac à dos et une sacoche avec chacun 999 pièces aboutiront à 0 Encombrement. Lorsque désactivé, l'exemple donné se cumule pour donner un Encombrement de 1.",
-        "Name": "Ne combine pas les piles de différents conteneurs lorsque vous calculez l'Encombrement"
+      "Metagame": {
+        "SecretCondition": {
+          "Hint": "Lorsqu'activé, seul le MJ verra l'état mis à jour et les messages de rappel qui sont générés pour les jetons qui n'appartiennent pas à un joueur.",
+          "Name": "Masquer le message de mise à jour de l'état"
+        },
+        "SecretDamage": {
+          "Hint": "Lorsqu'activé, seul le MJ verra les messages des dégâts/soins pris qui sont générés par les cartes de chat pour les jetons qui n'appartiennent pas à un joueur.",
+          "Name": "Masque les messages des dégâts subis."
+        },
+        "ShowDC": {
+          "All": "Tous",
+          "Gm": "MJ",
+          "Hint": "Décidez qui peut voir le résultat de votre jet dans le chat.",
+          "Name": "Montre le DD sur les jets d'attaque et de sauvegarde",
+          "None": "Aucun",
+          "Owner": "Propriétaire"
+        }
       },
       "PFSSheetTab": {
         "Hint": "Montrer l'onglet de la Société des Éclaireurs sur la Feuille de Personnage",
@@ -2089,6 +2132,7 @@
     "TraitDescriptionSonic": "Les effets dotés du trait son fonctionne seulement s’ils peuvent produire un son et ils se trouvent ainsi inopérants dans une zone de silence ou dans le vide. Il s’agit d’un fonctionnement différent de celui d’un sort audible, qui est seulement efficace contre une cible capable de l’entendre. Un effet de son peut infliger des dégâts de son.",
     "TraitDescriptionSorcerer": "Ce trait caractérise les pouvoirs liés à la classe Ensorceleur",
     "TraitDescriptionSplash": "Quand vous utilisez une arme de jet dotée du trait éclaboussure, vous n’ajoutez pas votre modificateur de Force au jet de dégâts. Si une attaque dotée du trait éclaboussure se solde par un échec, un succès ou un succès critique, toutes les créatures dans un rayon de 1,5 m autour de la cible (y compris cette dernière) reçoivent les dégâts d’éclaboussure indiqués. Sur un échec (mais pas un échec critique), la cible de l’attaque reçoit tout de même les dégâts d’éclaboussure. Ajoutez les dégâts d’éclaboussure aux dégâts initiaux infligés à la cible avant d’appliquer ses résistances ou ses faiblesses. Les dégâts d’éclaboussure ne se multiplient pas sur un coup critique.",
+    "TraitDescriptionSplash10": "Quand vous utilisez une arme de jet dotée du trait éclaboussure, vous n’ajoutez pas votre modificateur de Force au jet de dégâts. Si une attaque dotée du trait éclaboussure se solde par un échec, un succès ou un succès critique, toutes les créatures dans un rayon de 3 m autour de la cible (y compris cette dernière) reçoivent les dégâts d’éclaboussure indiqués. Sur un échec (mais pas un échec critique), la cible de l’attaque reçoit tout de même les dégâts d’éclaboussure. Ajoutez les dégâts d’éclaboussure aux dégâts initiaux infligés à la cible avant d’appliquer ses résistances ou ses faiblesses. Les dégâts d’éclaboussure ne se multiplient pas sur un coup critique.",
     "TraitDescriptionStance": "Une posture est une stratégie de combat générale que vous adoptez en effectuant une action dotée du trait posture, puis conservez pendant un certain temps. Vous conservez votre posture jusqu’à ce que vous soyez Assommé, jusqu’à ce que les conditions qui lui sont associées (s’il y en a) ne soient plus respectées ou jusqu’à ce que vous adoptiez une nouvelle posture. Après avoir utilisé une action dotée du trait posture, vous ne pouvez pas entreprendre une autre action de ce type pendant 1 round. Vous ne pouvez adopter ou conserver une posture que lors du mode rencontre.",
     "TraitDescriptionSummoned": "<p>Une créature appelée par un sort ou un effet d’invocation gagne le trait convoqué. Une créature convoquée ne peut pas en convoquer d’autres, créer des objets de valeur ni lancer de sort exigeant un coût. Elle dispose du trait sbire. Si elle tente de lancer un sort d’un niveau supérieur ou égal au sort qui l’a convoquée, celui‑ci prend le pas sur la magie de convocation avec les conséquences suivantes : le sort de la créature convoquée échoue et le sort de convocation prend fin. La créature convoquée possède sinon les pouvoirs habituels d’un individu de son espèce. Elle attaque généralement vos ennemis de son mieux. Si vous êtes en mesure de communiquer avec elle, vous pouvez tenter de lui donner des ordres, mais c’est au MJ de déterminer dans quelle mesure elle les suit.</p><p> La créature convoquée utilise ses deux actions du tour dès que vous avez fini de Lancer le sort. Divers sorts et effets permettent de bannir une créature convoquée. Une telle créature est automatiquement bannie si elle tombe à 0 point de vie ou si le sort qui l’a appelée se termine.</p>",
     "TraitDescriptionSwashbuckler": "Cela indique des capacités de la classe de Bretteur.",
@@ -2098,6 +2142,7 @@
     "TraitDescriptionTengu": "Une créature avec ce trait possède l'héritage tengu.",
     "TraitDescriptionTethered": "Cette arme est attachée à une longueur de corde ou à une chaîne qui vous permet de la récupérer après l’avoir lancée. Si vous avez une main libre alors que vous maniez cette arme, vous pouvez utiliser une action Interagir pour la reprendre en main après l’avoir lancée lors d’une attaque à distance ou si vous avez été désarmé (à moins qu’elle ne soit tenue par une autre créature).",
     "TraitDescriptionThrown10": "Vous pouvez lancer cette arme lors d’une attaque à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée.",
+    "TraitDescriptionThrown15": "Vous pouvez lancer cette arme lors d’une attaque à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée.",
     "TraitDescriptionThrown20": "Vous pouvez lancer cette arme lors d’une attaque à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée.",
     "TraitDescriptionThrown30": "Vous pouvez lancer cette arme lors d’une attaque à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée.",
     "TraitDescriptionThrown40": "Vous pouvez lancer cette arme lors d’une attaque à distance. Une arme de jet ajoute votre modificateur de Force aux dégâts, tout comme une arme de corps à corps. Lorsque ce trait est associé à une arme de corps à corps, il inclut également le facteur de portée.",
@@ -2376,7 +2421,8 @@
     "TraitSorcerer": "Ensorceleur",
     "TraitSoulbound": "Âme",
     "TraitSpirit": "Esprit",
-    "TraitSplash": "Aspersion",
+    "TraitSplash": "Éclaboussure",
+    "TraitSplash10": "Éclaboussure (3m)",
     "TraitSpriggan": "Spriggan",
     "TraitSprite": "Esprit follet",
     "TraitStaff": "Bâton",
@@ -2399,6 +2445,7 @@
     "TraitTengu": "Tengu",
     "TraitTethered": "Rappel",
     "TraitThrown10": "Jet 10 ft (3m)",
+    "TraitThrown15": "Jet 15 ft (4,5m)",
     "TraitThrown20": "Jet 20 ft (6m)",
     "TraitThrown30": "Jet 30 ft (9m)",
     "TraitThrown40": "Jet 40 ft (12m)",
@@ -2556,7 +2603,7 @@
       "Base": {
         "adze": "Adze",
         "aklys": "Aklys",
-        "alchemical-bomb": "Bombe alchimique",
+        "alchemical-bomb": "Bombre alchimique",
         "alchemical-crossbow": "Arbalète alchimique",
         "aldori-dueling-sword": "Épée de duel aldorie",
         "arrows": "Flèches",
@@ -2739,6 +2786,7 @@
     "WeaponGroupSling": "Fronde",
     "WeaponGroupSpear": "Lance",
     "WeaponGroupSword": "Épée",
+    "WeaponGroups": "Groupes d'armes",
     "WeaponHands1": "Une",
     "WeaponHands1Plus": "Une-plus",
     "WeaponHands2": "Deux",
@@ -2880,8 +2928,6 @@
         "Weeks": "Semaines"
       }
     },
-    "WoundsLabel": "Blessé",
-    "WoundsTitle": "Chaque fois que vous perdez la condition mourant, votre condition blessé augmente de 1. Chaque fois que vous augmentez votre condition mourant en subissant des dégâts, l'intensité de la condition blessé est également ajoutée à celle de mourant.",
     "condition": {
       "blinded": {
         "name": "Aveugle",
@@ -3102,45 +3148,47 @@
     },
     "identification": {
       "Identify": "Identifier un objet",
-      "IdentifyAlchemyDCs": "DD pour Identifier l'alchimie",
-      "IdentifyGenericDCs": "DD pour Identifier de manière générique",
+      "IdentifyAlchemyDCs": "DD pour identifier l'Alchimie",
+      "IdentifyGenericDCs": "DD pour identifier générique",
       "IdentifyMagicDCs": "DD pour Identifier la magie",
       "IsIdentified": "Identifié ?",
-      "ItemType": {
-        "ArmorType": {
-          "heavy": "Armure lourde non identifiée",
-          "light": "Armure légère non identifiée",
-          "medium": "Armure intermédiaire non identifiée",
-          "shield": "Bouclier non identifié"
-        },
-        "WeaponType": {
-          "axe": "Hache non identifiée",
-          "bomb": "Bombe non identifiée",
-          "bow": "Arc non identifié",
-          "club": "Massue non identifiée",
-          "dart": "Fléchette non identifiée",
-          "flail": "Fléau non identifié",
-          "hammer": "Marteau non identifié",
-          "knife": "Couteau non identifié",
-          "pick": "Pic non identifié",
-          "polearm": "Arme d'hast non identifiée",
-          "shield": "Bouclier non identifié",
-          "sling": "Fronde non identifiée",
-          "spear": "Lance non identifiée",
-          "sword": "Épée non identifiée"
-        },
-        "armor": "Armure non identifiée",
-        "backpack": "Contenant non identifié",
-        "consumable": "Consommable non identifié",
-        "equipment": "Équipement non identifié",
-        "kit": "Kit non identifié",
-        "treasure": "Trésor non identifié",
-        "weapon": "Arme non identifiée"
-      },
+      "MisidentifiedItem": "{item} mal identifié",
+      "Misidentify": "Objet mal identifié",
       "Mystify": "Mystifier un objet",
-      "UnidentifiedItem": "Objet inhabituel"
+      "TraitGMNote": "Note: ce trait est caché aux joueurs",
+      "UnidentifiedDescription": "La nature de cet {item} n'est pas claire.",
+      "UnidentifiedHint": "Changez les détails de l'affichage de base de cet élément lorsqu'il n'est pas identifié.",
+      "UnidentifiedItem": "Objet non identifié",
+      "UnidentifiedType": {
+        "Amulet": "Amulette",
+        "Anklets": "Chaînes de cheville",
+        "Armbands": "Brassards",
+        "Backpack": "Sac-à-dos",
+        "Belt": "Ceinture",
+        "Book": "Livre",
+        "Bracers": "Bracelets",
+        "Circlet": "Serre-tête",
+        "Cloak": "Cape",
+        "Collar": "Collier",
+        "Epaulets": "Épaulettes",
+        "Eyepiece": "Oculaire",
+        "Garment": "Vêtements",
+        "Gloves": "Gants",
+        "Headwear": "Couvre-chef",
+        "Horseshoes": "fers à cheval",
+        "Liquid": "Liquide",
+        "Mask": "Masque",
+        "Necklace": "Pendentif",
+        "Object": "Objet",
+        "Ring": "Anneau",
+        "Saddle": "Selle",
+        "Shoes": "Chaussures",
+        "Substance": "Substance",
+        "Tool": "Outil"
+      }
     },
     "loot": {
+      "BuySubtitle": "Acheter l'objet",
       "DepositMessage": "{depositor} dépose {quantity} × {item} dans {container}.",
       "DepositSubtitle": "Déposer un objet",
       "EditLootLabel": "Editer le butin ?",
@@ -3148,22 +3196,33 @@
       "GMSupervisionError": "Un MJ doit être en ligne en vue d'interagir avec {loot}.",
       "GiveMessage": "{giver} donne {quantity} × {item} à {recipient}.",
       "GiveSubtitle": "Donner un objet",
+      "HiddenWhenEmpty": {
+        "CurrentlyHidden": "Actuellement caché",
+        "CurrentlyVisible": "Actuellement visible",
+        "Hint": "Cacher le jeton de cet acteur lorsque son inventaire est vide",
+        "Label": "Caché quand il est vide"
+      },
       "InsufficientCurrencyError": "Pas suffisamment de fonds pour acheter par",
       "InsufficientFundsMessage": "{buyer} n'a pas assez de pièces !",
       "LootDescription": "Permet la répartition des pièces parmi les joueurs",
       "LootLabel": "Butin",
+      "LootMessage": "{looter} prend {quantity} × {item} sur {corpse}.",
       "LootNPCsLabel": "Piller les jetons choisis",
       "LootNPCsPopupHeader": "Choisissez les jetons dont vous voulez tirer du butin",
       "LootNamePlaceholder": "Butin",
+      "LootSubtitle": "Prendre un objet",
       "MerchantDescription": "Permet aux joueurs d'acheter des objets directement à partir de la feuille",
       "MerchantLabel": "Marchand",
       "MoveLoot": "Déplacer des objets",
       "MoveLootMessage": "Combien d'objets voulez-vous déplacer ?",
       "MoveLootPopupTitle": "Déplacer un butin",
       "PermissionError": "Un MJ doit être en ligne pour récupérer ou ranger un objet.",
+      "PlantMessage": "{planter} dépose {quantity} × {item} sur {corpse}.",
+      "PlantSubtitle": "Déposer un objet",
       "Quantity": "Quantité",
       "SellMessage": "{seller} vend {quantity} × {item} à {buyer}.",
       "SellSubtitle": "Vendre un objet",
+      "SheetType": "Type de feuille",
       "SplitCoinsLabel": "Distribuer les pièces",
       "SplitCoinsPopupHeader": "Choisissez les acteurs qui reçoivent une part",
       "TakeMessage": "{taker} prend {quantity} × {item} dans {container}.",
