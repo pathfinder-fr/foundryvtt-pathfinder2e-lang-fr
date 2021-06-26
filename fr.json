@@ -66,7 +66,6 @@
     "AbilityStr": "Force",
     "AbilityTitle": "Caractéristique",
     "AbilityWis": "Sagesse",
-    "ActionActionSummary": "Sommaire des actions",
     "ActionActionTypeLabel": "Type d’action",
     "ActionActionsLabel": "Actions",
     "ActionBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
@@ -152,7 +151,14 @@
         "Title": "Moral d'acier"
       },
       "Swim": "Nager",
-      "Trip": "Mettre à terre",
+      "Trip": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous perdez l'équilire et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "criticalSuccess": "<b>Succès critique</b> La cible est déséquilibrée et tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre} et subit [[/r 1d6[bludgeoning] # dégâts contondants]]{1d6} dégâts contondants.",
+          "success": "<b>Succès</b> La cible perd l'équilibre et tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}."
+        },
+        "Title": "Croc-en-jambe"
+      },
       "TumbleThrough": "Déplacement acrobatique"
     },
     "ActionsActionsHeader": "Actions Uniques",
@@ -244,9 +250,6 @@
     "AncestryFeatLevels": "Niveaux des dons ancestraux",
     "AncestryFeatures": "Capacités d'ascendance",
     "AncestryHP": "PV d’Ascendance",
-    "AncestryItem": {
-      "Summary": "Sommaire ascendance"
-    },
     "AncestryTitle": "Ascendance de votre personnage",
     "AreaSize10": "10 Feet (3 m)",
     "AreaSize100": "100 foot (30 m)",
@@ -266,7 +269,6 @@
     "AreaTypeEmanation": "Émanation",
     "AreaTypeLine": "Ligne",
     "ArmorArmorLabel": "Bonus à la CA",
-    "ArmorArmorSummary": "Sommaire des armures",
     "ArmorArmorTypeLabel": "Type d’armure",
     "ArmorBaseLabel": "Base",
     "ArmorCheckLabel": "Pénalité au test",
@@ -360,9 +362,6 @@
       "savePotency": "Puissance de jet de sauvegarde"
     },
     "Background": "Historique",
-    "BackgroundItem": {
-      "Summary": "Sommaire de l'historique"
-    },
     "BackgroundSkillFeats": "Dons de compétence",
     "BackgroundTitle": "Historique de votre personnage",
     "BaseModifier": "Modif. Base",
@@ -415,6 +414,7 @@
     "BrowserSortyByLabel": "Trier par",
     "BrowserSortyByLevelLabel": "Niveau",
     "BrowserSortyByNameLabel": "Nom",
+    "BrowserSortyByPriceLabel": "Prix",
     "BulkCapacityLabel": "Contient un montant d'encombrement",
     "BulkLabel": "Encombrement",
     "BulkMaxLabel": "Encombrement Max",
@@ -443,10 +443,11 @@
     "ClassFeatLevels": "Niveaux des dons de classe",
     "ClassFeatures": "Capacités de classe",
     "ClassHP": "PV de Classe",
-    "ClassSummary": "Sommaire de classe",
     "ClassTitle": "Votre classe de personnage",
     "ClickToSetInitiative": "Cliquez pour définir l’Initiative du ou des Token(s) sélectionnés.",
     "CompendiumBrowser": {
+      "AddedItem": "{item} ajouté à l'acteur(s) sélectionné(s)",
+      "AddedItemToCharacter": "{item} ajouté à {character}.",
       "TabAction": "Actions",
       "TabBestiary": "Bestiaire",
       "TabEquipment": "Équipement",
@@ -480,7 +481,6 @@
       "ImmutableTitle": "Valeur ne peut être réduite",
       "PerpetualLabel": "Condition perpétuelle",
       "RemovableLabel": "Réductible",
-      "Summary": "Sommaire de la condition",
       "ValueLabel": "Valeur"
     },
     "ConditionTypeBlinded": "Aveuglé",
@@ -556,6 +556,7 @@
       "Hint": "Si vous contrez une affliction, le DCD est dans les statistiques de l'affliction. Si c'est un sort, utilisez le DD du lanceur. Le MJ peut aussi calculer un DD basé sur le niveau de l'effet cible.",
       "Success": "Countrer la cible si son niveau de contre est {level} ou moins."
     },
+    "Counteractable": "Contrable",
     "CreateActionTitle": "Créer une Action",
     "CreateAttackTitle": "Créer une Attaque",
     "CreateFeatTitle": "Créer un Don",
@@ -679,11 +680,9 @@
       "Sustained": "Maintenu(e)",
       "UnlimitedDuration": "Sans limite de durée"
     },
-    "EffectSummary": "Résumé de l'effet",
     "EffectsLabel": "Effets",
     "EmptySlot": "Emplacement vide",
     "EquipmentEquippedLabel": "Équipé",
-    "EquipmentSummary": "Résumé de l’équipement",
     "EquippedBulkLabel": "Enc. porté",
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
@@ -715,7 +714,6 @@
     "FeatDeityBoonCursesHeader": "Bénédictions/Malédictions",
     "FeatDeityBoonHeader": "Faveurs de la divinité",
     "FeatDeityboonHeader": "Bénédiction de divinité",
-    "FeatFeatSummary": "Sommaire des dons",
     "FeatGeneralHeader": "Dons généraux",
     "FeatLevelLabel": "Niveau",
     "FeatPFSBoonHeader": "Avantages Société des Éclaireurs",
@@ -836,7 +834,40 @@
       },
       "IconLabel": "Icône",
       "NameLabel": "Nom",
-      "Plural": "Objets"
+      "Physical": {
+        "LevelLabel": "objet {level}",
+        "PriceLabel": "Prix: {price}"
+      },
+      "Plural": "Objets",
+      "SidebarSummary": "Sommaire des {type}",
+      "Weapon": {
+        "FromMaterialAndRunes": "Du fait des matériaux et runes: {value}",
+        "GeneratedName": {
+          "Hint": "C’est le nom de l’arme de base. Pour la plupart des armes, la base est utilisée pour générer un nom plus complet, en prenant en compte le matériau de composition et/ou les runes. Donner à cette arme un nom différent ou la marquer comme \"specific\" empêchera de faire apparaître le nom généré.",
+          "Material": "{base} en {material}",
+          "Potency": "{base} +{potency}",
+          "PotencyMaterial": "{base} en {material} +{potency}",
+          "PotencyStriking": "{base} {striking} +{potency}",
+          "PotencyStrikingFourProperties": "{base} {property1} {property2} {property3} {property4} {striking} +{potency}",
+          "PotencyStrikingFourPropertiesMaterial": "{base} en {material} {property1} {property2} {property3} {property4} {striking} +{potency}",
+          "PotencyStrikingMaterial": "{base} en {material} {striking} +{potency}",
+          "PotencyStrikingOneProperty": "{base} {property1} {striking} +{potency}",
+          "PotencyStrikingOnePropertyMaterial": "{base} en {material} {property1} {striking} +{potency}",
+          "PotencyStrikingThreeProperties": "{base} {property1} {property2} {property3} {striking} +{potency}",
+          "PotencyStrikingThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3}  {striking} +{potency}",
+          "PotencyStrikingTwoProperties": "{base} {property1} {property2} {striking} +{potency}",
+          "PotencyStrikingTwoPropertiesMaterial": "{base} en {material} {property1} {property2} {striking} +{potency}"
+        },
+        "MaterialAndRunes": {
+          "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquer la comme une <i>arme magique spécifique</i>.",
+          "MaterialOption": "{type} ({grade})",
+          "Title": "Matériau et runes"
+        },
+        "SpecificMagicWeapon": {
+          "Hint": "Marquer cette arme comme <i>arme magique spécifique</i> indique qu’elle fait plus que ce que ses composantes matérielles et ses runes permettent. Le nom, niveau et le prix ne seront plus affectés en fonction du matériau précieux ou des runes au moment où elle est marquée. Ces matériaux et ses runes serviront quoi qu’il en soit comme une indication de base pour les ajustements de niveau, la rareté et le prix à partir des améliorations ultérieures.",
+          "Label": "Arme magique spécifique"
+        }
+      }
     },
     "ItemBonus0": "0",
     "ItemBonus1": "Puissance d’arme +1",
@@ -855,7 +886,6 @@
     "ItemNotSupportedOnActor": "Objet pas supporté sur l'acteur",
     "ItemRemoveRuleElement": "Retirer élément de règle",
     "ItemRules": "Règles",
-    "ItemSummary": "Sommaire des objets",
     "ItemTitle": "Objet",
     "ItemsLabel": "Objets",
     "JournalEntry": {
@@ -875,6 +905,7 @@
     "LanguageAndroffan": "Androffan",
     "LanguageAquan": "Aquatique",
     "LanguageArboreal": "Arboréen",
+    "LanguageArcadian": "Arcadien",
     "LanguageAuran": "Aérien",
     "LanguageAzlanti": "Azlant",
     "LanguageBoggard": "Bourbiérin",
@@ -964,7 +995,6 @@
     "LevelLabel": "Niveau",
     "LevelN": "Niveau  {level}",
     "Lore": "Connaissance",
-    "LoreLoreSummary": "Sommaire des connaissances",
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
     "LoreSkillFormat": "Connaissance {name}",
     "LoreSkillsHeader": "Compétences de Connaissances",
@@ -1138,12 +1168,21 @@
     "NoStackGroup": "Ne se cumule pas",
     "NoneOption": "Aucune",
     "OneDegreeBetter": "un degré meilleur",
-    "OneDegreeWorse": "un degré pire",
+    "OneDegreeWorse": "un degré inférieur",
     "OpenActionBrowserTitle": "Ouvrir le menu des Actions",
     "OpenFeatBrowserTitle": "Ouvrir le menu des Dons",
     "OpenInventoryBrowser": "Ouvrir le Menu Inventaire",
     "OpenItemTitle": "Activer le contenu du conteneur",
     "OpenSpellBrowserTitle": "Ouvrir le Menu Sort",
+    "OrdinalNumber": "{value}{suffix}",
+    "OrdinalSuffixes": {
+      "few": "e",
+      "many": "e",
+      "one": "er",
+      "other": "e",
+      "two": "e",
+      "zero": "e"
+    },
     "OrphanedSpellsHeader": "Sorts orphelins (déplacer dans l’entrée de lancement de sort ci-dessus)",
     "PFS": {
       "CharacterNumber": "Pesonnage #",
@@ -1423,6 +1462,14 @@
           "Gm": "MJ",
           "Hint": "Décidez qui peut voir le résultat de votre jet dans le chat.",
           "Name": "Montre le DD sur les jets d'attaque et de sauvegarde",
+          "None": "Aucun",
+          "Owner": "Propriétaire"
+        },
+        "ShowResults": {
+          "All": "Tous",
+          "Gm": "MJ",
+          "Hint": "Décidez qui peut voir le résultat d'un test/jet à partir d'une carte du chat.",
+          "Name": "Montrer les résultats de l'attaque et des jets de sauvegarde",
           "None": "Aucun",
           "Owner": "Propriétaire"
         }
@@ -1718,6 +1765,7 @@
     "SpellCantripLabel": "Tour de magie",
     "SpellCastingFormat": "Sort {tradition} {preparation Type}",
     "SpellCategoryFocus": "Focalisation",
+    "SpellCategoryFocusCantrip": "Tour de magie focalisé",
     "SpellCategoryLabel": "Catégorie de sort",
     "SpellCategoryRitual": "Rituel",
     "SpellCategorySpell": "Sort",
@@ -1737,7 +1785,7 @@
     "SpellFocusLabel": "Focalisation",
     "SpellLabel": "Sort",
     "SpellLabelPlural": "Sorts",
-    "SpellLevel0": "Tour de magie",
+    "SpellLevel": "{category} {level}",
     "SpellLevel1": "Niveau 1",
     "SpellLevel10": "Niveau 10",
     "SpellLevel2": "Niveau 2",
@@ -1748,6 +1796,8 @@
     "SpellLevel7": "Niveau 7",
     "SpellLevel8": "Niveau 8",
     "SpellLevel9": "Niveau 9",
+    "SpellLevelBase": "Base: {level}",
+    "SpellLevelHeightened": "Intensifié: +{heightened}",
     "SpellLevelLabel": "Niveau de sort",
     "SpellPreparedLabel": "Préparé",
     "SpellPrimaryCheckLabel": "Test principal",
@@ -1774,7 +1824,6 @@
     "SpellSecondaryCasters": "Incantateurs secondaires",
     "SpellSecondaryChecksLabel": "Tests secondaires",
     "SpellSlotEmpty": "Emplacement libre (déposer le sort ici)",
-    "SpellSummary": "Sommaire des sorts",
     "SpellTargetLabel": "Cible",
     "SpellTimeLabel": "Temps d’incantation",
     "SpellTraditionArcane": "Arcanique",
@@ -1858,7 +1907,6 @@
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
     "ToggleWithName": "Activer : {property}",
     "TogglesLabel": "Activations",
-    "ToolHeading": "Sommaire des outils",
     "TotalCoinage": "Total des pièces",
     "TotalTreasure": "Trésor total",
     "TotalWealth": "Fortune totale",
@@ -1949,6 +1997,7 @@
     "TraitDeadly2D8": "Mortel 2d8",
     "TraitDeadly3D10": "Mortel 3d10",
     "TraitDeadly3D12": "Mortel 3d12",
+    "TraitDeadly3D8": "Mortel 3d8",
     "TraitDeadlyD10": "Mortel d10",
     "TraitDeadlyD12": "Mortel d12",
     "TraitDeadlyD6": "Mortel d6",
@@ -2122,6 +2171,7 @@
     "TraitDescriptionRepeating": "Une arme à répétition est typiquement une sorte d’arbalète qui a un temps de rechargement plus faible. Ces armes ne peuvent être chargées avec des carreaux individuels comme les autres arbalètes ; à la place, elles nécessitent un magasin de munitions particulières qui doit être chargé dans un emplacement spécial. Une fois le magasin en place, la munition est automatiquement chargée chaque fois que l’arme est chargée pour tirer, réduisant son temps de chargement à la valeur de rechargement indiquée dans l’entrée (typiquement à 0). Lorsqu’il n’y a plus de munitions, un nouveau magasin doit être chargé, ce qui nécessite une main libre et 3 actions Interagir (pour retirer l’ancien magasin, récupérer le nouveau magasin et mettre en place le nouveau magasin). Ces actions n’ont pas à être consécutives.",
     "TraitDescriptionRevelation": "Les effets dotés de ce trait permettent de voir les choses telles qu’elles sont réellement",
     "TraitDescriptionRogue": "Ce trait caractérise les pouvoirs liés à la classe Roublard",
+    "TraitDescriptionSaggorak": "Les forgerons nains antiques de Saggorak ont conçu une série de runes singulièrement puissantes. Seul quelqu’un disposant d’une maîtrise légendaire en Artisanat ou un artisan nain s’y connaissant originaire de la ville de Kovlar peut appliquer, transférer ou retirer une rune avec le trait Saggorak. Compte tenu de leur puissance considérable, toutes les runes de Saggorak prennent deux emplacements de runes et elles ne peuvent en conséquence qu’être placées sur des armures et des armes ayant au moins une rune de puissance de +2.",
     "TraitDescriptionScrying": "Un effet de scrutation vous permet de voir, d’entendre, ou d’obtenir une information sensorielle à distance à l’aide d’un capteur ou d’un autre dispositif remplaçant vos propres yeux et oreilles.",
     "TraitDescriptionSecret": "Le MJ fait secrètement le test correspondant à ce pouvoir.",
     "TraitDescriptionShadow": "Cette magie est liée aux ombres ou à l’énergie du plan de l’ombre.",
@@ -2564,6 +2614,8 @@
       "Label": "Choisissez une compétence pour Usurpation d'objet magique",
       "Title": "Usurpation d'objet magique"
     },
+    "TwoDegreesBetter": "deux degrés supérieurs",
+    "TwoDegreesWorse": "deux degrés inférieurs",
     "UI": {
       "applyDamage": {
         "by": "par",
@@ -2792,7 +2844,6 @@
     "WeaponHands2": "Deux",
     "WeaponMAPDefaultOption": "Défaut (utiliser le trait Agile si présent)",
     "WeaponMAPLabel": "Pén. Att. Mult.",
-    "WeaponMaterialLabel": "Martériau & Qualité",
     "WeaponPotencyRune1": "Puissance d'arme (+1)",
     "WeaponPotencyRune2": "Puissance d'arme (+2)",
     "WeaponPotencyRune3": "Puissance d'arme (+3)",
@@ -2852,11 +2903,9 @@
     "WeaponRangeMelee": "Corps à corps",
     "WeaponRangeReach": "À distance",
     "WeaponReloadLabel": "Temps de rechargement",
-    "WeaponRunesLabel": "Runes d'arme",
     "WeaponSpecialization": "Spécialisation martiale",
     "WeaponSplashDamageLabel": "Dégâts d'aspersion",
     "WeaponStrikeLabel": "Frappe",
-    "WeaponSummary": "Sommaire des armes",
     "WeaponTypeAdvanced": "Arme évoluée",
     "WeaponTypeLabel": "Maîtrise des armes",
     "WeaponTypeMartial": "Arme de guerre",
@@ -2910,12 +2959,6 @@
       "Date": "{weekday} {day}{ordinalSuffix} {month} {year} {era}",
       "IC": {
         "Era": "Calendier Impérial"
-      },
-      "OrdinalSuffixes": {
-        "Few": "e",
-        "One": "er",
-        "Other": "e",
-        "Two": "e"
       },
       "Placeholder": "Nombre",
       "Title": "Horloge du monde",
