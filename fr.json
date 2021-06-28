@@ -84,8 +84,23 @@
     "ActionTypeSingle": "Action unique",
     "ActionWeaponLabel": "Arme associée",
     "Actions": {
-      "Balance": "Garder l'équilibre",
-      "Climb": "Escalader",
+      "Balance": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous chutez et votre tour prend fin.",
+          "criticalSuccess": "<b>Succès critique</b> Vous vous déplacez d’une distance maximale égale à votre Vitesse.",
+          "failure": "<b>Échec</b> Vous devez rester sur place pour garder l’équilibre (l’action est tout de même dépensée) ou vous chutez. Votre tour prend fin si vous chutez.",
+          "success": "<b>Succès</b> Vous vous déplacez d’une distance maximale égale à votre Vitesse, en considérant la surface traversée comme un terrain difficile (chaque déplacement de 1,50 m compte comme un déplacement de 3 m)."
+        },
+        "Title": "Garder l'équilibre"
+      },
+      "Climb": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous chutez. Si vous avez commencé votre escalade sur un sol stable, vous tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "criticalSuccess": "<b>Succès critique</b>Vous montez, parcourez ou descendez la déclivité sans problème. La distance parcourue est égale à 1,50 m plus 1,50 m par tranche de 6 m de votre Vitesse au sol (ce qui donne un total de 3 m pour la plupart des PJ).",
+          "success": "<b>Succès</b>Vous montez, parcourez ou descendez la déclivité sans problème. La distance parcourue est égale à 1,50 m par tranche de 6 m de votre Vitesse au sol (ce qui donne un total de 1,50 m pour la pour la plupart des PJ, avec un minimum de 1,5 m si votre Vitesse est inférieure à 6 m)."
+        },
+        "Title": "Escalader"
+      },
       "Coerce": "Contraindre",
       "CreateADiversion": {
         "DistractingWords": "Faire diversion par la parole",
@@ -93,7 +108,14 @@
         "Trick": "Faire diversion par un tour de passe-passe"
       },
       "Demoralize": "Démoraliser",
-      "Disarm": "Désarmer",
+      "Disarm": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous perdez l’équilibre et êtes Pris au dépourvu  jusqu’au début de votre prochain tour.",
+          "criticalSuccess": "<b>Succès critique</b> Votre adversaire lâche l’objet qu’il tient. Cet objet tombe par terre dans l’espace qu’occupe l’adversaire.",
+          "success": "<b>Succès</b> Vous affaiblissez la prise de votre adversaire sur l’objet. Jusqu’au début du tour de cette créature, les tentatives pour la Désarmer et l’obliger à lâcher l’objet bénéficient d’un bonus de circonstances de +2 et la cible subit un malus de circonstances de −2 aux attaques effectuées avec l’objet ou aux autres tests nécessitant une prise ferme sur l’objet"
+        },
+        "Title": "Désarmer"
+      },
       "EncouragingWords": {
         "BadArgs": "Cette action peut être accomplie avec simplement un personnage ou un PNJ",
         "Cancel": "Annuler",
@@ -115,16 +137,53 @@
         "Title": "Encouragements"
       },
       "Feint": "Feinter",
-      "ForceOpen": "Ouvrir de force",
+      "ForceOpen": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Votre tentative bloque la porte, la fenêtre, le contenant ou la grille, imposant un malus de circonstances de −2 aux tentatives ultérieures pour l’Ouvrir de force.",
+          "criticalSuccess": "<b>Succès critique</b> Vous ouvrez la porte, la fenêtre, le contenant ou la grille sans l’endommager si vous le souhaitez.",
+          "success": "<b>Succès</b> Vous enfoncez la porte, la fenêtre, le contenant ou la grille et l’objet enfoncé obtient l’état @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Brisé}. S’il est particulièrement solide, le MJ peut décider qu’il subit des dégâts sans être brisé."
+        },
+        "Title": "Ouvrir de force"
+      },
       "GatherInformation": "Recueillir des informations",
-      "Grapple": "Saisir",
+      "Grapple": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Si vous avez déjà @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} votre adversaire, il se libère. Votre cible peut soit vous saisir, comme si elle avait réussi à effectuer l’action Saisir contre vous, soit vous obliger à tomber @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{à terre}.",
+          "criticalSuccess": "<b>Succès critique</b> Votre adversaire est @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} jusqu’à la fin de votre prochain tour, sauf si vous vous déplacez ou si votre adversaire S’échappe.",
+          "failure": "<b>Échec</b> Vous ne parvenez pas à saisir votre adversaire. Si vous avez déjà empoigné ou entravé votre adversaire en utilisant l’action Saisir, ces états sur cet adversaire disparaissent.",
+          "success": "<b>Succès</b> Votre adversaire est @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} jusqu’à la fin de votre prochain tour, sauf si vous vous déplacez ou si votre adversaire Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S’échappe}."
+        },
+        "Title": "Saisir"
+      },
       "Hide": "Se Cacher",
-      "HighJump": "Sauter en hauteur",
+      "HighJump": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous ne parvenez pas à @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondir} et tombez à terre dans votre case à la place.",
+          "criticalSuccess": "<b>Succès critique</b>  Augmentez la distance verticale maximale à 2,40 m, ou la distance verticale maximale à 1,50 m et la distance horizontale maximale à 3 m.",
+          "failure": "<b>Échec</b> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
+          "success": "<b>Succès</b> Augmentez la distance verticale maximale à 1,50 m."
+        },
+        "Title": "Saut en hauteur"
+      },
       "Impersonate": "Se déguiser",
       "Lie": "Mentir",
-      "LongJump": "Sauter en longueur",
+      "LongJump": {
+        "Notes": {
+          "criticalFailure": "<p>Échec critique</p> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement puis tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "failure": "<p>Échec</p> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
+          "success": "<p>Succès</p> La distance horizontale maximale de votre @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bond} est égale à la distance voulue."
+        },
+        "Title": "Saut en longueur"
+      },
       "MakeAnImpression": "Faire bonne impression",
-      "ManeuverInFlight": "Manœuvrer en vol",
+      "ManeuverInFlight": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Comme un échec, mais les conséquences sont plus néfastes.",
+          "failure": "<b>Échec</b> Votre manœuvre échoue. Le MJ décide si vous ne vous déplacez simplement pas ou si un autre effet néfaste se produit. Cet effet devrait correspondre à la manœuvre que vous avez tentée (par exemple, vous pourriez dévier de votre trajectoire si vous tentez de voler contre un vent fort).",
+          "success": "<b>Succès</b> Vous réussissez la manœuvre."
+        },
+        "Title": "Manœuvrer en vol"
+      },
       "RaiseAShield": {
         "BadArgs": "Cette action doit être accompli avec exctement un PJ ou un PNJ.",
         "Content": "{actor} lève son bouclier.",
@@ -139,9 +198,23 @@
       "ShieldBlock": {
         "SelectAShield": "Choisir un bouclier"
       },
-      "Shove": "Pousser",
+      "Shove": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous perdez l’équilibre et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "criticalSuccess": "<b>Succès critique</b> Vous repoussez votre adversaire de 3 m. Vous pouvez Marcher rapidement après ça, mais votre déplacement doit être aussi long et doit se faire dans la même direction.",
+          "success": "<b>Succès</b> Vous repoussez votre adversaire de 1,50 m. Vous pouvez Marcher rapidement après ça, mais votre déplacement doit être aussi long et doit se faire dans la même direction."
+        },
+        "Title": "Pousser"
+      },
       "Sneak": "Être furtif",
-      "Squeeze": "Se faufiler",
+      "Squeeze": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous restez coincé dans l’espace étroit. Lorsque vous êtes coincé de la sorte, vous pouvez effectuer un autre test d’Acrobaties contre le même DD en y consacrant une minute. Tout résultat autre qu’un échec critique sur ce test permet de vous décoincer.",
+          "criticalSuccess": "<b>Succès critique</b> Vous traversez l’espace étroit en vous faufilant et cela vous prend une minute tous les 3m.",
+          "success": "<b>Succès</b> Vous vous faufilez en une minute par tranche de 1,50 m."
+        },
+        "Title": "Se faufiler"
+      },
       "SteelYourResolve": {
         "BadArgs": "Cette action doit être accomplie avec seulement un personnage ou un PNJ",
         "Content": "Dépenser un point de persévérance et regagner de l'Endurance ?",
@@ -150,7 +223,14 @@
         "StaminaNotEnabled": "La variante d'endurance n'est pas autorisée",
         "Title": "Moral d'acier"
       },
-      "Swim": "Nager",
+      "Swim": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous ne progressez pas et qi vous retenez votre respiration, vous perdez 1 round d'air.",
+          "criticalSuccess": "<b>Succès critique</b> Vous vous déplacez à travers l'eau de 3 m plus 1,5 m par tranche de 6 m de votre Vitesse au sol (un total de 4,5 m pour la plupart des PJ).",
+          "success": "<b>Succès</b> Vous vous déplacez à travers l'eau de 1,5 m, plus 1,5 m par tranche de 6 m de votre Vitesse au sol  (un total de 3 m pour la plupart des PJ)."
+        },
+        "Title": "Nage"
+      },
       "Trip": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Vous perdez l'équilire et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
@@ -159,7 +239,13 @@
         },
         "Title": "Croc-en-jambe"
       },
-      "TumbleThrough": "Déplacement acrobatique"
+      "TumbleThrough": {
+        "Notes": {
+          "failure": "<b>Échec</b> Votre déplacement se termine et vous déclenchez des ractions comme si vous vous étiez déplacé en dehors de la case d'où vous avez commencé.",
+          "success": "<b>Succès</b> Vous vous déplacez au travers de la case de l'ennemi traitant les cases de son espace comme un terrain difficile (chaque tranche de 1,5 m coûte 3 m de déplacement). Si vous n'avez pas une Vitesse suffisante pour vous déplacer tout le long de son espace, vous obtenez les mêmes effets qu'avec un échec."
+        },
+        "Title": "Déplacement acrobatique"
+      }
     },
     "ActionsActionsHeader": "Actions Uniques",
     "ActionsCheck": {
@@ -448,6 +534,10 @@
     "CompendiumBrowser": {
       "AddedItem": "{item} ajouté à l'acteur(s) sélectionné(s)",
       "AddedItemToCharacter": "{item} ajouté à {character}.",
+      "ProgressBar": {
+        "LoadingComplete": "Chargement terminé",
+        "LoadingPack": "Chargement de {pack}"
+      },
       "TabAction": "Actions",
       "TabBestiary": "Bestiaire",
       "TabEquipment": "Équipement",
@@ -846,7 +936,11 @@
           "Hint": "C’est le nom de l’arme de base. Pour la plupart des armes, la base est utilisée pour générer un nom plus complet, en prenant en compte le matériau de composition et/ou les runes. Donner à cette arme un nom différent ou la marquer comme \"specific\" empêchera de faire apparaître le nom généré.",
           "Material": "{base} en {material}",
           "Potency": "{base} +{potency}",
+          "PotencyFourProperties": "{base} {property1} {property2} {property3} {property4} +{potency}",
+          "PotencyFourPropertiesMaterial": "{base} en {material} {property1} {property2} {property3} {property4} +{potency}",
           "PotencyMaterial": "{base} en {material} +{potency}",
+          "PotencyOneProperty": "{base} {property1} +{potency}",
+          "PotencyOnePropertyMaterial": "{base} en {material} {striking} +{potency}",
           "PotencyStriking": "{base} {striking} +{potency}",
           "PotencyStrikingFourProperties": "{base} {property1} {property2} {property3} {property4} {striking} +{potency}",
           "PotencyStrikingFourPropertiesMaterial": "{base} en {material} {property1} {property2} {property3} {property4} {striking} +{potency}",
@@ -856,7 +950,11 @@
           "PotencyStrikingThreeProperties": "{base} {property1} {property2} {property3} {striking} +{potency}",
           "PotencyStrikingThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3}  {striking} +{potency}",
           "PotencyStrikingTwoProperties": "{base} {property1} {property2} {striking} +{potency}",
-          "PotencyStrikingTwoPropertiesMaterial": "{base} en {material} {property1} {property2} {striking} +{potency}"
+          "PotencyStrikingTwoPropertiesMaterial": "{base} en {material} {property1} {property2} {striking} +{potency}",
+          "PotencyThreeProperties": "{base} {property1} {property2} {property3} +{potency}",
+          "PotencyThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3} +{potency}",
+          "PotencyTwoProperties": "{base} {property1} {property2} +{potency}",
+          "PotencyTwoPropertiesMaterial": "{base} en {material} {property1} {property2} +{potency}"
         },
         "MaterialAndRunes": {
           "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquer la comme une <i>arme magique spécifique</i>.",
@@ -1998,6 +2096,9 @@
     "TraitDeadly3D10": "Mortel 3d10",
     "TraitDeadly3D12": "Mortel 3d12",
     "TraitDeadly3D8": "Mortel 3d8",
+    "TraitDeadly4D10": "Mortel 4d10",
+    "TraitDeadly4D12": "Mortel 4d12",
+    "TraitDeadly4D8": "Mortel 4d8",
     "TraitDeadlyD10": "Mortel d10",
     "TraitDeadlyD12": "Mortel d12",
     "TraitDeadlyD6": "Mortel d6",
@@ -2053,6 +2154,10 @@
     "TraitDescriptionDeadly2D8": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
     "TraitDescriptionDeadly3D10": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
     "TraitDescriptionDeadly3D12": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
+    "TraitDescriptionDeadly3D8": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
+    "TraitDescriptionDeadly4D10": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
+    "TraitDescriptionDeadly4D12": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
+    "TraitDescriptionDeadly4D8": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
     "TraitDescriptionDeadlyD10": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
     "TraitDescriptionDeadlyD12": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
     "TraitDescriptionDeadlyD6": "Avec un coup critique, l’arme ajoute un dé de dégâts d’arme du type de dé indiqué. Il est lancé après avoir doublé les dégâts de l’arme.  Cela augmente à deux dés si l’arme a une rune de frappe supérieure et trois dés si l’arme a une rune de frappe majeure. Par exemple, une rapière avec une rune de frappe supérieure inflige 2d8 points de dégâts perforants supplémentaires en cas de coup critique. Une capacité modifiant le type de dés de dégâts normaux de l’arme ne modifie pas le type de son dé mortel.",
