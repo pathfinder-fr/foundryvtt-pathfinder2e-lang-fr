@@ -101,13 +101,17 @@
         },
         "Title": "Escalader"
       },
-      "Coerce": "Contraindre",
+      "Coerce": {
+        "Title": "Contraindre"
+      },
       "CreateADiversion": {
         "DistractingWords": "Faire diversion par la parole",
         "Gesture": "Faire diversion par un geste",
         "Trick": "Faire diversion par un tour de passe-passe"
       },
-      "Demoralize": "Démoraliser",
+      "Demoralize": {
+        "Title": "Démoraliser"
+      },
       "Disarm": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Vous perdez l’équilibre et êtes Pris au dépourvu  jusqu’au début de votre prochain tour.",
@@ -136,7 +140,9 @@
         "Success": "Succès",
         "Title": "Encouragements"
       },
-      "Feint": "Feinter",
+      "Feint": {
+        "Title": "Feinter"
+      },
       "ForceOpen": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Votre tentative bloque la porte, la fenêtre, le contenant ou la grille, imposant un malus de circonstances de −2 aux tentatives ultérieures pour l’Ouvrir de force.",
@@ -145,7 +151,9 @@
         },
         "Title": "Ouvrir de force"
       },
-      "GatherInformation": "Recueillir des informations",
+      "GatherInformation": {
+        "Title": "Recueillir des informations"
+      },
       "Grapple": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Si vous avez déjà @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} votre adversaire, il se libère. Votre cible peut soit vous saisir, comme si elle avait réussi à effectuer l’action Saisir contre vous, soit vous obliger à tomber @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{à terre}.",
@@ -155,7 +163,9 @@
         },
         "Title": "Saisir"
       },
-      "Hide": "Se Cacher",
+      "Hide": {
+        "Title": "Se cacher"
+      },
       "HighJump": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Vous ne parvenez pas à @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondir} et tombez à terre dans votre case à la place.",
@@ -165,8 +175,12 @@
         },
         "Title": "Saut en hauteur"
       },
-      "Impersonate": "Se déguiser",
-      "Lie": "Mentir",
+      "Impersonate": {
+        "Title": "Se déguiser"
+      },
+      "Lie": {
+        "Title": "Mentir"
+      },
       "LongJump": {
         "Notes": {
           "criticalFailure": "<p>Échec critique</p> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement puis tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
@@ -175,7 +189,9 @@
         },
         "Title": "Saut en longueur"
       },
-      "MakeAnImpression": "Faire bonne impression",
+      "MakeAnImpression": {
+        "Title": "Faire bonne impression"
+      },
       "ManeuverInFlight": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Comme un échec, mais les conséquences sont plus néfastes.",
@@ -183,6 +199,14 @@
           "success": "<b>Succès</b> Vous réussissez la manœuvre."
         },
         "Title": "Manœuvrer en vol"
+      },
+      "PickALock": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous cassez vos outils. Les réparer nécessite l’utilisation de la compétence Artisanat pour @Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{Réparer} ou leur remplacement (ce remplacement des outils cassés coûte 3 pa ou 3 po s’il s’agit d’outils de voleur infiltré)",
+          "criticalSuccess": "<b>Succès critique</b> Vous déverrouillez la serrure ou vous obtenez deux succès pour réussir à ouvrir une serrure complexe. Vous ne laissez aucune trace de votre manipulation.",
+          "success": "<b>Succès</b> Vous déverrouillez la serrure ou vous obtenez un succès pour réussir à ouvrir une serrure complexe."
+        },
+        "Title": "Crocheter une serrure"
       },
       "RaiseAShield": {
         "BadArgs": "Cette action doit être accompli avec exctement un PJ ou un PNJ.",
@@ -192,9 +216,15 @@
         "ShieldIsBroken": "{shield} de {actor} est cassé.",
         "SingleActionTitle": "Lever un bouclier"
       },
-      "Request": "Solliciter",
-      "Seek": "Chercher",
-      "SenseMotive": "DEviner les intentions",
+      "Request": {
+        "Title": "Solliciter"
+      },
+      "Seek": {
+        "Title": "Chercher"
+      },
+      "SenseMotive": {
+        "Title": "Deviner les intentions"
+      },
       "ShieldBlock": {
         "SelectAShield": "Choisir un bouclier"
       },
@@ -206,7 +236,9 @@
         },
         "Title": "Pousser"
       },
-      "Sneak": "Être furtif",
+      "Sneak": {
+        "Title": "Être furtif"
+      },
       "Squeeze": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> Vous restez coincé dans l’espace étroit. Lorsque vous êtes coincé de la sorte, vous pouvez effectuer un autre test d’Acrobaties contre le même DD en y consacrant une minute. Tout résultat autre qu’un échec critique sur ce test permet de vous décoincer.",
