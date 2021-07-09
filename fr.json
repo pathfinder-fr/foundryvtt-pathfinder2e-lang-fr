@@ -342,6 +342,9 @@
       "Label": "Effets actifs"
     },
     "Actor": {
+      "Character": {
+        "AncestryClass": "{ancestry} {class}"
+      },
       "Plural": "Acteurs"
     },
     "ActorSizeGargantuan": "Gigantesque",
@@ -547,7 +550,7 @@
     "BrowserSortyByLevelLabel": "Niveau",
     "BrowserSortyByNameLabel": "Nom",
     "BrowserSortyByPriceLabel": "Prix",
-    "BulkCapacityLabel": "Contient un montant d'encombrement",
+    "BulkCapacityLabel": "Contient un encombrement de",
     "BulkLabel": "Encombrement",
     "BulkMaxLabel": "Encombrement Max",
     "BulkReductionLabel": "Réduit l'encombrement de",
@@ -786,7 +789,7 @@
     "DeleteItemQuestion": "Êtes vous certain d'effacer :",
     "DeleteItemTitle": "Effacer l’objet",
     "DeleteShortLabel": "Effacer",
-    "DeleteSpellcastEntryQuestion": "Êtes vous certain de vouloir effacer cette entrée d’Incantation des sorts ?",
+    "DeleteSpellcastEntryQuestion": "Êtes vous certain de vouloir effacer cette entrée d’incantation des sorts ?",
     "DeleteSpellcastEntryWarning": "ATTENTION: Tous les sorts de cette entrée d’incantation des sorts vont aussi être effacés",
     "DenominationLabel": "Dénomination",
     "DetailsHeading": "Détails",
@@ -822,9 +825,9 @@
     "EquippedBulkLabel": "Enc. porté",
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
-      "ActorMustHaveToken": "Ajouter des confitions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
+      "ActorMustHaveToken": "Ajouter des conditions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
-      "CantMoveItemSource": "Vous n'êtes pas autorisés à déplacer les objets de ce personnagee",
+      "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnagee",
       "NoTokenSelected": "Pas de jeton valide sélectionné.",
       "NoUpdatePermission": "Vous n'avez pas la permission de mettre à jour cet acteur",
       "NotEnoughAmmo": "Pas assez de munitions pour cette frappe"
@@ -840,7 +843,7 @@
     "FeatActionTypePassive": "Passif",
     "FeatActionTypeReaction": "Réaction",
     "FeatActionsLabel": "Nombre d’actions",
-    "FeatAncestryHeader": "Dons d’ascendance",
+    "FeatAncestryHeader": "Dons ancestraux",
     "FeatArchetypeHeader": "Dons d’archétype",
     "FeatBackgroundShort": "Hist",
     "FeatBonusHeader": "Dons supplémentaires",
@@ -937,7 +940,7 @@
     "InitiativeLabel": "Initiative",
     "InitiativeWithSkill": "Initiative: {skillName}",
     "InventoryArmorHeader": "Armures",
-    "InventoryBackpackHeader": "Sac à dos",
+    "InventoryBackpackHeader": "Contenants",
     "InventoryConsumablesHeader": "Consommables",
     "InventoryEquipmentHeader": "Équipement",
     "InventoryTreasureHeader": "Trésor",
@@ -975,7 +978,7 @@
         "PriceLabel": "Prix: {price}"
       },
       "Plural": "Objets",
-      "SidebarSummary": "Sommaire des {type}",
+      "SidebarSummary": "Résumé {type}",
       "Weapon": {
         "FromMaterialAndRunes": "Du fait des matériaux et runes: {value}",
         "GeneratedName": {
@@ -1014,9 +1017,9 @@
       }
     },
     "ItemBonus0": "0",
-    "ItemBonus1": "Puissance d’arme +1",
-    "ItemBonus2": "Puissance d’arme +2",
-    "ItemBonus3": "Puissance d’arme +3",
+    "ItemBonus1": "de puissance d’arme +1",
+    "ItemBonus2": "de puissance d’arme +2",
+    "ItemBonus3": "de puissance d’arme +3",
     "ItemBonusLabel": "Bonus d’objet",
     "ItemBonusMinus2": "Improvisé (-2)",
     "ItemBonusShortLabel": "Objet",
@@ -1039,7 +1042,7 @@
     "KeyAbilityLabel": "Caractéristique principale",
     "KitItems": "Objets",
     "KitWorldItem": "Cet objet n'est pas trouvé dans un compendium et ne fonctionnera pas dans d'autres mondes",
-    "LackCastConsumableCapability": "Vous n\"êtes pas qualifié pour utiliser {name} et ne possédez pas le don Usurpation d'objet magique",
+    "LackCastConsumableCapability": "Vous n'êtes pas qualifié pour utiliser {name} et ne possédez pas le don Usurpation d'objet magique",
     "LanguageAbyssal": "Abyssal",
     "LanguageAdlet": "Adlet",
     "LanguageAklo": "Aklo",
@@ -1085,6 +1088,7 @@
     "LanguageJistkan": "Jistkan",
     "LanguageJotun": "Jotun",
     "LanguageJyoti": "Jyoti",
+    "LanguageKaava": "Kaava",
     "LanguageKelish": "Kellide",
     "LanguageKibwani": "Kibwani",
     "LanguageKitsune": "Kitsune",
@@ -1154,7 +1158,7 @@
     "Level8": "Niveau 8",
     "Level9": "Niveau 9",
     "LevelLabel": "Niveau",
-    "LevelN": "Niveau  {level}",
+    "LevelN": "Niveau {level}",
     "Lore": "Connaissance",
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
     "LoreSkillFormat": "Connaissance {name}",
@@ -1200,7 +1204,7 @@
     "MaxStaminaTitle": "Votre Maximum de Points d’Endurance",
     "MetalStrikes": "Frappe de métal",
     "Migrations": {
-      "Finished": "Migration du Systèle PF2 vers la version {version} terminée !",
+      "Finished": "Migration du Système PF2 vers la version {version} terminée !",
       "OnlyGMCanUse": "Seul un MJ peut utiliser cet outil.",
       "OutsideSchemaRange": "La portée spécifiée est en dehors du schéma du système (entre {minimum} et {maximum}).",
       "Starting": "Applique la migration du système PF2 vers la version {version}. Soyez patient et ne fermez pas votre partie ou n'éteignez pas votre serveur.",
@@ -1311,7 +1315,7 @@
       "Ancestry": "Nouvel héritage",
       "Armor": "Nouvelle armure",
       "Background": "Nouvel historique",
-      "Backpack": "Nouveau sac à dos",
+      "Backpack": "Nouveau contenant",
       "Condition": "Nouvelle Condition",
       "Consumable": "Nouveau consommable",
       "Equipment": "Nouvel Équipement",
@@ -1326,7 +1330,7 @@
       "Weapon": "Nouvelle arme"
     },
     "NoAmmoLabel": "Pas de munition",
-    "NoStackGroup": "Ne se cumule pas",
+    "NoStackGroup": "pas de cumul",
     "NoneOption": "Aucune",
     "OneDegreeBetter": "un degré meilleur",
     "OneDegreeWorse": "un degré inférieur",
@@ -1361,7 +1365,7 @@
       "OrganizedPlayNumber": "Jeu organisé #",
       "Reputation": "Réputation",
       "School": {
-        "None": "Agent recruté sur le terrain",
+        "None": "Agent de terrain",
         "Scrolls": "Parchemins",
         "Spells": "Sorts",
         "Swords": "Épées"
@@ -1369,10 +1373,10 @@
     },
     "PenaltyLabel": {
       "ability": "Malus de Carac.",
-      "circumstance": "Malus de Circonstance",
-      "item": "Malus d'Objet",
-      "proficiency": "Malus de Maîtrise",
-      "status": "Malus de Statut",
+      "circumstance": "Malus de circonstance",
+      "item": "Malus d'objet",
+      "proficiency": "Malus de maîtrise",
+      "status": "Malus de statut",
       "untyped": "Malus non-typé"
     },
     "PerceptionCheck": "Jet de Perception",
@@ -1388,14 +1392,14 @@
     "PreciousMaterialDarkwood": "Ébénite",
     "PreciousMaterialDragonhide": "Peau de dragon",
     "PreciousMaterialGradeLabel": "Qualité du métal",
-    "PreciousMaterialHighGrade": "Haute qualité",
+    "PreciousMaterialHighGrade": "haute qualité",
     "PreciousMaterialLabel": "Matériau précieux",
-    "PreciousMaterialLowGrade": "Basse qualité",
+    "PreciousMaterialLowGrade": "basse qualité",
     "PreciousMaterialMithral": "Mithril",
     "PreciousMaterialOrichalcum": "Orichalque",
-    "PreciousMaterialSilver": "argent",
+    "PreciousMaterialSilver": "Argent",
     "PreciousMaterialSovereignSteel": "Acier souverain",
-    "PreciousMaterialStandardGrade": "Qualité standard",
+    "PreciousMaterialStandardGrade": "qualité standard",
     "PreciousMaterialWarpglass": "Verre déformé",
     "PreparationTypeInnate": "Inné",
     "PreparationTypePrepared": "Preparé",
@@ -1413,10 +1417,10 @@
     "ProficiencyLevel3": "Maître",
     "ProficiencyLevel4": "Légendaire",
     "ProficiencyRankLabel": "Rang",
-    "PropertyRuneLabel1": "Rune de propriété (1er)",
-    "PropertyRuneLabel2": "Rune de propriété (2ème)",
-    "PropertyRuneLabel3": "Rune de propriété (3ème)",
-    "PropertyRuneLabel4": "Rune de propriété (4ème)",
+    "PropertyRuneLabel1": "Rune de propriété (1e)",
+    "PropertyRuneLabel2": "Rune de propriété (2e)",
+    "PropertyRuneLabel3": "Rune de propriété (3e)",
+    "PropertyRuneLabel4": "Rune de propriété (4e)",
     "QuantityLabel": "Quantité",
     "QuantityShortLabel": "Qté",
     "Rarity": "Rareté",
@@ -1437,12 +1441,12 @@
       "UnspecificLore": "Connaissance non spécifique"
     },
     "Recovery": {
-      "critFailure": "Augmentez l'intensité de mourant de 2.",
-      "critSuccess": "Réduisez l'intensité de mourant de 2.",
-      "failure": "Augmentez l'intensité de mourant de 1.",
+      "critFailure": "Augmentez l'intensité mourant de 2.",
+      "critSuccess": "Réduisez l'intensité mourant de 2.",
+      "failure": "Augmentez l'intensité mourant de 1.",
       "roll": "Cliquez pour lancer le Test de récupération",
       "rollingDescription": "Test de récupération contre un DD {dc} (mourant {dying})",
-      "success": "Réduisez l'intensité de mourant de 1."
+      "success": "Réduisez l'intensité mourant de 1."
     },
     "RemoveCoinsByValueLabel": "Retirer la valeur, pas de type particulier",
     "RemoveCoinsTitle": "Retirer des pièces",
@@ -1608,6 +1612,12 @@
       "IgnoreCoinBulk": {
         "Hint": "Activer pour ignorer le poids de la monnaie",
         "Name": "Les pièces n'ont pas de poids"
+      },
+      "JournalEntryTheme": {
+        "Foundry": "Foundry (Classique)",
+        "Hint": "régler le thème des styles des entrées de journal de ce monde.",
+        "Name": "Thême entrée de journal",
+        "PF2E": "Système PF2"
       },
       "Metagame": {
         "SecretCondition": {
@@ -2079,6 +2089,7 @@
     "TraitAdditive1": "Additif 1",
     "TraitAdditive2": "Additif 2",
     "TraitAdditive3": "Additif 3",
+    "TraitAdjustment": "Ajustement",
     "TraitAeon": "Aéon",
     "TraitAesir": "Aesir",
     "TraitAffixedToAShield": "Fixé à un bouclier",
@@ -2494,6 +2505,7 @@
     "TraitInvested": "Investi",
     "TraitInvestigator": "Enquêteur",
     "TraitJoustingD6": "Joute d6",
+    "TraitKaiju": "Kaiju",
     "TraitKami": "Kami",
     "TraitKitsune": "Kitsune",
     "TraitKobold": "Kobold",
@@ -2609,6 +2621,7 @@
     "TraitReach25": "Allonge 25 ft (7,5m)",
     "TraitReach30": "Allonge 30 ft (9m)",
     "TraitReach40": "Allonge 40 ft (12 m)",
+    "TraitReach50": "Allonge 50 ft (15 m)",
     "TraitReach60": "Allonge 60 ft (18m)",
     "TraitReload0": "Rechargement 0",
     "TraitReload1": "Rechargement 1",
@@ -2806,9 +2819,8 @@
     "UnitPriceLabel": "Prix",
     "UnprepareItemTitle": "Abandonner un sort préparé",
     "UnpreparedSpellsLabel": "Liste de préparation",
-    "UnpreparedSpellsLabelArcanePrepared": "Grimoire arcanique",
     "UpdateActorLabel": "Mettre à jour l’Acteur",
-    "Usage": "Utilisation",
+    "Usage": "Usage",
     "ValueLabel": "Valeur",
     "WandFromSpell": "Baguette de {name} (Niveau {level})",
     "WeaknessTypeAdamantine": "Adamantium",
@@ -3296,7 +3308,7 @@
       "persistentDamage": {
         "name": "Dégâts persistants",
         "rules": "<p>Les dégâts persistants sont causés par des effets comme l’acide, le feu ou de nombreuses autres choses. Ils se présentent sous la forme « X dégâts persistants de [type] », où « X » représente la quantité de dégâts infligés et le « [type] » correspond au type de dégâts. Au lieu de recevoir immédiatement les dégâts persistants, vous les recevez à la fin de chacun de vos tours tant que vous vous trouvez dans cet état et vous devez à chaque fois relancer les dés de dégâts. Après avoir subi des dégâts persistants, faites un test nu DD 15 afin de déterminer si ceux-ci prennent fin. Sur un succès, vous mettez un terme à l’état. </p>",
-        "summary": "Vous subissez des dégâts chaque  round."
+        "summary": "Vous subissez des dégâts chaque round."
       },
       "petrified": {
         "name": "Pétrifié",
@@ -3376,9 +3388,9 @@
       "PostSkillsToChat": "Poster le test de compétence dans le chat",
       "PostSkillsToChatText": "Identifier objet : test de compétence",
       "TraitGMNote": "Note: ce trait est caché aux joueurs",
-      "UnidentifiedDescription": "La nature de cet {item} n'est pas claire.",
+      "UnidentifiedDescription": "{item} dont la nature n'est pas claire.",
       "UnidentifiedHint": "Changez les détails de l'affichage de base de cet élément lorsqu'il n'est pas identifié.",
-      "UnidentifiedItem": "Objet non identifié",
+      "UnidentifiedItem": "Non identifié",
       "UnidentifiedType": {
         "Amulet": "Amulette",
         "Anklets": "Chaînes de cheville",
