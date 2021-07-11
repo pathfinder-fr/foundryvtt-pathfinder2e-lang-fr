@@ -1760,10 +1760,15 @@
           "Name": "Remettre à zéro Temps/date de ce monde"
         },
         "SyncDarkness": {
-          "GlobalLightOff": "Éteint",
-          "GlobalLightOn": "Allumé",
           "Hint": "Choisissez si le niveau d'obscurité d'une scène reflète le moment donné du jour si l'illumination globale est aussi activée (actuellement {globalLight}).",
           "Name": "Synchroniser l'obscurité"
+        },
+        "SyncDarknessScene": {
+          "Default": "Monde par défaut ({worldDefault})",
+          "Disabled": "Désactivé",
+          "Enabled": "Activé",
+          "Hint": "Activer pour que l'obscurité de la scène correspondent au moment de la journée.",
+          "Name": "Synchroniser l'Obscurité (Scène actuelle)"
         },
         "TimeConvention": {
           "Hint": "Montrer une horloge soit sur 24h, soit sur 12h",
@@ -2711,6 +2716,7 @@
     "TraitVersatileB": "Polyvalent C",
     "TraitVersatileHeritage": "Héritage polyvalent",
     "TraitVersatileP": "Polyvalent P",
+    "TraitVersatilePositive": "Polyvalent positif",
     "TraitVersatileS": "Polyvalent T",
     "TraitVigilante": "Justicier",
     "TraitVirulent": "Virulent",
@@ -3479,6 +3485,8 @@
       "NamePlaceholder": "Véhicule",
       "PassengersLabel": "Passagers",
       "PilotingCheckLabel": "Test de pilotage",
+      "PropertyDescriptionCollisionDC": "Le DD du véhicule pour les jets de sauvegarde pour modérer les dégâtss.",
+      "PropertyDescriptionCollisionDamage": "Les dégâts de collision du véhicule. Sauf changement, les collisions infligent des dégâts contondants.",
       "PropertyDescriptionCrew": "Les membres d'équipage nécessaires pour manier le véhicule",
       "PropertyDescriptionPassengers": "Le nombre de passagers que le véhicule peut habituellement emporter, s'il y en a",
       "PropertyDescriptionPilotingCheck": "Cette entrée liste les compétences qui peuvent être utilisées pour les tests de pilotage lorsqu'il faut manier le véhicule. Certaines compétences augmentent le DD ; l'ajustement du DD figure entre parenthèses après le nom de la compétence",
@@ -3489,7 +3497,9 @@
       "SpaceLongLabel": "Longueur",
       "SpaceWideLabel": "Largeur",
       "VehicleLevelLabel": "Véhicule",
-      "VehicleString": "Véhicule"
+      "VehicleString": "Véhicule",
+      "collisionDCLabel": "DD de Collision",
+      "collisionDamageLabel": "Dégâts de collision"
     }
   },
   "PF2e": {
