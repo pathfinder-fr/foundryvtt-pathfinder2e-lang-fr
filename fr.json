@@ -345,6 +345,9 @@
       "Character": {
         "AncestryClass": "{ancestry} {class}"
       },
+      "Hazard": {
+        "Level": "Danger {level}"
+      },
       "Plural": "Acteurs"
     },
     "ActorSizeGargantuan": "Gigantesque",
@@ -836,6 +839,22 @@
     "ExpendSpellTitle": "Sort dépensé",
     "ExperimentalLabel": "Expérimental",
     "Failure": "<strong>Échec</strong>",
+    "Familiar": {
+      "ArmorClass": "Classe d'armure",
+      "AttackRoll": "Jet d'attaque",
+      "Creature": "Créature",
+      "Defenses": "Défenses",
+      "Familiar": "Familier",
+      "Master": "Maître",
+      "MasterActor": "Acteur maître",
+      "MasterLevel": "Niveau du maître",
+      "MasterSpellcastingAbility": "Caractéristique d'incantation du maître",
+      "Offenses": "Attaques",
+      "Perception": "Perception",
+      "SelectMaster": "Choisissez un maître",
+      "Skills": "Compétences",
+      "TotalNumberFamiliarAbilities": "# total de capacités de familier"
+    },
     "FamiliarItemTypeError": "Seuls les effets et les conditions sont actuellement supportées par les familiers",
     "FeatActionTypeAction": "Action Unique",
     "FeatActionTypeFree": "Action Gratuite",
@@ -1210,6 +1229,7 @@
       "Starting": "Applique la migration du système PF2 vers la version {version}. Soyez patient et ne fermez pas votre partie ou n'éteignez pas votre serveur.",
       "WorldNotReady": "Le monde n'est pas prêt: essayez de nouveau dans quelques secondes."
     },
+    "ModifierNamePlaceholder": "Nom",
     "ModifierTitle": "Modif.",
     "ModifierType": {
       "ability": "Caractéristique",
@@ -1220,6 +1240,7 @@
       "status": "Statut",
       "untyped": "Sans-type"
     },
+    "ModifierTypeTitle": "[Type]",
     "ModifiersTitle": "Modif.",
     "MultipleAttackPenalty": "Pénalité d'Attaque Multiple",
     "MysticStrikes": "Frappes mystiques",
@@ -1382,7 +1403,6 @@
     "PerceptionCheck": "Jet de Perception",
     "PerceptionHeader": "Perception",
     "PerceptionLabel": "Perception",
-    "PickAType": "Choisissez un type",
     "Playlist": {
       "Plural": "Listes de lecture"
     },
@@ -3383,6 +3403,7 @@
       }
     },
     "identification": {
+      "Identified": "Identifié",
       "Identify": "Identifier un objet",
       "IdentifyAlchemyDCs": "DD pour identifier l'Alchimie",
       "IdentifyGenericDCs": "DD pour identifier générique",
@@ -3390,10 +3411,12 @@
       "IsIdentified": "Identifié ?",
       "MisidentifiedItem": "{item} mal identifié",
       "Misidentify": "Objet mal identifié",
+      "MystificationStatus": "Statut d'identification",
       "Mystify": "Mystifier un objet",
       "PostSkillsToChat": "Poster le test de compétence dans le chat",
       "PostSkillsToChatText": "Identifier objet : test de compétence",
       "TraitGMNote": "Note: ce trait est caché aux joueurs",
+      "Unidentified": "Non identifié",
       "UnidentifiedDescription": "{item} dont la nature n'est pas claire.",
       "UnidentifiedHint": "Changez les détails de l'affichage de base de cet élément lorsqu'il n'est pas identifié.",
       "UnidentifiedItem": "Non identifié",
