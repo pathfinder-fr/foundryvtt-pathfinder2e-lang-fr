@@ -9,6 +9,7 @@
     "TypeVehicle": "Véhicule"
   },
   "COMPENDIUM": {
+    "ImportAllHint": "Tout le contenu de ce pack de compendium sera importé dans votre monde dans un Dossier, que vous pouvez nommer. <p class=\"notes\"><strong>ATTENTION</strong>: il est fortement recommandé que ce ne soit <span style=\"text-decoration: underline\">PAS</span> fait avec les compendiums les plus gros. Le faire ne présente pas d'avantage et va à l'inverse impacter le chargement de ce mone à la fois pour vous-même et pour vos joueurs.</p>",
     "Search": "Chercher dans les compendiums"
   },
   "CONTROLS": {
@@ -102,6 +103,12 @@
         "Title": "Escalader"
       },
       "Coerce": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> La cible refuse d’obtempérer, devient hostile si elle ne l’était pas déjà et vous ne pouvez plus la Contraindre pendant au moins une semaine.",
+          "criticalSuccess": "<b>Succès critique</b>. La cible vous révèle l’information que vous cherchez ou accepte de suivre vos directives tant qu’elles ne la mettent pas en danger d’une façon ou d’une autre. Elle continue d’obtempérer pendant une durée déterminée par le MJ, mais sans dépasser une journée. Une fois cette période écoulée, elle devient inamicale (si elle n’était pas déjà inamicale ou hostile). Quoi qu’il en soit, vous lui faites si peur qu’elle ne se rebiffe pas, du moins pas à court terme.",
+          "failure": "<b>Échec</b> La cible ne fait pas ce que vous voulez qu’elle fasse et si elle n’était pas déjà inamicale ou hostile, elle devient inamicale.",
+          "success": "<b>Succès</b>  Comme un succès critique, mais une fois la cible inamicale, elle peut décider d’agir contre vous en vous dénonçant aux autorités ou en aidant vos ennemis, par exemple"
+        },
         "Title": "Contraindre"
       },
       "CreateADiversion": {
@@ -114,6 +121,10 @@
         "Trick": "Faire diversion par un tour de passe-passe"
       },
       "Demoralize": {
+        "Notes": {
+          "criticalSuccess": "<b>Succès critique</b> La cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 2}.",
+          "success": "<b>Succès</b> La cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 1}."
+        },
         "Title": "Démoraliser"
       },
       "Disarm": {
@@ -145,6 +156,11 @@
         "Title": "Encouragements"
       },
       "Feint": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Votre feinte se retourne contre vous. Vous êtes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au dépourvu} contre les attaques au corps à corps que la cible porte contre vous jusqu’à la fin de votre prochain tour.",
+          "criticalSuccess": "<b>Succès critique</b> Les tentatives de défense de votre ennemi sont complètement inefficaces. La cible est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre les attaques au corps à corps que vous portez contre elle jusqu’à la fin de votre prochain tour.",
+          "success": "<b>Succès</b> Vous feintez votre adversaire, mais pour un court instant seulement. La cible est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre la prochaine attaque au corps à corps que vous portez contre elle avant la fin de votre tour actuel."
+        },
         "Title": "Feinter"
       },
       "ForceOpen": {
@@ -156,6 +172,10 @@
         "Title": "Ouvrir de force"
       },
       "GatherInformation": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous recueillez des informations erronées sur l’individu ou le sujet.",
+          "success": "<b>Succès</b> Vous recueillez des informations sur l’individu ou le sujet. Le MJ détermine le contenu de ces informations."
+        },
         "Title": "Recueillir des informations"
       },
       "Grapple": {
@@ -168,6 +188,9 @@
         "Title": "Saisir"
       },
       "Hide": {
+        "Notes": {
+          "success": "<b>Succès</b> Si la créature pouvait vous voir, vous êtes à présent @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Caché } d’elle et non plus observé. Si vous étiez caché ou @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{non détecté} par la créature, vous conservez cet état."
+        },
         "Title": "Se cacher"
       },
       "HighJump": {
@@ -180,9 +203,18 @@
         "Title": "Saut en hauteur"
       },
       "Impersonate": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> La créature peut affirmer que vous n’êtes pas la personne que vous prétendez être et elle vous reconnaît si elle vous a déjà vu sans déguisement.",
+          "failure": "<b>Échec</b> La créature peut affirmer que vous n’êtes pas la personne que vous prétendez être",
+          "success": "<b>Succès</b> La créature que vous dupez est convaincue que vous êtes bien la personne dont vous avez pris l’apparence. Un nouveau test peut être nécessaire si votre comportement change."
+        },
         "Title": "Se déguiser"
       },
       "Lie": {
+        "Notes": {
+          "failure": "<b>Échec</b> La cible ne croit pas à votre mensonge et bénéficie d’un bonus de circonstances de +4 contre vos tentatives pour Mentir pendant toute la durée de votre conversation. Elle se montrera également  plus suspicieuse à votre encontre à l’avenir.",
+          "success": "<b>Succès</b> La cible croit à votre mensonge."
+        },
         "Title": "Mentir"
       },
       "LongJump": {
@@ -194,6 +226,10 @@
         "Title": "Saut en longueur"
       },
       "MakeAnImpression": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> L’attitude de la cible à votre encontre se détériore d’une catégorie.",
+          "success": "<b>Succès</b> L’attitude de la cible à votre encontre s’améliore d’une catégorie."
+        },
         "Title": "Faire bonne impression"
       },
       "ManeuverInFlight": {
@@ -221,6 +257,12 @@
         "SingleActionTitle": "Lever un bouclier"
       },
       "Request": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Non seulement la cible refuse votre sollicitation mais son attitude à votre encontre se détériore d’une catégorie à cause de la témérité de votre requête.",
+          "criticalSuccess": "<b>Succès critique</b> La cible répond favorablement et sans réserve à votre sollicitation",
+          "failure": "<b>Échec</b> La cible refuse votre sollicitation mais peut proposer une alternative moins extrême.",
+          "success": "<b>Succès</b> La cible répond favorablement à votre sollicitation mais peut imposer des conditions ou modifier certains aspects de votre demande"
+        },
         "Title": "Solliciter"
       },
       "Seek": {
@@ -251,6 +293,11 @@
         "Title": "Pousser"
       },
       "Sneak": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Vous êtes repéré ! Vous êtes observé par la créature pendant votre déplacement et le restez. Si vous êtes invisible et que vous étiez caché de la créature, vous êtes caché pendant votre déplacement, au lieu d’être observé, et le restez.",
+          "failure": "<b>Échec</b> Vous restez dissimulé mais un bruit ou autre signe suspect révèle votre position. Vous êtes caché de la créature pendant votre déplacement et le restez.",
+          "success": "<b>Succès</b> Vous êtes non détecté par la créature pendant votre déplacement et restez non détecté par la créature à la fin de votre déplacement."
+        },
         "Title": "Être furtif"
       },
       "Squeeze": {
@@ -583,6 +630,7 @@
     "ClassHP": "PV de Classe",
     "ClassTitle": "Votre classe de personnage",
     "ClickToSetInitiative": "Cliquez pour définir l’Initiative du ou des Token(s) sélectionnés.",
+    "ClickToSetInitiativeContext": "Choisir pour l'initiative",
     "CompendiumBrowser": {
       "AddedItem": "{item} ajouté à l'acteur(s) sélectionné(s)",
       "AddedItemToCharacter": "{item} ajouté à {character}.",
@@ -745,10 +793,23 @@
     "DCWithValue": "{text} DD {dc}",
     "DamageButton": {
       "Double": "Appliquer double dégâts aux cibles sélectionnées",
+      "DoubleContext": "Double dégâts",
+      "DoubleShort": "Double",
       "Full": "Appliquer les dégâts normaux aux cibles sélectionnées",
+      "FullContext": "Appliquer les dégâts",
+      "FullShort": "Dégâts",
       "Half": "Appliquer demi-dégâts aux cibles sélectionnées",
+      "HalfContext": "Demi dégâts",
+      "HalfShort": "Demi",
       "Healing": "Appliquer les soins normaux aux cibles sélectionnées",
-      "ShieldBlock": "Activer le blocage au bouclier des cibles sélectionnées"
+      "HealingContext": "Appliquer les soins",
+      "HealingShort": "Soins",
+      "ShieldBlock": "Activer le blocage au bouclier des cibles sélectionnées",
+      "ShieldBlockContext": "Bolcage au bouclier",
+      "ShieldBlockShort": "Blocage",
+      "Triple": "Appliquer triple dégâts aux jetons sélectionnés",
+      "TripleContext": "Appliquer triple dégâts",
+      "TripleShort": "Triple"
     },
     "DamageDieD10": "d10",
     "DamageDieD12": "d12",
@@ -756,6 +817,7 @@
     "DamageDieD6": "d6",
     "DamageDieD8": "d8",
     "DamageLabel": "Dégâts",
+    "DamageRoll": "Jet de dégât",
     "DamageTypeAcid": "Acide",
     "DamageTypeBleed": "Saignement",
     "DamageTypeBludgeoning": "Contondant",
@@ -950,11 +1012,13 @@
     "ImmunityTypeNecromancy": "Nécromancie",
     "ImmunityTypeNonlethalAttacks": "Attaques non létales",
     "ImmunityTypeObjectImmunities": "Immunités des objets",
+    "ImmunityTypePolymorph": "Métamorphose",
     "ImmunityTypePrecisionDamage": "Dégâts de Précision",
     "ImmunityTypeSleep": "Sommeil",
     "ImmunityTypeSpellDeflection": "Déviation du sort",
     "ImmunityTypeSwarmMind": "Esprit de la nuée",
     "ImmunityTypeVisual": "Visuel",
+    "InitativeIsNow": "L'initiatve de {name} est désormais {value} !",
     "InitiativeHeader": "Bonus à l’Initiative",
     "InitiativeLabel": "Initiative",
     "InitiativeWithSkill": "Initiative: {skillName}",
@@ -1370,6 +1434,7 @@
       "zero": "e"
     },
     "OrphanedSpellsHeader": "Sorts orphelins (déplacer dans l’entrée de lancement de sort ci-dessus)",
+    "OverridesTitle": "Prend le pas",
     "PFS": {
       "CharacterNumber": "Pesonnage #",
       "CurrentFaction": "Faction actuellement choisie",
@@ -1501,20 +1566,39 @@
     "ResolvePointsShortLabel": "Persévérance",
     "ResolveTitle": "Le nombre de points de Persévérance que vous possédez",
     "ResultLabel": "Résultat",
+    "ResultOffset": "par {offset}",
+    "Roll": {
+      "Add": "Ajouter",
+      "CriticalHit": "Coup critique",
+      "Fortune": "Fortune",
+      "FortuneTitle": "Fortune {title}",
+      "Misfortune": "Infortune",
+      "MisfortuneTitle": "Infortune {title}",
+      "Modifier": "Modificateur",
+      "None": "Aucun",
+      "Normal": "Normal",
+      "Roll": "Lancer",
+      "Type": "Type",
+      "UntypedPenalty": "(penalty) non typé"
+    },
     "RollBonusPlaceholder": "ex : +3 sur +1d4",
     "RollModeLabel": "Mode de tirage",
     "RollTable": {
       "Plural": "Tables aléatoires"
     },
     "RuleElement": {
+      "ActiveEffectLike": "sorte d'effet actif",
       "ActorTraits": "Traits de l'acteur",
+      "AdjustDegreeOfSuccess": "Ajuster le degré de réussite",
       "BaseSpeed": "Vitesse de base",
       "DamageDice": "Dé de dégât",
       "DexterityModifierCap": "Modif. Max. de Dextérité",
       "EffectTarget": "Cible de l'effet",
       "FixedProficiency": "Compétence fixe",
       "FlatModifier": "Test nu/pur",
+      "LoseHitPoints": "perte de points de vie",
       "MultipleAttackPenalty": "Pénalité d'attaques multiples",
+      "NewRuleElement": "Nouvel élément de règle",
       "Note": "Note",
       "RecoveryCheckDC": "DD du test de récupération",
       "Sense": "Sens",
@@ -1779,6 +1863,10 @@
           "Hint": "Remettre à zéro le temps écoulé de ce monde",
           "Name": "Remettre à zéro Temps/date de ce monde"
         },
+        "ShowClockButton": {
+          "Hint": "Sélectionner si vous voulez montrer le bouton à tous (nécessite un rafraichissement).",
+          "Name": "Montre le bouton horloge"
+        },
         "SyncDarkness": {
           "Hint": "Choisissez si le niveau d'obscurité d'une scène reflète le moment donné du jour si l'illumination globale est aussi activée (actuellement {globalLight}).",
           "Name": "Synchroniser l'obscurité"
@@ -1853,6 +1941,7 @@
     "SellAllTreasureTitle": "Vendre tout le Trésor",
     "Senses": "Sens",
     "SensesDarkvision": "Vision dans le noir",
+    "SensesEcholocation": "Écholocation",
     "SensesGreaterDarkvision": "Vision dans le noir supérieure",
     "SensesLifesense": "Sens de la vie",
     "SensesLowLightVision": "Vision nocturne",
@@ -2367,6 +2456,7 @@
     "TraitDescriptionRare": "Cette rareté signifie qu’un élément de règle est très difficile à trouver dans le monde de jeu. Un don, un sort, un objet ou quelque chose de rare n’est accessible aux joueurs que si le MJ décide de l’inclure dans le jeu, typiquement au travers d’une découverte durant la partie. Comme le nom l’indique, ces créatures sont rares. Elles ne peuvent généralement pas être convoquées. Le DD des tests permettant de Se souvenir d’informations sur cette créature est augmenté de 5.",
     "TraitDescriptionRatfolk": "Une créature avec ce trait possède l'héritage homme-rat",
     "TraitDescriptionReach": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaques des créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes. Les armes avec ce trait sont longues et peuvent être utilisées pour attaquer des créatures jusqu’à 3 m de distance au lieu des seules créatures adjacentes. Pour les créatures qui ont déjà une allonge avec un membre ou des membres qui manient l’arme, l’arme accroît leur portée de 1,5 m.",
+    "TraitDescriptionReach0": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaques des créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
     "TraitDescriptionReach10": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
     "TraitDescriptionReach15": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
     "TraitDescriptionReach20": "Les attaques naturelles avec ce trait peuvent être utilisées pour attaquer les créatures jusqu’à la distance indiquée au lieu des seules créatures adjacentes.",
@@ -2472,7 +2562,6 @@
     "TraitFleshwarp": "Distordu",
     "TraitFlexible": "Souple",
     "TraitFlourish": "Sophistication",
-    "TraitFocus": "Focalisation",
     "TraitFocused": "Focalisé",
     "TraitForce": "Force",
     "TraitForceful": "Percutant",
@@ -2640,6 +2729,7 @@
     "TraitRare": "Rare",
     "TraitRatfolk": "Homme-rat",
     "TraitReach": "Allonge",
+    "TraitReach0": "Allonge 0m (0 ft)",
     "TraitReach10": "Allonge 10 ft (3m)",
     "TraitReach15": "Allonge 15 ft (4,5m)",
     "TraitReach20": "Allonge 20 ft (6m)",
@@ -2654,7 +2744,6 @@
     "TraitRepeating": "Répétition",
     "TraitResonant": "Résonant",
     "TraitRevelation": "Révélation",
-    "TraitRitual": "Rituel",
     "TraitRogue": "Roublard",
     "TraitSaggorak": "Saggorak",
     "TraitSahkil": "Sahkil",
