@@ -8,6 +8,22 @@
     "TypeNpc": "Personnage Non Joueur",
     "TypeVehicle": "Véhicule"
   },
+  "COMBAT": {
+    "Begin": "Débuter une rencontre",
+    "CombatantNotInScene": "Le participant {name} n'est pas présent sur la scène que vous voyez actuellement.",
+    "CombatantRemove": "Retirer un participant",
+    "CombatantStatus": "Statut du participant",
+    "CombatantUpdate": "Mettre à jour le participant",
+    "End": "Fin de rencontre",
+    "EndConfirmation": "Terminer cette rencontre et videz le compteur d'initiative ?",
+    "EndTitle": "Terminer la rencontre ?",
+    "NoneActive": "Il n'y a pas de rencontre active dans la scène que vous voyez actuellement.",
+    "NoneRemaining": "Il n'y a plus de participant restant dans cette rencontre qui n'ait pas été vaincu.",
+    "ResourceHint": "Choisissez un attribut à suivre pour chaque participant.",
+    "Settings": "Réglages du compteur de rencontre",
+    "SkipDefeatedHint": "Passer automatiquement les participants marqués comme vaincus ?",
+    "UnknownCombatant": "Participant inconnu"
+  },
   "COMPENDIUM": {
     "ImportAllHint": "Tout le contenu de ce pack de compendium sera importé dans votre monde dans un Dossier, que vous pouvez nommer. <p class=\"notes\"><strong>ATTENTION</strong>: il est fortement recommandé que ce ne soit <span style=\"text-decoration: underline\">PAS</span> fait avec les compendiums les plus gros. Le faire ne présente pas d'avantage et va à l'inverse impacter le chargement de ce mone à la fois pour vous-même et pour vos joueurs.</p>",
     "Search": "Chercher dans les compendiums"
@@ -93,6 +109,14 @@
           "success": "<b>Succès</b> Vous vous déplacez d’une distance maximale égale à votre Vitesse, en considérant la surface traversée comme un terrain difficile (chaque déplacement de 1,50 m compte comme un déplacement de 3 m)."
         },
         "Title": "Garder l'équilibre"
+      },
+      "BonMot": {
+        "Notes": {
+          "criticalFailure": "<b>Échec critique</b> Votre trait d’esprit est atroce. Vous subissez la même pénalité que celle que l’ennemi aurait subi si vous aviez obtenu un succès. Cette pénalité prend fin après 1 minute ou dès que vous réussissez à placer un autre Bon mot. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effet: Bon Mot}",
+          "criticalSuccess": "<b>Succès critique</b> La cible est distraite et subit une pénalité de statut de -3 aux tests de Perception et de Volonté pendant 1 minute. La cible peut mettre un terme à cet effet en répondant à votre Bon mot. Il peut s’agir soit d’une action unique possédant le trait Concentration, soit d’une action de compétence appropriée permettant de cadrer avec la réponse. Le MJ détermine quelles actions de compétence sont valides, mais elles doivent nécessiter au moins 1 action. Généralement, la réponse doit utiliser une action de compétence linguistique basée sur le Charisme. @Compendium[pf2e.feat-effects.CtrZFI3RV0yPNzTv]{Effet: Bon Mot (Succès critique)}",
+          "success": "<b>Succès critique</b> La cible est distraite et subit une pénalité de statut de -2 aux tests de Perception et de Volonté pendant 1 minute. La cible peut mettre un terme à cet effet en répondant à votre Bon mot. Il peut s’agir soit d’une action unique possédant le trait Concentration, soit d’une action de compétence appropriée permettant de cadrer avec la réponse. Le MJ détermine quelles actions de compétence sont valides, mais elles doivent nécessiter au moins 1 action. Généralement, la réponse doit utiliser une action de compétence linguistique basée sur le Charisme. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effet: Bon Mot}"
+        },
+        "Title": "Bon mot"
       },
       "Climb": {
         "Notes": {
@@ -228,6 +252,7 @@
       "MakeAnImpression": {
         "Notes": {
           "criticalFailure": "<b>Échec critique</b> L’attitude de la cible à votre encontre se détériore d’une catégorie.",
+          "criticalSuccess": "<b>Succès</b> L’attitude de la cible à votre encontre s’améliore de deux catégories.",
           "success": "<b>Succès</b> L’attitude de la cible à votre encontre s’améliore d’une catégorie."
         },
         "Title": "Faire bonne impression"
@@ -436,6 +461,7 @@
     "AncestryFeatures": "Capacités d'ascendance",
     "AncestryHP": "PV d’Ascendance",
     "AncestryTitle": "Ascendance de votre personnage",
+    "AreaLabel": "Zone",
     "AreaSize10": "10 Feet (3 m)",
     "AreaSize100": "100 foot (30 m)",
     "AreaSize120": "120 Feet (36 m)",
@@ -846,6 +872,7 @@
     "DamageTypeSlashing": "Tranchant",
     "DamageTypeSonic": "Son",
     "DamageTypeSwarmAttacks": "Attaques de Nuée",
+    "DamageTypeUntyped": "non typé",
     "DefencesLabel": "Défenses",
     "Deity": "Divinité",
     "DeityTitle": "Votre divinité",
@@ -893,6 +920,7 @@
       "ActorMustHaveToken": "Ajouter des conditions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnagee",
+      "MinimumProfLevelSetByFeatures": "La maîtrise choisie est inférieure à la maîtrise obtenue par des capacités.",
       "NoTokenSelected": "Pas de jeton valide sélectionné.",
       "NoUpdatePermission": "Vous n'avez pas la permission de mettre à jour cet acteur",
       "NotEnoughAmmo": "Pas assez de munitions pour cette frappe"
@@ -965,12 +993,15 @@
     "FlatCheck": "Test nu",
     "Focus": {
       "NotEnoughFocusPointsError": "Vous n'avez pas suffisamment de points de focalisation pour lancer ce sort.",
+      "Outdated": "Ancienne valeur de la réserve de focalisation comme pense-bête. Cliquer pour effacer.",
+      "Previous": "Précédent(e)",
       "label": "Points de Focalisation",
       "pointLabel": "Points",
       "pointTitle": "Votre nombre restant de Points de focalisation",
       "poolLabel": "Rés.",
       "poolTitle": "La taille de votre réserve de focalisation"
     },
+    "Foot": "Pied",
     "FormulaPlaceholder": "Formule",
     "GenderPronoun": "Genre/Pronoms",
     "GenderPronounTitle": "Votre genre/pronoms",
@@ -1062,6 +1093,9 @@
       },
       "Plural": "Objets",
       "SidebarSummary": "Résumé {type}",
+      "Spells": {
+        "PlaceMeasuredTemplate": "Placer un(e) {shape} de {size}-{unit}"
+      },
       "Weapon": {
         "FromMaterialAndRunes": "Du fait des matériaux et runes: {value}",
         "GeneratedName": {
@@ -1177,6 +1211,7 @@
     "LanguageKitsune": "Kitsune",
     "LanguageKovintal": "Kovintal",
     "LanguageLirgeni": "Lirgeni",
+    "LanguageMahwek": "Mahwek",
     "LanguageMiGo": "Mi-Go",
     "LanguageMinaten": "Minaten",
     "LanguageMunavri": "Munavrain",
@@ -1242,6 +1277,10 @@
     "Level9": "Niveau 9",
     "LevelLabel": "Niveau",
     "LevelN": "Niveau {level}",
+    "LicenseViewer": {
+      "Label": "Mentions légales",
+      "LandingPageText": "Utiliser les onglets ci-dessus pour lire les informations légales"
+    },
     "Lore": "Connaissance",
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
     "LoreSkillFormat": "Connaissance {name}",
@@ -1541,6 +1580,7 @@
     },
     "RemoveModifierTitle": "Retirer le modificateur",
     "RemoveSpellcastingEntryTitle": "Supprimez l’entrée Incantation des sorts",
+    "Repost": "Poster dans la conversation",
     "RerollMenu": {
       "ErrorCantDelete": "Vous êtes incapable d'effacer le jet originel",
       "ErrorNoActor": "Aucun acteur n'est associé au lancer",
@@ -1591,6 +1631,7 @@
       "ActorTraits": "Traits de l'acteur",
       "AdjustDegreeOfSuccess": "Ajuster le degré de réussite",
       "BaseSpeed": "Vitesse de base",
+      "CreatureSize": "Taille de créature",
       "DamageDice": "Dé de dégât",
       "DexterityModifierCap": "Modif. Max. de Dextérité",
       "EffectTarget": "Cible de l'effet",
@@ -1724,6 +1765,10 @@
         "PF2E": "Système PF2"
       },
       "Metagame": {
+        "PartyVision": {
+          "Hint": "Si activé, tous les joueurs vont automatiquement partager la vision de leurs jetons, quelle que soient les autorisations ou la sélection du jeton.",
+          "Name": "vision partagée du groupe"
+        },
         "SecretCondition": {
           "Hint": "Lorsqu'activé, seul le MJ verra l'état mis à jour et les messages de rappel qui sont générés pour les jetons qui n'appartiennent pas à un joueur.",
           "Name": "Masquer le message de mise à jour de l'état"
@@ -2036,7 +2081,7 @@
     "SpeedTypesTitle": "Les modes de déplacement alternatifs",
     "SpellAbilityLabel": "Carac d’incant.",
     "SpellAbilityModLabel": "+ Mod. Carac.",
-    "SpellAreaLabel": "Zone",
+    "SpellArea": "Zone: {areaType} de {areaSize} {areaUnit}",
     "SpellAttack": {
       "arcane": "Attaque de sort arcanique",
       "divine": "Attaque de sort divin",
@@ -3614,7 +3659,7 @@
       "collisionDamageLabel": "Dégâts de collision"
     }
   },
-  "PF2e": {
-    "TraitStamina": "Endurance"
+  "SIDEBAR": {
+    "TabCombat": "Compteur d'initiative"
   }
 }
