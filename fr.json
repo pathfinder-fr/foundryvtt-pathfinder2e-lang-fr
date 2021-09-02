@@ -29,7 +29,7 @@
     "Search": "Chercher dans les compendiums"
   },
   "CONTROLS": {
-    "EffectPanel": "Tableau d'effet",
+    "EffectPanel": "Panneau d'effets",
     "WorldClock": "Horloge du Monde"
   },
   "ITEM": {
@@ -44,6 +44,7 @@
     "TypeEffect": "Effet",
     "TypeEquipment": "Équipement",
     "TypeFeat": "Don",
+    "TypeFormula": "Formule",
     "TypeKit": "Kit",
     "TypeLore": "Compétence PNJ",
     "TypeMartial": "Maîtrise d'armure et d'arme",
@@ -474,6 +475,7 @@
     "AreaSize50": "50 Feet (15 m)",
     "AreaSize60": "60 Feet (18 m)",
     "AreaSize75": "75 Feet (22,5 m)",
+    "AreaSize80": "80 foot (24 m)",
     "AreaSize90": "90 Feet (27 m)",
     "AreaTypeBurst": "Explosion",
     "AreaTypeCone": "Cône",
@@ -728,6 +730,7 @@
     "ConditionTypeObserved": "Observé",
     "ConditionTypeParalyzed": "Paralysé",
     "ConditionTypePersistent": "Dégâts persistants",
+    "ConditionTypePersistentShort": "Persistant",
     "ConditionTypePetrified": "Pétrifié",
     "ConditionTypeProne": "À terre",
     "ConditionTypeQuickened": "Accéléré",
@@ -816,7 +819,7 @@
     "DCAdjustmentVeryEasy": "très facile",
     "DCAdjustmentVeryHard": "très difficile",
     "DCLabel": "DD",
-    "DCWithValue": "{text} DD {dc}",
+    "DCWithValue": "DD {dc} de {text}",
     "DamageButton": {
       "Double": "Appliquer double dégâts aux cibles sélectionnées",
       "DoubleContext": "Double dégâts",
@@ -837,6 +840,7 @@
       "TripleContext": "Appliquer triple dégâts",
       "TripleShort": "Triple"
     },
+    "DamageCategoriesLabel": "Catégories de dégâts",
     "DamageDieD10": "d10",
     "DamageDieD12": "d12",
     "DamageDieD4": "d4",
@@ -974,6 +978,12 @@
     },
     "Foot": "Pied",
     "FormulaPlaceholder": "Formule",
+    "FormulaSheet": {
+      "DescriptionUnknown": "Cette formule est complètement remplie de dessins de petits bonshommes bâtons, de tâches d'un liquide inconnu, de rimes insensées écrites par un enfant et d'autres marques apparemment aléatoires. Elle doit avoir été faite par des gobelins et n'a aucun sens pour vous.<hr><b>Note:</b> Cette formule fait référence à un élément manquant ou invalide.",
+      "NameEmpty": "Formule vide",
+      "NamePrefix": "Formule de {name}",
+      "NameUnknown": "Formule inconnue"
+    },
     "GenderPronoun": "Genre/Pronoms",
     "GenderPronounTitle": "Votre genre/pronoms",
     "GeneralFeatLevels": "Niveaux des dons généraux",
@@ -1037,7 +1047,14 @@
         }
       },
       "Effect": {
-        "ShowTokenIcon": "Montrer l'icône du jeton ?"
+        "Expiry": {
+          "EndOfCombat": "à la fin du combat",
+          "EndOfTurn": "à la fin du tour",
+          "ExpiresOn": "Expire",
+          "StartOfTurn": "au début du tour"
+        },
+        "ShowTokenIcon": "Montrer l'icône du jeton ?",
+        "Sustained": "Maintenu"
       },
       "IconLabel": "Icône",
       "NameLabel": "Nom",
@@ -1581,19 +1598,20 @@
       "ActorTraits": "Traits de l'acteur",
       "AdjustDegreeOfSuccess": "Ajuster le degré de réussite",
       "BaseSpeed": "Vitesse de base",
+      "BattleForm": "Forme de combat",
       "CreatureSize": "Taille de créature",
       "DamageDice": "Dé de dégât",
       "DexterityModifierCap": "Modif. Max. de Dextérité",
       "EffectTarget": "Cible de l'effet",
       "FixedProficiency": "Compétence fixe",
       "FlatModifier": "Test nu/pur",
+      "Immunity": "Immunité",
       "LoseHitPoints": "perte de points de vie",
       "MultipleAttackPenalty": "Pénalité d'attaques multiples",
       "NewRuleElement": "Nouvel élément de règle",
       "Note": "Note",
       "RecoveryCheckDC": "DD du test de récupération",
       "Sense": "Sens",
-      "SetProperty": "Définir la propriété",
       "Strike": "Frappe",
       "Striking": "de Frappe",
       "TempHP": "Points de Vie temporaires",
@@ -1761,10 +1779,14 @@
       },
       "ResetChanges": "Effacer les changements",
       "Settings": "Réglages",
+      "Sidebar": {
+        "Changelog": "Journal des changements",
+        "Guide": "Guide"
+      },
       "User": {
         "EffectPanel": {
           "Hint": "Montrer le panneau des effets lorsque le jeton est sélectionné.",
-          "Name": "Montrer le tableau des effets"
+          "Name": "Montrer le panneau des effets"
         }
       },
       "Variant": {
@@ -2049,8 +2071,12 @@
     "SpellCategoryLabel": "Catégorie de sort",
     "SpellCategoryRitual": "Rituel",
     "SpellCategorySpell": "Sort",
+    "SpellCollectionAdd": "Ajouter à la collection de sorts",
+    "SpellCollectionRemove": "Retirer de la collection de sorts",
+    "SpellComponentF": "Focalisateur",
     "SpellComponentM": "Matériel",
     "SpellComponentS": "Somatique",
+    "SpellComponentShortF": "F",
     "SpellComponentShortM": "M",
     "SpellComponentShortS": "S",
     "SpellComponentShortV": "V",
@@ -2060,8 +2086,8 @@
     "SpellCostLabel": "Coût",
     "SpellDCBase": "DD de base du sort 10",
     "SpellDamageLabel": "Dégâts du sort",
-    "SpellDamageTypeLabel": "Type de dégâts",
     "SpellDurationLabel": "Durée",
+    "SpellFlexibleLabel": "Flexible",
     "SpellFocusLabel": "Focalisation",
     "SpellLabel": "Sort",
     "SpellLabelPlural": "Sorts",
@@ -2085,6 +2111,11 @@
     "SpellRequirementsLabel": "Conditions",
     "SpellRitualLabel": "Rituel",
     "SpellSaveLabel": "DD du Sort",
+    "SpellScalingInterval": {
+      "Add": "Ajouter l'intervalle d'intensification",
+      "Header": "intensification (intervalle)",
+      "Label": "intervalle"
+    },
     "SpellScalingLabel": "Intensification",
     "SpellScalingModeLevel1": "Intensifié (+1)",
     "SpellScalingModeLevel2": "Intensifié (+2)",
@@ -2181,12 +2212,35 @@
     "TargetFlatFootedLabel": "Cible prise au dépourvu",
     "TempHPTitle": "Le montant de vos points de vie temporaires",
     "TempHitPointsShortLabel": "PV temp.",
+    "Time": {
+      "Duration": "Duration",
+      "Unit": {
+        "Days": "jours",
+        "Hours": "heures",
+        "Minutes": "minutes",
+        "Rounds": "rounds",
+        "Seconds": "secondes",
+        "Unlimited": "illimité",
+        "Weeks": "semaines"
+      }
+    },
     "ToggleSignatureSpellTitle": "Activer les sorts emblématiques",
     "ToggleSpellVisibilityLevelTitle": "Activer un chapitre de votre Grimoire",
     "ToggleSpellVisibilityTitle": "Activez la visibilité des sorts",
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
     "ToggleWithName": "Activer : {property}",
     "TogglesLabel": "Activations",
+    "Token": {
+      "Appearance": "Apparence",
+      "Size": {
+        "Dimensions": "Dimensions",
+        "Label": "Taille",
+        "LinkToActorSize": {
+          "Hint": "Gardez les dimensions de cet acteur en cohérence avec la catégorie de taille de cet acteur",
+          "Label": "Lier à la taille de l'acteur"
+        }
+      }
+    },
     "TotalCoinage": "Total des pièces",
     "TotalTreasure": "Trésor total",
     "TotalWealth": "Fortune totale",
@@ -2203,6 +2257,7 @@
     "TraitAesir": "Aesir",
     "TraitAffixedToAShield": "Fixé à un bouclier",
     "TraitAffixedToArmor": "Fixé à une armure",
+    "TraitAffixedToArmorOrAWeapon": "Fixé à une armure ou à une arme",
     "TraitAffixedToWeapon": "Fixé à une arme",
     "TraitAgathion": "Agathion",
     "TraitAgile": "Agile",
@@ -2267,6 +2322,7 @@
     "TraitComposition": "Composition",
     "TraitConcealable": "Dissimulable",
     "TraitConcentrate": "Concentration",
+    "TraitConfusion": "Confusion",
     "TraitConjuration": "Invocation",
     "TraitConrasu": "Conrasu",
     "TraitConsecration": "Consécration",
@@ -2620,7 +2676,6 @@
     "TraitLitany": "Litanie",
     "TraitLizardfolk": "Homme-lézard",
     "TraitLocathah": "Locathah",
-    "TraitMagic": "Magie",
     "TraitMagical": "Magique",
     "TraitMagus": "Magus",
     "TraitManipulate": "Manipulation",
@@ -2635,7 +2690,7 @@
     "TraitMonitor": "Veilleur",
     "TraitMonk": "Moine",
     "TraitMorph": "Transformation",
-    "TraitMortic": "Mortic",
+    "TraitMortic": "Mortique",
     "TraitMove": "Déplacement",
     "TraitMulticlass": "Multiclasse",
     "TraitMummy": "Momie",
@@ -2788,6 +2843,7 @@
     "TraitSummon": "Convocation",
     "TraitSummoner": "Conjurateur",
     "TraitSwarm": "Nuée",
+    "TraitSwarmAttacks": "Attaques de nuées",
     "TraitSwarmMind": "Esprit de nuée",
     "TraitSwashbuckler": "Bretteur",
     "TraitSweep": "Balayage",
@@ -2797,6 +2853,7 @@
     "TraitTane": "Tane",
     "TraitTanggal": "tanggal",
     "TraitTattoo": "Tatouage",
+    "TraitTattooedOnTheBody": "Tatoué sur le corps",
     "TraitTeleportation": "Téléportation",
     "TraitTengu": "Tengu",
     "TraitTethered": "Rappel",
@@ -2932,15 +2989,15 @@
     "UI": {
       "applyDamage": {
         "by": "par",
-        "damaged": " en dégâts : ",
-        "healed": "est soigné de",
+        "damaged": "est blessé de : ",
+        "healed": "est soigné de :",
         "shieldActive": "et son bouclier subit",
         "shieldInActive": "subit"
       },
       "errorTargetToken": "Vous n'avez pas ciblé de Jeton.",
       "noDamageInfoForOutcome": "Pas d'informations sur les dégâts de l'issue {outcome}",
       "shiftModifyDamageHint": "Utiliser le modificateur positif pour blesser, le négatif pour soigner.",
-      "shiftModifyDamageLabel": "Modificateur:",
+      "shiftModifyDamageLabel": "Modificateur :",
       "shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus"
     },
     "UnitPriceLabel": "Prix",
@@ -3167,26 +3224,33 @@
     "WeaponPropertyRuneAnarchic": "Anarchique",
     "WeaponPropertyRuneAncestralEchoing": "Écho ancestral",
     "WeaponPropertyRuneAxiomatic": "Axiomatique",
+    "WeaponPropertyRuneBane": "Tueuse",
     "WeaponPropertyRuneBloodbane": "Ennemi ancestral",
+    "WeaponPropertyRuneBrilliant": "Brillante",
     "WeaponPropertyRuneConducting": "Conductrice",
     "WeaponPropertyRuneCorrosive": "Corrosif",
     "WeaponPropertyRuneCunning": "Astucieuse",
     "WeaponPropertyRuneDancing": "Dansante",
     "WeaponPropertyRuneDisrupting": "Perturbatrice",
+    "WeaponPropertyRuneExtending": "Extensible",
     "WeaponPropertyRuneFearsome": "Effrayante",
     "WeaponPropertyRuneFlaming": "Enflammée",
     "WeaponPropertyRuneFrost": "Froid",
     "WeaponPropertyRuneGhostTouch": "Spectrale",
     "WeaponPropertyRuneGreaterBloodbane": "Ennemi ancestral supérieure",
+    "WeaponPropertyRuneGreaterBrilliant": "Brillante supérieure",
     "WeaponPropertyRuneGreaterCorrosive": "Corrosive supérieure",
     "WeaponPropertyRuneGreaterDisrupting": "Perturbatrice supérieure",
+    "WeaponPropertyRuneGreaterExtending": "Extensible supérieure",
     "WeaponPropertyRuneGreaterFearsome": "Effrayante supérieure",
     "WeaponPropertyRuneGreaterFlaming": "Enflammée supérieure",
     "WeaponPropertyRuneGreaterFrost": "Froid supérieure",
+    "WeaponPropertyRuneGreaterImpactful": "Impactante supérieure",
     "WeaponPropertyRuneGreaterShock": "Foudre supérieure",
     "WeaponPropertyRuneGreaterThundering": "Tonnerre supérieure",
     "WeaponPropertyRuneGrievous": "Douloureuse",
     "WeaponPropertyRuneHoly": "Sainte",
+    "WeaponPropertyRuneImpactful": "Impactante",
     "WeaponPropertyRuneKeen": "Acérée",
     "WeaponPropertyRuneKinWarding": "Garde-alliée",
     "WeaponPropertyRuneLabel": "Rune de propriété",
