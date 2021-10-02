@@ -97,7 +97,7 @@
     "ActionSkillRequirementLabel": "Condition",
     "ActionTypeAction": "Action Unique",
     "ActionTypeFree": "Action Gratuite",
-    "ActionTypePassive": "Passive",
+    "ActionTypePassive": "Passif",
     "ActionTypeReaction": "Réaction",
     "ActionTypeSingle": "Action unique",
     "ActionWeaponLabel": "Arme associée",
@@ -421,6 +421,9 @@
       "Hazard": {
         "Level": "Danger {level}"
       },
+      "NPC": {
+        "IsLootableOnDeathLabel": "Rendre ce PNJ pillable à sa mort"
+      },
       "Plural": "Acteurs"
     },
     "ActorSizeGargantuan": "Gigantesque",
@@ -579,6 +582,42 @@
     "BackgroundTitle": "Historique de votre personnage",
     "BaseModifier": "Modif. Base",
     "BaseWeapons": "Armes de base",
+    "BattleForm": {
+      "Attack": {
+        "Antler": "bois",
+        "Beak": "bec",
+        "Beard": "barbe",
+        "BoneShard": "éclats d'os",
+        "Boot": "botte",
+        "CubeFace": "face du cube",
+        "Fangs": "crochets",
+        "FireMote": "grain de feu",
+        "Foot": "pied",
+        "Foreleg": "antérieur",
+        "Gust": "bourrasque",
+        "HolyMace": "sainte masse",
+        "Hoof": "sabot",
+        "Horn": "corne",
+        "LightingLash": "fouet d'éclair",
+        "Mandibles": "mandibules",
+        "Moonbeam": "rayon de lune",
+        "PiercingHymn": "hymne perçant",
+        "Pincer": "pince",
+        "Pseudopod": "pseudopode",
+        "Rock": "rocher",
+        "Stinger": "dard",
+        "Sunbeam": "rayon de soleil",
+        "Tail": "queue",
+        "Talon": "ergot",
+        "Tendril": "liane",
+        "Tentacle": "tentacule",
+        "TentacleArm": "bras à tentacule",
+        "Tongue": "langue",
+        "WaterSpout": "jet d'eau",
+        "Wave": "vague",
+        "Wing": "aile"
+      }
+    },
     "BestiaryBrowserSearchHint": "Vous pouvez chercher par nom ou par un autre critère. Les critères possibles sont : <br>source, type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
     "Biography": "Biographie",
     "BiographyPrivateHeading": "Notes privées",
@@ -820,6 +859,9 @@
     "DCAdjustmentVeryHard": "très difficile",
     "DCLabel": "DD",
     "DCWithValue": "DD {dc} de {text}",
+    "Damage": {
+      "NoDamageFormulaLabel": "Pas de dégât"
+    },
     "DamageButton": {
       "Double": "Appliquer double dégâts aux cibles sélectionnées",
       "DoubleContext": "Double dégâts",
@@ -921,11 +963,7 @@
       "TotalNumberFamiliarAbilities": "# total de capacités de familier"
     },
     "FamiliarItemTypeError": "Seuls les effets et les conditions sont actuellement supportées par les familiers",
-    "FeatActionTypeAction": "Action unique",
-    "FeatActionTypeFree": "Action gratuite",
     "FeatActionTypeLabel": "Type d’action",
-    "FeatActionTypePassive": "Passif",
-    "FeatActionTypeReaction": "Réaction",
     "FeatActionsLabel": "Nombre d’actions",
     "FeatAncestryHeader": "Dons ancestraux",
     "FeatArchetypeHeader": "Dons d’archétype",
@@ -955,7 +993,6 @@
     "FeatTypeLabel": "Type de don",
     "FeatTypePfsboon": "Bénédiction de la Société",
     "FeatTypeSkill": "Don de compétence",
-    "FeatVariantRule": "Variante de règle",
     "FeaturesAncestryHeader": "Capacités d’ascendance",
     "FeaturesClassHeader": "Capacités de classe",
     "Feet": "pieds",
@@ -983,6 +1020,10 @@
       "NameEmpty": "Formule vide",
       "NamePrefix": "Formule de {name}",
       "NameUnknown": "Formule inconnue"
+    },
+    "Frequency": {
+      "day": "quotidien",
+      "hour": "chaque heure"
     },
     "GenderPronoun": "Genre/Pronoms",
     "GenderPronounTitle": "Votre genre/pronoms",
@@ -1029,6 +1070,12 @@
       "ABC": {
         "InvalidDrop": "{badType} ne peut être déposé ici (cela doit être {goodType})"
       },
+      "Ancestry": {
+        "Vision": {
+          "Label": "Vision",
+          "Normal": "Vision ordinaire"
+        }
+      },
       "Armor": {
         "Base": {
           "breastplate": "Cuirasse",
@@ -1046,6 +1093,7 @@
           "studded-leather-armor": "Armure de cuir cloutée"
         }
       },
+      "CannotAddType": "les objets {type} ne peuvent être ajoutés à cet acteur.",
       "Effect": {
         "Expiry": {
           "EndOfCombat": "à la fin du combat",
@@ -1068,7 +1116,7 @@
         "PlaceMeasuredTemplate": "Placer un(e) {shape} de {size}-{unit}"
       },
       "Weapon": {
-        "FromMaterialAndRunes": "Du fait des matériaux et runes: {value}",
+        "FromMaterialAndRunes": "Du fait des matériaux et runes, son {property} a été ajusté à {value}",
         "GeneratedName": {
           "Hint": "C’est le nom de l’arme de base. Pour la plupart des armes, la base est utilisée pour générer un nom plus complet, en prenant en compte le matériau de composition et/ou les runes. Donner à cette arme un nom différent ou la marquer comme \"specific\" empêchera de faire apparaître le nom généré.",
           "Material": "{base} en {material}",
@@ -1627,6 +1675,8 @@
       "NewRuleElement": "Nouvel élément de règle",
       "Note": "Note",
       "RecoveryCheckDC": "DD du test de récupération",
+      "Resistance": "Résistance",
+      "RollOption": "Option de lancement",
       "Sense": "Sens",
       "Strike": "Frappe",
       "Striking": "de Frappe",
@@ -1637,6 +1687,7 @@
       "TokenImage": "Image du jeton",
       "TokenSize": "Taille du jeton",
       "Unrecognized": "Élément de règle non reconnu",
+      "Weakness": "Faiblesse",
       "WeaponPotency": "Puissance d'arme"
     },
     "SETTINGS": {
@@ -1645,8 +1696,11 @@
           "Hint": "Les effets désactivent automatiquement les éléments de règle attachées lorsque la durée expire.",
           "Name": "Expiration auto des effets"
         },
+        "ExperimentalDamageFormatting": {
+          "Hint": "Distribuez les données des jets de dégâts et décorez la carte dans la conversation avec des formules de jets de dégâts formatées différemment, selon les types et les catégories de dégâts avec des notes pour les jets de dégâts persistants et d'éclaboussures.",
+          "Name": "Utiliser le formatage expérimental des cartes de dégâts dans la conversation"
+        },
         "Hint": "Décidez combien et quelle sorte d'automatisation appliquer à votre monde.",
-        "Instructions": "Décidez combien et quelle sorte d'automatisation appliquer à votre monde.",
         "Label": "régler l'automatisation",
         "LootableNPCs": {
           "Hint": "Lorsqu'ils sont défaits, les PNJ peuvent être fouillés par les joueurs.",
@@ -1749,6 +1803,9 @@
         "PF2E": "Système PF2"
       },
       "Metagame": {
+        "Hint": "Limiter les informations de métajeu auxquelles vos joueurs ont accès.",
+        "Label": "Limitez l'information de métajeu",
+        "Name": "Information de métajeu",
         "PartyVision": {
           "Hint": "Si activé, tous les joueurs vont automatiquement partager la vision de leurs jetons, quelle que soient les autorisations ou la sélection du jeton.",
           "Name": "vision partagée du groupe"
@@ -2152,13 +2209,15 @@
     "SpellSecondaryCasters": "Incantateurs secondaires",
     "SpellSecondaryChecksLabel": "Tests secondaires",
     "SpellSlotEmpty": "Emplacement libre (déposer le sort ici)",
-    "SpellTargetLabel": "Cible",
+    "SpellSlotExpendedError": "Ne peut lancer {name}, le sort a déjà été dépensé",
+    "SpellSlotNotEnoughError": "Ne peut lancer {name} au {level}, pas assez d'emplacements de sorts",
+    "SpellTargetLabel": "Cibles",
     "SpellTimeLabel": "Temps d’incantation",
     "SpellTraditionArcane": "Arcanique",
     "SpellTraditionDivine": "Divine",
     "SpellTraditionOccult": "Occulte",
     "SpellTraditionPrimal": "Primordiale",
-    "SpellTraditionsLabel": "Tradition du sort",
+    "SpellTraditionsLabel": "Traditions",
     "SpellTypeAttack": "Attaque magique",
     "SpellTypeFocus": "Focalisé",
     "SpellTypeHeal": "Guérison",
@@ -2180,6 +2239,7 @@
     "StackGroupSlingBullets": "Billes de fronde",
     "StackGroupWoodenTaws": "Billes de bois",
     "StaminaPointsHeader": "Points d’Endurance",
+    "StaminaPointsShortLabel": "Endurance",
     "StatusBonusShortLabel": "Statut",
     "StatusBonusTitle": "Bonus de statut",
     "StatusEffects": "effets de statut de {name}",
@@ -2242,6 +2302,7 @@
       }
     },
     "ToggleSignatureSpellTitle": "Activer les sorts emblématiques",
+    "ToggleSlotlessSpellLevelsTitle": "Active la visibilité des niveaux de sort sans emplacement dans votre grimoire",
     "ToggleSpellVisibilityLevelTitle": "Activer un chapitre de votre Grimoire",
     "ToggleSpellVisibilityTitle": "Activez la visibilité des sorts",
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
@@ -2261,6 +2322,12 @@
     "TotalCoinage": "Total des pièces",
     "TotalTreasure": "Trésor total",
     "TotalWealth": "Fortune totale",
+    "TraditionSpells": {
+      "Arcane": "Sorts {tradition}",
+      "Nature": "Sorts {tradition}",
+      "Occult": "Sorts {tradition}",
+      "Primal": "Sorts {tradition}"
+    },
     "TrainedSkillsLabel": "Choix des compétences qualifiées",
     "TraitAasimar": "Aasimar",
     "TraitAberration": "Aberration",
@@ -2303,6 +2370,7 @@
     "TraitAttack": "Attaque",
     "TraitAuditory": "Audible",
     "TraitAura": "Aura",
+    "TraitAxeVulnerability": "Vulnérabilité à la hache",
     "TraitAzarketi": "Azarketi",
     "TraitAzata": "Azata",
     "TraitBackstabber": "Traître",
@@ -2904,7 +2972,6 @@
     "TraitUntyped": "Non typé",
     "TraitUrdefhan": "Urdefhan",
     "TraitVampire": "Vampire",
-    "TraitVampireWeakness": "Faiblesse des vampires",
     "TraitVanara": "Vanara",
     "TraitVelstrac": "Velstrac",
     "TraitVersatileB": "Polyvalent C",
@@ -2935,6 +3002,7 @@
     "TraitWornBackpack": "Sac à dos porté",
     "TraitWornBarding": "Bardage porté",
     "TraitWornBelt": "Ceinture portée",
+    "TraitWornBeltPouch": "poche de ceinture portée",
     "TraitWornBracers": "Bracelets portés",
     "TraitWornCirclet": "Anneau porté",
     "TraitWornCloak": "Cape portée",
@@ -3344,13 +3412,14 @@
         }
       },
       "Button": {
-        "AddOneDay": "+1 jour",
-        "AddOneHour": "+1 heure",
-        "AddOneMinute": "+1 minute",
-        "AddOneRound": "+1 round",
-        "AddOneWeek": "+1 semaine",
-        "AddTenMinutes": "+10 minutes",
-        "Advance": "Avancer"
+        "AddOneDay": "1 jour",
+        "AddOneHour": "1 heure",
+        "AddOneMinute": "1 minute",
+        "AddOneRound": "1 round",
+        "AddOneWeek": "1 semaine",
+        "AddTenMinutes": "10 minutes",
+        "Advance": "Avancer",
+        "Retract": "Retrancher"
       },
       "CE": {
         "Era": "Ere commune"
@@ -3360,15 +3429,7 @@
         "Era": "Calendier Impérial"
       },
       "Placeholder": "Nombre",
-      "Title": "Horloge du monde",
-      "Unit": {
-        "Days": "Jours",
-        "Hours": "Heures",
-        "Minutes": "Minutes",
-        "Rounds": "Rounds",
-        "Seconds": "Secondes",
-        "Weeks": "Semaines"
-      }
+      "Title": "Horloge du monde"
     },
     "condition": {
       "blinded": {
