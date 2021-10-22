@@ -674,8 +674,32 @@
     },
     "BestiaryBrowserSearchHint": "Vous pouvez chercher par nom ou par un autre critère. Les critères possibles sont : <br>source, type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
     "Biography": "Biographie",
-    "BiographyPrivateHeading": "Notes privées",
-    "BiographyPublicHeading": "Biographie publique",
+    "BiographyAllies": "Alliés",
+    "BiographyAlliesTitle": "Les alliés de votre personnage",
+    "BiographyAppearance": "Apparence",
+    "BiographyAppearanceTitle": "À quoi votre personnage ressemble",
+    "BiographyAttitude": "Attitude",
+    "BiographyAttitudeTitle": "Comment votre personnage se comporte",
+    "BiographyBackStory": "Histoire",
+    "BiographyBackStoryTitle": "L'histoire de votre personnage",
+    "BiographyBeliefs": "Croyances",
+    "BiographyBeliefsTitle": "À quoi votre personnage croit",
+    "BiographyBirthPlace": "Lieu de naissance",
+    "BiographyBirthPlaceTitle": "L'endroit où votre personnage est né",
+    "BiographyCampaignNotes": "Notes",
+    "BiographyCampaignNotesHeader": "Notes de campagne",
+    "BiographyCampaignNotesTitle": "Tout ce que vous voulez",
+    "BiographyCatchphrases": "Expressions typiques",
+    "BiographyCatchphrasesTitle": "Les expressions typiques de votre personnage",
+    "BiographyDislikes": "N'aime pas",
+    "BiographyDislikesTitle": "ce que votre personnage n'aime pas",
+    "BiographyEnemies": "Ennemis",
+    "BiographyEnemiesTitle": "Les ennemis de votre personnage",
+    "BiographyLikes": "Aime\"",
+    "BiographyLikesTitle": "Ce que votre personnage aime",
+    "BiographyOrganizations": "Organisations",
+    "BiographyOrganizationsTitle": "Les organisations d'appartenance de votre personnage",
+    "BiographyPersonalityHeader": "Personnalité",
     "BonusBulk": "Encombrement",
     "BonusBulkTitle": "Ajoutez ou retirez à votre limite d'Encombrement",
     "BonusEncumbranceBulkLabel": "Encombrement supplémentaire",
@@ -1051,6 +1075,7 @@
     "FeatDeityBoonCursesHeader": "Bénédictions/Malédictions",
     "FeatDeityBoonHeader": "Faveurs de la divinité",
     "FeatDeityboonHeader": "Bénédiction de divinité",
+    "FeatDualClassHeader": "Dons de double classe",
     "FeatGeneralHeader": "Dons généraux",
     "FeatLevelLabel": "Niveau",
     "FeatPFSBoonHeader": "Avantages Société des Éclaireurs",
@@ -1133,6 +1158,9 @@
     "InitiativeHeader": "Bonus à l’Initiative",
     "InitiativeLabel": "Initiative",
     "InitiativeWithSkill": "Initiative: {skillName}",
+    "InlineButtons": {
+      "TemplateLabel": "{type} de {unit} ft"
+    },
     "InventoryArmorHeader": "Armures",
     "InventoryBackpackHeader": "Contenants",
     "InventoryConsumablesHeader": "Consommables",
@@ -1292,7 +1320,6 @@
     "LanguageElven": "Elfique",
     "LanguageErutaki": "Erutaki",
     "LanguageGarundi": "Garundais",
-    "LanguageGiant": "Géant",
     "LanguageGirtablilu": "Girtablilu",
     "LanguageGnoll": "Gnoll",
     "LanguageGnomish": "Gnomien",
@@ -1569,6 +1596,8 @@
       "MainTab": "Principal",
       "NotesTab": "Notes",
       "PassivesLabel": "Passifs",
+      "PrivateNotes": "Notes privées",
+      "PublicNotes": "Notes publiques",
       "Remove": "Retirer",
       "SavesExtraInfoLabelPlaceholder": "Bonus à tous les jets de sauvegarde...",
       "SendToChat": "Envoyer vers le chat",
@@ -1991,6 +2020,12 @@
         "Discord": "Discord",
         "Guide": "Guide"
       },
+      "Tokens": {
+        "Autoscale": {
+          "Hint": "Si activé, les jetons seront mis à l'échelle de 1.0 ou 0.8 s'il s'agit de créatures petites",
+          "Name": "Jetons à l'échelle de leur taille"
+        }
+      },
       "User": {
         "EffectPanel": {
           "Hint": "Montrer le panneau des effets lorsque le jeton est sélectionné.",
@@ -2012,6 +2047,11 @@
           "Hint": "rechargement nécessaire : supporte la variante de règle de progression automatique du bonus, sauf les capacité de compétences et d'apogée",
           "Name": "Variantes de règles de bonus automatique",
           "Title": "Progression automatique du bonus"
+        },
+        "DualClass": {
+          "Hint": "Accorde des emplacements de dons supplémentaires pour la variane de classe double issue du guide du maître (p. 192). Cette variante ajoute seulement des emplacements de sorts et toujours un emplacement de don de niveau 1.",
+          "Name": "Variante des règles de classe double",
+          "Title": "Classe double"
         },
         "ExpertModifier": {
           "Hint": "Ajuster à votre convenance la maîtrise sans niveau issue des variantes de règles. Nécessite le recalcul en rechargeant ou en modifiant une valeur par acteur.",
@@ -2244,6 +2284,12 @@
     "SkillThi": "Vol",
     "SkillThievery": "Vol",
     "SkillsLabel": "Compétences",
+    "Source": {
+      "AuthorLabel": "Auteur:",
+      "AuthorPlaceholder": "Auteur",
+      "Label": "Source",
+      "SourcePlaceholder": "Livre"
+    },
     "SpecialLabel": "Spécial",
     "SpecialSensesLabel": "Sens spéciaux",
     "SpecialSensesTitle": "Les sens spéciaux de votre personnage.",
@@ -2322,23 +2368,10 @@
     "SpellScalingInterval": {
       "Add": "Ajouter l'intervalle d'intensification",
       "Header": "intensification (intervalle)",
-      "Label": "intervalle"
+      "Label": "intervalle",
+      "Selection": "Intesifié (+{interval})"
     },
     "SpellScalingLabel": "Intensification",
-    "SpellScalingModeLevel1": "Intensifié (+1)",
-    "SpellScalingModeLevel2": "Intensifié (+2)",
-    "SpellScalingModeLevel3": "Intensifié (+3)",
-    "SpellScalingModeLevel4": "Intensifié (+4)",
-    "SpellScalingModeLeveleighth": "Intensifié (8e)",
-    "SpellScalingModeLevelfifth": "Intensifié (5e)",
-    "SpellScalingModeLevelfourth": "Intensifié (4e)",
-    "SpellScalingModeLevelninth": "Intensifié (9e)",
-    "SpellScalingModeLevelsecond": "Intensifié (2e)",
-    "SpellScalingModeLevelseventh": "Intensifié (7e)",
-    "SpellScalingModeLevelsixth": "Intensifié (6e)",
-    "SpellScalingModeLeveltenth": "Intensifié (10e)",
-    "SpellScalingModeLevelthird": "Intensifié (3e)",
-    "SpellScalingModeNone": "Sans",
     "SpellSchoolLabel": "École de Magie",
     "SpellSecondaryCasters": "Incantateurs secondaires",
     "SpellSecondaryChecksLabel": "Tests secondaires",
@@ -2502,6 +2535,8 @@
     "TraitAstral": "Astral",
     "TraitAsura": "Asura",
     "TraitAttached": "Attachée",
+    "TraitAttachedToCrossbowOrFirearm": "Attaché à une arbalète ou une arme à feu",
+    "TraitAttachedToShield": "Attaché à un bouclier",
     "TraitAttack": "Attaque",
     "TraitAuditory": "Audible",
     "TraitAura": "Aura",
@@ -2542,13 +2577,13 @@
     "TraitColdiron": "Fer froid",
     "TraitCombination": "Combinée",
     "TraitComfort": "Confort",
-    "TraitCommon": "Commun",
+    "TraitCommon": "Courant",
     "TraitCompanion": "Compagnon",
     "TraitComplex": "Complexe",
     "TraitComposition": "Composition",
     "TraitConcealable": "Dissimulable",
     "TraitConcentrate": "Concentration",
-    "TraitConcussive": "déflagration",
+    "TraitConcussive": "Déflagration",
     "TraitConfusion": "Confusion",
     "TraitConjuration": "Invocation",
     "TraitConrasu": "Conrasu",
@@ -2581,7 +2616,7 @@
     "TraitDeadlyD8": "Mortel d8",
     "TraitDeath": "Mort",
     "TraitDeathEffects": "Effets de mort",
-    "TraitDedication": "Dévotion",
+    "TraitDedication": "Dévouement",
     "TraitDemon": "Démon",
     "TraitDero": "Dero",
     "TraitDescriptionAasimar": "Une créature possédant ce trait est un membre de l'héritage aasimar",
@@ -2624,7 +2659,7 @@
     "TraitDescriptionClimbing": "La main qui manie l'arme est disponible pour l'escalade.",
     "TraitDescriptionClockwork": "Les mécanismes d'horlogerie sont des créatures artificielles complexes et délicates qui peuvent être programmés pour exécuter des fonctions spécifiques.",
     "TraitDescriptionCobbled": "Cette arme à feu est bricolée et risque de mal fonctionner. Peu importe la façon dont vous l'entretenez, sur un jet d'attaque raté, l'attaque rate et vous devez effectuer un test nu DD 5. Si vous échouez à ce test, l'arme a des ratés.",
-    "TraitDescriptionCold": " Les effets possédant ce trait infligent des dégâts de froid. Les créa‑ tures qui possèdent ce trait ont une connexion magique au froid.",
+    "TraitDescriptionCold": " Les effets possédant ce trait infligent des dégâts de froid. Les créatures qui possèdent ce trait ont une connexion magique au froid.",
     "TraitDescriptionCombination": "C'et un trait pour les armes qui combinent la fonctionnalité d'une arme au corps à corps et les armes à feu d'une manière unique et inhabituelle. Une arme combinée possède à la fois une forme ou un usage d'arme à feu et une forme ou un usage d'arme au corps-à-corps.",
     "TraitDescriptionComfort": "L’armure est si confortable que vous pouvez prendre un repos normal tout en la portant.",
     "TraitDescriptionCommon": "Tout ce qui n’est pas associé à un autre trait de rareté (peu courant, rare ou unique) possède automatiquement le trait ordinaire.  Cette rareté indique qu’un pouvoir, un objet ou un sort est accessible par tous les joueurs dans la mesure où ils remplissent les prérequis.  Une créature qui possède cette rareté est courante et peut être convoquée à l’aide du sort de convocation approprié.",
@@ -2839,7 +2874,7 @@
     "TraitDiv": "Div",
     "TraitDivination": "Divination",
     "TraitDivine": "Divine",
-    "TraitDoubleBarrel": "canon double",
+    "TraitDoubleBarrel": "Canon double",
     "TraitDowntime": "Intermède",
     "TraitDragon": "Dragon",
     "TraitDream": "Rêve",
@@ -2893,7 +2928,7 @@
     "TraitForceful": "Percutant",
     "TraitFortune": "Fortune",
     "TraitFreeHand": "Main-libre",
-    "TraitFulu": "Fulu",
+    "TraitFulu": "Fùlù",
     "TraitFungus": "Champignon",
     "TraitGadget": "Gadget",
     "TraitGanzi": "Ganzi",
@@ -2921,7 +2956,7 @@
     "TraitHalfElf": "Demi-elfe",
     "TraitHalfOrc": "Demi-orc",
     "TraitHalfling": "Halfelin",
-    "TraitHampering": "gênant",
+    "TraitHampering": "Gênant",
     "TraitHantu": "Hantu",
     "TraitHaunt": "Apparition",
     "TraitHealing": "Guérison",
@@ -2942,7 +2977,7 @@
     "TraitInfused": "Imprégné",
     "TraitIngested": "Ingéré",
     "TraitInhaled": "Inhalé",
-    "TraitInjection": "à injection",
+    "TraitInjection": "À injection",
     "TraitInjury": "Blessure",
     "TraitIntelligent": "Intelligent",
     "TraitInteract": "Interagir",
@@ -3050,7 +3085,7 @@
     "TraitRange80": "Portée 80 ft (24 m)",
     "TraitRange90": "Portée 90 ft (27 m)",
     "TraitRangeIncrement10": "Facteur de portée 10 ft (3m)",
-    "TraitRangeIncrement100": "Facteur de portée 100 ft (30 m)",
+    "TraitRangeIncrement100": "Facteur de portée 100 ft (30m)",
     "TraitRangeIncrement110": "Facteur de portée 110 ft (33m)",
     "TraitRangeIncrement120": "Facteur de portée 120 ft (36m)",
     "TraitRangeIncrement130": "Facteur de portée 130 ft (39m)",
@@ -3089,7 +3124,7 @@
     "TraitRare": "Rare",
     "TraitRatfolk": "Homme-rat",
     "TraitReach": "Allonge",
-    "TraitReach0": "Allonge 0m (0 ft)",
+    "TraitReach0": "Allonge 0ft (0 m)",
     "TraitReach10": "Allonge 10 ft (3m)",
     "TraitReach100": "Allonge 100 ft (30 m)",
     "TraitReach15": "Allonge 15 ft (4,5m)",
@@ -3122,7 +3157,7 @@
     "TraitSecret": "Secret",
     "TraitSerpentfolk": "Homme-serpent",
     "TraitSeugathi": "Seugathi",
-    "TraitSewnIntoClothing": "cousu sur un vêtement",
+    "TraitSewnIntoClothing": "Cousu sur un vêtement",
     "TraitShabti": "Shabti",
     "TraitShadow": "Ombre",
     "TraitShisk": "Shisk",
@@ -3143,7 +3178,7 @@
     "TraitSoulbound": "Âme",
     "TraitSpellDeflection": "Déviation de sort",
     "TraitSpellheart": "Cœur de sort",
-    "TraitSpellshot": "tir de sort",
+    "TraitSpellshot": "Tir de sort",
     "TraitSpirit": "Esprit",
     "TraitSplash": "Éclaboussure",
     "TraitSplash10": "Éclaboussure (3m)",
@@ -3176,7 +3211,7 @@
     "TraitTengu": "Tengu",
     "TraitTethered": "Rappel",
     "TraitThrown10": "Jet 10 ft (3m)",
-    "TraitThrown100": "Jet 100 ft (30 m)",
+    "TraitThrown100": "Jet 100 ft (30m)",
     "TraitThrown15": "Jet 15 ft (4,5m)",
     "TraitThrown20": "Jet 20 ft (6m)",
     "TraitThrown30": "Jet 30 ft (9m)",
@@ -3237,7 +3272,7 @@
     "TraitWornBackpack": "Sac à dos porté",
     "TraitWornBarding": "Bardage porté",
     "TraitWornBelt": "Ceinture portée",
-    "TraitWornBeltPouch": "poche de ceinture portée",
+    "TraitWornBeltPouch": "Poche de ceinture portée",
     "TraitWornBracers": "Bracelets portés",
     "TraitWornCirclet": "Anneau porté",
     "TraitWornCloak": "Cape portée",
@@ -3326,6 +3361,11 @@
       "shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus"
     },
     "UnitPriceLabel": "Prix",
+    "UnitedPaizoWorkers": {
+      "PFSNote": "Note pour les joueurs de la Pathfinder society  : Pour soutenir UPW, les marchandises achetées à partir du magasin du syndicat compteront dans la région PFS en ligne pour la récompense <span class=\"hover\" title=\"Lorsque vous utilisez un point d'héroïsme pour relancer un test, ajouter un bonus de circonstance de +1 à la relance\">Vêtements promotionnels</a>.",
+      "ReleaseIntro": "Redmond, WA (14 octobre 2021) — Aujourd'hui, les travailleurs chez Paizo, Inc – éditeur des jeux de rôles Pathfinder et Starfinder – annonce leur formation du syndicat United Paizo Workers (UPW), avec le projet Communication Workers of America’s CODE-CWA. Ce syndicat est le premier de son genre dans l'industrie des jeux de rôles sur table.",
+      "Title": "Annonce : United Paizo Workers"
+    },
     "UnprepareItemTitle": "Abandonner un sort préparé",
     "UnpreparedSpellsLabel": "Liste de préparation",
     "UpdateActorLabel": "Mettre à jour l’Acteur",
@@ -3364,6 +3404,7 @@
         "boarding-pike": "Pique d'abordage",
         "bola": "Bolas",
         "bolts": "Carreaux",
+        "butchering-axe": "Hachoir",
         "butterfly-sword": "Épée papillon",
         "buugeng": "Buugeng",
         "clan-dagger": "Dague de clan",
@@ -3384,8 +3425,10 @@
         "double-barreled-pistol": "Pistolet à double barillet",
         "dragon-mouth-pistol": "Pistolet geule de dragon",
         "dueling-pistol": "Pistolet de duel",
+        "dueling-spear": "Lance de duel",
         "dwarven-scattergun": "Éparpilleur nain",
         "dwarven-war-axe": "Hache de bataille naine",
+        "elven-branched-spear": "lance elfique ramifiée",
         "elven-curve-blade": "Lame incurvée elfe",
         "exquisite-sword-cane": "Canne épée raffinée",
         "exquisite-sword-cane-sheath": "Fourreau de canne épée raffinée",
@@ -3434,7 +3477,7 @@
         "katar": "Katar",
         "khakkara": "Khakkara",
         "khopesh": "Khopesh",
-        "knuckle-duster": "Démolisseur",
+        "knuckle-duster": "Coup-de-poing",
         "kukri": "Kukri",
         "kusarigama": "Kusarigama",
         "lance": "Lance d'arçon",
@@ -3468,6 +3511,9 @@
         "polytool": "Outil universel",
         "ranseur": "Corsèque",
         "rapier": "Rapière",
+        "repeating-crossbow": "Arbalète à répétition",
+        "repeating-hand-crossbow": "Arbalète à main à répétition",
+        "repeating-heavy-crossbow": "Arbalète lourde à répétition",
         "rhoka-sword": "Épée rhoka",
         "rungu": "Rungu",
         "sai": "Saï",
@@ -3477,6 +3523,7 @@
         "scorpion-whip": "Fouet scorpion",
         "scourge": "Chat à neuf queues",
         "scythe": "Faux",
+        "shauth-lash": "Lanière shauth",
         "shears": "Cisailles",
         "shield-bash": "Coup de bouclier",
         "shield-boss": "Ombon",
@@ -3571,6 +3618,281 @@
     "WeaponPotencyRune4": "Puissance d'arme (+4)",
     "WeaponPropertyCriticalDamageLabel": "Dégâts critiques",
     "WeaponPropertyCriticalEffectLabel": "Effet critique",
+    "WeaponPropertyRune": {
+      "anarchic": {
+        "Name": "Rune anarchique",
+        "Note": {
+          "criticalSuccess": "<b>Rune anarchique</b> Quand vous obtenez un succès critique en Frappant une créature d’alignement loyal avec cette arme, lancez [[/r 1d6]]{1d6}. Sur un 1 ou 2, vous infligez le double des dégâts minimums ; sur un 3 ou 4, doublez les dégâts normalement ; sur un 5 ou 6, vous infligez le double des dégâts maximums."
+        }
+      },
+      "ancestralEchoing": {
+        "Name": "Rune Écho ancestral"
+      },
+      "anchoring": {
+        "Name": "Rune à ancre",
+        "Note": {
+          "criticalSuccess": "<b>Rune à ancre</b> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Ancre dimensionnelle}</em> sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"27\">Volonté</span>, modificateur de contre [[/r 1d20+17 # Test de contre Rune à ancre]]{+17})."
+        }
+      },
+      "axiomatic": {
+        "Name": "Rune axiomatique",
+        "Note": {
+          "criticalSuccess": "<b>Rune axiomatique</b> Quand vous obtenez un coup critique sur un jet d’attaque avec cette arme contre une créature d’alignement chaotique, au lieu de faire un jet de dégâts, considérez que chaque dé de dégâts de l’arme donne un résultat moyen arrondi au supérieur (3 pour un d4, 4 pour un d6, 5 pour un d8, 7 pour un d12)."
+        }
+      },
+      "bane": {
+        "Name": "Rune tueuse"
+      },
+      "bloodbane": {
+        "Name": "Rune Ennemi ancestral"
+      },
+      "bloodthirsty": {
+        "Name": "Assoiffée de sang",
+        "Note": {
+          "criticalSuccess": "<b>Rune assoiffée de sang</b> Lorsque vous obtenez un coup critique sur une cible qui subit des dégâts persistants de saignement, votre cible devient @Compendium[pf2e.conditionitems.Drained]{drainée 1}."
+        }
+      },
+      "brilliant": {
+        "Name": "Rune brillante",
+        "Note": {
+          "criticalSuccess": "<b>Rune brillante</b> En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Brilliant Rune\" data-pf2-dc=\"29\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Blinded]{aveuglée} pendant 1 round."
+        }
+      },
+      "conducting": {
+        "Name": "Rune conductrice"
+      },
+      "corrosive": {
+        "Name": "Rune corrosive",
+        "Note": {
+          "criticalSuccess": "<b>Rune corrosive</b> En cas de coup critique, l’armure de la cible (si elle en porte une) subit [[/r {3d6}[acid] # Corrosive Rune]]{3d6 dégâts d’acide} (avant d’appliquer la Solidité) ; si la cible a un bouclier levé, celui-ci subit ces dégâts à la place."
+        }
+      },
+      "crushing": {
+        "Name": "Rune écrasante",
+        "Note": {
+          "criticalSuccess": "<b>Rune écrasante</b> Lorsque vous portez un coup critique avec cette arme, votre cible devient @Compendium[pf2e.conditionitems.Clumsy]{Maladroit 1} et @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 1} jusqu'à la fin de votre prochain tour."
+        }
+      },
+      "cunning": {
+        "Name": "Rune astucieuse"
+      },
+      "dancing": {
+        "Name": "Rune dansante"
+      },
+      "disrupting": {
+        "Name": "Rune perturbatrice",
+        "Note": {
+          "criticalSuccess": "<b>Rune perturbatrice</b> . En cas de coup critique, le mort-vivant est également @Compendium[pf2e.conditionitems.Enfeebled]{Affaibli 1} jusqu’à la fin de votre prochain tour."
+        }
+      },
+      "energizing": {
+        "Name": "Rune Énergisante"
+      },
+      "extending": {
+        "Name": "Rune extensible"
+      },
+      "fanged": {
+        "Name": "Rune à crocs"
+      },
+      "fearsome": {
+        "Name": "Rune effrayante",
+        "Note": {
+          "criticalSuccess": "<b>Rune effrayante</b> En cas de coup critique avec cette arme, la cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 1}."
+        }
+      },
+      "flaming": {
+        "Name": "Rune enflammée",
+        "Note": {
+          "criticalSuccess": "<b>Rune enflammée</b> En cas de coup critique avec cette arme, vous infligez [[/r {1d10}[persistant,feu} # Rune enflammée]]{1d10 dégâts de feu persistant} supplémentaires."
+        }
+      },
+      "frost": {
+        "Name": "Rune de froid",
+        "Note": {
+          "criticalSuccess": "<b>Rune de froid</b> En cas de coup critique, la cible est également @Compendium[pf2e.conditionitems.Slowed]{ranlentie 1} jusqu’à la fin de votre prochain tour, à moins qu’elle ne réussisse un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune\" data-pf2-dc=\"24\">Vigueur</span> DD 24."
+        }
+      },
+      "ghostTouch": {
+        "Name": "Rune spectrale",
+        "Note": "<b>Rune spectrale</p> L’arme peut blesser les créatures dénuées de forme physique. Une arme spectrale est particulièrement efficace contre les créatures intangibles dont la plupart ont toujours une faiblesse particulière aux armes spectrales. Les créatures intangibles peuvent toucher, tenir et manier des armes spectrales (au contraire de la plupart des objets physiques)."
+      },
+      "greaterAnchoring": {
+        "Name": "Rune à ancre supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune à ancre supérieure</b> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Ancre dimensionnelle}</em> au niveau 8 sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"38\">Volonté</span>, modificateur de contre [[/r 1d20+28 # Test de contre Rune à ancre]]{+28}), sauf que si la cible obtient une réussite critique à son jet de Volonté, au lie de n'avoir aucun effet, <em>Ancre dimensionnelle</em> dure pendant 1 round.",
+          "success": "<b>Rune à ancre supérieure</b> Si vous touchez avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Ancre dimensionnelle}</em> au niveau 8 sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"38\">Volonté</span>, modificateur de contre [[/r 1d20+28 # Test de contre Rune à ancre]]{+28})."
+        }
+      },
+      "greaterBloodbane": {
+        "Name": "Rune ennemi ancestral supérieur"
+      },
+      "greaterBrilliant": {
+        "Name": "Rune brillante supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune brillante supérieure</b> Les dégâts infligés par cette arme ignore la résistance au feu, au bien ou au positif de la cible. Sur un coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune brillante supérieure\" data-pf2-dc=\"41\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Blinded]{aveuglée} pendant 1 round.",
+          "success": "<b>Rune brillante supérieure</b> Les dégâts infligés par cette arme ignore la résistance au feu, au bien ou au positif de la cible."
+        }
+      },
+      "greaterCorrosive": {
+        "Name": "Rune corrosive supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune corrosive supérieure</b> Les dégâts d'acide infligés par cette arme ignorent la résistance à l'acide de la cible.  En cas de coup critique, l’armure de la cible (si elle en porte une) subit  [[/r {6d6}[acid] # Rune corrosive]]{6d6 dégâts d'acide} (avant d’appliquer la Solidité) ; si la cible a un bouclier levé, celui-ci subit ces dégâts à la place.",
+          "success": "<b>Rune corrosive supérieure</b> Les dégâts d'acide infligés par cette arme ignorent la résistance à l'acide de la cible."
+        }
+      },
+      "greaterCrushing": {
+        "Name": "Rune écrasante supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune écrasante supérieure</b> Lorsque vous portez un coup critique avec cette arme, votre cible devient @Compendium[pf2e.conditionitems.Clumsy]{Maladroit 2} et @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 2} jusqu'à la fin de votre prochain tour."
+        }
+      },
+      "greaterDisrupting": {
+        "Name": "Rune perturbatrice supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune perturbatrice supérieure</b> En cas de coup critique, le mort-vivant doit faire un jet de <span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Rune perturbatrice supérieure\" data-pf2-dc=\"34\">Vigueur</span> avec les effets suivants. C'est un effet de mise hors de combat.<br /><br /><b>Succès critique</b> il est Compendium[pf2e.conditionitems.Enfeebled]{affaibli 1} jusqu'à la fin de votre prochain tour.<br /><b>Succès</b> Il est @Compendium[pf2e.conditionitems.Enfeebled]{Affaibli 2} jusqu'à la fin de votre prochain tour.<br /><b>Échec</b> Il est @Compendium[pf2e.conditionitems.Enfeebled]{Affaibli 3} jusqu'à la fin de votre prochain tour.<br /><b>Échec critique</b> Il est détruit."
+        }
+      },
+      "greaterExtending": {
+        "Name": "Rune extensible supérieure"
+      },
+      "greaterFanged": {
+        "Name": "Rune à crocs supérieure"
+      },
+      "greaterFearsome": {
+        "Name": "Rune effrayante supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune effrayante supérieure</b> En cas de coup critique avec cette arme, la cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 2}."
+        }
+      },
+      "greaterFlaming": {
+        "Name": "Rune enflammée supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible. En cas de coup critique avec cette arme, vous infligez [[/r {2d10}[persistant,feu} # Rune enflammée]]{2d10 dégâts de feu persistant} supplémentaires.",
+          "success": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible."
+        }
+      },
+      "greaterFrost": {
+        "Name": "Rune de froid supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune de froid supérieure</b> Les dégâts de froid infligés par cette arme ignorent la résistance au froid de la cible. En cas de coup critique, la cible est également  @Compendium[pf2e.conditionitems.Slowed]{ralentie 1} jusqu'à la fin de votre prochain tour à moins qu'elle ne réussisse un jet de  <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de froid\" data-pf2-dc=\"34\">Vigueur</span>.",
+          "success": "<b>Rune de froid supérieure</b> Les dégâts de froid infligés par cette arme ignorent la résistance au froid de la cible."
+        }
+      },
+      "greaterHauling": {
+        "Name": "Rune traction supérieure"
+      },
+      "greaterImpactful": {
+        "Name": "Rune impactante supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune impactante supérieure</b> Sur un coup critique, vous pouvez choisir de forcer la cible à réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune impactante supérieure\" data-pf2-dc=\"37\">Vigueur</span> ou être poussée à 3 m par rapport à vous."
+        }
+      },
+      "greaterShock": {
+        "Name": "Rune de foudre supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune de foudre supérieure</b> Les dégâts d’électricité infligés par cette arme ignorent la résistance à l’électricité de la cible (et celles des autres créatures en cas de coup critique).Sur un coup critique, des arcs électriques plus importants infligent un montant identique de dégâts d’électricité à une ou deux autres créatures de votre choix situées à 3 m ou moins de la cible.",
+          "success": "<b>Rune de foudre supérieure</b> Les dégâts d’électricité infligés par cette arme ignorent la résistance à l’électricité de la cible (et celles des autres créatures en cas de coup critique)."
+        }
+      },
+      "greaterThundering": {
+        "Name": "Rune de tonnerre supérieure",
+        "Note": {
+          "criticalSuccess": "<b>Rune de tonnerre supérieure</b> Les dégâts de son infligés par cette arme ignorent la résistance au son de la cible. En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de tonnerre supérieure\" data-pf2-dc=\"34\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Deafened]{sourde} de manière permanente.",
+          "success": "<b>Rune de tonnerre supérieure</b> Les dégâts de son infligés par cette arme ignorent la résistance au son de la cible."
+        }
+      },
+      "grievous": {
+        "Name": "Rune douloureuse",
+        "Note": {
+          "Axe": "<b>Rune douloureuse</b> Vous pouvez faire des dégâts à une troisième créatures avec les mêmes restrictions.",
+          "Bow": "<b>Rune douloureuse</b> Le test d'Athlétisme pour retirer le projectile est contre un DD 20.",
+          "Brawling": "<b>Rune douloureuse</b> La cible subit un malus de circonstances de -4 à son jet de sauvegarde.",
+          "Club": "<b>Rune douloureuse</b> Vous pouvez envoyez la cible à 4,5 m de distance.",
+          "Dart": "<b>Rune douloureuse</b> Les dégât persistants de saignement augmentent à 2d6.",
+          "Flail": "<b>Rune douloureuse</b> Vous déplacez la cible de 1,5 m. Vous ne pouvez pas la bouger loin de vous, mais vous pouvez la déplacer dans une autre direction de votre choix.",
+          "Hammer": "<b>Rune douloureuse</b> Vous pouvez renvoyer la cible à 1,5 m de vous.",
+          "Knife": "<b>Rune douloureuse</b> La cible subit une pénalité de statut de -1,5 m à sa vitesse tant qu'elle subit les dégâts de saignement persistants.",
+          "Pick": "<b>Rune douloureuse</b> Les dégâts supplémentaires de l'effet de critique spécialisé augmentent à 4 par dé de dégâts de l'arme.",
+          "Polearm": "<b>Rune douloureuse</b> Vous pouvez déplacer la cible d'un maximum de 3 m.",
+          "Shield": "<b>Rune douloureuse</b> Vous pouvez renvoyer la cible à 3 m .",
+          "Sling": "<b>Rune douloureuse</b> La cible subit aussi une pénalité de statut de -3 m à sa Vitesse si elle obtient un échec à son jet de sauvegarde.",
+          "Spear": "<b>Rune douloureuse</b> La condition maladroit dure pendant 2 rounds.",
+          "Sword": "<b>Rune douloureuse</b> La cible est Prise au dépourvu jusqu'à la fin de votre prochain tour."
+        }
+      },
+      "hauling": {
+        "Name": "Rune traction"
+      },
+      "holy": {
+        "Name": "Rune sainte"
+      },
+      "hopeful": {
+        "Name": "Rune d'espoir",
+        "Note": {
+          "criticalSuccess": "<b>Rune d'espoir</b> En cas de coup critique avec cette arme, vous inspirez vos camarades, les poussant à se battre plus fort et à faire face au nom de vos convictions partagées Les alliés dans les 9 m qui partagent au moins une composante d'alignement avec vous obtiennent aussi un bonus de statut de +1 à leurs jets d'attaque jusqu'à la fin de votre prochain tour."
+        }
+      },
+      "impactful": {
+        "Name": "Rune impactante",
+        "Note": {
+          "criticalSuccess": "<b>Rune impactante</b> Sur un coup critique, vous pouvez choisir de forcer la cible à réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune impactante\" data-pf2-dc=\"27\">Vigueur</span> ou être poussée à 1,5 m par rapport à vous."
+        }
+      },
+      "keen": {
+        "Name": "Rune acérée",
+        "Note": "<b>Rune acérée</b> LEs attaques avec cette arme sont un coup critique sur un 19 sur le dé tant que le résultat est un succès. Cette propriété n'a pas d'effet si sur un 19 sur le dé, le résultat devrait être un échec."
+      },
+      "kinWarding": {
+        "Name": "Rune garde-alliée"
+      },
+      "majorFanged": {
+        "Name": "Rune à crocs supérieure"
+      },
+      "pacifying": {
+        "Name": "Rune pacifiante"
+      },
+      "returning": {
+        "Name": "Rune boomerang",
+        "Note": "<b>Rune boomerang</b> Lorsque vous faites une Frapp de jet avec cette arme, elle revient dans votre main après avoir terminé la Frappe. Si vos mains sont pleines lorsque l'arme revient, elle tombe au sol dans votre case."
+      },
+      "serrating": {
+        "Name": "Rune dentelée"
+      },
+      "shifting": {
+        "Name": "Rune changeante"
+      },
+      "shock": {
+        "Name": "Rune de foudre",
+        "Note": {
+          "criticalSuccess": "<b>Rune de foudre</b> Sur un coup critique, des arcs électriques plus importants infligent un montant identique de dégâts d’électricité à une ou deux autres créatures de votre choix situées à 3 m ou moins de la cible."
+        }
+      },
+      "speed": {
+        "Name": "Rune de rapidité"
+      },
+      "spellStoring": {
+        "Name": "Rune de stockage de sort"
+      },
+      "thundering": {
+        "Name": "Rune de tonnerre",
+        "Note": {
+          "criticalSuccess": "<b>Rune de tonnerre supérieure</b> En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de tonnerre\" data-pf2-dc=\"24\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Deafened]{sourde} pendant 1 minute (ou 1 heure en cas d'échec critique)."
+        }
+      },
+      "unholy": {
+        "Name": "Rune impie"
+      },
+      "vorpal": {
+        "Name": "Rune vorpale"
+      },
+      "wounding": {
+        "Name": "Rune sanglante",
+        "Note": {
+          "criticalSuccess": "<b>Rune sanglante</b> En cas de coup critique avec une arme sanglante, vous infligez  [[/r {1d12}[persistent,bleed] # Rune sanglante]]{1d12 dégâts de saignement persistants} supplémentaires.",
+          "success": "<b>Rune sanglante</b> Lorsque vous touchez une créature avec une arme sanglante, vous infligez  [[/r {1d6}[persistent,bleed] # Rune sanglante]]{1d6 dégâts de saignement persistants} supplémentaires."
+        }
+      }
+    },
     "WeaponPropertyRuneAnarchic": "Anarchique",
     "WeaponPropertyRuneAncestralEchoing": "Écho ancestral",
     "WeaponPropertyRuneAnchoring": "À ancre",
@@ -3615,7 +3937,7 @@
     "WeaponPropertyRuneKeen": "Acérée",
     "WeaponPropertyRuneKinWarding": "Garde-alliée",
     "WeaponPropertyRuneLabel": "Rune de propriété",
-    "WeaponPropertyRuneMajorFanged": "À dents majeure",
+    "WeaponPropertyRuneMajorFanged": "À crocs majeure",
     "WeaponPropertyRunePacifying": "Pacifiante",
     "WeaponPropertyRuneReturning": "Boomerang",
     "WeaponPropertyRuneSerrating": "Dentelée",
