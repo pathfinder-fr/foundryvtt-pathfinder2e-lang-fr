@@ -9,7 +9,7 @@
 ## Installation
 
 1. Copy this link and use it in Foundry module manager to install the module. Copier ce lien et chargez-le dans le menu modules de Foundry
-    > https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/raw/master/module.json
+    > https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/raw/master/module/module.json
 2. Enable the module in your worlds module settings/Activez le module dans le menu de configuration de votre monde
 
 ## Remerciements, vielen danke & Many thanks to :
