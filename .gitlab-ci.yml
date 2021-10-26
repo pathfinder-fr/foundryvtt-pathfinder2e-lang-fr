@@ -6,6 +6,7 @@ stages:
 build:
   stage: build
   script:
+    - python -mjson.tool 'pf2e.css' > /dev/null
     - python -mjson.tool 'fr.json' > /dev/null
     - python -mjson.tool 'module.json' > /dev/null
   artifacts:
