@@ -1,18 +1,22 @@
 image: python:3-alpine
 
+before_script:
+  - apk update
+  - apk add zip
+
 stages:
   - build
 
 build:
   stage: build
   script:
-    - python -mjson.tool 'pf2e.css' > /dev/null
-    - python -mjson.tool 'fr.json' > /dev/null
-    - python -mjson.tool 'module.json' > /dev/null
+    - zip lang-fr-pf2e.zip -r module -x ".*"
   artifacts:
     expire_in: never
     name: lang-fr-pf2e
     when: on_success
     paths:
-      - fr.json
-      - module.json
+      - pathfinder-ui.zip
+  when: on_success
+  only:
+    - tags
