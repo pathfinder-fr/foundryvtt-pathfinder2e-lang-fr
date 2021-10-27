@@ -16,7 +16,7 @@ build:
     name: lang-fr-pf2e
     when: on_success
     paths:
-      - pathfinder-ui.zip
+      - lang-fr-pf2e.zip
   when: on_success
   only:
     - tags
