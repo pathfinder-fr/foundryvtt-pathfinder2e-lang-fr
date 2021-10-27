@@ -11,12 +11,12 @@
   "compatibleCoreVersion": "0.8.9",
   "scripts": [],
   "esmodules": [],
-  "styles": ["pf2e.css"],
+  "styles": ["css/pf2e.css"],
   "languages": [
     {
       "lang": "fr",
       "name": "French (Français)",
-      "path": "fr.json"
+      "path": "lang/fr.json"
     }
   ],
   "packs": [],
