@@ -1431,7 +1431,7 @@
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
     "LoreSkillFormat": "Connaissance {name}",
     "LoreSkillsHeader": "Compétences de Connaissances",
-    "MAPAbbreviationLabel": "PAM",
+    "MAPAbbreviationLabel": "PAM {penalty}",
     "Macro": {
       "Plural": "Macros"
     },
