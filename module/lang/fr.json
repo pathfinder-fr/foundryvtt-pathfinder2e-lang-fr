@@ -1,7 +1,8 @@
 {
   "ACTOR": {
-    "TypeAnimalcompanion": "Compagnon animal",
+    "TypeAnimalCompanion": "Compagnon animal",
     "TypeCharacter": "Personnage",
+    "TypeEidolon": "Eidolon",
     "TypeFamiliar": "Familier",
     "TypeHazard": "Danger",
     "TypeLoot": "Butin",
@@ -1032,6 +1033,9 @@
     },
     "EffectsLabel": "Effets",
     "EmptySlot": "Emplacement vide",
+    "Encounter": {
+      "ExcludingFromInitiative": "Exclure {actor} {type} de l'initiative."
+    },
     "EquipmentEquippedLabel": "Équipé",
     "EquippedBulkLabel": "Enc. porté",
     "EquippedSameBulkValue": "Identique à transporté",
@@ -1251,6 +1255,14 @@
           "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquer la comme une <i>arme magique spécifique</i>.",
           "MaterialOption": "{type} ({grade})",
           "Title": "Matériau et runes"
+        },
+        "MeleeUsage": {
+          "Hint": "Une arme combinée possède la forme ou un usage d'une arme à feu et une forme ou un usage d'arme au corps-à-corps. Passer de l'usage de l'arme à feu à celle d'arme au corps-à-corps nécessite une action Intaragir. Quoi qu'il en soit, si votre dernière action était une Frappe réussie au corps-à-corps en utilisant une arme combinée, vous pouvez faire une Frappe d'arme à feu avec l'arme combinée contre cet adversaire sans avoir à plainement passer à l'usage d'arme à feu, tirant avec l'arme à feu lorsque vous touchez avec l'attaque au corps-à-corps. Dans ce cas, l'arme combinée revient à son usage au corps-à-corps après la Frappe d'arme à feu.",
+          "Label": "Usage au corps-à-corps"
+        },
+        "OtherTags": {
+          "Hint": "Il s'agit de trait indiquant des classifications dans les règles de la 2e édition qui n'ont pas de statut/définition explicite mais qui sont néanmoins très utilisés. Certains peuvent être ajoutés automatiquement lorsque d'autres propriétés sont présentes.",
+          "Label": "Autres traits"
         },
         "SpecificMagicWeapon": {
           "Hint": "Marquer cette arme comme <i>arme magique spécifique</i> indique qu’elle fait plus que ce que ses composantes matérielles et ses runes permettent. Le nom, niveau et le prix ne seront plus affectés en fonction du matériau précieux ou des runes au moment où elle est marquée. Ces matériaux et ses runes serviront quoi qu’il en soit comme une indication de base pour les ajustements de niveau, la rareté et le prix à partir des améliorations ultérieures.",
@@ -2577,7 +2589,7 @@
     "TraitCobbled": "Bricolé",
     "TraitCold": "Froid",
     "TraitColdiron": "Fer froid",
-    "TraitCombination": "Combinée",
+    "TraitCombination": "Combiné",
     "TraitComfort": "Confort",
     "TraitCommon": "Courant",
     "TraitCompanion": "Compagnon",
@@ -3350,6 +3362,13 @@
     "TwoDegreesBetter": "deux degrés supérieurs",
     "TwoDegreesWorse": "deux degrés inférieurs",
     "UI": {
+      "RuleElements": {
+        "EffectTarget": {
+          "NoSelectionMade": "Aucune sélection n'a été faite : {effect} est inactif.",
+          "NoValidOptions": "{actor} n'a pas de cible valide pour {effect}.",
+          "Prompt": "Choisissez la cible de cet effet"
+        }
+      },
       "applyDamage": {
         "by": "par",
         "damaged": "est blessé de : ",
@@ -3394,9 +3413,11 @@
         "arquebus": "Arquebuse",
         "arrows": "Flèches",
         "asp-coil": "Serpentin aspic",
+        "axe-musket": "Mousquet-hache",
         "bastard-sword": "Épée bâtarde",
         "battle-axe": "Hache de bataille",
         "battle-lute": "Luth de bataille",
+        "black-power-knuckle-dusters": "Coup-de-poing à poudre noire",
         "bladed-diabolo": "Diabolo à lames",
         "bladed-hoop": "Cerceau à lames",
         "bladed-scarf": "Écharpe tranchante",
@@ -3411,6 +3432,7 @@
         "butchering-axe": "Hachoir",
         "butterfly-sword": "Épée papillon",
         "buugeng": "Buugeng",
+        "cane-pistol": "Cane pistolet",
         "chakram": "Chakram",
         "clan-dagger": "Dague de clan",
         "clan-pistol": "Pistolet de clan",
@@ -3423,6 +3445,7 @@
         "composite-shortbow": "Arc court composite",
         "crossbow": "Arbalète",
         "dagger": "Dague",
+        "dagger-pistol": "Dague pistolet",
         "daikyu": "Daikyu",
         "dart": "Fléchette",
         "dogslicer": "Tranchechien",
@@ -3435,6 +3458,7 @@
         "dwarven-war-axe": "Hache de bataille naine",
         "elven-branched-spear": "lance elfique ramifiée",
         "elven-curve-blade": "Lame incurvée elfe",
+        "explosive-dogslicer": "tranchechien explosif",
         "exquisite-sword-cane": "Canne épée raffinée",
         "exquisite-sword-cane-sheath": "Fourreau de canne épée raffinée",
         "falchion": "Cimeterre à deux mains",
@@ -3455,6 +3479,7 @@
         "gauntlet": "Gantelet",
         "gill-hook": "Harpon à branchies",
         "glaive": "Glaive",
+        "gnome-amalgam-musket": "Mousquet amalgame gnome",
         "gnome-flickmace": "Masse-yoyo gnome",
         "gnome-hooked-hammer": "Marteau-piolet gnome",
         "greataxe": "Grande hache",
@@ -3462,8 +3487,10 @@
         "greatpick": "Grand pic de guerre",
         "greatsword": "Épée à deux mains",
         "guisarme": "Guisarme",
+        "gun-sword": "Épée-pistolet",
         "halberd": "Hallebarde",
         "halfling-sling-staff": "Fustibale de halfelin",
+        "hammer-gun": "Marteau pistolet",
         "hand-adze": "Adze de poing",
         "hand-cannon": "Couleuvrine",
         "hand-crossbow": "Arbalète à main",
