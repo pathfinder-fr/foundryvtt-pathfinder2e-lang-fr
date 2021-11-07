@@ -657,6 +657,7 @@
         "Hoof": "sabot",
         "Horn": "corne",
         "Leaf": "Feuille",
+        "Leg": "Patte",
         "LightingLash": "fouet d'éclair",
         "Mandibles": "mandibules",
         "Moonbeam": "rayon de lune",
@@ -878,7 +879,7 @@
     "ConsumableIncompatibleLabel": "Incompatible",
     "ConsumableMessage": {
       "UseExhausted": "{name] épuisé",
-      "UseMulti": "Uitilise {name}, il en reste {current}",
+      "UseMulti": "Utilise {name}, il en reste {current}",
       "UseSingle": "Utilise {name}"
     },
     "ConsumableNoChargesLabel": "Pas de charge",
@@ -910,7 +911,22 @@
     "CraftDCTitle": "DD",
     "CraftItemTitle": "Fabrication",
     "CraftingTab": {
+      "Alchemical": {
+        "AdvancedAlchemy": "Alchimie avancée",
+        "AdvancedAlchemyLevel": "Niveau d'alchimie avancée",
+        "InfusedReagents": "Réactifs imprégnés :",
+        "ReagentCost": "Coût de réactifs :",
+        "ToggleSignatureItem": "Activer un objet emblématique",
+        "TotalCost": "Coût total :"
+      },
+      "Alerts": {
+        "CharacterLevel": "Le niveau de l'objet excède le niveau de personnage",
+        "ItemMissingTraits": "L'objet n'est pas compatible avec les conditions du trait d'entrée de fabrication, doit correspondre à un : {traits}",
+        "MaxItemLevel": "Le niveau de l'objet excède le niveau de l'objet pour l'entrée.",
+        "MissingReagents": "Les réactifs imprégnés sont insuffisants pour terminer la fabrication quotidienne."
+      },
       "CraftQuantityTitle": "Quantité",
+      "ExpendFormula": "formule dépensée",
       "ToggleFreeCrafting": "Activer la fabrication libre",
       "UndeletableTooltip": "Cette formule de fabrication est une partie d'un autre objet et ne peut être supprimée individuellement"
     },
@@ -1157,10 +1173,10 @@
     "HeightTitle": "Votre taille",
     "Heritage": "Héritage",
     "HeritageTitle": "Héritage de votre personnage",
-    "HeroPointLevel0": "Zéro Point d’Héroïsme",
-    "HeroPointLevel1": "Un Point d’Héroïsme",
-    "HeroPointLevel2": "Deux Points d’Héroïsme",
-    "HeroPointLevel3": "Trois Points d’Héroïsme",
+    "HeroPointRatio": {
+      "Many": "{value}/{max} Points d'héroïsme",
+      "One": "1/{max} point d'héroïsme"
+    },
     "HeroPointsLabel": "Points d’Héroïsme",
     "HitPointsDetailsLabel": "Détails PV",
     "HitPointsDetailsTitle": "Informations supplémentaires relatives aux Points de vie, tels que Guérison accélérée ou Régénération",
@@ -1869,6 +1885,7 @@
       "AdjustDegreeOfSuccess": "Ajuster le degré de réussite",
       "BaseSpeed": "Vitesse de base",
       "BattleForm": "Forme de combat",
+      "CraftingEntry": "Entrée Artisanat",
       "CraftingFormula": "Formule de fabrication",
       "CreatureSize": "Taille de créature",
       "DamageDice": "Dé de dégât",
@@ -2510,6 +2527,7 @@
     "TargetFlatFootedLabel": "Cible prise au dépourvu",
     "TempHPTitle": "Le montant de vos points de vie temporaires",
     "TempHitPointsShortLabel": "PV temp.",
+    "TemporaryItemToolTip": "Cet objet est temporaire et expirera après une durée ou durant les préparatifs quotidiens. Il n'a pas de valeur et ne peut être vendu.",
     "Time": {
       "Duration": "Duration",
       "Unit": {
@@ -2563,6 +2581,7 @@
     "TraitAffixedToAShield": "Fixé à un bouclier",
     "TraitAffixedToArmor": "Fixé à une armure",
     "TraitAffixedToArmorOrAWeapon": "Fixé à une armure ou à une arme",
+    "TraitAffixedToHeadgear": "Fixé à un couvre-chef",
     "TraitAffixedToWeapon": "Fixé à une arme",
     "TraitAgathion": "Agathion",
     "TraitAgile": "Agile",
@@ -2890,6 +2909,7 @@
     "TraitDescriptionStance": "Une posture est une stratégie de combat générale que vous adoptez en effectuant une action dotée du trait posture, puis conservez pendant un certain temps. Vous conservez votre posture jusqu’à ce que vous soyez Assommé, jusqu’à ce que les conditions qui lui sont associées (s’il y en a) ne soient plus respectées ou jusqu’à ce que vous adoptiez une nouvelle posture. Après avoir utilisé une action dotée du trait posture, vous ne pouvez pas entreprendre une autre action de ce type pendant 1 round. Vous ne pouvez adopter ou conserver une posture que lors du mode rencontre.",
     "TraitDescriptionSteam": "Les objets dotés de cette caractéristique sont alimentés par des moteurs qui font bouillir de l'eau pour produire de la vapeur et déplacer leurs composants.",
     "TraitDescriptionStrix": "Ce sont des humanoïdes ailés dont la plupart réside au Chéliax et aux alentours.",
+    "TraitDescriptionStructure": "Un objet avec le trait structure créé une bâtisse magique ou une autre structure quand il est activé. Il faut activer l’objet sur une portion de terrain sur lequel ne se trouve aucune autre structure. La structure s’adapte au terrain naturel en répondant aux conditions structurelles permettant leur construction sur ce terrain. La structure ajuste sa forme autour de petits éléments comme des mares ou des excroissances rocheuses, mais on ne peut pas la créer sur l’eau ou d’autres surfaces non solides. Si elle est activée sur de la neige, des dunes de sable ou d’autres surfaces meubles avec une surface solide en dessous, les fondations de la structure (le cas échéant) s’enracinent dans cette surface compacte. Si un objet avec ce trait est activé sur une surface solide mais instable, telle qu’un marais ou une zone soumise à des secousses, faites un test nu DD 3 chaque jour ; en cas d’échec, la structure commence à s’enfoncer ou à s’effondrer. La structure ne blesse pas les créatures situées dans la zone où elle apparaît et on ne peut pas la créer au sein d’une foule ou d’une zone densément peuplée. Toute créature prise par inadvertance à l’intérieur de la structure lorsque l’objet est activé se retrouve saine et sauve à l’intérieur de la structure achevée et peut toujours trouver un moyen évident d’en sortir. Une créature à l’intérieur de la structure quand l’activation se termine n’est pas blessée et se retrouve sur le sol, sans subir de dégât, si elle se trouvait dans l’un des étages de la bâtisse.",
     "TraitDescriptionSuli": "Les sulis sont des descendants planaires issus des janns.",
     "TraitDescriptionSummoned": "<p>Une créature appelée par un sort ou un effet d’invocation gagne le trait convoqué. Une créature convoquée ne peut pas en convoquer d’autres, créer des objets de valeur ni lancer de sort exigeant un coût. Elle dispose du trait sbire. Si elle tente de lancer un sort d’un niveau supérieur ou égal au sort qui l’a convoquée, celui‑ci prend le pas sur la magie de convocation avec les conséquences suivantes : le sort de la créature convoquée échoue et le sort de convocation prend fin. La créature convoquée possède sinon les pouvoirs habituels d’un individu de son espèce. Elle attaque généralement vos ennemis de son mieux. Si vous êtes en mesure de communiquer avec elle, vous pouvez tenter de lui donner des ordres, mais c’est au MJ de déterminer dans quelle mesure elle les suit.</p><p> La créature convoquée utilise ses deux actions du tour dès que vous avez fini de Lancer le sort. Divers sorts et effets permettent de bannir une créature convoquée. Une telle créature est automatiquement bannie si elle tombe à 0 point de vie ou si le sort qui l’a appelée se termine.</p>",
     "TraitDescriptionSwashbuckler": "Cela indique des capacités de la classe de Bretteur.",
@@ -3403,10 +3423,9 @@
     "TwoDegreesWorse": "deux degrés inférieurs",
     "UI": {
       "RuleElements": {
-        "EffectTarget": {
-          "NoSelectionMade": "Aucune sélection n'a été faite : {effect} est inactif.",
-          "NoValidOptions": "{actor} n'a pas de cible valide pour {effect}.",
-          "Prompt": "Choisissez la cible de cet effet"
+        "Prompt": {
+          "NoSelectionMade": "Aucune sélection n'a été faite : {item} est inactif.",
+          "NoValidOptions": "{actor} n'a pas de cible valide  pour {item}."
         }
       },
       "applyDamage": {
@@ -3531,7 +3550,7 @@
         "gun-sword": "Épée-pistolet",
         "halberd": "Hallebarde",
         "halfling-sling-staff": "Fustibale de halfelin",
-        "hammer-gun": "Marteau pistolet",
+        "hammer-gun": "Fusil marteau",
         "hand-adze": "Adze de poing",
         "hand-cannon": "Couleuvrine",
         "hand-crossbow": "Arbalète à main",
@@ -3570,7 +3589,7 @@
         "mambele": "Mambele",
         "maul": "Maillet",
         "meteor-hammer": "Marteau météore",
-        "mithral-tree": "Arbre mithril",
+        "mithral-tree": "Arbre mithral",
         "monkeys-fist": "Poing de singe",
         "morningstar": "Morgenstern",
         "naginata": "Naginata",
