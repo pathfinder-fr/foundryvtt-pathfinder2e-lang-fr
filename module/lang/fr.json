@@ -196,8 +196,8 @@
       },
       "Demoralize": {
         "Notes": {
-          "criticalSuccess": "<b>Succès critique</b> La cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 2}.",
-          "success": "<b>Succès</b> La cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 1}."
+          "criticalSuccess": "<b>Succès critique</b> La cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}.",
+          "success": "<b>Succès</b> La cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}."
         },
         "Title": "Démoraliser"
       },
@@ -1213,6 +1213,16 @@
       "ABC": {
         "InvalidDrop": "{badType} ne peut être déposé ici (cela doit être {goodType})"
       },
+      "Activation": {
+        "Add": "Ajouter une activation",
+        "Cast": "Lancer un sort",
+        "Command": "sur ordre",
+        "CommandSheetLabel": "Sur ordre",
+        "Envision": "imaginer",
+        "EnvisionSheetLabel": "Imaginer",
+        "Interact": "Interagir",
+        "Label": "Activation"
+      },
       "Ancestry": {
         "Vision": {
           "Label": "Vision",
@@ -1323,14 +1333,6 @@
           "Label": "Arme magique spécifique"
         }
       }
-    },
-    "ItemActivate": {
-      "Add": "Ajouter une activation",
-      "Cast": "lancer un sort",
-      "Command": "sur ordre",
-      "Envision": "Imaginer",
-      "Interact": "interagir",
-      "Label": "Activation"
     },
     "ItemBonus0": "0",
     "ItemBonus1": "de puissance d’arme +1",
@@ -2595,11 +2597,18 @@
     "TraitAdjustment": "Ajustement",
     "TraitAeon": "Aéon",
     "TraitAesir": "Aesir",
+    "TraitAffixedToARangedWeapon": "Fixé à une arme à distance",
     "TraitAffixedToAShield": "Fixé à un bouclier",
     "TraitAffixedToArmor": "Fixé à une armure",
     "TraitAffixedToArmorOrAWeapon": "Fixé à une armure ou à une arme",
+    "TraitAffixedToArmorOrTravelersClothing": "Fixé à une armure ou à des vêtements d'explorateur",
     "TraitAffixedToHeadgear": "Fixé à un couvre-chef",
     "TraitAffixedToWeapon": "Fixé à une arme",
+    "TraitAffixededToATwoHandedFirearmOrCrossbow": "Fixé à une arme à feu à deux mains ou une arbalète",
+    "TraitAffixededToCrossbowOrFirearm": "Fixé à une arbalète ou une arme à feu",
+    "TraitAffixededToFirearm": "Fixé à une arme à feu",
+    "TraitAffixededToFirearmWithAReloadOf1": "Fixé à une arme à feu avec Rechargement de 1",
+    "TraitAffixededToFirearmWithTheKickbackTrait": "Fixé à une arme à feu avec le trait recul",
     "TraitAgathion": "Agathion",
     "TraitAgile": "Agile",
     "TraitAir": "Air",
@@ -2622,7 +2631,13 @@
     "TraitArtifact": "Artefact",
     "TraitAstral": "Astral",
     "TraitAsura": "Asura",
+    "TraitAttachedToAThrownWeapon": "Attaché à une arme de jet",
     "TraitAttachedToCrossbowOrFirearm": "Attaché à une arbalète ou une arme à feu",
+    "TraitAttachedToCrossbowOrFirearmFiringMechanism": "Attaché à une arbalète ou une arme à feu (Détente)",
+    "TraitAttachedToCrossbowOrFirearmScope": "Attaché à une arbalète ou une arme à feu (Lunette)",
+    "TraitAttachedToFirearm": "Attaché à arme à feu",
+    "TraitAttachedToFirearmFiringMechanism": "Attaché à une arme à feu (Détente)",
+    "TraitAttachedToFirearmScope": "Attaché à une arme à feu (Lunette)",
     "TraitAttachedToShield": "Attaché à un bouclier",
     "TraitAttack": "Attaque",
     "TraitAuditory": "Audible",
@@ -3379,6 +3394,7 @@
     "TraitWizard": "Magicien",
     "TraitWorn": "Porté",
     "TraitWornAmulet": "Amulette portée",
+    "TraitWornAndAttachedToTwoWeapons": "Porté et attaché à deux armes",
     "TraitWornAnklets": "Chevillières portées",
     "TraitWornArmbands": "Brassards portés",
     "TraitWornBackpack": "Sac à dos porté",
@@ -4114,6 +4130,7 @@
     "WeaponRange20": "20 ft (6m)",
     "WeaponRange240": "240 ft (72 m)",
     "WeaponRange30": "30 ft (9m)",
+    "WeaponRange300": "300 ft. (90m)",
     "WeaponRange40": "40 ft (12m)",
     "WeaponRange50": "50 ft (15m)",
     "WeaponRange60": "60 ft (18m)",
