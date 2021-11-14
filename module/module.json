@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr",
   "flags": {},
-  "version": "2.18.3.2",
+  "version": "2.18.3.3",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [],
@@ -24,7 +24,7 @@
   "dependencies": [],
   "socket": false,
   "manifest": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/raw/master/module/module.json",
-  "download": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/jobs/artifacts/v2.18.3.2/raw/lang-fr-pf2e.zip?job=build",
+  "download": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/jobs/artifacts/v2.18.3.3/raw/lang-fr-pf2e.zip?job=build",
   "protected": false,
   "coreTranslation": false,
   "library": false
