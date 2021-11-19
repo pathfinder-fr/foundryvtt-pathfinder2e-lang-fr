@@ -177,6 +177,10 @@
           "DropItemZoneLabel": "Glisser l'objet ici...",
           "Title": "Choisissez lobjet à Fabriquer"
         },
+        "SelectSpellDialog": {
+          "CraftButtonLabel": "Fabriquer",
+          "Title": "Choisir un sort"
+        },
         "Title": "Fabrication",
         "Warning": {
           "CantAddItem": "Vous ne pouvez pas ajouter ses objets",
@@ -588,6 +592,7 @@
     "ArmorPropertyRuneGreaterSlick": "Glissante supérieure",
     "ArmorPropertyRuneGreaterStanching": "Étancheuse supérieure",
     "ArmorPropertyRuneGreaterWinged": "Ailée supérieure",
+    "ArmorPropertyRuneImplacable": "Implacable",
     "ArmorPropertyRuneInvisibility": "Invisibilité",
     "ArmorPropertyRuneMajorShadow": "Ombre majeure",
     "ArmorPropertyRuneMajorSlick": "Glissante majeure",
@@ -1065,7 +1070,9 @@
     "EffectsLabel": "Effets",
     "EmptySlot": "Emplacement vide",
     "Encounter": {
-      "ExcludingFromInitiative": "Exclure {actor} {type} de l'initiative."
+      "ExcludingFromInitiative": "Exclure {actor} {type} de l'initiative.",
+      "NoActiveEncounter": "Il n'y a pas de rencontre active.",
+      "NoTokenInScene": "{actor} n'a pas de jeton dans la scène."
     },
     "EquipmentEquippedLabel": "Équipé",
     "EquippedBulkLabel": "Enc. porté",
@@ -1311,6 +1318,7 @@
           "PotencyTwoPropertiesMaterial": "{base} en {material} {property1} {property2} +{potency}"
         },
         "HandsLabel": "Mains",
+        "MandatoryMelee": "Cette arme possède un traait qui ne peut être utilisé qu'avec les armes au corps-à-corps.",
         "MaterialAndRunes": {
           "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquer la comme une <i>arme magique spécifique</i>.",
           "MaterialOption": "{type} ({grade})",
@@ -1324,10 +1332,12 @@
             "Ranged": "Frappe à distance : {weapon}"
           }
         },
+        "NoRangeMelee": "Aucun (Corps-à-corps)",
         "OtherTags": {
           "Hint": "Il s'agit de trait indiquant des classifications dans les règles de la 2e édition qui n'ont pas de statut/définition explicite mais qui sont néanmoins très utilisés. Certains peuvent être ajoutés automatiquement lorsque d'autres propriétés sont présentes.",
           "Label": "Autres traits"
         },
+        "RangeIncrementN": "Facteur de portée {range} pieds.",
         "SpecificMagicWeapon": {
           "Hint": "Marquer cette arme comme <i>arme magique spécifique</i> indique qu’elle fait plus que ce que ses composantes matérielles et ses runes permettent. Le nom, niveau et le prix ne seront plus affectés en fonction du matériau précieux ou des runes au moment où elle est marquée. Ces matériaux et ses runes serviront quoi qu’il en soit comme une indication de base pour les ajustements de niveau, la rareté et le prix à partir des améliorations ultérieures.",
           "Label": "Arme magique spécifique"
@@ -1683,6 +1693,7 @@
         "SpecialCaseLabel": "Case spéciale",
         "TitleLabel": "Éditeur des compétences de PNJ"
       },
+      "SpeedExtraInfoLabelPlaceholder": "Détails de la vitesse...",
       "SpeedLabel": "Vitesse",
       "Spells": {
         "AttackLabel": "Attaque",
@@ -1747,7 +1758,7 @@
     "OrphanedSpellsHeader": "Sorts orphelins (déplacer dans l’entrée de lancement de sort ci-dessus)",
     "OverridesTitle": "Prend le pas",
     "PFS": {
-      "CharacterNumber": "Pesonnage #",
+      "CharacterNumber": "Personnage #",
       "CurrentFaction": "Faction actuellement choisie",
       "Factions": {
         "EA": "Alliance des Émissaires",
@@ -1987,19 +1998,23 @@
           "Name": "Armes de base"
         },
         "ConfirmDelete": {
-          "Message": "effacer l'élément  <strong>{element}</strong> de votre monde ?",
+          "Message": "effacer l'élément maison <strong>{element}</strong> de votre monde ?",
           "Title": "Effacer un élément maison ?"
         },
         "CreatureTraits": {
-          "Hint": "Les traits peuvent être appliqués à toute créature aussi bien qu'à la plupart des types d'objet (ex : dragon, gnome)",
+          "Hint": "Traits qui peuvent être appliqués à une créature aussi bien qu'à des types d'objet (ex : dragon, gnome)",
           "Name": "Traits de créature"
         },
+        "EquipmentTraits": {
+          "Hint": "Traits applicable à l'équipement autre qu'une arme",
+          "Name": "Traits de l'équipement"
+        },
         "FeatTraits": {
-          "Hint": "Traits qui ne peuvent pas être appliqués aux dons (ie Lignage, Moine)",
+          "Hint": "Traits qui ne peuvent pas être appliqués aux dons (ex : Lignage, Moine) et actions",
           "Name": "Traits de don"
         },
         "Hint": "Régler les traits, les langues et d'autres éléments maison pour votre monde.",
-        "Instructions": "Ces réglages permettent aux MJ d'ajouter des traits, des langues et d'autres éléments pour fabriquer leur propre monde. Pour ajouter de tels éléments, taper simplement les termes désirés dans les champs appropriés, séparés par des virgules ou la touche tabulation.ils vont alors apparaître dans les lieux appropriés sur les feuilles des acteurs et des objets. Pour mettre à jour un terme, cliquez dessus pour faire les changements désiré.",
+        "Instructions": "Ces réglages permettent aux MJ d'ajouter des traits, des langues et d'autres éléments pour fabriquer leur règles maison. Pour ajouter de tels éléments, taper simplement les termes désirés dans les champs appropriés, séparés par des virgules ou la touche tabulation.ils vont alors apparaître dans les lieux appropriés sur les feuilles des acteurs et des objets. Pour mettre à jour un terme, cliquez dessus pour faire les changements désirés.",
         "Label": "Choisir les réglages maison",
         "Languages": {
           "Hint": "Langues à savoir ou à apprendre pour les personnages (ex: draconique, gnomien)",
@@ -2019,8 +2034,12 @@
           "Name": "Catégories d'arme"
         },
         "WeaponGroups": {
-          "Hint": "Le niveau moyen de la taxonomie des armes de Patthfinder 2 (ex: arbalètes, épée)",
+          "Hint": "Le niveau moyen de la taxonomie des armes de Pathfinder 2 (ex: arbalètes, épée)",
           "Name": "Groupes d'armes"
+        },
+        "WeaponTraits": {
+          "Hint": "Traits applicables aux armes et attaques des PNJ.",
+          "Name": "Traits d'arme"
         }
       },
       "IdentifyMagicNotMatchingTraditionModifier": {
@@ -2623,6 +2642,13 @@
     "TraitAnugobu": "Anugobu",
     "TraitApex": "Apogée",
     "TraitAphorite": "Aphorite",
+    "TraitAppliedToAWindPoweredVehicle": "Appliqué à un véhicule mu par le vent",
+    "TraitAppliedToAnyItemOfLightOrNegligibleBulk": "Appliqué à un objet d'encombrement léger ou négligeable",
+    "TraitAppliedToAnyVisibleArticleOfClothing": "Appliqué à un vêtement visible.",
+    "TraitAppliedToBeltCapeCloakOrScarf": "Appliqué à une ceinture, une cape, une écharpe ou un manteau",
+    "TraitAppliedToBootsCapeCloakOrUmbrella": "Appliqué à des bottes, une cape, un manteau ou un parapluie",
+    "TraitAppliedToDuelingCapeOrShield": "Appliqué à une cape de duel ou un bouclier",
+    "TraitAppliedToShield": "Appliqué à un bouclier",
     "TraitAquatic": "Aquatique",
     "TraitArcane": "Arcanique",
     "TraitArchetype": "Archétype",
@@ -3006,6 +3032,7 @@
     "TraitDuergar": "Duergar",
     "TraitDuskwalker": "Crépusculaire",
     "TraitDwarf": "Nain",
+    "TraitEachRuneAppliedToASeparateItemThatHasPockets": "Chaque rune est appliquée à un objet séparé qui possède des poches",
     "TraitEarth": "Terre",
     "TraitEidolon": "Eidolon",
     "TraitElectricity": "Électricité",
@@ -3016,12 +3043,12 @@
     "TraitEnchantment": "Enchantement",
     "TraitEnergy": "Énergie",
     "TraitEnvironmental": "Environnemental",
-    "TraitEtchedOntoAArmor": "Gravée sur une armure",
     "TraitEtchedOntoAClanDagger": "Gravée sur une dague de clan",
     "TraitEtchedOntoAMeleeWeapon": "Gravée sur une arme au corps-à-corps",
     "TraitEtchedOntoAThrownWeapon": "Gravée sur une arme de jet",
     "TraitEtchedOntoAWeapon": "Gravée sur une arme",
     "TraitEtchedOntoLightMedNMArmor": "Gravée sur une armure non métallique légère ou intermédiaire",
+    "TraitEtchedOntoMedHeavyArmor": "Gravé sur une armure Intermédiaire ou lourde",
     "TraitEthereal": "Éthéré",
     "TraitEvil": "Mal",
     "TraitEvocation": "Évocation",
@@ -3243,6 +3270,7 @@
     "TraitRangeIncrement500": "Facteur de portée 500 ft (150m)",
     "TraitRangeIncrement60": "Facteur de portée 60 ft (18m)",
     "TraitRangeIncrement70": "Facteur de portée 70 ft (21m)",
+    "TraitRangeIncrement75": "Facteur de portée 75 ft (22,5m)",
     "TraitRangeIncrement80": "Facteur de portée 80 ft (24m)",
     "TraitRangeIncrement90": "Facteur de portée 90 ft (27m)",
     "TraitRangedTrip": "Croc-en-jambe à distance",
@@ -3336,6 +3364,7 @@
     "TraitTeleportation": "Téléportation",
     "TraitTengu": "Tengu",
     "TraitTethered": "Rappel",
+    "TraitThrown": "Jet",
     "TraitThrown10": "Jet 10 ft (3m)",
     "TraitThrown100": "Jet 100 ft (30m)",
     "TraitThrown15": "Jet 15 ft (4,5m)",
@@ -3421,6 +3450,7 @@
     "TraitWornRing": "Anneau porté",
     "TraitWornSaddle": "Selle portée",
     "TraitWornShoes": "Chaussures portées",
+    "TraitWornUnderArmor": "Porté sous une armure légère ou des vêtements",
     "TraitWraith": "Âme-en-peine",
     "TraitWyrwood": "Virebois",
     "TraitXulgath": "Xulgath",
