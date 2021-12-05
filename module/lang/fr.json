@@ -30,6 +30,7 @@
     "Search": "Chercher dans les compendiums"
   },
   "CONTROLS": {
+    "AdjustSceneDarkness": "Ajuster l'obscurité de la scène",
     "EffectPanel": "Panneau d'effets",
     "WorldClock": "Horloge du Monde"
   },
@@ -1070,9 +1071,44 @@
     "EffectsLabel": "Effets",
     "EmptySlot": "Emplacement vide",
     "Encounter": {
+      "Budget": {
+        "EncounterBudget": "Budget de rencontre",
+        "PartyLevel": "Niveau du groupe",
+        "PartySize": "Taille du groupe",
+        "Reward": "Récompense",
+        "Threat": "Menace",
+        "Threats": {
+          "extreme": "Extrême",
+          "low": "Bas",
+          "moderate": "Modéré",
+          "severe": "sévère",
+          "trivial": "Trivial"
+        },
+        "XPBudget": "Budget en PX",
+        "XPNeeded": "PX nécessaires"
+      },
+      "CreatureXPAndRole": {
+        "CreatureLevel": "Niveau de créature",
+        "CreatureLevels": {
+          "-1": "Toute créature standard",
+          "-2": "Tout laquais ou créature standard",
+          "-3": "laquais (menace faible ou modérée)",
+          "-4": "laquais (menace faible)",
+          "0": "Toute créature standard ou boss (menace faible)",
+          "1": "boss (menace faible ou modérée)",
+          "2": "boss (menace modérée ou sévère)",
+          "3": "boss (menace sévère ou extrême)",
+          "4": "boss seul (menace extrême)"
+        },
+        "CreatureXPAndRole": "PX créature et rôle",
+        "SuggestedRole": "Rôle suggéré"
+      },
       "ExcludingFromInitiative": "Exclure {actor} {type} de l'initiative.",
+      "HasNoInitiativeScore": "{actor} n'a pas de score d'initiative.",
+      "HideName": "Cacher le nom",
       "NoActiveEncounter": "Il n'y a pas de rencontre active.",
-      "NoTokenInScene": "{actor} n'a pas de jeton dans la scène."
+      "NoTokenInScene": "{actor} n'a pas de jeton dans la scène.",
+      "RevealName": "Révéler le nom"
     },
     "EquipmentEquippedLabel": "Équipé",
     "EquippedBulkLabel": "Enc. porté",
@@ -1136,7 +1172,7 @@
     "FeatTypeGeneral": "Don général",
     "FeatTypeHeritage": "Héritage",
     "FeatTypeLabel": "Type de don",
-    "FeatTypePfsboon": "Bénédiction de la Société",
+    "FeatTypePfsboon": "Bénédictions de la Société des éclaireurs",
     "FeatTypeSkill": "Don de compétence",
     "FeaturesAncestryHeader": "Capacités d’ascendance",
     "FeaturesClassHeader": "Capacités de classe",
@@ -1651,7 +1687,6 @@
         "WeakNameFormat": "{name} faible"
       },
       "ArmorExtraInfoLabelPlaceholder": "Détails de la CA",
-      "AttackEffectMissing": "L'effet d'attaque '{attackEffect}' est manquant dans les actions de l'acteur. Ajoutez le à partir du compendium des capacités du Bestiaire.",
       "AttackType": {
         "Melee": "Attaque au corps à corps du PNJ",
         "Ranged": "Attaque à distance du PNJ",
@@ -1781,7 +1816,7 @@
     },
     "PenaltyLabel": {
       "ability": "Malus de Carac.",
-      "circumstance": "Malus de circonstance",
+      "circumstance": "Malus de circonstances",
       "item": "Malus d'objet",
       "proficiency": "Malus de maîtrise",
       "status": "Malus de statut",
@@ -1943,6 +1978,14 @@
     },
     "SETTINGS": {
       "Automation": {
+        "ActorsDeadAtZero": {
+          "Both": "PJ et PNJ",
+          "Hint": "En atteignant 0 pv, les PNJ sont marqués comme morts.",
+          "NPCsOnly": "Oui",
+          "Name": "PNJs morts à 0 pv",
+          "Neither": "Non",
+          "PCsOnly": "Seulement les PJ"
+        },
         "EffectExpiration": {
           "Hint": "Les effets désactivent automatiquement les éléments de règle attachées lorsque la durée expire.",
           "Name": "Expiration auto des effets"
@@ -1975,6 +2018,10 @@
         },
         "Hint": "Utiliser une règle différente de doublement des dégâts en cas de coup critique",
         "Name": "Règles de coup critique"
+      },
+      "DeathIcon": {
+        "Hint": "Choisissez l'icône qui se superpose pour marquer les acteurs morts.",
+        "Name": "Icône de mort"
       },
       "DefaultTokenSettings": {
         "Hint": "Disposer du prototype de jeton conseillé sur les acteurs nouvellement créés",
@@ -2093,11 +2140,15 @@
           "Name": "Montrer les résultats de l'attaque et des jets de sauvegarde",
           "None": "Aucun",
           "Owner": "Propriétaire"
+        },
+        "TokenSetsNameVisibility": {
+          "Hint": "si activé, alors pour tout jeton de PNJ dont le nom n'est pas visible aux joueurs, son nom leur sera aussi caché dans le compteur de rencontre et les messages dans la conversation.",
+          "Name": "Les jetons déterminent la visibilité du nom du PNJ"
         }
       },
       "PFSSheetTab": {
         "Hint": "Montrer l'onglet de la Société des Éclaireurs sur la Feuille de Personnage",
-        "Name": "Onglet de Feulle PFS"
+        "Name": "Onglet de Feuille PFS"
       },
       "Player": {
         "QuickRolls": {
@@ -2276,6 +2327,7 @@
       }
     },
     "SaveDCLabel": "DD du jet",
+    "SaveDCLabelBasic": "jet de {type} basique DD {dc}",
     "SavesFortitude": "Vigueur",
     "SavesFortitudeShort": "Vig",
     "SavesHeader": "Jets de sauvegarde",
@@ -2309,7 +2361,10 @@
         "Vague": "Vague"
       },
       "Label": "Sens",
-      "RangeLabel": "Portée"
+      "NoRangeLimit": "Pas de limite",
+      "RangeLabel": "Portée",
+      "WithAcuity": "{sense} ({acuity})",
+      "WithAcuityAndRange": "{sense} ({acuity}) {range} pieds)"
     },
     "Senses": "Sens",
     "SensesDarkvision": "Vision dans le noir",
@@ -2759,6 +2814,7 @@
     "TraitDescriptionAir": "Les effets dotés du trait air permettent de manipuler ou de créer de l’air. Ceux qui permettent de manipuler l’air n’ont aucun effet dans le vide ou une zone dépourvue d’air. Les créatures dotées de ce trait sont essentiellement constituées d’air ou ont une connexion magique avec cet élément.",
     "TraitDescriptionAlchemical": "Les objets alchimiques sont alimentés par les réactions de réactifs alchimiques. Les objets alchimiques ne sont pas magiques et n’émettent pas d’aura magique.",
     "TraitDescriptionAlchemist": "Ce trait caractérise les pouvoirs liés à la classe Alchimiste.",
+    "TraitDescriptionAmphibious": "Une créature amphibie peut respirer dans l’eau et dans l’air, même si elle se trouve hors de son environnement de prédilection, généralement sans limites de temps, ou au moins pendant plusieurs heures. Ces créatures ont souvent une Vitesse de nage. Leurs Frappes contondantes et tranchantes à mains nues ne subissent pas le malus habituel de −2 lié à l’environnement aquatique.",
     "TraitDescriptionAnadi": "Un peuple reclus du Garund qui ressemble à des araignées et peut prendre des formes humaines.",
     "TraitDescriptionAnroid": "Une ascendance humanoïde synthétique créée par des moyens artificiels. Plus courant en Numérie.",
     "TraitDescriptionApex": "Quand vous Investissez un objet qui a le trait apogée, il améliore l’une de vos valeurs de caractéristique, soit en l’augmentant de 2 ou jusqu’à un total de 18, selon ce qui confère la valeur la plus élevée. Ceci vous confère tous les avantages de la nouvelle valeur de caractéristique jusqu’à la fin de l’investiture : l’augmentation de l’Intelligence vous permet de devenir qualifié dans une compétence de plus et d’apprendre une nouvelle langue, l’augmentation de la Constitution vous procure plus de points de vie, etc. Un objet d’apogée confère cet avantage uniquement la première fois qu’il est investi lors d’une période de vingt-quatre heures et vous ne pouvez profiter que d’un seul objet d’apogée à la fois. Si vous essayez d’investir un objet d’apogée alors que vous en avez déjà investi un, vous ne bénéficiez pas de l’augmentation de la valeur de caractéristique mais vous bénéficiez de tous les autres effets lorsque vous Investissez l’objet.",
@@ -2807,6 +2863,7 @@
     "TraitDescriptionConstruct": "Une créature artificielle dotée de pouvoirs par une force autre que la nécromancie. Les créatures artificielles sont souvent dépourvues d'esprit ; elles sont immunisées contre les dégâts de saignement, les effets de mort, la maladie, les soins, la nécromancie, les attaques non létales, le poison, et les états condamné, drainé, fatigué, paralysé, malade et inconscient ; et elles peuvent avoir une solidité basée sur les matériaux utilisés pour les construire. Les créatures artificielles ne sont pas des créatures vivantes, ni des morts-vivants. Lorsqu'elle est réduite à 0 point de vie, une créature artificielle est détruite.",
     "TraitDescriptionConsumable": "Un objet avec ce trait ne peut être utilisé qu’une seule fois. Sauf indication contraire, il est détruit après son activation. Les objets consommables sont parfois des objets alchimiques et les objets magiques consommables sont parfois des parchemins ou des talismans. Quand un personnage crée des objets consommables, il peut les faire par lots de quatre.",
     "TraitDescriptionContact": "Un poison de contact s’active en l’appliquant sur un objet ou directement sur la peau d’une créature vivante. La première créature à toucher l’objet affecté doit faire un jet de sauvegarde contre le poison. S’il est appliqué directement sur elle, elle doit faire ce jet dès qu’il touche sa peau. Il est impossible d’appliquer un poison de contact sur une créature via une attaque armée, à cause de la difficulté à transmettre le poison sans s’empoisonner soi-même. En général, le délai d’activation d’un poison de contact est de 1 min.",
+    "TraitDescriptionContingency": "Les sorts avec ce trait vous accordent une action pendant les effets du sort, généralement une réaction avec un déclencheur spécifique. Ils ont généralement une longue durée, telle que 24 heures. Vous ne pouvez avoir qu'un seul sort avec le trait contingence ou un sort de contingence actif au même moment. Si vous lancez un autre sort avec le trait contingence ou contingence, le plus récent remplace le plus ancien.",
     "TraitDescriptionContract": "Un contrat est un type d'objet qui établit magiquement un accord entre plusieurs parties et accorde généralement des avantages magiques.",
     "TraitDescriptionCriticalFusion": "Le coup critique fusionné est un nouveau trait pour les armes combinées qui vous accorde deux options supplémentaires pour l'effet de critique spécialisé lorsque vous utilisez la version au corps-à-corps de l'arme combinée pour effectuer une attaque au corps-à-corps alors que l'arme à feu est chargée. Si vous choisissez d'utiliser l'une d'entre elles, elles remplacent l'effet de critique spécialisé normal de l'utilisation au corps à corps. Premièrement, vous pouvez décharger l'arme à feu pour créer une forte détonation et une commotion, en utilisant l'effet de spécialisation critique des armes à feu au lieu de l'effet de critique spécialisé du groupe de l'arme de corps-à-corps. Deuxièmement, vous pouvez choisir de décharger l'arme à feu pour augmenter l'élan du coup critique ou tirer sur l'ennemi lorsque vous l'attaquez au corps-à-corps, infligeant 2 dégâts supplémentaires par dé de dégâts d'arme. Ces deux options permettent de décharger l'arme à feu, ce qui signifie généralement que vous devez la recharger avant de la tirer à nouveau.",
     "TraitDescriptionCurse": "Une malédiction est un effet qui inflige une affliction de longue durée à une créature. Les malédictions sont toujours magiques. Elles sont généralement causées par un sort ou un piège.",
@@ -2881,10 +2938,12 @@
     "TraitDescriptionHex": "Une malédiction est un type de sort de focalisation qu'une sorcière peut lancer.",
     "TraitDescriptionHobgolin": "Les hobgobelins sont un peuple costaud et rusé avec une propension à l'ordre militaire.",
     "TraitDescriptionHuman": "Une créature dotée de ce trait appartient à l’ascendance des humains. Les humains se présentent sous la forme d’une multitude de peuples et sont réputés pour leurs capacités d’adaptation. Un pouvoir doté de ce trait peut seulement être choisi ou utilisé par des humains.",
+    "TraitDescriptionHumanoid": "Les créatures humanoïdes raisonnent et agissent de manière comparable aux humains. Elles se tiennent généralement debout et possèdent deux bras et deux jambes.",
     "TraitDescriptionIfrit": "Un type de descendant de génie issu d'un être du plan du Feu.",
     "TraitDescriptionIllusion": "Les effets et les objets magiques qui possèdent ce trait sont as‑ sociés à l’école de magie d’illusion, qui privilégie la création de faux stimuli sensoriels.",
     "TraitDescriptionIncapacitation": "Un pouvoir doté de ce trait peut mettre un personnage hors de combat ou même le tuer, mais il est plus difficile à utiliser contre une créature plus puissante que soi. Si un sort est doté du trait mise hors de combat, une créature dont le niveau est supérieur au double du niveau du sort considère le résultat de son test pour éviter d’être mise hors de combat comme étant d’un degré de succès supérieur à son résultat réel, ou considère le résultat du test de l’incantateur pour la mettre hors de combat comme étant d’un degré de succès inférieur à son résultat réel. Si un autre effet est doté du trait mise hors de combat, une créature de plus haut niveau que l’objet, l’être ou le danger qui génère l’effet bénéficie des mêmes avantages.",
     "TraitDescriptionIncapacitationShort": "Si le niveau de la cible est supérieur au niveau de la capacité (ou 2 x le niveau du sort), considérez le résultat comme s'il était d'un degré supérieur.",
+    "TraitDescriptionIncarnate": "Un sort avec le trait incarné est similaire aux sorts qui invoquent des créatures, mais il ne conjure pas un sbire avec le trait convoqué. Au lieu de cela, lorsqu'elle est invoquée, la créature incarnée effectue son action Arriver lorsque vous finissez de lancer le sort. À la fin de votre prochain tour, la créature incarnée peut soit faire un pas, soit Marcher rapidement, soit utiliser l'action correspondant à un autre type de mouvement qu'elle possède (comme Grimper ou Creuser) puis elle utilise son action Départ. Le sort prend alors fin. Les noms des actions spécifiques Arrivée et Départ sont indiqués en italique après le mot \"Arrivée\" ou \"Départ\" respectivement, ainsi que leurs traits éventuels. Une créature invoquée par un sort d'incarnation agit dans votre intérêt, dirige ses effets loin de vous et de vos alliés autant que possible, et peut écouter vos demandes mais prend finalement ses propres décisions. Si le sort indique que l'incarnation prend une décision, le MJ détermine ce que l'incarnation ferait. Il se peut même qu'il devienne plus enclin à faire exactement ce que vous souhaitez au fil des conjurations. L'incarnation n'est pas une créature à part entière. Il ne peut pas utiliser d'autres actions, ni être ciblé ou blessé par des coups, des sorts ou d'autres effets, à moins qu'ils ne puissent cibler ou mettre fin à un effet de sort (comme Dissipation de la magie). L'incarnation possède une taille afin de déterminer son placement pour les effets, mais elle ne bloque pas le déplacement. Le cas échéant, ses effets utilisent votre DD de sort et votre modificateur de jet d'attaque de sort.",
     "TraitDescriptionIncorporeal": "Une créature ou un objet intangible n’a pas de forme physique. Elle peut passer au travers des objets solides, incluant les murs. Lorsqu’elle se trouve à l’intérieur d’un objet, une créature intangible ne peut percevoir, attaquer ou interagir avec rien en dehors de l’objet et s’il débute son tour dans un objet, elle est Ralentie 1. Les créatures tangibles peuvent passer à travers une créature intangible mais ne peuvent terminer leur déplacement dans l’espace qu’elle occupe. Une créature intangible ne peut pas tenter de tests basés sur la Force contre les créatures ou les objets tangibles — seulement contre les créatures ou objets intangibles — à moins que ces objets possèdent la propriété de rune spectrale. De la même manière, une créature tangible ne peut tenter de tests basés sur la Force contre les créatures ou objets intagibles. Les créatures intangibles possèdent habituellement une immunité aux effecs ou aux états préjudiciables qui nécessitent de posséder un corps physique, comme la maladie, le poison et les dégâts de précision. Elle possèdent habituellement une résistance contre tous les dégâts (à l’exception des dégâts de force et les dégats de frappes infligées avec la rune de propriété spectrale), avec le double de la résistance contre les dégâts non magiques.",
     "TraitDescriptionInfused": "Vous créez un objet alchimique avec le trait imprégné quand vous utilisez vos réactifs imprégnés. Cet objet a une durée de vie limitée au bout de laquelle il devient inerte. Tous les effets non permanents de vos objets alchimiques imprégnés, à l’exception des afflictions comme les poisons à action lente, prennent fin quand vous entamez vos préparatifs quotidiens.",
     "TraitDescriptionIngested": "Un poison ingéré s’active en l’appliquant dans la nourriture ou la boisson que consomme une créature vivante ou en le plaçant directement dans sa bouche. Une créature fait un jet de sauvegarde contre un tel poison quand elle le consomme ou consomme la nourriture ou la boisson contaminée. Le délai d’activation d’un poison ingéré va souvent de 1 min à 1 jour.",
@@ -2910,6 +2969,7 @@
     "TraitDescriptionMechanical": "Un danger doté de ce trait est un objet physique artificiel.",
     "TraitDescriptionMental": "Un effet mental peut influencer l’esprit de sa cible. Il n’aura aucun effet sur un objet ou une créature dénuée d’intelligence.",
     "TraitDescriptionMetamagic": "Les actions dotées du trait métamagie, généralement associées à des dons de métamagie, vous permettent d’ajuster les caractéristiques de vos sorts. Vous devez utiliser l’action de métamagie directement avant le sort à modifier. Si vous utilisez une action (y compris une action gratuite ou une réaction) autre que Lancer un sort immédiatement après l’action de métamagie, vous perdez ses bénéfices. Tout effet ajouté par une action métamagique fait partie de l’effet du sort, pas de l’action métamagique.",
+    "TraitDescriptionMindless": "Une créature dénuée d’intelligence n’a qu’une intelligence rudimentaire ou bien est programmée. La plupart, voire tous ses modificateurs de caractéristiques mentales sont de −5. Une telle créature est immunisée contre tous les effets mentaux.",
     "TraitDescriptionMinion": "Les sbires sont des créatures directement sous les ordres d’une autre créature. Une créature dotée de ce trait est limitée à deux actions par tour et ne peut pas exécuter de réaction. En combat, votre sbire agit à votre tour, une fois par tour, lorsque vous utilisez une action pour lui donner un ordre. Pour un compagnon animal, vous utilisez Diriger un animal, mais pour un sbire issu d’un effet de sort ou d’un objet magique comme un sbire convoqué, vous utilisez Maintenir un sort ou Maintenir une activation. Sauf indication contraire, vous donnez un ordre verbal par une action unique dotée des traits audible et concentration. En l’absence d’ordre, les sbires n’entreprennent aucune action, sauf pour se défendre ou échapper à un danger évident. S’ils sont livrés à eux‑mêmes assez longtemps, généralement 1 minute, les sbires dénués d’intelligence n’agissent pas, les animaux suivent leurs instincts et les sbires intelligents agissent à leur guise.",
     "TraitDescriptionMisfortune": "Un effet d’infortune altère vos jets de dés à votre désavantage. Vous ne pouvez pas subir plus d’un effet d’infortune par jet de dés. Si plusieurs effets d’infortune s’appliquent, le MJ décide lequel est le pire qui se produit alors. Si un effet de fortune et un effet d’infortune s’appliquent à un même jet de dé, les deux s’annulent et vous lancez les dés normalement",
     "TraitDescriptionModification": "Un don avec ce trait altère la construction de votre innovation. Si vous disposez de la caractéristique de classe reconfigurer, vous pouvez procéder au réapprentissage d'un tel don plus facilement.",
@@ -2984,7 +3044,8 @@
     "TraitDescriptionStrix": "Ce sont des humanoïdes ailés dont la plupart réside au Chéliax et aux alentours.",
     "TraitDescriptionStructure": "Un objet avec le trait structure créé une bâtisse magique ou une autre structure quand il est activé. Il faut activer l’objet sur une portion de terrain sur lequel ne se trouve aucune autre structure. La structure s’adapte au terrain naturel en répondant aux conditions structurelles permettant leur construction sur ce terrain. La structure ajuste sa forme autour de petits éléments comme des mares ou des excroissances rocheuses, mais on ne peut pas la créer sur l’eau ou d’autres surfaces non solides. Si elle est activée sur de la neige, des dunes de sable ou d’autres surfaces meubles avec une surface solide en dessous, les fondations de la structure (le cas échéant) s’enracinent dans cette surface compacte. Si un objet avec ce trait est activé sur une surface solide mais instable, telle qu’un marais ou une zone soumise à des secousses, faites un test nu DD 3 chaque jour ; en cas d’échec, la structure commence à s’enfoncer ou à s’effondrer. La structure ne blesse pas les créatures situées dans la zone où elle apparaît et on ne peut pas la créer au sein d’une foule ou d’une zone densément peuplée. Toute créature prise par inadvertance à l’intérieur de la structure lorsque l’objet est activé se retrouve saine et sauve à l’intérieur de la structure achevée et peut toujours trouver un moyen évident d’en sortir. Une créature à l’intérieur de la structure quand l’activation se termine n’est pas blessée et se retrouve sur le sol, sans subir de dégât, si elle se trouvait dans l’un des étages de la bâtisse.",
     "TraitDescriptionSuli": "Les sulis sont des descendants planaires issus des janns.",
-    "TraitDescriptionSummoned": "<p>Une créature appelée par un sort ou un effet d’invocation gagne le trait convoqué. Une créature convoquée ne peut pas en convoquer d’autres, créer des objets de valeur ni lancer de sort exigeant un coût. Elle dispose du trait sbire. Si elle tente de lancer un sort d’un niveau supérieur ou égal au sort qui l’a convoquée, celui‑ci prend le pas sur la magie de convocation avec les conséquences suivantes : le sort de la créature convoquée échoue et le sort de convocation prend fin. La créature convoquée possède sinon les pouvoirs habituels d’un individu de son espèce. Elle attaque généralement vos ennemis de son mieux. Si vous êtes en mesure de communiquer avec elle, vous pouvez tenter de lui donner des ordres, mais c’est au MJ de déterminer dans quelle mesure elle les suit.</p><p> La créature convoquée utilise ses deux actions du tour dès que vous avez fini de Lancer le sort. Divers sorts et effets permettent de bannir une créature convoquée. Une telle créature est automatiquement bannie si elle tombe à 0 point de vie ou si le sort qui l’a appelée se termine.</p>",
+    "TraitDescriptionSummoned": "Une créature appelée par un sort ou un effet d’invocation gagne le trait convoqué. Une créature convoquée ne peut pas en convoquer d’autres, créer des objets de valeur ni lancer de sort exigeant un coût. Elle dispose du trait sbire. Si elle tente de lancer un sort d’un niveau supérieur ou égal au sort qui l’a convoquée, celui‑ci prend le pas sur la magie de convocation avec les conséquences suivantes : le sort de la créature convoquée échoue et le sort de convocation prend fin. La créature convoquée possède sinon les pouvoirs habituels d’un individu de son espèce. Elle attaque généralement vos ennemis de son mieux. Si vous êtes en mesure de communiquer avec elle, vous pouvez tenter de lui donner des ordres, mais c’est au MJ de déterminer dans quelle mesure elle les suit.</p><p> La créature convoquée utilise ses deux actions du tour dès que vous avez fini de Lancer le sort. Divers sorts et effets permettent de bannir une créature convoquée. Une telle créature est automatiquement bannie si elle tombe à 0 point de vie ou si le sort qui l’a appelée se termine.",
+    "TraitDescriptionSummoner": "Cela indique des capacités de la classe de Conjurateur.",
     "TraitDescriptionSwashbuckler": "Cela indique des capacités de la classe de Bretteur.",
     "TraitDescriptionSweep": "Cette arme effectue de larges attaques par balayage ou par rotation, ce qui facilite l’attaque de plusieurs ennemis. Lorsque vous attaquez avec cette arme, vous obtenez un bonus de circonstances de +1 à votre jet d’attaque si vous avez déjà tenté d’attaquer une cible différente ce tour-ci en utilisant cette arme.",
     "TraitDescriptionSylph": "Un type de descendant de génie issu d'un être du plan de l'Air",
@@ -2998,6 +3059,7 @@
     "TraitDescriptionTransmutation": "Les effets et les objets magiques dotés de ce trait sont associés à l’école de magie de transmutation, qui étudie les changements de formes.",
     "TraitDescriptionTrap": "Un danger ou un objet doté de ce trait a été conçu pour mettre des bâtons dans les roues des intrus",
     "TraitDescriptionTrip": "Vous pouvez utiliser cette arme pour Saisir avec la compétence Athlétisme même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test pour Saisir avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique.",
+    "TraitDescriptionTrueName": "Certains sorts, dons et objets possèdent le trait nom véritable. Ce trait signifie que vous devez connaître le nom véritable d'une créature pour les utiliser.",
     "TraitDescriptionTwin": "Ces armes sont utilisées par paire et se complètent. Lorsque vous attaquez avec une arme jumelle, vous ajoutez un bonus de circonstances au jet de dégâts égal au nombre de dés de dégâts de votre arme si vous avez déjà attaqué avec une arme différente du même type ce tour-ci. Les armes doivent être du même type pour bénéficier de ce trait, mais elles n’ont pas besoin d’avoir les mêmes runes.",
     "TraitDescriptionTwoHand": "Cette arme peut être maniée à deux mains. Cela change le dé de dégâts de votre arme à la valeur indiquée. Ce changement s’applique à tous les dés de dégâts de l’arme, tels que ceux provenant de runes de frappe.",
     "TraitDescriptionUnarmed": "Une attaque à mains nues utilise votre corps à la place d’une arme fabriquée. Une attaque à mains nues n’est pas considérée comme venant d’une arme, bien qu’elle soit classée avec les armes dans le cadre des catégories d’armes et qu’elle puisse avoir des traits d’armes. Comme elle provient de votre corps, une attaque à mains nues ne peut pas être Désarmée. Elle n’occupe pas non plus la main, même si un poing ou autre appendice de préhension suit les mêmes règles qu’une arme main-libre.",
@@ -3047,6 +3109,7 @@
     "TraitEtchedOntoAMeleeWeapon": "Gravée sur une arme au corps-à-corps",
     "TraitEtchedOntoAThrownWeapon": "Gravée sur une arme de jet",
     "TraitEtchedOntoAWeapon": "Gravée sur une arme",
+    "TraitEtchedOntoArmor": "Gravé sur une armure",
     "TraitEtchedOntoLightMedNMArmor": "Gravée sur une armure non métallique légère ou intermédiaire",
     "TraitEtchedOntoMedHeavyArmor": "Gravé sur une armure Intermédiaire ou lourde",
     "TraitEthereal": "Éthéré",
@@ -3347,7 +3410,8 @@
     "TraitStrix": "Strix",
     "TraitStructure": "Structure",
     "TraitSuli": "Suli",
-    "TraitSummon": "Convocation",
+    "TraitSummon": "Invocation",
+    "TraitSummoned": "Invoqué",
     "TraitSummoner": "Conjurateur",
     "TraitSwarm": "Nuée",
     "TraitSwarmAttacks": "Attaques de nuées",
@@ -3903,7 +3967,7 @@
       "flaming": {
         "Name": "Rune enflammée",
         "Note": {
-          "criticalSuccess": "<b>Rune enflammée</b> En cas de coup critique avec cette arme, vous infligez [[/r {1d10}[persistant,feu} # Rune enflammée]]{1d10 dégâts de feu persistant} supplémentaires."
+          "criticalSuccess": "<b>Rune enflammée</b> En cas de coup critique avec cette arme, vous infligez [[/r {1d10}[persistent,fire]]] # Rune enflammée]]]{1d10 dégâts de feu persistant} supplémentaires."
         }
       },
       "frost": {
@@ -3967,7 +4031,7 @@
       "greaterFlaming": {
         "Name": "Rune enflammée supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible. En cas de coup critique avec cette arme, vous infligez [[/r {2d10}[persistant,feu} # Rune enflammée]]{2d10 dégâts de feu persistant} supplémentaires.",
+          "criticalSuccess": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible. En cas de coup critique avec cette arme, vous infligez [[/r {2d10}[persistent,fire]]] # Rune enflammée]]{2d10 dégâts de feu persistant} supplémentaires.",
           "success": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible."
         }
       },
@@ -4169,6 +4233,7 @@
     "WeaponRange90": "90 ft (27 m)",
     "WeaponRangeLabel": "Portée de l’arme",
     "WeaponRangeMelee": "Corps à corps",
+	"WeaponRangeN": "{range} pieds",
     "WeaponRangeReach": "À distance",
     "WeaponReloadLabel": "Temps de rechargement",
     "WeaponSpecialization": "Spécialisation martiale",
@@ -4223,7 +4288,7 @@
         "Retract": "Retrancher"
       },
       "CE": {
-        "Era": "Ere commune"
+        "Era": "Ère commune"
       },
       "Date": "{weekday} {day} {month} {year} {era}",
       "IC": {
@@ -4308,10 +4373,10 @@
         "rules": "<p>Vous êtes fatigué et n’arrivez pas à rassembler vos forces. Vous subissez un malus de statut de −1 à votre CA et à vos jets de sauvegarde. Quand vous explorez, vous ne pouvez pas choisir d’activité d’exploration. Vous vous remettez de l’état fatigué au terme d’une nuit complète de repos.</p>",
         "summary": "Vos défenses sont plus basses et vous ne parvenez pas à vous concentrer lors de votre exploration."
       },
-      "flatFooted": {
+      "flat-footed": {
         "name": "Pris au dépourvu",
-        "rules": "<p>Vous êtes distrait, ou quelque chose d’autre vous empêche de vous concentrer entièrement sur vos défenses. Vous subissez un malus de circonstances de −2 à votre CA. Certains effets vous confèrent l’état pris au dépourvu seulement face à certaines créatures ou certaines attaques. D’autres, notamment les états, vous rendent pris au dépourvu contre tout. Si une règle ne précise pas que cet état est seulement valable dans une situation donnée, il est valable pour toutes les situations. Par exemple, de nombreux effets précisent simplement : « la cible est prise au dépourvu ».</p>",
-        "summary": "Vous êtes incapable de vous défendre à votre pleine capacité."
+        "rules": "<p>Vous êtes distrait, ou quelque chose d’autre vous empêche de vous concentrer entièrement sur vos défenses. Vous subissez un malus de circonstances de −2 à votre CA. Certains effets vous confèrent l’état pris au dépourvu seulement face à certaines créatures ou certaines attaques. D’autres, notamment les états, vous rendent pris au dépourvu contre tout. Si une règle ne précise pas que cet état est seulement valable dans une situation donnée, il est valable pour toutes les situations. Par exemple, de nombreux effets précisent simple ment : « la cible est prise au dépourvu ».</p>",
+        "summary": "Vous êtes incapable de vous défendre avec toutes vos capacités"
       },
       "fleeing": {
         "name": "En fuite",
@@ -4379,7 +4444,7 @@
         "rules": "<p>Votre corps est figé sur place. Vous êtes Pris au dépourvu et ne pouvez pas agir, sauf pour Vous souvenir de quelque chose et entreprendre des actions qui font seulement appel à votre esprit (ces actions sont déterminées par le MJ). Vos sens fonctionnent toujours, mais votre perception est limitée aux zones que vous pouvez percevoir sans bouger votre corps. Vous n’êtes donc pas capable de Chercher. </p>",
         "summary": "Votre corps est figé sur place."
       },
-      "persistentDamage": {
+      "persistent-damage": {
         "name": "Dégâts persistants",
         "rules": "<p>Les dégâts persistants sont causés par des effets comme l’acide, le feu ou de nombreuses autres choses. Ils se présentent sous la forme « X dégâts persistants de [type] », où « X » représente la quantité de dégâts infligés et le « [type] » correspond au type de dégâts. Au lieu de recevoir immédiatement les dégâts persistants, vous les recevez à la fin de chacun de vos tours tant que vous vous trouvez dans cet état et vous devez à chaque fois relancer les dés de dégâts. Après avoir subi des dégâts persistants, faites un test nu DD 15 afin de déterminer si ceux-ci prennent fin. Sur un succès, vous mettez un terme à l’état. </p>",
         "summary": "Vous subissez des dégâts chaque round."
