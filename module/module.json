@@ -17,8 +17,13 @@
       "lang": "fr",
       "name": "French (Français)",
       "path": "lang/fr.json"
-    }
-  ],
+    },
+    {
+      "lang": "fr",
+      "name": "Rules Elements",
+      "path": "lang/re-fr.json"
+        }
+    ],
   "packs": [],
   "system": ["pf2e"],
   "dependencies": [],
