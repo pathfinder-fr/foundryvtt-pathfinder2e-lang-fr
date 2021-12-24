@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr",
   "flags": {},
-  "version": "3.0.1",
+  "version": "3.0.1.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "10",
   "scripts": [],
@@ -22,14 +22,14 @@
       "lang": "fr",
       "name": "Rules Elements",
       "path": "lang/re-fr.json"
-        }
+    }
     ],
   "packs": [],
   "system": ["pf2e"],
   "dependencies": [],
   "socket": false,
   "manifest": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/raw/master/module/module.json",
-  "download": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/jobs/artifacts/v3.0.1/raw/lang-fr-pf2e.zip?job=build",
+  "download": "https://gitlab.com/pathfinder-fr/foundryvtt-pathfinder2e-lang-fr/-/jobs/artifacts/v3.0.1.1/raw/lang-fr-pf2e.zip?job=build",
   "protected": false,
   "coreTranslation": false,
   "library": false
