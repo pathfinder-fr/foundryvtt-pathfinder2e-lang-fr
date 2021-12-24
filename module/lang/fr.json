@@ -26,7 +26,6 @@
     "UnknownCombatant": "Participant inconnu"
   },
   "COMPENDIUM": {
-    "ImportAllHint": "Tout le contenu de ce pack de compendium sera importé dans votre monde dans un Dossier, que vous pouvez nommer. <p class=\"notes\"><strong>ATTENTION</strong>: il est fortement recommandé que ce ne soit <span style=\"text-decoration: underline\">PAS</span> fait avec les compendiums les plus gros. Le faire ne présente pas d'avantage et va à l'inverse impacter le chargement de ce mone à la fois pour vous-même et pour vos joueurs.</p>",
     "Search": "Chercher dans les compendiums"
   },
   "CONTROLS": {
@@ -481,6 +480,7 @@
       "Character": {
         "AncestryClass": "{ancestry} {class}"
       },
+      "Dead": "Mort",
       "Hazard": {
         "Level": "Danger {level}"
       },
@@ -1066,11 +1066,19 @@
         "ZeroRoundsExpireTurnStart": "0 round restant, expire au début de l'initiative {initiative}"
       },
       "Sustained": "Maintenu(e)",
-      "UnlimitedDuration": "Sans limite de durée"
+      "UnlimitedDuration": "Sans limite de durée",
+      "UntilEncounterEnds": "Jusqu'à la fin de la rencontre"
     },
     "EffectsLabel": "Effets",
     "EmptySlot": "Emplacement vide",
     "Encounter": {
+      "Broadcast": {
+        "TempHP": {
+          "PluralNew": "{actor} a maintenant {newQuantity} pv temporaires {wasAt} provenant de {item}.",
+          "SingleNew": "{actor} a maintenant {newQuantity} pv temporaire {wasAt} provenant de {item}.",
+          "WasAt": "(qui était de {oldQuantity})"
+        }
+      },
       "Budget": {
         "EncounterBudget": "Budget de rencontre",
         "PartyLevel": "Niveau du groupe",
@@ -1115,6 +1123,7 @@
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
       "ActorMustHaveToken": "Ajouter des conditions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
+      "CantImportTooHighVersion": "Incapable d'importer {sourceName}: sa version de shéma ({sourceSchemaVersion}) étant supérieur à celle du monde ({worldSchemaVersion}).",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnage",
       "MinimumProfLevelSetByFeatures": "La maîtrise choisie est inférieure à la maîtrise obtenue par des capacités.",
@@ -1231,6 +1240,7 @@
       "One": "1/{max} point d'héroïsme"
     },
     "HeroPointsLabel": "Points d’Héroïsme",
+    "HideSelectedLabel": "Cacher la sélection",
     "HitPointsDetailsLabel": "Détails PV",
     "HitPointsDetailsTitle": "Informations supplémentaires relatives aux Points de vie, tels que Guérison accélérée ou Régénération",
     "HitPointsHeader": "Points de Vie",
@@ -1241,8 +1251,12 @@
     "InitiativeHeader": "Bonus à l’Initiative",
     "InitiativeLabel": "Initiative",
     "InitiativeWithSkill": "Initiative: {skillName}",
-    "InlineButtons": {
-      "TemplateLabel": "{type} de {unit} ft"
+    "InlineTemplateErrors": {
+      "DistanceMissing": "Erreur dans @Template : le paramètre de distance est obligatoire",
+      "DistanceNoNumber": "Erreur dans @Template: : la dimension {distance} n'est pas un nombre",
+      "TypeMissing": "Erreur dans @Template ; le paramètre type est obligatoire",
+      "TypeUnsupported": "Erreur dans @Template : type {type] n'est pas possible",
+      "WidthNoNumber": "Erreur dans @Template : la largeur {width} n'est pas un nombre"
     },
     "InventoryArmorHeader": "Armures",
     "InventoryBackpackHeader": "Contenants",
@@ -1308,7 +1322,6 @@
       },
       "Effect": {
         "Expiry": {
-          "EndOfCombat": "à la fin du combat",
           "EndOfTurn": "à la fin du tour",
           "ExpiresOn": "Expire",
           "StartOfTurn": "au début du tour"
@@ -1448,6 +1461,7 @@
     "LanguageGrippli": "Grippli",
     "LanguageHalfling": "Halfelin",
     "LanguageHallit": "Hallit",
+    "LanguageHwan": "Hwan",
     "LanguageIgnan": "Igné",
     "LanguageIkeshti": "Ikeshtien",
     "LanguageInfernal": "Infernal",
@@ -1470,10 +1484,12 @@
     "LanguageNagaji": "Nagaji",
     "LanguageNecril": "Nécril",
     "LanguageOcotan": "Ocotan",
+    "LanguageOkaiyan": "Okaiyan",
     "LanguageOrcish": "Orquien",
     "LanguageOsiriani": "Osirien",
     "LanguageProtean": "Protéen",
     "LanguageRasu": "Rasu",
+    "LanguageRazatlani": "Razatlanais",
     "LanguageRequian": "Réquien",
     "LanguageRussian": "Russe",
     "LanguageSamsaran": "Samsaran",
@@ -1490,6 +1506,7 @@
     "LanguageStrix": "Strix",
     "LanguageSylvan": "Sylvestre",
     "LanguageTaldane": "Taldorien",
+    "LanguageTekritanin": "Tekritanien",
     "LanguageTengu": "Tengu",
     "LanguageTerran": "Terreux",
     "LanguageThassilonian": "Thassilonien",
@@ -1633,7 +1650,7 @@
           "Ferocity": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Le monstre est réduit à 0 PV.</p>\n<p><strong>Effet</strong> Le monstre n’est pas assommé et conserve 1 PV, mais son intensité d’état @Compendium[pf2e.conditionitems.Wounded]{Blessé} augmente de 1. Il ne peut plus faire appel à ce pouvoir à partir de l’état blessé 3.</p>",
           "FormUp": "<p>La troupe choisit une des cases qu’elle occupe actuellement et redistribue ses cases dans n’importe quelle configuration dans laquelle les cases sont contigus et dans les 4,5 m de la case choisie. La troupe ne peut partager son espace avec d’autres créatures.</p>",
           "FrightfulPresence": "<hr />\n<p>Une créature qui pénètre dans la zone d’effet doit faire un jet de Volonté.</p>\n<div data-visibility=\"gm\">\n<p>Quel que soit le résultat du jet de sauvegarde, la créature est tempo\u0002rairement immunisée contre la Présence terrifiante du monstre  pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée par la présence.</p>\n<p><strong>Succès</strong> La créature est @Compendium[pf2e.conditionitems.Frightened]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @Compendium[pf2e.conditionitems.Frightened]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature est @Compendium[pf2e.conditionitems.Frightened]{Effrayée 4}.</p>\n</div>",
-          "Grab": "<p data-visibility=\"gm\"><strong>Conditions</strong> La dernière action du monstre est une Frappe réussie avec le trait Empoignade dans l’entrée des dégâts, ou il a déjà empoigné une créature grâce à cette action.</p>\n<p><strong>Effet</strong>  Le monstre Empoigne/Agrippe automatiquement la cible, qui reste empoignée jusqu’à la fin du prochain tour du monstre. La créature est empoignée par la partie du corps que le monstre a utilisée pour porter son attaque, et il ne peut pas utiliser celle-ci pour Frapper tant qu’il s’en sert pour empoigner/agripper sa cible. Le monstre peut réutiliser Empoignade pour allonger la durée de ce pouvoir et maintenir ainsi toutes les créatures empoignées/agrippées jusqu’à la fin de son prochain tour. Une créature empoignée/agrippée peut utiliser l’action @Compendium[pf2e.actionspf2e.Escape]{S’échapper} pour se libérer de l’Empoignade. Celle-ci prend également fin si le monstre s’éloigne des créatures qu’il empoigne/agrippe.</p>",
+          "Grab": "<p data-visibility=\"gm\"><strong>Conditions</strong> La dernière action du monstre est une Frappe réussie avec le trait Empoignade dans l’entrée des dégâts ou il a déjà empoigné une créature grâce à cette action.</p>\n<p><strong>Effet</strong> Le monstre Empoigne/Agrippe automatiquement la cible qui reste empoignée jusqu’à la fin du prochain tour du monstre. La créature est empoignée par la partie du corps que le monstre a utilisée pour porter son attaque et il ne peut pas utiliser celle-ci pour Frapper tant qu’il s’en sert pour empoigner/agripper sa cible. Le monstre peut réutiliser Empoignade pour allonger la durée de ce pouvoir et maintenir ainsi toutes les créatures empoignées/agrippées jusqu’à la fin de son prochain tour. Une créature empoignée/agrippée peut utiliser l’action @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S’échapper} pour se libérer de l’Empoignade. Celle-ci prend également fin si le monstre s’éloigne des créatures qu’il empoigne/agrippe.</p>",
           "GreaterConstrict": "<p>Le monstre inflige la quantité de dégâts indiquée à toutes les créatures qu’il a @Compendium[pf2e.conditionitems.Grabbed]{empoignées/agrippées} ou @Compendium[pf2e.conditionitems.Restrained]{entravées}. Chacune d’entre elles peut faire un jet de Vigueur basique avec le DD indiqué. Si une créature échoue à son jet de sauvegarde, elle perd connaissance. Si elle réussit, elle est temporairement immunisée contre l’état @Compendium[pf2e.conditionitems.Unconscious]{inconscient} causé par la Constriction supérieure pendant 1 minute.</p>",
           "GreaterDarkvision": "<p>Un monstre qui possède vision dans le noir supérieure n’a aucun mal à voir dans les zones plongées dans les ténèbres ou la lumière faible, mais il ne voit alors qu’en noir et blanc. Un monstre qui possède vision dans le noir supérieure peut voir même à travers les ténèbres magiques.</p>",
           "ImprovedGrab": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{Empoignade} comme une action libre déclenchée par la réussite de son attaque initiale. Un monstre qui possède Empoignade améliorée doit quand même dépenser une action pour allonger la durée de la saisie des créatures qu’il a déjà @Compendium[pf2e.conditionitems.Grabbed]{empoignées/agrippées}.</p>",
@@ -1938,43 +1955,6 @@
     "RollModeLabel": "Mode de tirage",
     "RollTable": {
       "Plural": "Tables aléatoires"
-    },
-    "RuleElement": {
-      "ActiveEffectLike": "sorte d'effet actif",
-      "ActorTraits": "Traits de l'acteur",
-      "AdjustDegreeOfSuccess": "Ajuster le degré de réussite",
-      "BaseSpeed": "Vitesse de base",
-      "BattleForm": "Forme de combat",
-      "ChoiceSet": "Ensemble de choix",
-      "CraftingEntry": "Entrée Artisanat",
-      "CraftingFormula": "Formule de fabrication",
-      "CreatureSize": "Taille de créature",
-      "DamageDice": "Dé de dégât",
-      "DexterityModifierCap": "Modif. Max. de Dextérité",
-      "EffectTarget": "Cible de l'effet",
-      "FixedProficiency": "Compétence fixe",
-      "FlatModifier": "Test nu/pur",
-      "Immunity": "Immunité",
-      "LinkedProficiency": "Compétence liée",
-      "LoseHitPoints": "perte de points de vie",
-      "MultipleAttackPenalty": "Pénalité d'attaques multiples",
-      "NewRuleElement": "Nouvel élément de règle",
-      "Note": "Note",
-      "RecoveryCheckDC": "DD du test de récupération",
-      "Resistance": "Résistance",
-      "RollOption": "Option de lancement",
-      "Sense": "Sens",
-      "Strike": "Frappe",
-      "Striking": "de Frappe",
-      "TempHP": "Points de Vie temporaires",
-      "TempHPShortLabel": "Temp",
-      "ToggleProperty": "Activer la propriété",
-      "TokenEffectIcon": "Icône du jeton de l'effet",
-      "TokenImage": "Image du jeton",
-      "TokenSize": "Taille du jeton",
-      "Unrecognized": "Élément de règle non reconnu",
-      "Weakness": "Faiblesse",
-      "WeaponPotency": "Puissance d'arme"
     },
     "SETTINGS": {
       "Automation": {
@@ -2413,7 +2393,7 @@
     "SkillArcana": "Arcanes",
     "SkillAth": "Athlétisme",
     "SkillAthletics": "Athlétisme",
-    "SkillCheckWithName": "Jet de Compétence: {skillName}",
+    "SkillCheckWithName": "Jet de Compétence : {skillName}",
     "SkillCra": "Artisanat",
     "SkillCrafting": "Artisanat",
     "SkillDec": "Duperie",
@@ -2469,7 +2449,7 @@
     "SpeedTypesTitle": "Les modes de déplacement alternatifs",
     "SpellAbilityLabel": "Carac d’incant.",
     "SpellAbilityModLabel": "+ Mod. Carac.",
-    "SpellArea": "Zone: {areaType} de {areaSize} {areaUnit}",
+    "SpellArea": "Zone : {areaType} de {areaSize} {areaUnit}",
     "SpellAttack": {
       "arcane": "Attaque de sort arcanique",
       "divine": "Attaque de sort divin",
@@ -2614,12 +2594,14 @@
     "TabEffectsLabel": "Effets",
     "TabFeatsLabel": "Dons",
     "TabInventoryLabel": "Inventaire",
+    "TabManageTabsLabel": "Gérer les onglets",
     "TabPathfinderSociety": "Société des Éclaireurs",
     "TabSkillsLabel": "Compétences",
     "TabSpellbookLabel": "Grimoire",
     "TargetFlatFootedLabel": "Cible prise au dépourvu",
     "TempHPTitle": "Le montant de vos points de vie temporaires",
     "TempHitPointsShortLabel": "PV temp.",
+    "TemplateLabel": "{shape} {size} {unit}",
     "TemporaryItemToolTip": "Cet objet est temporaire et expirera après une durée ou durant les préparatifs quotidiens. Il n'a pas de valeur et ne peut être vendu.",
     "Time": {
       "Duration": "Duration",
@@ -2630,6 +2612,7 @@
         "Rounds": "rounds",
         "Seconds": "secondes",
         "Unlimited": "illimité",
+        "UntilEncounterEnds": "Jusqu'à la fin de la rencontre",
         "Weeks": "semaines"
       }
     },
@@ -2928,7 +2911,7 @@
     "TraitDescriptionGrapple": "Vous pouvez utiliser cette arme pour Saisir avec la compétence Athlétisme même si vous n’avez pas de main libre. Ce trait utilise l’allonge de l’arme (si elle est différente de la vôtre) et ajoute le bonus d’objet de l’arme aux jets d’attaque en tant que bonus d’objet au test d’Athlétisme. Si vous obtenez un échec critique à un test pour Saisir avec l’arme, vous pouvez lâcher cette dernière pour qu’elle subisse les effets d’un échec au lieu de ceux d’un échec critique.",
     "TraitDescriptionGrimoire": "Les livres de sort sont des outils utiles à tout utilisateur de magie pour écrire des incantations et des runes de pouvoir, mais alors que la plupart des livres de sorts ne sont rien de plus que de l'encre sur du parchemin, les grimoires ont absorbé la magie des sorts qu'ils contiennent - une magie que les lanceurs de sorts avertis peuvent utiliser pour augmenter leurs sorts.",
     "TraitDescriptionGrippli": "Les griipplis sont une famille d'humanöides ressemblant à des grenouilles.",
-    "TraitDescriptionGunslinger": "Cela indique les capacités de la classe de flingueur.",
+    "TraitDescriptionGunslinger": "Cela indique les capacités de la classe de Franc-tireur.",
     "TraitDescriptionHalfElf": "Une créature dotée de ce trait est mi‑humaine, mi‑elfe. Un pouvoir doté de ce trait peut seulement être choisi ou utilisé par des demi‑elfes.",
     "TraitDescriptionHalfOrc": "Une créature dotée de ce trait est mi‑humaine, mi‑orc. Un pouvoir doté de ce trait peut seulement être choisi ou utilisé par des demi‑orcs.",
     "TraitDescriptionHalfling": "Une créature avec ce trait est un membre de l’ascendance halfeline. Ces petites gens sont des vagabonds amicaux réputés pour leur chance. Une capacité avec ce trait peut être utilisée ou sélectionnée seulement par les halfelins. Une arme avec ce  trait est créée et utilisée par les halfelins.",
@@ -3110,7 +3093,7 @@
     "TraitEtchedOntoAThrownWeapon": "Gravée sur une arme de jet",
     "TraitEtchedOntoAWeapon": "Gravée sur une arme",
     "TraitEtchedOntoArmor": "Gravé sur une armure",
-    "TraitEtchedOntoLightMedNMArmor": "Gravée sur une armure non métallique légère ou intermédiaire",
+    "TraitEtchedOntoLightMedNMArmor": "Gravé sur une armure non métallique légère ou intermédiaire",
     "TraitEtchedOntoMedHeavyArmor": "Gravé sur une armure Intermédiaire ou lourde",
     "TraitEthereal": "Éthéré",
     "TraitEvil": "Mal",
@@ -3163,7 +3146,7 @@
     "TraitGrimoire": "Grimoire",
     "TraitGrioth": "Grioth",
     "TraitGrippli": "Grippli",
-    "TraitGunslinger": "Pistolier",
+    "TraitGunslinger": "Franc-tireur",
     "TraitHag": "Guenaude",
     "TraitHalcyon": "Paisible",
     "TraitHalfElf": "Demi-elfe",
@@ -3288,6 +3271,7 @@
     "TraitRange100": "Portée 100 ft (30m)",
     "TraitRange120": "Portée 120 fr (30m)",
     "TraitRange15": "Portée 15 ft (4,5 m)",
+    "TraitRange150": "Portée 150 ft (45m)",
     "TraitRange180": "Portée 180 ft (54 m)",
     "TraitRange20": "Portée 20 ft (6 m)",
     "TraitRange240": "Portée 240 ft (72 m)",
@@ -3570,19 +3554,6 @@
     "TwoDegreesBetter": "deux degrés supérieurs",
     "TwoDegreesWorse": "deux degrés inférieurs",
     "UI": {
-      "RuleElements": {
-        "ChoiceSet": {
-          "Prompt": "Faites une sélection",
-          "SaveLabel": "Sauvegarde"
-        },
-        "EffectTarget": {
-          "Prompt": "Choisissez la cible de cet effet."
-        },
-        "Prompt": {
-          "NoSelectionMade": "Aucune sélection n'a été faite : {item} est inactif.",
-          "NoValidOptions": "{actor} n'a pas de cible valide  pour {item}."
-        }
-      },
       "applyDamage": {
         "by": "par",
         "damaged": "est blessé de : ",
@@ -3592,7 +3563,6 @@
       },
       "errorTargetToken": "Vous n'avez pas ciblé de Jeton.",
       "noDamageInfoForOutcome": "Pas d'informations sur les dégâts de l'issue {outcome}",
-      "shiftModifyDamageHint": "Utiliser le modificateur positif pour blesser, le négatif pour soigner.",
       "shiftModifyDamageLabel": "Modificateur :",
       "shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus"
     },
@@ -4233,7 +4203,7 @@
     "WeaponRange90": "90 ft (27 m)",
     "WeaponRangeLabel": "Portée de l’arme",
     "WeaponRangeMelee": "Corps à corps",
-	"WeaponRangeN": "{range} pieds",
+    "WeaponRangeN": "{range} pieds",
     "WeaponRangeReach": "À distance",
     "WeaponReloadLabel": "Temps de rechargement",
     "WeaponSpecialization": "Spécialisation martiale",
