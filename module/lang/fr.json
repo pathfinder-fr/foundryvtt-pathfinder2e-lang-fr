@@ -1240,7 +1240,6 @@
       "One": "1/{max} point d'héroïsme"
     },
     "HeroPointsLabel": "Points d’Héroïsme",
-    "HideSelectedLabel": "Cacher la sélection",
     "HitPointsDetailsLabel": "Détails PV",
     "HitPointsDetailsTitle": "Informations supplémentaires relatives aux Points de vie, tels que Guérison accélérée ou Régénération",
     "HitPointsHeader": "Points de Vie",
@@ -1851,6 +1850,7 @@
     "PreciousMaterialDarkwood": "Ébénite",
     "PreciousMaterialDragonhide": "Peau de dragon",
     "PreciousMaterialGradeLabel": "Qualité du métal",
+    "PreciousMaterialGrisantianPelt": "Fourrure de grisantien",
     "PreciousMaterialHighGrade": "haute qualité",
     "PreciousMaterialLabel": "Matériau précieux",
     "PreciousMaterialLowGrade": "basse qualité",
@@ -2125,10 +2125,6 @@
           "Hint": "si activé, alors pour tout jeton de PNJ dont le nom n'est pas visible aux joueurs, son nom leur sera aussi caché dans le compteur de rencontre et les messages dans la conversation.",
           "Name": "Les jetons déterminent la visibilité du nom du PNJ"
         }
-      },
-      "PFSSheetTab": {
-        "Hint": "Montrer l'onglet de la Société des Éclaireurs sur la Feuille de Personnage",
-        "Name": "Onglet de Feuille PFS"
       },
       "Player": {
         "QuickRolls": {
@@ -3274,6 +3270,7 @@
     "TraitRange150": "Portée 150 ft (45m)",
     "TraitRange180": "Portée 180 ft (54 m)",
     "TraitRange20": "Portée 20 ft (6 m)",
+    "TraitRange200": "Portée 200 ft (60 m)",
     "TraitRange240": "Portée 240 ft (72 m)",
     "TraitRange25": "Portée 25 ft (7,5 m)",
     "TraitRange30": "Portée 30 ft (9 m)",
@@ -3409,6 +3406,7 @@
     "TraitTanggal": "tanggal",
     "TraitTattoo": "Tatouage",
     "TraitTattooedOnTheBody": "Tatoué sur le corps",
+    "TraitTechnological": "Technologique",
     "TraitTeleportation": "Téléportation",
     "TraitTengu": "Tengu",
     "TraitTethered": "Rappel",
@@ -4058,7 +4056,10 @@
         "Name": "Rune traction"
       },
       "holy": {
-        "Name": "Rune sainte"
+        "Name": "Rune sainte",
+        "Note": {
+          "criticalSuccess": "<strong>Rune sainte</strong> (<span class='pf2-icon'>R</span> sur ordre; une fois par jour)<br /><br /><strong>Déclencheur</strong> . Vous obtenez un coup critique sur votre jet d’attaque avec cette arme contre \nune créature d’alignement mauvais<br /><br /><strong>Effet</strong>  Vous récupérez un montant de PV égal au double du niveau de la créature d’alignement mauvais. Il s’agit d’un effet bon, de guérison et positif."
+        }
       },
       "hopeful": {
         "Name": "Rune d'espoir",
@@ -4114,10 +4115,16 @@
         }
       },
       "unholy": {
-        "Name": "Rune impie"
+        "Name": "Rune impie",
+        "Note": {
+          "criticalSuccess": "<strong>Rune impie</strong> (<span class='pf2-icon'>R</span> sur ordre ; une fois par jour<br /><br /><strong>Déclencheur</strong> Vous obtenez un coupcritique sur un jet d’attaque avec cette arme contre une créature d’alignement bon<br /><br /><strong>Effet</strong> La cible subit un montant de dégâts de saignement persistants égal à 1d8 par dé de dégâts d’arme de l’arme gravée."
+        }
       },
       "vorpal": {
-        "Name": "Rune vorpale"
+        "Name": "Rune vorpale",
+        "Note": {
+          "criticalSuccess": "<strong>Rune vorpale</strong> (<span class='pf2-icon'>R</span> imaginer (mort, mise hors de combat))<br /><br /><strong>Déclencheur</strong> Vous obtenez un 20 naturel lors d’une Frappe avec l’arme, un succès critique, et infligez des dégâts tranchants. La cible doit avoir une tête<br /><br /><strong>Effet</strong> La cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"DD Rune vorpale\" data-pf2-traits=\"death,incapacitation\" data-pf2-dc=\"37\">Vigueur</span> DD 37 ou être décapitatée.  Ce coup tue tous types de créatures, sauf celles dont la tête n’est pas indispensable pour survivre. Dans le cas de créatures avec plusieurs têtes, ce coup la tue uniquement si vous tranchez sa dernière tête."
+        }
       },
       "wounding": {
         "Name": "Rune sanglante",
