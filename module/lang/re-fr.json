@@ -1,101 +1,179 @@
 {
-    "PF2E": {
-        "RuleElement": {
-          "ActiveEffectLike": "sorte d'effet actif",
-          "ActorTraits": "Traits de l'acteur",
-            "AdjustDegreeOfSuccess": "Ajuster le degré de réussite",
-          "BaseSpeed": "Vitesse de base",
-          "BattleForm": "Forme de combat",
-          "ChoiceSet": "Ensemble de choix",
-          "CraftingEntry": "Entrée Artisanat",
-          "CraftingFormula": "Formule de fabrication",
-          "CreatureSize": "Taille de créature",
-          "DamageDice": "Dé de dégât",
-          "DexterityModifierCap": "Modif. Max. de Dextérité",
-          "EffectTarget": "Cible de l'effet",
-          "FixedProficiency": "Compétence fixe",
-          "FlatModifier": "Test nu/pur",
-          "Immunity": "Immunité",
-          "LinkedProficiency": "Compétence liée",
-          "LoseHitPoints": "perte de points de vie",
-          "MultipleAttackPenalty": "Pénalité d'attaques multiples",
-          "NewRuleElement": "Nouvel élément de règle",
-          "Note": "Note",
-          "RecoveryCheckDC": "DD du test de récupération",
-          "Resistance": "Résistance",
-          "RollOption": "Option de lancement",
-          "Sense": "Sens",
-          "Strike": "Frappe",
-          "Striking": "de Frappe",
-          "TempHP": "Points de Vie temporaires",
-          "TempHPShortLabel": "Temp",
-          "ToggleProperty": "Activer la propriété",
-          "TokenEffectIcon": "Icône du jeton de l'effet",
-          "TokenImage": "Image du jeton",
-          "TokenSize": "Taille du jeton",
-          "Unrecognized": "Élément de règle non reconnu",
-          "Weakness": "Faiblesse",
-          "WeaponPotency": "Puissance d'arme"
+  "PF2E": {
+    "RuleElement": {
+      "ActiveEffectLike": "sorte d'effet actif",
+      "ActorTraits": "Traits de l'acteur",
+      "AdjustDegreeOfSuccess": "Ajuster le degré de succès",
+      "BaseSpeed": "Vitesse de base",
+      "BattleForm": "Forme de combat",
+      "ChoiceSet": "Ensemble de choix",
+      "CraftingEntry": "Entrée Artisanat",
+      "CraftingFormula": "Formule de fabrication",
+      "CreatureSize": "Taille de créature",
+      "DamageDice": "Dé de dégât",
+      "DexterityModifierCap": "Modif. Max. de Dextérité",
+      "EffectTarget": "Cible de l'effet",
+      "FixedProficiency": "Compétence fixe",
+      "FlatModifier": "Test nu/pur",
+      "GrantItem": "Objet accordé",
+      "Immunity": "Immunité",
+      "LoseHitPoints": "perte de points de vie",
+      "MartialProficiency": "Maîtrise martiale",
+      "MultipleAttackPenalty": "Pénalité d'attaques multiples",
+      "NewRuleElement": "Nouvel élément de règle",
+      "Note": "Note",
+      "RecoveryCheckDC": "DD du test de récupération",
+      "Resistance": "Résistance",
+      "RollOption": "Option de lancement",
+      "Sense": "Sens",
+      "Strike": "Frappe",
+      "Striking": "de Frappe",
+      "TempHP": "Points de Vie temporaires",
+      "TempHPShortLabel": "Temp",
+      "ToggleProperty": "Activer la propriété",
+      "TokenEffectIcon": "Icône du jeton de l'effet",
+      "TokenImage": "Image du jeton",
+      "TokenSize": "Taille du jeton",
+      "Unrecognized": "Élément de règle non reconnu",
+      "Weakness": "Faiblesse",
+      "WeaponPotency": "Puissance d'arme"
+    },
+    "SkillVariant": {
+      "Blacksmithing": "pour forger",
+      "Climb": "pour escalader",
+      "ClimbOrSwim": "pour escalader ou nager",
+      "Disarm": "pour désarmer",
+      "Escape": "pour s'échapper",
+      "Forests": "dans les forêts",
+      "ForestsOrSwamps": "dans les forêts ou les marais",
+      "HighJumpOrLongJump": "pour sauter en hauteur ou en longueur",
+      "ImitateStone": "pour imiter la pierre",
+      "Impersonate": "pour se déguiser",
+      "Lair": "dans son antre",
+      "Singing": "chanter",
+      "Squeeze": "pour se faufiler",
+      "Swamps": "dans les marais",
+      "Swim": "pour nager",
+      "Track": "pour pister",
+      "TrackBleedingCreature": "pour pister une créature qui saigne",
+      "Traps": "pièges",
+      "Underground": "souterrain",
+      "Undergrowth": "dans les sous-bois",
+      "VsArthropods": "contre les arthropodes",
+      "VsProne": "contre les effets de mise à terre",
+      "VsShoveOrTrip": "contre pousser ou croc-en-jambe",
+      "Water": "dans l'eau"
+    },
+    "SpecificRule": {
+      "ClanWeapon": {
+        "Label": "Arme de clan",
+        "Prompt": "Choisir une arme de clan"
+      },
+      "Cover": {
+        "Greater": "Supérieur",
+        "Lesser": "Inférieur",
+        "Prompt": "Choisissez un degré d'abri.",
+        "Standard": "Standard"
+      },
+      "FighterWeaponMasteryLegend": {
+        "Advanced": {
+          "axe": "Haches avancées",
+          "bomb": "Bombes avancées",
+          "bow": "Arcs avancés",
+          "brawling": "Pugilat avancé",
+          "club": "Gourdins avancés",
+          "dart": "Fléchettes avancées",
+          "firearm": "Armes à feu avancées",
+          "flail": "Fléaux avancés",
+          "hammer": "Marteaux avancés",
+          "knife": "Couteaux avancés",
+          "pick": "Pic de guerre avancés",
+          "polearm": "Armes d'hast avancées",
+          "shield": "Boucliers avancés",
+          "sling": "Fronces avancées",
+          "spear": "Lances avancées",
+          "sword": "Épées avancées"
         },
-        "SpecificRule": {
-            "Cover": {
-                "Prompt": "Choisissez un degré d'abri.",
-                "Lesser": "Inférieur",
-                "Standard": "Standard",
-                "Greater": "Supérieur"
-            },
-            "MartialProficiency": {
-                "AdvancedAzarketiWeapons": "Armes azarketies avancées",
-                "AdvancedCatfolkWeapons": "Armes homme-félin avancées",
-                "AdvancedConrasuWeapons": "Armes Conrasu avancées ",
-                "AdvancedDwarfWeapons": "Armes naines avancées",
-                "AdvancedElfWeapons": "Armes elfes avancées",
-                "AdvancedFirearmsCrossbows": "Armes à feu et arbalètes avancées",
-                "AdvancedGeniekinWeapons": "Armes des descendants de génie avancées",
-                "AdvancedGnollWeapons": "Armes gnolls avancées",
-                "AdvancedGnomeWeapons": "Arme gnomes avancées",
-                "AdvancedGoblinWeapons": "Armes gobelines avancées",
-                "AdvancedGrippliWeapons": "Armes gripplies avancées",
-                "AdvancedHalflingWeapons": "Armes halfelines avancées",
-                "AdvancedHobgoblinWeapons": "Armes hobgobelines avancées",
-                "AdvancedKoboldWeapons": "Armes koboldes avancées",
-                "AdvancedOrcWeapons": "Armes orques avancées",
-                "AdvancedTenguWeapons": "Armes tengues avancées",
-                "MartialAzarketiWeapons": "Armes de guerre azarketies",
-                "MartialCatfolkWeapons": "Armes de guerre hommes-félin",
-                "MartialConrasuWeapons": "Armes de guerre conrasu",
-                "MartialDwarfWeapons": "Armes de guerre naines",
-                "MartialElfWeapons": "Armes de guerre elfes",
-                "MartialFirearmsCrossbows": "Armes à feu et arbalètes de guerre",
-                "MartialGeniekinWeapons": "Armes de guerre des descendants de génie",
-                "MartialGnollWeapons": "Armes de guerre gnolles",
-                "MartialGnomeWeapons": "Armes de guerre gnomes",
-                "MartialGoblinWeapons": "Armes de guerre gobelines",
-                "MartialGrippliWeapons": "Armes de guerre gripplies",
-                "MartialHalflingWeapons": "Armes de guerre halfelines",
-                "MartialHobgoblinWeapons": "Armes de guerre hobgobelines",
-                "MartialKoboldWeapons": "Armes de guerre koboldes",
-                "MartialOrcWeapons": "Armes de guerre orques",
-                "MartialTenguWeapons": "Armes de guerre tengues",
-                "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples"
-            }
-        },
-        "UI": {
-            "RuleElements": {
-                "ChoiceSet": {
-                    "HomebrewItem": "Objet maison",
-                    "DragHomebrewItem": "Glisser un objet maison ici si vous en utilisez un au lieu des options ci-dessus",
-                    "Prompt": "Faites une sélection",
-                    "SaveLabel": "Sauvegarde"
-                },
-                "EffectTarget": {
-                    "Prompt": "Choisissez la cible de cet effet."
-                },
-                "Prompt": {
-                    "NoSelectionMade": "Aucune sélection n'a été faite : {item} est inactif.",
-                    "NoValidOptions": "{actor} n'a pas de cible valide  pour {item}."
-                }
-            }
+        "SimpleMartial": {
+          "axe": "Haches simples et de guerre",
+          "bomb": "Bombes simples et de guerre",
+          "bow": "Arcs simples et de guerre",
+          "brawling": "Pugilat simple et de guerre",
+          "club": "Gourdins simples et de guerre",
+          "dart": "Fléchettes simples et de guerre",
+          "firearm": "Armes à feu simples et de guerre",
+          "flail": "Fléaux simples et de guerre",
+          "hammer": "Marteaux simples et de guerre",
+          "knife": "Couteaux simples et de guerre",
+          "pick": "Pics de guerre simples et de guerre",
+          "polearm": "Armes d'hast simples et de guerre",
+          "shield": "Boucliers simples et de guerre",
+          "sling": "Frondes simples et de guerre",
+          "spear": "Lances simples et de guerre",
+          "sword": "Épées simples et de guerre"
         }
+      },
+      "MartialProficiency": {
+        "AdvancedAzarketiWeapons": "Armes azarketies avancées",
+        "AdvancedCatfolkWeapons": "Armes homme-félin avancées",
+        "AdvancedConrasuWeapons": "Armes Conrasu avancées ",
+        "AdvancedDwarfWeapons": "Armes naines avancées",
+        "AdvancedElfWeapons": "Armes elfes avancées",
+        "AdvancedFirearmsCrossbows": "Armes à feu et arbalètes avancées",
+        "AdvancedGeniekinWeapons": "Armes des descendants de génie avancées",
+        "AdvancedGnollWeapons": "Armes gnolls avancées",
+        "AdvancedGnomeWeapons": "Arme gnomes avancées",
+        "AdvancedGoblinWeapons": "Armes gobelines avancées",
+        "AdvancedGrippliWeapons": "Armes gripplies avancées",
+        "AdvancedHalflingWeapons": "Armes halfelines avancées",
+        "AdvancedHobgoblinWeapons": "Armes hobgobelines avancées",
+        "AdvancedKoboldWeapons": "Armes koboldes avancées",
+        "AdvancedOrcWeapons": "Armes orques avancées",
+        "AdvancedTenguWeapons": "Armes tengues avancées",
+        "MartialAzarketiWeapons": "Armes de guerre azarketies",
+        "MartialCatfolkWeapons": "Armes de guerre félides",
+        "MartialConrasuWeapons": "Armes de guerre conrasu",
+        "MartialDwarfWeapons": "Armes de guerre naines",
+        "MartialElfWeapons": "Armes de guerre elfes",
+        "MartialFirearmsCrossbows": "Armes à feu et arbalètes de guerre",
+        "MartialGeniekinWeapons": "Armes de guerre des descendants de génie",
+        "MartialGnollWeapons": "Armes de guerre gnolles",
+        "MartialGnomeWeapons": "Armes de guerre gnomes",
+        "MartialGoblinWeapons": "Armes de guerre gobelines",
+        "MartialGrippliWeapons": "Armes de guerre gripplies",
+        "MartialHalflingWeapons": "Armes de guerre halfelines",
+        "MartialHobgoblinWeapons": "Armes de guerre hobgobelines",
+        "MartialKoboldWeapons": "Armes de guerre koboldes",
+        "MartialOrcWeapons": "Armes de guerre orques",
+        "MartialTenguWeapons": "Armes de guerre tengues",
+        "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples"
+      },
+      "Multitalented": {
+        "AllowedDrops": "don de dévouement multiclasse de niveau 2",
+        "Prompt": "Choisir un don de dévouement multiclasse"
+      },
+      "Prompt": {
+        "CreatureSize": "Choisir une taille de créature",
+        "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
+        "WeaponGroup": "Choisir un groupe d'arme"
+      }
+    },
+    "UI": {
+      "RuleElements": {
+        "ChoiceSet": {
+          "DragHomebrewItem": "Glisser un objet maison ici si vous en utilisez un au lieu des options ci-dessus",
+          "HomebrewItem": "Objet maison",
+          "Prompt": "Faites une sélection",
+          "SaveLabel": "Sauvegarde"
+        },
+        "EffectTarget": {
+          "Prompt": "Choisissez la cible de cet effet."
+        },
+        "Prompt": {
+          "NoSelectionMade": "Aucune sélection n'a été faite : {item} est inactif.",
+          "NoValidOptions": "{actor} n'a pas de cible valide  pour {item}."
+        }
+      }
     }
+  }
 }
