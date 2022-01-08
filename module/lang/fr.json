@@ -47,6 +47,7 @@
     "TypeEffect": "Effet",
     "TypeEquipment": "Équipement",
     "TypeFeat": "Don",
+    "TypeHeritage": "Héritage",
     "TypeKit": "Kit",
     "TypeLore": "Compétence PNJ",
     "TypeMartial": "Maîtrise d'armure et d'arme",
@@ -117,35 +118,35 @@
     "Actions": {
       "Balance": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous chutez et votre tour prend fin.",
-          "criticalSuccess": "<b>Succès critique</b> Vous vous déplacez d’une distance maximale égale à votre Vitesse.",
-          "failure": "<b>Échec</b> Vous devez rester sur place pour garder l’équilibre (l’action est tout de même dépensée) ou vous chutez. Votre tour prend fin si vous chutez.",
-          "success": "<b>Succès</b> Vous vous déplacez d’une distance maximale égale à votre Vitesse, en considérant la surface traversée comme un terrain difficile (chaque déplacement de 1,50 m compte comme un déplacement de 3 m)."
+          "criticalFailure": "<strong>Échec critique</strong> Vous chutez et votre tour prend fin.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous vous déplacez d’une distance maximale égale à votre Vitesse.",
+          "failure": "<strong>Échec</strong> Vous devez rester sur place pour garder l’équilibre (l’action est tout de même dépensée) ou vous chutez. Votre tour prend fin si vous chutez.",
+          "success": "<strong>Succès</strong> Vous vous déplacez d’une distance maximale égale à votre Vitesse, en considérant la surface traversée comme un terrain difficile (chaque déplacement de 1,50 m compte comme un déplacement de 3 m)."
         },
         "Title": "Garder l'équilibre"
       },
       "BonMot": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Votre trait d’esprit est atroce. Vous subissez la même pénalité que celle que l’ennemi aurait subi si vous aviez obtenu un succès. Cette pénalité prend fin après 1 minute ou dès que vous réussissez à placer un autre Bon mot. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effet: Bon Mot}",
-          "criticalSuccess": "<b>Succès critique</b> La cible est distraite et subit une pénalité de statut de -3 aux tests de Perception et de Volonté pendant 1 minute. La cible peut mettre un terme à cet effet en répondant à votre Bon mot. Il peut s’agir soit d’une action unique possédant le trait Concentration, soit d’une action de compétence appropriée permettant de cadrer avec la réponse. Le MJ détermine quelles actions de compétence sont valides, mais elles doivent nécessiter au moins 1 action. Généralement, la réponse doit utiliser une action de compétence linguistique basée sur le Charisme. @Compendium[pf2e.feat-effects.CtrZFI3RV0yPNzTv]{Effet: Bon Mot (Succès critique)}",
-          "success": "<b>Succès critique</b> La cible est distraite et subit une pénalité de statut de -2 aux tests de Perception et de Volonté pendant 1 minute. La cible peut mettre un terme à cet effet en répondant à votre Bon mot. Il peut s’agir soit d’une action unique possédant le trait Concentration, soit d’une action de compétence appropriée permettant de cadrer avec la réponse. Le MJ détermine quelles actions de compétence sont valides, mais elles doivent nécessiter au moins 1 action. Généralement, la réponse doit utiliser une action de compétence linguistique basée sur le Charisme. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effet: Bon Mot}"
+          "criticalFailure": "<strong>Échec critique</strong> Votre trait d’esprit est atroce. Vous subissez la même pénalité que celle que l’ennemi aurait subi si vous aviez obtenu un succès. Cette pénalité prend fin après 1 minute ou dès que vous réussissez à placer un autre Bon mot. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effet: Bon Mot}",
+          "criticalSuccess": "<strong>Succès critique</strong> La cible est distraite et subit une pénalité de statut de -3 aux tests de Perception et de Volonté pendant 1 minute. La cible peut mettre un terme à cet effet en répondant à votre Bon mot. Il peut s’agir soit d’une action unique possédant le trait Concentration, soit d’une action de compétence appropriée permettant de cadrer avec la réponse. Le MJ détermine quelles actions de compétence sont valides, mais elles doivent nécessiter au moins 1 action. Généralement, la réponse doit utiliser une action de compétence linguistique basée sur le Charisme. @Compendium[pf2e.feat-effects.CtrZFI3RV0yPNzTv]{Effet: Bon Mot (Succès critique)}",
+          "success": "<strong>Succès critique</strong> La cible est distraite et subit une pénalité de statut de -2 aux tests de Perception et de Volonté pendant 1 minute. La cible peut mettre un terme à cet effet en répondant à votre Bon mot. Il peut s’agir soit d’une action unique possédant le trait Concentration, soit d’une action de compétence appropriée permettant de cadrer avec la réponse. Le MJ détermine quelles actions de compétence sont valides, mais elles doivent nécessiter au moins 1 action. Généralement, la réponse doit utiliser une action de compétence linguistique basée sur le Charisme. @Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effet: Bon Mot}"
         },
         "Title": "Bon mot"
       },
       "Climb": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous chutez. Si vous avez commencé votre escalade sur un sol stable, vous tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
-          "criticalSuccess": "<b>Succès critique</b>Vous montez, parcourez ou descendez la déclivité sans problème. La distance parcourue est égale à 1,50 m plus 1,50 m par tranche de 6 m de votre Vitesse au sol (ce qui donne un total de 3 m pour la plupart des PJ).",
-          "success": "<b>Succès</b>Vous montez, parcourez ou descendez la déclivité sans problème. La distance parcourue est égale à 1,50 m par tranche de 6 m de votre Vitesse au sol (ce qui donne un total de 1,50 m pour la pour la plupart des PJ, avec un minimum de 1,5 m si votre Vitesse est inférieure à 6 m)."
+          "criticalFailure": "<strong>Échec critique</strong> Vous chutez. Si vous avez commencé votre escalade sur un sol stable, vous tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "criticalSuccess": "<strong>Succès critique</strong>Vous montez, parcourez ou descendez la déclivité sans problème. La distance parcourue est égale à 1,50 m plus 1,50 m par tranche de 6 m de votre Vitesse au sol (ce qui donne un total de 3 m pour la plupart des PJ).",
+          "success": "<strong>Succès</strong>Vous montez, parcourez ou descendez la déclivité sans problème. La distance parcourue est égale à 1,50 m par tranche de 6 m de votre Vitesse au sol (ce qui donne un total de 1,50 m pour la pour la plupart des PJ, avec un minimum de 1,5 m si votre Vitesse est inférieure à 6 m)."
         },
         "Title": "Escalader"
       },
       "Coerce": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> La cible refuse d’obtempérer, devient hostile si elle ne l’était pas déjà et vous ne pouvez plus la Contraindre pendant au moins une semaine.",
-          "criticalSuccess": "<b>Succès critique</b>. La cible vous révèle l’information que vous cherchez ou accepte de suivre vos directives tant qu’elles ne la mettent pas en danger d’une façon ou d’une autre. Elle continue d’obtempérer pendant une durée déterminée par le MJ, mais sans dépasser une journée. Une fois cette période écoulée, elle devient inamicale (si elle n’était pas déjà inamicale ou hostile). Quoi qu’il en soit, vous lui faites si peur qu’elle ne se rebiffe pas, du moins pas à court terme.",
-          "failure": "<b>Échec</b> La cible ne fait pas ce que vous voulez qu’elle fasse et si elle n’était pas déjà inamicale ou hostile, elle devient inamicale.",
-          "success": "<b>Succès</b>  Comme un succès critique, mais une fois la cible inamicale, elle peut décider d’agir contre vous en vous dénonçant aux autorités ou en aidant vos ennemis, par exemple"
+          "criticalFailure": "<strong>Échec critique</strong> La cible refuse d’obtempérer, devient hostile si elle ne l’était pas déjà et vous ne pouvez plus la Contraindre pendant au moins une semaine.",
+          "criticalSuccess": "<strong>Succès critique</strong>. La cible vous révèle l’information que vous cherchez ou accepte de suivre vos directives tant qu’elles ne la mettent pas en danger d’une façon ou d’une autre. Elle continue d’obtempérer pendant une durée déterminée par le MJ, mais sans dépasser une journée. Une fois cette période écoulée, elle devient inamicale (si elle n’était pas déjà inamicale ou hostile). Quoi qu’il en soit, vous lui faites si peur qu’elle ne se rebiffe pas, du moins pas à court terme.",
+          "failure": "<strong>Échec</strong> La cible ne fait pas ce que vous voulez qu’elle fasse et si elle n’était pas déjà inamicale ou hostile, elle devient inamicale.",
+          "success": "<strong>Succès</strong>  Comme un succès critique, mais une fois la cible inamicale, elle peut décider d’agir contre vous en vous dénonçant aux autorités ou en aidant vos ennemis, par exemple"
         },
         "Title": "Contraindre"
       },
@@ -166,10 +167,10 @@
           "ReceiveItem": "{actorName} reçoit {quantity} x {itemName}."
         },
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous échouez à terminer l'objet. Vous avez gâché 10% des matériaux bruts que vous avez fourni, mais vous pouvez récupérer le reste. Si vous voulez réessayer, vous devez recommencer de zéro.",
-          "criticalSuccess": "<b>Succès critique</b> Votre tentative est une réussite. Chaque jour supplémentaire passé à Fabriquer réduit les matériaux néccessaires pour terminer l'objet par un montant basé sur votre niveau + 1 et votre rang de maîtrise en Artisanat.",
-          "failure": "<b>Échec</b> Vous ne parvenez pas à terminer l'objet. Vous pouvez récupérer les matériaux bruts que vous avez fournis pour leur valeur intégrale. Si vous voulez réessayer, vous devez repartir de zéro.",
-          "success": "<b>Succès</b> Votre tentative est réussie. Chaque jour supplémentaire passé à Fabriquer réduit les matériaux nécessaires pour terminer l'objet par un montant basé sur votre niveau et votre rang de maîtrise."
+          "criticalFailure": "<strong>Échec critique</strong> Vous échouez à terminer l'objet. Vous avez gâché 10% des matériaux bruts que vous avez fourni, mais vous pouvez récupérer le reste. Si vous voulez réessayer, vous devez recommencer de zéro.",
+          "criticalSuccess": "<strong>Succès critique</strong> Votre tentative est une réussite. Chaque jour supplémentaire passé à Fabriquer réduit les matériaux néccessaires pour terminer l'objet par un montant basé sur votre niveau + 1 et votre rang de maîtrise en Artisanat.",
+          "failure": "<strong>Échec</strong> Vous ne parvenez pas à terminer l'objet. Vous pouvez récupérer les matériaux bruts que vous avez fournis pour leur valeur intégrale. Si vous voulez réessayer, vous devez repartir de zéro.",
+          "success": "<strong>Succès</strong> Votre tentative est réussie. Chaque jour supplémentaire passé à Fabriquer réduit les matériaux nécessaires pour terminer l'objet par un montant basé sur votre niveau et votre rang de maîtrise."
         },
         "SelectItemDialog": {
           "CancelButtonLabel": "Annuler",
@@ -193,23 +194,23 @@
         "DistractingWords": "Faire diversion par la parole",
         "Gesture": "Faire diversion par un geste",
         "Notes": {
-          "failure": "<b>Échec</b>Vous ne parvenez à détourner l’attention d’aucune créature dont le DD de Perception est supérieur à votre résultat et ces créatures savent que vous avez essayé de les duper.",
-          "success": "<b>Succès</b> Vous devenez @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Caché} des créatures dont le DD de Perception est inférieur ou égal à votre résultat (l’état caché vous permet d’@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Être furtif}). Ceci dure jusqu’à la fin de votre tour ou jusqu’à ce que vous fassiez autre chose que Faire un pas ou que l’action Se cacher ou Être furtif de la compétence Discrétion . Si vous Frappez une créature, celle-ci reste @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre cette attaque et vous devenez @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observé}. Si vous faites quoi que ce soit d’autre, vous devenez observé juste avant que vous n’agissiez, à moins que le MJ n’en décide autrement."
+          "failure": "<strong>Échec</strong>Vous ne parvenez à détourner l’attention d’aucune créature dont le DD de Perception est supérieur à votre résultat et ces créatures savent que vous avez essayé de les duper.",
+          "success": "<strong>Succès</strong> Vous devenez @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Caché} des créatures dont le DD de Perception est inférieur ou égal à votre résultat (l’état caché vous permet d’@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Être furtif}). Ceci dure jusqu’à la fin de votre tour ou jusqu’à ce que vous fassiez autre chose que Faire un pas ou que l’action Se cacher ou Être furtif de la compétence Discrétion . Si vous Frappez une créature, celle-ci reste @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre cette attaque et vous devenez @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observé}. Si vous faites quoi que ce soit d’autre, vous devenez observé juste avant que vous n’agissiez, à moins que le MJ n’en décide autrement."
         },
         "Trick": "Faire diversion par un tour de passe-passe"
       },
       "Demoralize": {
         "Notes": {
-          "criticalSuccess": "<b>Succès critique</b> La cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}.",
-          "success": "<b>Succès</b> La cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}."
+          "criticalSuccess": "<strong>Succès critique</strong> La cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}.",
+          "success": "<strong>Succès</strong> La cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}."
         },
         "Title": "Démoraliser"
       },
       "Disarm": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous perdez l’équilibre et êtes Pris au dépourvu  jusqu’au début de votre prochain tour.",
-          "criticalSuccess": "<b>Succès critique</b> Votre adversaire lâche l’objet qu’il tient. Cet objet tombe par terre dans l’espace qu’occupe l’adversaire.",
-          "success": "<b>Succès</b> Vous affaiblissez la prise de votre adversaire sur l’objet. Jusqu’au début du tour de cette créature, les tentatives pour la Désarmer et l’obliger à lâcher l’objet bénéficient d’un bonus de circonstances de +2 et la cible subit un malus de circonstances de −2 aux attaques effectuées avec l’objet ou aux autres tests nécessitant une prise ferme sur l’objet"
+          "criticalFailure": "<strong>Échec critique</strong> Vous perdez l’équilibre et êtes Pris au dépourvu  jusqu’au début de votre prochain tour.",
+          "criticalSuccess": "<strong>Succès critique</strong> Votre adversaire lâche l’objet qu’il tient. Cet objet tombe par terre dans l’espace qu’occupe l’adversaire.",
+          "success": "<strong>Succès</strong> Vous affaiblissez la prise de votre adversaire sur l’objet. Jusqu’au début du tour de cette créature, les tentatives pour la Désarmer et l’obliger à lâcher l’objet bénéficient d’un bonus de circonstances de +2 et la cible subit un malus de circonstances de −2 aux attaques effectuées avec l’objet ou aux autres tests nécessitant une prise ferme sur l’objet"
         },
         "Title": "Désarmer"
       },
@@ -235,95 +236,95 @@
       },
       "Feint": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Votre feinte se retourne contre vous. Vous êtes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au dépourvu} contre les attaques au corps à corps que la cible porte contre vous jusqu’à la fin de votre prochain tour.",
-          "criticalSuccess": "<b>Succès critique</b> Les tentatives de défense de votre ennemi sont complètement inefficaces. La cible est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre les attaques au corps à corps que vous portez contre elle jusqu’à la fin de votre prochain tour.",
-          "success": "<b>Succès</b> Vous feintez votre adversaire, mais pour un court instant seulement. La cible est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre la prochaine attaque au corps à corps que vous portez contre elle avant la fin de votre tour actuel."
+          "criticalFailure": "<strong>Échec critique</strong> Votre feinte se retourne contre vous. Vous êtes @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au dépourvu} contre les attaques au corps à corps que la cible porte contre vous jusqu’à la fin de votre prochain tour.",
+          "criticalSuccess": "<strong>Succès critique</strong> Les tentatives de défense de votre ennemi sont complètement inefficaces. La cible est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre les attaques au corps à corps que vous portez contre elle jusqu’à la fin de votre prochain tour.",
+          "success": "<strong>Succès</strong> Vous feintez votre adversaire, mais pour un court instant seulement. La cible est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre la prochaine attaque au corps à corps que vous portez contre elle avant la fin de votre tour actuel."
         },
         "Title": "Feinter"
       },
       "ForceOpen": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Votre tentative bloque la porte, la fenêtre, le contenant ou la grille, imposant un malus de circonstances de −2 aux tentatives ultérieures pour l’Ouvrir de force.",
-          "criticalSuccess": "<b>Succès critique</b> Vous ouvrez la porte, la fenêtre, le contenant ou la grille sans l’endommager si vous le souhaitez.",
-          "success": "<b>Succès</b> Vous enfoncez la porte, la fenêtre, le contenant ou la grille et l’objet enfoncé obtient l’état @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Brisé}. S’il est particulièrement solide, le MJ peut décider qu’il subit des dégâts sans être brisé."
+          "criticalFailure": "<strong>Échec critique</strong> Votre tentative bloque la porte, la fenêtre, le contenant ou la grille, imposant un malus de circonstances de −2 aux tentatives ultérieures pour l’Ouvrir de force.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous ouvrez la porte, la fenêtre, le contenant ou la grille sans l’endommager si vous le souhaitez.",
+          "success": "<strong>Succès</strong> Vous enfoncez la porte, la fenêtre, le contenant ou la grille et l’objet enfoncé obtient l’état @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Brisé}. S’il est particulièrement solide, le MJ peut décider qu’il subit des dégâts sans être brisé."
         },
         "Title": "Ouvrir de force"
       },
       "GatherInformation": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous recueillez des informations erronées sur l’individu ou le sujet.",
-          "success": "<b>Succès</b> Vous recueillez des informations sur l’individu ou le sujet. Le MJ détermine le contenu de ces informations."
+          "criticalFailure": "<strong>Échec critique</strong> Vous recueillez des informations erronées sur l’individu ou le sujet.",
+          "success": "<strong>Succès</strong> Vous recueillez des informations sur l’individu ou le sujet. Le MJ détermine le contenu de ces informations."
         },
         "Title": "Recueillir des informations"
       },
       "Grapple": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Si vous avez déjà @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} votre adversaire, il se libère. Votre cible peut soit vous saisir, comme si elle avait réussi à effectuer l’action Saisir contre vous, soit vous obliger à tomber @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{à terre}.",
-          "criticalSuccess": "<b>Succès critique</b> Votre adversaire est @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} jusqu’à la fin de votre prochain tour, sauf si vous vous déplacez ou si votre adversaire S’échappe.",
-          "failure": "<b>Échec</b> Vous ne parvenez pas à saisir votre adversaire. Si vous avez déjà empoigné ou entravé votre adversaire en utilisant l’action Saisir, ces états sur cet adversaire disparaissent.",
-          "success": "<b>Succès</b> Votre adversaire est @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} jusqu’à la fin de votre prochain tour, sauf si vous vous déplacez ou si votre adversaire Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S’échappe}."
+          "criticalFailure": "<strong>Échec critique</strong> Si vous avez déjà @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} votre adversaire, il se libère. Votre cible peut soit vous saisir, comme si elle avait réussi à effectuer l’action Saisir contre vous, soit vous obliger à tomber @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{à terre}.",
+          "criticalSuccess": "<strong>Succès critique</strong> Votre adversaire est @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravé} jusqu’à la fin de votre prochain tour, sauf si vous vous déplacez ou si votre adversaire S’échappe.",
+          "failure": "<strong>Échec</strong> Vous ne parvenez pas à saisir votre adversaire. Si vous avez déjà empoigné ou entravé votre adversaire en utilisant l’action Saisir, ces états sur cet adversaire disparaissent.",
+          "success": "<strong>Succès</strong> Votre adversaire est @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Empoigné/agrippé} jusqu’à la fin de votre prochain tour, sauf si vous vous déplacez ou si votre adversaire Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S’échappe}."
         },
         "Title": "Saisir"
       },
       "Hide": {
         "Notes": {
-          "success": "<b>Succès</b> Si la créature pouvait vous voir, vous êtes à présent @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Caché } d’elle et non plus observé. Si vous étiez caché ou @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{non détecté} par la créature, vous conservez cet état."
+          "success": "<strong>Succès</strong> Si la créature pouvait vous voir, vous êtes à présent @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Caché} d’elle et non plus observé. Si vous étiez caché ou @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{non détecté} par la créature, vous conservez cet état."
         },
         "Title": "Se cacher"
       },
       "HighJump": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous ne parvenez pas à @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondir} et tombez à terre dans votre case à la place.",
-          "criticalSuccess": "<b>Succès critique</b>  Augmentez la distance verticale maximale à 2,40 m, ou la distance verticale maximale à 1,50 m et la distance horizontale maximale à 3 m.",
-          "failure": "<b>Échec</b> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
-          "success": "<b>Succès</b> Augmentez la distance verticale maximale à 1,50 m."
+          "criticalFailure": "<strong>Échec critique</strong> Vous ne parvenez pas à @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondir} et tombez à terre dans votre case à la place.",
+          "criticalSuccess": "<strong>Succès critique</strong>  Augmentez la distance verticale maximale à 2,40 m, ou la distance verticale maximale à 1,50 m et la distance horizontale maximale à 3 m.",
+          "failure": "<strong>Échec</strong> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
+          "success": "<strong>Succès</strong> Augmentez la distance verticale maximale à 1,50 m."
         },
         "Title": "Saut en hauteur"
       },
       "Impersonate": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> La créature peut affirmer que vous n’êtes pas la personne que vous prétendez être et elle vous reconnaît si elle vous a déjà vu sans déguisement.",
-          "failure": "<b>Échec</b> La créature peut affirmer que vous n’êtes pas la personne que vous prétendez être",
-          "success": "<b>Succès</b> La créature que vous dupez est convaincue que vous êtes bien la personne dont vous avez pris l’apparence. Un nouveau test peut être nécessaire si votre comportement change."
+          "criticalFailure": "<strong>Échec critique</strong> La créature peut affirmer que vous n’êtes pas la personne que vous prétendez être et elle vous reconnaît si elle vous a déjà vu sans déguisement.",
+          "failure": "<strong>Échec</strong> La créature peut affirmer que vous n’êtes pas la personne que vous prétendez être",
+          "success": "<strong>Succès</strong> La créature que vous dupez est convaincue que vous êtes bien la personne dont vous avez pris l’apparence. Un nouveau test peut être nécessaire si votre comportement change."
         },
         "Title": "Se déguiser"
       },
       "Lie": {
         "Notes": {
-          "failure": "<b>Échec</b> La cible ne croit pas à votre mensonge et bénéficie d’un bonus de circonstances de +4 contre vos tentatives pour Mentir pendant toute la durée de votre conversation. Elle se montrera également  plus suspicieuse à votre encontre à l’avenir.",
-          "success": "<b>Succès</b> La cible croit à votre mensonge."
+          "failure": "<strong>Échec</strong> La cible ne croit pas à votre mensonge et bénéficie d’un bonus de circonstances de +4 contre vos tentatives pour Mentir pendant toute la durée de votre conversation. Elle se montrera également  plus suspicieuse à votre encontre à l’avenir.",
+          "success": "<strong>Succès</strong> La cible croit à votre mensonge."
         },
         "Title": "Mentir"
       },
       "LongJump": {
         "Notes": {
           "criticalFailure": "<p>Échec critique</p> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement puis tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
-          "failure": "<p>Échec</p> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
-          "success": "<p>Succès</p> La distance horizontale maximale de votre @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bond} est égale à la distance voulue."
+          "failure": "<strong>Échec</strong> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
+          "success": "<strong>Succès</strong> La distance horizontale maximale de votre @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bond} est égale à la distance voulue."
         },
         "Title": "Saut en longueur"
       },
       "MakeAnImpression": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> L’attitude de la cible à votre encontre se détériore d’une catégorie.",
-          "criticalSuccess": "<b>Succès</b> L’attitude de la cible à votre encontre s’améliore de deux catégories.",
-          "success": "<b>Succès</b> L’attitude de la cible à votre encontre s’améliore d’une catégorie."
+          "criticalFailure": "<strong>Échec critique</strong> L’attitude de la cible à votre encontre se détériore d’une catégorie.",
+          "criticalSuccess": "<strong>Succès</strong> L’attitude de la cible à votre encontre s’améliore de deux catégories.",
+          "success": "<strong>Succès</strong> L’attitude de la cible à votre encontre s’améliore d’une catégorie."
         },
         "Title": "Faire bonne impression"
       },
       "ManeuverInFlight": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Comme un échec, mais les conséquences sont plus néfastes.",
-          "failure": "<b>Échec</b> Votre manœuvre échoue. Le MJ décide si vous ne vous déplacez simplement pas ou si un autre effet néfaste se produit. Cet effet devrait correspondre à la manœuvre que vous avez tentée (par exemple, vous pourriez dévier de votre trajectoire si vous tentez de voler contre un vent fort).",
-          "success": "<b>Succès</b> Vous réussissez la manœuvre."
+          "criticalFailure": "<strong>Échec critique</strong> Comme un échec, mais les conséquences sont plus néfastes.",
+          "failure": "<strong>Échec</strong> Votre manœuvre échoue. Le MJ décide si vous ne vous déplacez simplement pas ou si un autre effet néfaste se produit. Cet effet devrait correspondre à la manœuvre que vous avez tentée (par exemple, vous pourriez dévier de votre trajectoire si vous tentez de voler contre un vent fort).",
+          "success": "<strong>Succès</strong> Vous réussissez la manœuvre."
         },
         "Title": "Manœuvrer en vol"
       },
       "PickALock": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous cassez vos outils. Les réparer nécessite l’utilisation de la compétence Artisanat pour @Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{Réparer} ou leur remplacement (ce remplacement des outils cassés coûte 3 pa ou 3 po s’il s’agit d’outils de voleur infiltré)",
-          "criticalSuccess": "<b>Succès critique</b> Vous déverrouillez la serrure ou vous obtenez deux succès pour réussir à ouvrir une serrure complexe. Vous ne laissez aucune trace de votre manipulation.",
-          "success": "<b>Succès</b> Vous déverrouillez la serrure ou vous obtenez un succès pour réussir à ouvrir une serrure complexe."
+          "criticalFailure": "<strong>Échec critique</strong> Vous cassez vos outils. Les réparer nécessite l’utilisation de la compétence Artisanat pour @Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{Réparer} ou leur remplacement (ce remplacement des outils cassés coûte 3 pa ou 3 po s’il s’agit d’outils de voleur infiltré)",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous déverrouillez la serrure ou vous obtenez deux succès pour réussir à ouvrir une serrure complexe. Vous ne laissez aucune trace de votre manipulation.",
+          "success": "<strong>Succès</strong> Vous déverrouillez la serrure ou vous obtenez un succès pour réussir à ouvrir une serrure complexe."
         },
         "Title": "Crocheter une serrure"
       },
@@ -337,26 +338,26 @@
       },
       "Request": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Non seulement la cible refuse votre sollicitation mais son attitude à votre encontre se détériore d’une catégorie à cause de la témérité de votre requête.",
-          "criticalSuccess": "<b>Succès critique</b> La cible répond favorablement et sans réserve à votre sollicitation",
-          "failure": "<b>Échec</b> La cible refuse votre sollicitation mais peut proposer une alternative moins extrême.",
-          "success": "<b>Succès</b> La cible répond favorablement à votre sollicitation mais peut imposer des conditions ou modifier certains aspects de votre demande"
+          "criticalFailure": "<strong>Échec critique</strong> Non seulement la cible refuse votre sollicitation mais son attitude à votre encontre se détériore d’une catégorie à cause de la témérité de votre requête.",
+          "criticalSuccess": "<strong>Succès critique</strong> La cible répond favorablement et sans réserve à votre sollicitation",
+          "failure": "<strong>Échec</strong> La cible refuse votre sollicitation mais peut proposer une alternative moins extrême.",
+          "success": "<strong>Succès</strong> La cible répond favorablement à votre sollicitation mais peut imposer des conditions ou modifier certains aspects de votre demande"
         },
         "Title": "Solliciter"
       },
       "Seek": {
         "Notes": {
-          "criticalSuccess": "<b>Succès critique</b> Si vous tentiez de repérer des créatures, toute créature @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{non détectée} ou @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{cachée} contre laquelle vous avez obtenu un succès critique devient @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{observée} face à vous. Si vous cherchiez un objet, vous découvrez son emplacement.",
-          "success": "<b>Succès</b> Si vous tentiez de repérer des créatures, toute créature @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{non détectée} contre laquelle vous avez obtenu un succès devient @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Cachée} au lieu de non détectée et toute créature cachée devient @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{observée}. Si vous cherchiez un objet, vous découvrez son emplacement ou un indice vous aidant à trouver celui-ci, en fonction de ce que préfère le MJ."
+          "criticalSuccess": "<strong>Succès critique</strong> Si vous tentiez de repérer des créatures, toute créature @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Non détectée} ou @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Cachée} contre laquelle vous avez obtenu un succès critique devient @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observée} face à vous. Si vous cherchiez un objet, vous découvrez son emplacement.",
+          "success": "<strong>Succès</strong> Si vous tentiez de repérer des créatures, toute créature @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Non détectée} contre laquelle vous avez obtenu un succès devient @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Cachée} au lieu de non détectée et toute créature cachée devient @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observée}. Si vous cherchiez un objet, vous découvrez son emplacement ou un indice vous aidant à trouver celui-ci, en fonction de ce que préfère le MJ."
         },
         "Title": "Chercher"
       },
       "SenseMotive": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Votre impression concernant les intentions de la créature est erronée.",
-          "criticalSuccess": "<b>Succès critique</b> Vous devinez les véritables intentions de la créature et déterminez le type de magie mentale qui l’affecte éventuellement.",
-          "failure": "<b>Échec</b> Vous détectez seulement ce qu’une créature trompeuse cherche à vous faire croire. Si la créature ne cherche pas à vous tromper, vous êtes convaincu qu’elle se comporte normalement.",
-          "success": "<b>Succès</b> Vous êtes capable de dire si la créature se comporte normalement ou non, mais vous ne connaissez pas ses véritables intentions ni le type de magie qui pourrait l’affecter."
+          "criticalFailure": "<strong>Échec critique</strong> Votre impression concernant les intentions de la créature est erronée.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous devinez les véritables intentions de la créature et déterminez le type de magie mentale qui l’affecte éventuellement.",
+          "failure": "<strong>Échec</strong> Vous détectez seulement ce qu’une créature trompeuse cherche à vous faire croire. Si la créature ne cherche pas à vous tromper, vous êtes convaincu qu’elle se comporte normalement.",
+          "success": "<strong>Succès</strong> Vous êtes capable de dire si la créature se comporte normalement ou non, mais vous ne connaissez pas ses véritables intentions ni le type de magie qui pourrait l’affecter."
         },
         "Title": "Deviner les intentions"
       },
@@ -365,25 +366,25 @@
       },
       "Shove": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous perdez l’équilibre et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
-          "criticalSuccess": "<b>Succès critique</b> Vous repoussez votre adversaire de 3 m. Vous pouvez Marcher rapidement après ça, mais votre déplacement doit être aussi long et doit se faire dans la même direction.",
-          "success": "<b>Succès</b> Vous repoussez votre adversaire de 1,50 m. Vous pouvez Marcher rapidement après ça, mais votre déplacement doit être aussi long et doit se faire dans la même direction."
+          "criticalFailure": "<strong>Échec critique</strong> Vous perdez l’équilibre et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous repoussez votre adversaire de 3 m. Vous pouvez Marcher rapidement après ça, mais votre déplacement doit être aussi long et doit se faire dans la même direction.",
+          "success": "<strong>Succès</strong> Vous repoussez votre adversaire de 1,50 m. Vous pouvez Marcher rapidement après ça, mais votre déplacement doit être aussi long et doit se faire dans la même direction."
         },
         "Title": "Pousser"
       },
       "Sneak": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous êtes repéré ! Vous êtes observé par la créature pendant votre déplacement et le restez. Si vous êtes invisible et que vous étiez caché de la créature, vous êtes caché pendant votre déplacement, au lieu d’être observé, et le restez.",
-          "failure": "<b>Échec</b> Vous restez dissimulé mais un bruit ou autre signe suspect révèle votre position. Vous êtes caché de la créature pendant votre déplacement et le restez.",
-          "success": "<b>Succès</b> Vous êtes non détecté par la créature pendant votre déplacement et restez non détecté par la créature à la fin de votre déplacement."
+          "criticalFailure": "<strong>Échec critique</strong> Vous êtes repéré ! Vous êtes observé par la créature pendant votre déplacement et le restez. Si vous êtes invisible et que vous étiez caché de la créature, vous êtes caché pendant votre déplacement, au lieu d’être observé, et le restez.",
+          "failure": "<strong>Échec</strong> Vous restez dissimulé mais un bruit ou autre signe suspect révèle votre position. Vous êtes caché de la créature pendant votre déplacement et le restez.",
+          "success": "<strong>Succès</strong> Vous êtes non détecté par la créature pendant votre déplacement et restez non détecté par la créature à la fin de votre déplacement."
         },
         "Title": "Être furtif"
       },
       "Squeeze": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous restez coincé dans l’espace étroit. Lorsque vous êtes coincé de la sorte, vous pouvez effectuer un autre test d’Acrobaties contre le même DD en y consacrant une minute. Tout résultat autre qu’un échec critique sur ce test permet de vous décoincer.",
-          "criticalSuccess": "<b>Succès critique</b> Vous traversez l’espace étroit en vous faufilant et cela vous prend une minute tous les 3m.",
-          "success": "<b>Succès</b> Vous vous faufilez en une minute par tranche de 1,50 m."
+          "criticalFailure": "<strong>Échec critique</strong> Vous restez coincé dans l’espace étroit. Lorsque vous êtes coincé de la sorte, vous pouvez effectuer un autre test d’Acrobaties contre le même DD en y consacrant une minute. Tout résultat autre qu’un échec critique sur ce test permet de vous décoincer.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous traversez l’espace étroit en vous faufilant et cela vous prend une minute tous les 3m.",
+          "success": "<strong>Succès</strong> Vous vous faufilez en une minute par tranche de 1,50 m."
         },
         "Title": "Se faufiler"
       },
@@ -397,33 +398,33 @@
       },
       "Swim": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous ne progressez pas et si vous retenez votre respiration, vous perdez 1 round d'air.",
-          "criticalSuccess": "<b>Succès critique</b> Vous vous déplacez à travers l'eau de 3 m plus 1,5 m par tranche de 6 m de votre Vitesse au sol (un total de 4,5 m pour la plupart des PJ).",
-          "success": "<b>Succès</b> Vous vous déplacez à travers l'eau de 1,5 m, plus 1,5 m par tranche de 6 m de votre Vitesse au sol  (un total de 3 m pour la plupart des PJ)."
+          "criticalFailure": "<strong>Échec critique</strong> Vous ne progressez pas et si vous retenez votre respiration, vous perdez 1 round d'air.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous vous déplacez à travers l'eau de 3 m plus 1,5 m par tranche de 6 m de votre Vitesse au sol (un total de 4,5 m pour la plupart des PJ).",
+          "success": "<strong>Succès</strong> Vous vous déplacez à travers l'eau de 1,5 m, plus 1,5 m par tranche de 6 m de votre Vitesse au sol  (un total de 3 m pour la plupart des PJ)."
         },
         "Title": "Nage"
       },
       "Trip": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous perdez l'équilibre et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
-          "criticalSuccess": "<b>Succès critique</b> La cible est déséquilibrée et tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre} et subit [[/r 1d6[bludgeoning] # dégâts contondants]]{1d6} dégâts contondants.",
-          "success": "<b>Succès</b> La cible perd l'équilibre et tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}."
+          "criticalFailure": "<strong>Échec critique</strong> Vous perdez l'équilibre et tombez @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "criticalSuccess": "<strong>Succès critique</strong> La cible est déséquilibrée et tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre} et subit [[/r 1d6[bludgeoning] # dégâts contondants]]{1d6} dégâts contondants.",
+          "success": "<strong>Succès</strong> La cible perd l'équilibre et tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}."
         },
         "Title": "Croc-en-jambe"
       },
       "TumbleThrough": {
         "Notes": {
-          "failure": "<b>Échec</b> Votre déplacement se termine et vous déclenchez des réactions comme si vous vous étiez déplacé en dehors de la case d'où vous avez commencé.",
-          "success": "<b>Succès</b> Vous vous déplacez au travers de la case de l'ennemi traitant les cases de son espace comme un terrain difficile (chaque tranche de 1,5 m coûte 3 m de déplacement). Si vous n'avez pas une Vitesse suffisante pour vous déplacer tout le long de son espace, vous obtenez les mêmes effets qu'avec un échec."
+          "failure": "<strong>Échec</strong> Votre déplacement se termine et vous déclenchez des réactions comme si vous vous étiez déplacé en dehors de la case d'où vous avez commencé.",
+          "success": "<strong>Succès</strong> Vous vous déplacez au travers de la case de l'ennemi traitant les cases de son espace comme un terrain difficile (chaque tranche de 1,5 m coûte 3 m de déplacement). Si vous n'avez pas une Vitesse suffisante pour vous déplacer tout le long de son espace, vous obtenez les mêmes effets qu'avec un échec."
         },
         "Title": "Déplacement acrobatique"
       },
       "WhirlingThrow": {
         "Notes": {
-          "criticalFailure": "<b>Échec critique</b> Vous ne projetez pas la créature et elle n'est plus ni @Compendium[pf2e.conditionitems.Restrained]{Entravée}, ni@Compendium[pf2e.conditionitems.Restrained]{Saisie}.",
-          "criticalSuccess": "<b>Succès critique</b> Vous projetez la créature à la distance prévue et elle tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
-          "failure": "<b>Échec</b> Vous ne projetez pas la créature.",
-          "success": "<b>Succès</b> Vous projetez la créature à la distance prévue."
+          "criticalFailure": "<strong>Échec critique</strong> Vous ne projetez pas la créature et elle n'est plus ni @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravée}, ni @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agrippée/Empoignée}.",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous projetez la créature à la distance prévue et elle tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "failure": "<strong>Échec</strong> Vous ne projetez pas la créature.",
+          "success": "<strong>Succès</strong> Vous projetez la créature à la distance prévue."
         },
         "Title": "Projection en rotation"
       }
@@ -680,6 +681,7 @@
         "Pincer": "pince",
         "Pseudopod": "pseudopode",
         "Rock": "rocher",
+        "Spine": "Épine",
         "Stinger": "dard",
         "Sunbeam": "rayon de soleil",
         "Tail": "queue",
@@ -799,6 +801,7 @@
     "ClassTitle": "Votre classe de personnage",
     "ClickToSetInitiative": "Cliquez pour définir l’Initiative du/des jeton(s) sélectionné(s).",
     "ClickToSetInitiativeContext": "Choisir comme initiative",
+    "ColdIronStrikes": "Frappes en fer froid",
     "CompendiumBrowser": {
       "AddedItem": "{item} ajouté à/aux l'acteur(s) sélectionné(s)",
       "AddedItemToCharacter": "{item} ajouté à {character}.",
@@ -860,7 +863,7 @@
     "ConditionTypeFleeing": "En fuite",
     "ConditionTypeFriendly": "Amical",
     "ConditionTypeFrightened": "Effrayé",
-    "ConditionTypeGrabbed": "Empoigné",
+    "ConditionTypeGrabbed": "Empoigné/Agrippé",
     "ConditionTypeHelpful": "Serviable",
     "ConditionTypeHidden": "Caché",
     "ConditionTypeHostile": "Hostile",
@@ -1179,7 +1182,6 @@
     "FeatTypeCurse": "Malédiction",
     "FeatTypeDeityboon": "Malédiction de divinité",
     "FeatTypeGeneral": "Don général",
-    "FeatTypeHeritage": "Héritage",
     "FeatTypeLabel": "Type de don",
     "FeatTypePfsboon": "Bénédictions de la Société des éclaireurs",
     "FeatTypeSkill": "Don de compétence",
@@ -1208,7 +1210,7 @@
     "FormulaListEmpty": "Vide (glisser une formule/un objet ici)",
     "FormulaPlaceholder": "Formule",
     "FormulaSheet": {
-      "DescriptionUnknown": "Cette formule est complètement remplie de dessins de petits bonshommes bâtons, de tâches d'un liquide inconnu, de rimes insensées écrites par un enfant et d'autres marques apparemment aléatoires. Elle doit avoir été faite par des gobelins et n'a aucun sens pour vous.<hr><b>Note:</b> Cette formule fait référence à un élément manquant ou invalide.",
+      "DescriptionUnknown": "Cette formule est complètement remplie de dessins de petits bonshommes bâtons, de tâches d'un liquide inconnu, de rimes insensées écrites par un enfant et d'autres marques apparemment aléatoires. Elle doit avoir été faite par des gobelins et n'a aucun sens pour vous.<hr><strong>Note:</strong> Cette formule fait référence à un élément manquant ou invalide.",
       "NameEmpty": "Formule vide",
       "NamePrefix": "Formule de {name}",
       "NameUnknown": "Formule inconnue"
@@ -1327,6 +1329,12 @@
         },
         "ShowTokenIcon": "Montrer l'icône du jeton ?",
         "Sustained": "Maintenu"
+      },
+      "Heritage": {
+        "AncestryNotFound": "L'ascendance de l'objet indiqué n'a pas été trouvé.",
+        "DragAncestryHere": "Glisser un objet d'ascendance ici pour choisir l'héritage de l'ascendance requise.",
+        "NoneVersatile": "Aucune (Versatile)",
+        "RemoveAncestry": "Retirer l'ascendance requise"
       },
       "IconLabel": "Icône",
       "NameLabel": "Nom",
@@ -1476,7 +1484,8 @@
     "LanguageLirgeni": "Lirgeni",
     "LanguageMahwek": "Mahwek",
     "LanguageMiGo": "Mi-Go",
-    "LanguageMinaten": "Minaten",
+    "LanguageMinaten": "Minatien",
+    "LanguageMinkaian": "Minkaïen",
     "LanguageMunavri": "Munavrain",
     "LanguageMwangi": "Mwangi",
     "LanguageMzunu": "Mzunu",
@@ -1632,33 +1641,33 @@
       "Abilities": {
         "Glossary": {
           "AllAroundVision": "<p>Ce monstre peut voir simultanément dans toutes les directions et il ne peut donc pas être pris en tenaille.</p>",
-          "AquaticAmbush": "<p data-visibility=\"gm\"><strong>Conditions</strong> Le monstre est caché dans l’eau et une créature qui ne l’a pas détecté se trouve dans la zone d’effet indiquée.</p>\n<p><strong>Effet</strong> Le monstre se déplace, dans l’eau et sur terre, de sa Vitesse de nage + 3 m en direction de la créature déclencheuse. Le monstre Frappe la créature une fois qu’elle se trouve à portée. La créature est @Compendium[pf2e.conditionitems.Flat-Footed]{Prise au dépourvu} par la Frappe.</p>",
+          "AquaticAmbush": "<p data-visibility=\"gm\"><strong>Conditions</strong> Le monstre est caché dans l’eau et une créature qui ne l’a pas détecté se trouve dans la zone d’effet indiquée.</p>\n<p><strong>Effet</strong> Le monstre se déplace, dans l’eau et sur terre, de sa Vitesse de nage + 3 m en direction de la créature déclencheuse. Le monstre Frappe la créature une fois qu’elle se trouve à portée. La créature est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} par la Frappe.</p>",
           "AtWillSpells": "<p>Le monstre peut lancer ses sorts à volonté autant de fois qu’il le souhaite sans utiliser d’emplacement de sort.</p>",
           "AttackOfOpportunity": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Une créature qui se trouve à portée du monstre utilise une action de manipulation ou de déplacement, fait une attaque à distance, ou quitte une case lors d’une action de déplacement qu’elle entreprend. </p>\n<p><strong>Effet</strong>  Le monstre tente une Frappe de corps à corps contre la créature déclencheuse. Si l’attaque se solde par un coup critique et que le déclencheur était une action de manipulation, le monstre interrompt cette action. Cette Frappe n’est pas comp\u0002tabilisée dans le malus d’attaques multiples du monstre et son malus d’attaques multiples ne s’applique pas à cette Frappe.</p>",
           "Aura": "<p>L’aura d’un monstre affecte automatiquement tout ce qui se trouve dans une émanation spécifiée autour de ce monstre. Le monstre n’a pas besoin de faire appel à des actions pour utiliser son aura. Les effets de celle-ci s’appliquent à des moments précis, par exemple quand une créature termine son tour dans la zone d’effet de l’aura ou quand une créature pénètre dans cette zone.</p>\n<p>Si une aura ne fait rien d’autre qu’infliger des dégâts, elle est seulement présentée avec son rayon, la quantité de dégâts qu’elle inflige et un jet de sauvegarde. De telles auras infligent des dégâts à une créature quand elle pénètre dans sa zone d’ef\u0002fet et quand elle commence son tour dans celle-ci. Une créature ne peut subir les dégâts d’une aura qu’une fois par round.</p>\n<p>Le MJ peut décider que l’aura d’un monstre n’affecte pas ses alliés. Par exemple, une créature peut avoir développé une immunité à la présence terrifiante d’un monstre si les deux se côtoient depuis longtemps.</p>",
-          "Buck": "<p>La plupart des monstres qui servent de monture peuvent tenter de désarçonner des cavaliers indésirables ou aga\u0002çants, mais ils n’utilisent généralement pas cette réaction contre une créature de confiance, sauf s’ils sont effrayés ou maltraités.</p>\n<p data-visibility=\"gm\"><strong>Déclencheur</strong> Une créature @Compendium[pf2e.actionspf2e.Mount]{Monte} ou utilise l'action @Compendium[pf2e.actionspf2e.Command an Animal]{Diriger un animal} alors qu’elle se trouve sur le dos du monstre.</p>\n<p><strong>Effet</strong> La créature déclencheuse doit réussir un jet de Réflexes du DD indiqué pour éviter d’être désarçonnée et de tomber @Compendium[pf2e.conditionitems.Prone]{À terre}. En cas d’échec critique, la créature déclencheuse subit [[/roll {1d6}[contondants]]]{1d6 dégâts contondants} en plus des dégâts causés par la chute.</p>",
-          "CatchRock": "<div data-visibility=\"gm\">\n<p><strong>Conditions</strong> Le monstre doit avoir une main libre, mais il peut également @Compendium[pf2e.actionspf2e.Release]{Relâcher} quelque chose qu’il tient dans le cadre de cette réaction.</p>\n<p><strong>Déclencheur</strong> Le monstre est la cible d’un jet de pierre ou un rocher s’apprête à tomber sur le monstre.</p>\n</div>\n<p><strong>Effet</strong>  Le monstre gagne un bonus de circonstances de +4 à sa CA contre l’attaque déclencheuse ou à une de ses défenses contre le rocher en train de chuter. Si l’attaque échoue ou que le monstre réussit à se défendre du rocher en train de chuter, il rattrape alors le rocher dans sa main et ne subit pas de dégâts.</p>",
-          "ChangeShape": "<p>Le monstre change de forme pour une durée indéterminée. Il peut de nouveau faire appel à cette action pour reprendre sa forme naturelle ou adopter une nouvelle forme. Sauf indication contraire, un monstre ne peut pas utiliser Changement de forme pour prendre l’apparence d’un individu précis. Le Changement de forme est considéré comme un déguisement pour @Compendium[pf2e.actionspf2e.Impersonate]{Se déguiser} dans le cadre de la compétence Duperie. La transformation du monstre lui permet de surmonter automatiquement les DD de Perception servant à déterminer s’il est bien un spécimen de l’ascendance ou du type de créature dont il a pris la forme, et il gagne un bonus de statut de +4 à son DD de Duperie pour empêcher les autres de déjouer son déguisement. Le descriptif des pouvoirs de Changement de forme indique quelles formes le monstre peut revêtir. Le monstre ne gagne aucun des pouvoirs spéciaux de la nouvelle forme, seulement sa forme physique. Par exemple, pour chaque forme, il \nremplace ses Vitesses et Frappes d’origine et potentiellement ses sens ou sa taille. Tous ces changements sont indiqués dans son bloc de statistiques.",
+          "Buck": "<p>La plupart des monstres qui servent de monture peuvent tenter de désarçonner des cavaliers indésirables ou aga\u0002çants, mais ils n’utilisent généralement pas cette réaction contre une créature de confiance, sauf s’ils sont effrayés ou maltraités.</p>\n<p data-visibility=\"gm\"><strong>Déclencheur</strong> Une créature @Compendium[pf2e.actionspf2e.PM5jvValFkbFH3TV]{Se met en selle} ou utilise l'action @Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Diriger un animal} alors qu’elle se trouve sur le dos du monstre.</p>\n<p><strong>Effet</strong> La créature déclencheuse doit réussir un jet de Réflexes du DD indiqué pour éviter d’être désarçonnée et de tomber @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}. En cas d’échec critique, la créature déclencheuse subit [[/roll {1d6}[contondants]]]{1d6 dégâts contondants} en plus des dégâts causés par la chute.</p>",
+          "CatchRock": "<div data-visibility=\"gm\">\n<p><strong>Conditions</strong> Le monstre doit avoir une main libre, mais il peut également @Compendium[pf2e.actionspf2e.wQYmDStjdjn0I26t]{Relâcher} quelque chose qu’il tient dans le cadre de cette réaction.</p>\n<p><strong>Déclencheur</strong> Le monstre est la cible d’un jet de pierre ou un rocher s’apprête à tomber sur le monstre.</p>\n</div>\n<p><strong>Effet</strong>  Le monstre gagne un bonus de circonstances de +4 à sa CA contre l’attaque déclencheuse ou à une de ses défenses contre le rocher en train de chuter. Si l’attaque échoue ou que le monstre réussit à se défendre du rocher en train de chuter, il rattrape alors le rocher dans sa main et ne subit pas de dégâts.</p>",
+          "ChangeShape": "<p>Le monstre change de forme pour une durée indéterminée. Il peut de nouveau faire appel à cette action pour reprendre sa forme naturelle ou adopter une nouvelle forme. Sauf indication contraire, un monstre ne peut pas utiliser Changement de forme pour prendre l’apparence d’un individu précis. Le Changement de forme est considéré comme un déguisement pour @Compendium[pf2e.actionspf2e.AJstokjdG6iDjVjE]{Se déguiser} dans le cadre de la compétence Duperie. La transformation du monstre lui permet de surmonter automatiquement les DD de Perception servant à déterminer s’il est bien un spécimen de l’ascendance ou du type de créature dont il a pris la forme, et il gagne un bonus de statut de +4 à son DD de Duperie pour empêcher les autres de déjouer son déguisement. Le descriptif des pouvoirs de Changement de forme indique quelles formes le monstre peut revêtir. Le monstre ne gagne aucun des pouvoirs spéciaux de la nouvelle forme, seulement sa forme physique. Par exemple, pour chaque forme, il \nremplace ses Vitesses et Frappes d’origine et potentiellement ses sens ou sa taille. Tous ces changements sont indiqués dans son bloc de statistiques.",
           "ConstantSpells": "<p>Un sort constant affecte le monstre sans que ce dernier ait besoin de le lancer. Le sort a une durée illimitée. Si un sort constant est contré, le monstre peut le réactiver en utilisant les actions d’incantation normalement requises pour lancer le sort.</p>",
-          "Constrict": "<p>Le monstre inflige la quantité de dégâts indiquée à toutes les créatures qu’il a @Compendium[pf2e.conditionitems.Grabbed]{empoignées/agrippées} ou  @Compendium[pf2e.conditionitems.Restrained]{Entravées}. Chacune d’entre elles peut faire un jet de Vigueur basique avec le DD indiqué.</p>",
-          "Coven": "<p>Ce monstre peut former un cercle avec un minimum de deux autres créatures qui possèdent également le pouvoir Cercle. Ils doivent pour cela accomplir une cérémonie de 8 h en compagnie de tous les futurs membres du cercle. Après la formation du cercle, chacun de ses membres bé néficie d’ajustements d’élite et ajuste son niveau en conséquence. Les membres d’un cercle peuvent connaître l’em placement et les états des autres membres en dépensant une action unique qui possède le trait concentration. Ils peuvent également ressentir les mêmes choses qu’un autre membre du cercle par une activité en deux actions qui possède le trait concentration.</p>\n<p>Les cercles confèrent également des sorts et des rituels à leurs membres, mais les lancer nécessite la coopération de trois membres du cercle qui ne se trouvent pas à plus de 9 m les uns des autres. Un membre du cercle peut contribuer à un sort de cercle grâce à une action unique d’incantation utilisant un seul composant verbal. Si deux membres d’un cercle ont contribué en dépensant cette action au cours du dernier round, un troisième membre peut alors lancer un sort de cercle lors de son tour en accomplissant les actions d’incantation normales. Un cercle peut lancer ses sorts de cercle autant de fois qu’il le souhaite, mais il ne peut en lancer qu’un seul par round. Tous les cercles confèrent à leurs membres le sort de niveau 8 @Compendium[pf2e.spells-srd.Baleful Polymorph]{Métamorphose funeste} ainsi que tous les sorts suivants, qui peuvent être lancés à tous les niveaux jusqu’au niveau 5 : @Compendium[pf2e.spells-srd.Augury]{Augure}, @Compendium[pf2e.spells-srd.Talking Corpse]{Cadavre loquace}, @Compendium[pf2e.spells-srd.Charm]{Charme}, @Compendium[pf2e.spells-srd.Clairaudience]{Clairaudience}, @Compendium[pf2e.spells-srd.Clairvoyance]{Clairvoyance}, @Compendium[pf2e.spells-srd.Illusory Disguise]{Déguisement illusoire}, @Compendium[pf2e.spells-srd.Dream Message]{Message onirique},  @Compendium[pf2e.spells-srd.Prying Eye]{Œil indiscret} et @Compendium[pf2e.spells-srd.Illusory Scene]{Scène illusoire}. Les créatures qui possèdent le pouvoir Cercle confèrent également des sorts supplémentaires à tous les cercles qu’elles rejoignent. Un cercle peut également accomplir le rituel Contrôle du climat, avec un DD de 23 au lieu du DD normal. Si le départ ou la mort d’un membre du cercle en réduit le nombre à moins de trois membres, les membres restants conservent leurs ajustements d’élite pendant 24 heures, mais, s’il n’y a pas assez de membres pour contribuer aux actions requises, ils ne peuvent plus lancer de sorts de cercle.</p>",
+          "Constrict": "<p>Le monstre inflige la quantité de dégâts indiquée à toutes les créatures qu’il a @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{empoignées/agrippées} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Entravées}. Chacune d’entre elles peut faire un jet de Vigueur basique avec le DD indiqué.</p>",
+          "Coven": "<p>Ce monstre peut former un cercle avec un minimum de deux autres créatures qui possèdent également le pouvoir Cercle. Ils doivent pour cela accomplir une cérémonie de 8 h en compagnie de tous les futurs membres du cercle. Après la formation du cercle, chacun de ses membres bé néficie d’ajustements d’élite et ajuste son niveau en conséquence. Les membres d’un cercle peuvent connaître l’em placement et les états des autres membres en dépensant une action unique qui possède le trait concentration. Ils peuvent également ressentir les mêmes choses qu’un autre membre du cercle par une activité en deux actions qui possède le trait concentration.</p>\n<p>Les cercles confèrent également des sorts et des rituels à leurs membres, mais les lancer nécessite la coopération de trois membres du cercle qui ne se trouvent pas à plus de 9 m les uns des autres. Un membre du cercle peut contribuer à un sort de cercle grâce à une action unique d’incantation utilisant un seul composant verbal. Si deux membres d’un cercle ont contribué en dépensant cette action au cours du dernier round, un troisième membre peut alors lancer un sort de cercle lors de son tour en accomplissant les actions d’incantation normales. Un cercle peut lancer ses sorts de cercle autant de fois qu’il le souhaite, mais il ne peut en lancer qu’un seul par round. Tous les cercles confèrent à leurs membres le sort @Compendium[pf2e.spells-srd.dN8QBNuTiaBHCKUe]{Métamorphose funeste} au niveau 8 ainsi que tous les sorts suivants, qui peuvent être lancés à tous les niveaux jusqu’au niveau 5 : @Compendium[pf2e.spells-srd.41TZEjhO6D1nWw2X]{Augure}, @Compendium[pf2e.spells-srd.FM3SmEW8N1FCRjqt]{Cadavre loquace}, @Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{Charme}, @Compendium[pf2e.spells-srd.HXhWYJviWalN5tQ2]{Clairaudience}, @Compendium[pf2e.spells-srd.zvKWclOZ7A53DObE]{Clairvoyance}, @Compendium[pf2e.spells-srd.i35dpZFI7jZcRoBo]{Déguisement illusoire}, @Compendium[pf2e.spells-srd.yM3KTTSAIHhyuP14]{Message onirique},  @Compendium[pf2e.spells-srd.Ek5XI0aEdZhBgm21]{Œil indiscret} et @Compendium[pf2e.spells-srd.Ucf8eynbZMfUucjE]{Scène illusoire}. Les créatures qui possèdent le pouvoir Cercle confèrent également des sorts supplémentaires à tous les cercles qu’elles rejoignent. Un cercle peut également accomplir le rituel Contrôle du climat, avec un DD de 23 au lieu du DD normal. Si le départ ou la mort d’un membre du cercle en réduit le nombre à moins de trois membres, les membres restants conservent leurs ajustements d’élite pendant 24 heures, mais, s’il n’y a pas assez de membres pour contribuer aux actions requises, ils ne peuvent plus lancer de sorts de cercle.</p>",
           "Darkvision": "<p>Un monstre qui possède vision dans le noir n’a aucun mal à voir dans les zones plongées dans les ténèbres ou la lumière faible, mais il ne voit alors qu’en noir et blanc. Certaines formes de ténèbres magiques, comme le sort de niveau 4 ténèbres, bloquent le fonctionnement de vision dans le noir. Un monstre qui possède vision dans le noir supérieure peut cependant voir même à travers ce type de ténèbres magiques.</p>",
           "Disease": "<p> Quand une créature est exposée à la maladie d’un monstre, elle doit réussir un jet de Vigueur pour éviter de la contracter. Le niveau de la maladie est le même que celui du monstre qui la transmet. Les maladies suivent les règles des afflictions.</p>",
           "Engulf": "<p>Le monstre Marche rapidement d’une distance maximale égale à deux fois sa Vitesse et il peut traverser l’espace de toute créature qui se trouve sur son chemin. Toute créature d’une taille inférieure ou égale à celle du monstre et dont l’espace est traversé par ce dernier peut faire un jet de Réflexes avec le DD indiqué pour éviter de se faire engloutir. Une créature incapable d’agir subit automatiquement un échec critique à ce jet de sauvegarde. Si une créature réussit son jet de sauvegarde, elle peut décider si elle est repoussée sur le côté (hors du chemin du monstre) ou si elle reste devant le monstre et est poussée par celui-ci jusqu’à la fin de son déplacement. Le monstre ne peut tenter d’Engloutir une créature qu’une fois par utilisation du pouvoir Engloutir. Le monstre peut contenir autant de créatures qu’il peut s’en trouver dans son espace.</p>\n<p>Une créature qui échoue à son jet de sauvegarde se retrouve engloutie dans le corps du monstre. Elle est alors empoignée, ralentie 1 et doit retenir sa respiration ou commencer à asphyxier. La créature subit la quantité de dégâts indiquée dans le descriptif du pouvoir au moment où elle est engloutie, puis de nouveau à la fin de chacun de ses tours tant qu’elle est engloutie. Une créature engloutie peut se libérer en tentant de S’échapper en utilisant le DD indiqué. La créature engloutie peut également attaquer le monstre dans lequel elle se trouve, mais seulement à l’aide d’attaques à mains nues ou d’armes dont l’Encombrement est léger ou moindre. Le monstre est pris au dépourvu contre cette attaque. Si le monstre subit une quantité de dégâts perforants ou tranchants supérieure ou égale à la valeur de Rupture et infligée par une attaque ou un sort unique, la créature engloutie arrive à s’extraire de son corps. Une créature qui arrive à se libérer grâce à l’une de ces méthodes peut immédiatement respirer normalement et quitte l’espace du monstre.</p>\n<p>Si le monstre meurt, sa forme se délite et les créatures qu’il a englouties sont automatiquement relâchées.</p>",
           "FastHealing": "<p>Un monstre qui possède ce pouvoir regagne la quantité de points de vie indiquée à chaque round, au début de son tour.</p>",
-          "Ferocity": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Le monstre est réduit à 0 PV.</p>\n<p><strong>Effet</strong> Le monstre n’est pas assommé et conserve 1 PV, mais son intensité d’état @Compendium[pf2e.conditionitems.Wounded]{Blessé} augmente de 1. Il ne peut plus faire appel à ce pouvoir à partir de l’état blessé 3.</p>",
+          "Ferocity": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Le monstre est réduit à 0 PV.</p>\n<p><strong>Effet</strong> Le monstre n’est pas assommé et conserve 1 PV, mais son intensité d’état @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Blessé} augmente de 1. Il ne peut plus faire appel à ce pouvoir à partir de l’état blessé 3.</p>",
           "FormUp": "<p>La troupe choisit une des cases qu’elle occupe actuellement et redistribue ses cases dans n’importe quelle configuration dans laquelle les cases sont contigus et dans les 4,5 m de la case choisie. La troupe ne peut partager son espace avec d’autres créatures.</p>",
-          "FrightfulPresence": "<hr />\n<p>Une créature qui pénètre dans la zone d’effet doit faire un jet de Volonté.</p>\n<div data-visibility=\"gm\">\n<p>Quel que soit le résultat du jet de sauvegarde, la créature est tempo\u0002rairement immunisée contre la Présence terrifiante du monstre  pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée par la présence.</p>\n<p><strong>Succès</strong> La créature est @Compendium[pf2e.conditionitems.Frightened]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @Compendium[pf2e.conditionitems.Frightened]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature est @Compendium[pf2e.conditionitems.Frightened]{Effrayée 4}.</p>\n</div>",
+          "FrightfulPresence": "<hr />\n<p>Une créature qui pénètre dans la zone d’effet doit faire un jet de Volonté.</p>\n<div data-visibility=\"gm\">\n<p>Quel que soit le résultat du jet de sauvegarde, la créature est tempo\u0002rairement immunisée contre la Présence terrifiante du monstre  pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée par la présence.</p>\n<p><strong>Succès</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 4}.</p>\n</div>",
           "Grab": "<p data-visibility=\"gm\"><strong>Conditions</strong> La dernière action du monstre est une Frappe réussie avec le trait Empoignade dans l’entrée des dégâts ou il a déjà empoigné une créature grâce à cette action.</p>\n<p><strong>Effet</strong> Le monstre Empoigne/Agrippe automatiquement la cible qui reste empoignée jusqu’à la fin du prochain tour du monstre. La créature est empoignée par la partie du corps que le monstre a utilisée pour porter son attaque et il ne peut pas utiliser celle-ci pour Frapper tant qu’il s’en sert pour empoigner/agripper sa cible. Le monstre peut réutiliser Empoignade pour allonger la durée de ce pouvoir et maintenir ainsi toutes les créatures empoignées/agrippées jusqu’à la fin de son prochain tour. Une créature empoignée/agrippée peut utiliser l’action @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S’échapper} pour se libérer de l’Empoignade. Celle-ci prend également fin si le monstre s’éloigne des créatures qu’il empoigne/agrippe.</p>",
-          "GreaterConstrict": "<p>Le monstre inflige la quantité de dégâts indiquée à toutes les créatures qu’il a @Compendium[pf2e.conditionitems.Grabbed]{empoignées/agrippées} ou @Compendium[pf2e.conditionitems.Restrained]{entravées}. Chacune d’entre elles peut faire un jet de Vigueur basique avec le DD indiqué. Si une créature échoue à son jet de sauvegarde, elle perd connaissance. Si elle réussit, elle est temporairement immunisée contre l’état @Compendium[pf2e.conditionitems.Unconscious]{inconscient} causé par la Constriction supérieure pendant 1 minute.</p>",
+          "GreaterConstrict": "<p>Le monstre inflige la quantité de dégâts indiquée à toutes les créatures qu’il a @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{empoignées/agrippées} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{entravées}. Chacune d’entre elles peut faire un jet de Vigueur basique avec le DD indiqué. Si une créature échoue à son jet de sauvegarde, elle perd connaissance. Si elle réussit, elle est temporairement immunisée contre l’état @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{inconscient} causé par la Constriction supérieure pendant 1 minute.</p>",
           "GreaterDarkvision": "<p>Un monstre qui possède vision dans le noir supérieure n’a aucun mal à voir dans les zones plongées dans les ténèbres ou la lumière faible, mais il ne voit alors qu’en noir et blanc. Un monstre qui possède vision dans le noir supérieure peut voir même à travers les ténèbres magiques.</p>",
-          "ImprovedGrab": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{Empoignade} comme une action libre déclenchée par la réussite de son attaque initiale. Un monstre qui possède Empoignade améliorée doit quand même dépenser une action pour allonger la durée de la saisie des créatures qu’il a déjà @Compendium[pf2e.conditionitems.Grabbed]{empoignées/agrippées}.</p>",
-          "ImprovedKnockdown": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.Knockdown]{Renversement} par une action libre déclenchée par un coup avec son attaque initiale.</p>",
-          "ImprovedPush": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.Push]{Bousculade} par une action libre déclenchée par un coup avec son attaque initiale.</p>",
-          "Knockdown": "<p data-visibility=\"gm\"><strong>Conditions</strong> La dernière action du monstre était une Frappe réussie possédant le trait Renversement dans l’entrée des dégâts.</p>\n<p><strong>Effet</strong> Le monstre renverse la cible @Compendium[pf2e.conditionitems.Prone]{À terre}.</p>",
+          "ImprovedGrab": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Empoignade} comme une action libre déclenchée par la réussite de son attaque initiale. Un monstre qui possède Empoignade améliorée doit quand même dépenser une action pour allonger la durée de la saisie des créatures qu’il a déjà @Compendium[pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{empoignées/agrippées}.</p>",
+          "ImprovedKnockdown": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Renversement} par une action libre déclenchée par un coup avec son attaque initiale.</p>",
+          "ImprovedPush": "<p>Le monstre peut utiliser @Compendium[pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Bousculade} par une action libre déclenchée par un coup avec son attaque initiale.</p>",
+          "Knockdown": "<p data-visibility=\"gm\"><strong>Conditions</strong> La dernière action du monstre était une Frappe réussie possédant le trait Renversement dans l’entrée des dégâts.</p>\n<p><strong>Effet</strong> Le monstre renverse la cible @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.</p>",
           "Lifesense": "<p> La perception de la vie permet à un monstre de ressentir l’essence vitale des créatures vivantes et mortes-vivantes sur une portée donnée. Ce sens permet de différencier les énergies positives qui animent les créatures vivantes et les énergies négatives qui animent les créatures mortes-vivantes, de la même manière que la vue permet de différencier les couleurs.</p>",
           "LightBlindness": "<p>Quand il se trouve exposé à une lumière vive, le monstre est aveuglé jusqu’à la fin de son prochain tour. Après cette exposition initiale, la lumière n’aveugle plus le monstre tant qu’il n’a pas passé 1 h dans les ténèbres. Néanmoins, il se trouve dans l’état ébloui tant qu’il reste dans une zone de lumière vive.</p>",
-          "LowLightVision": "<p>Le monstre peut voir dans la lumière faible comme s’il s’agissait de lumière vive. Il ignore ainsi l’état @Compendium[pf2e.conditionitems.Concealed]{Masqué} causé par la lumière faible.</p>",
+          "LowLightVision": "<p>Le monstre peut voir dans la lumière faible comme s’il s’agissait de lumière vive. Il ignore ainsi l’état @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Masqué} causé par la lumière faible.</p>",
           "NegativeHealing": "<p>Une créature possédant ce pouvoir tire sa santé de l’énergie négative plutôt que de l’énergie positive. L’énergie positive lui inflige des dégâts et elle n’est pas soignée par les effets de guérison positifs. L’énergie négative ne lui inflige pas de dégâts, et elle est soignée par les effets négatifs qui guérissent les morts-vivants.</p>",
           "Poison": "<p>Quand une créature se trouve exposée au poison d’un monstre, elle doit réussir un jet de Vigueur pour éviter d’être empoisonnée. Le niveau du poison est le même que celui du monstre qui l’inocule. Les poisons suivent les règles des afflictions.</p>",
           "PowerAttack": "<p data-visibility=\"gm\"><strong>Fréquence</strong> une fois par round</p>\n<p><strong>Effet</strong> Le monstre fait une Frappe au corps-à-corps. Cela compte comme deux attaques lorsque vous calculez la pénalité d'attaques multiples. Si cette Frappe touche, le monstre inflige un dé de dégâts d'arme supplémentaire..</p>",
@@ -1668,7 +1677,7 @@
           "RetributiveStrike": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Un ennemi inflige des dégâts à un allié du monstre et les deux se trouvent dans un rayon de 4,50 m de ce dernier.</p>\n<p><strong>Effet</strong> L’allié gagne une résistance à tous les dégâts contre les dégâts déclencheurs, d’une valeur de 2 + le niveau du monstre. Le monstre porte une Frappe de corps à corps contre l’ennemi si celui-ci se trouve à portée.</p>",
           "Scent": "<p>L’odorat permet de sentir les odeurs dégagées par des créatures ou des objets. Il s’agit généralement d’un sens vague. La portée de ce sens est indiquée à côté de son nom et il ne fonctionne que si la créature ou l’objet concerné émet une odeur (par exemple, les créatures intangibles n’émettent généralement pas d’odeur).</p>\n<p>Si une créature exhale une odeur importante ou se trouve contre le vent, le MJ peut doubler, voire tripler la portée des pouvoirs basés sur l’odorat utilisés pour détecter cette créature, mais il peut également réduire cette portée si la créature se trouve dans le sens du vent.</p>",
           "ShieldBlock": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Le monstre a équipé son bouclier et il subit des dégâts infligés par une attaque physique. </p>\n<p><strong>Effet</strong> Le monstre lève son bouclier pour dévier un coup. Le bou\u0002clier permet au monstre d’éviter de subir une quantité de dégâts égale à sa Solidité. Le monstre et le bouclier subissent tous deux les dégâts restants, ce qui peut briser ou détruire le bouclier.</p>",
-          "SneakAttack": "<p>Lorssque le monstre Frappe une créature qui est @Compendium[pf2e.conditionitems.Flat-Footed]{Prise au dépourvu} avec une arme au corps-à-corps agile ou de finesse , une attaque à mains nues agile ou de finesse, ou une attaque d'arme à distance, elle inflige aussi les dégâts de précision indiqués. Pour une attaque à distance avec une arme de jet, cette arme doit aussi être une arme agile ou de finesse.</p>",
+          "SneakAttack": "<p>Lorssque le monstre Frappe une créature qui est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} avec une arme au corps-à-corps agile ou de finesse , une attaque à mains nues agile ou de finesse, ou une attaque d'arme à distance, elle inflige aussi les dégâts de précision indiqués. Pour une attaque à distance avec une arme de jet, cette arme doit aussi être une arme agile ou de finesse.</p>",
           "SwallowWhole": "<p> Le monstre tente d’avaler une créature dont la taille est inférieure ou égale à la taille indiquée et qu’il a déjà empoignée dans sa gueule ou entre ses mâchoires. Si la créature avalée est de la taille maximale indiquée dans le descriptif du pouvoir, le monstre ne peut plus utiliser l’action Gober. Si la créature est plus petite que ce maximum, le monstre peut généralement gober d’autres créatures. Le MJ détermine alors le nombre de créatures. Le monstre fait un test d’Athlétisme opposé au DD de Réflexes de la créature empoignée. S’il réussit, il gobe la créature. La gueule ou les mâchoires du monstre ne sont plus utilisées pour empoigner la créature qu’il vient de gober et il peut à nouveau s’en servir pour Frapper ou Empoigner une autre créature. Le monstre ne peut pas attaquer les créatures qu’il a gobées.</p>\n<p>Une créature gobée est empoignée, ralentie 1 et doit retenir sa respiration ou commencer à asphyxier. La créature gobée subit la quantité de dégâts indiquée dans le descriptif du pouvoir au moment où elle est gobée, puis de nouveau à la fin de chacun de ses tours tant qu’elle est gobée. Si la victime réussit à S’échapper de l’état d’empoignade lié à ce pouvoir, elle fuit alors par la gueule du monstre. Elle libère ainsi également toute autre créature qui se trouve empoignée dans la gueule ou entre les mâchoires du monstre. La créature gobée peut également attaquer le monstre dans lequel elle se trouve, mais seulement à l’aide d’attaques à mains nues ou d’armes dont l’Encombrement est léger ou moindre. Le monstre est pris au dépourvu contre cette attaque. Si le monstre subit une quantité de dégâts perforants ou tranchants supérieure ou égale à la valeur de Rupture infligée par une attaque ou un sort unique, la créature gobée arrive à s’extraire de son corps. Une créature qui arrive à se libérer en S’échappant ou en taillant une issue à travers le monstre peut immédiatement respirer normalement et quitte l’espace du monstre.</p>\n<p>Si le monstre meurt, une créature gobée peut être libérée par des créatures adjacentes au cadavre qui utilisent un total combiné de 3 actions pour éventrer le monstre avec une arme ou une attaque à mains nues qui inflige des dégâts perforants ou tranchants.</p>",
           "SwarmMind": "<p> Ce monstre n’est pas doté d’un esprit individuel (généralement car il est composé d’une nuée de petites créatures) et il est ainsi immunisé contre les effets mentaux qui ciblent seulement un nombre donné de créatures. Il est cependant toujours affecté par les effets mentaux qui prennent pour cible toutes les créatures qui se trouvent dans une zone.</p>",
           "Telepathy": "<p>Un monstre télépathe peut communiquer mentalement avec n’importe quelle créature qui se trouve dans la portée indiquée, tant qu’il partage une langue avec cette créature. Il n’a cependant pas accès aux pensées de cette créature et ne peut pas lui communiquer plus d’informations que s’il lui parlait normalement</p>",
@@ -1935,6 +1944,7 @@
     "ResistancesLabel": "Résistances",
     "ResolvePointsShortLabel": "Persévérance",
     "ResolveTitle": "Le nombre de points de Persévérance que vous possédez",
+    "RestoreSpellTitle": "Restaurer le sort",
     "ResultLabel": "Résultat",
     "ResultOffset": "par {offset}",
     "Roll": {
@@ -2381,6 +2391,7 @@
     "ShieldMaxLabel": "Max",
     "ShieldMaxTitle": "PV max. du bouclier",
     "SidebarAppearanceLabel": "Apparence",
+    "SilverStrikes": "Frappes en argent",
     "Size": "Taille",
     "SizeLabel": "Taille",
     "SkillAcr": "Acrobaties",
@@ -3277,6 +3288,7 @@
     "TraitRange40": "Portée 40 ft (12 m)",
     "TraitRange5": "Portée 5 ft (1,5 m)",
     "TraitRange50": "Portée 50 ft (15 m)",
+    "TraitRange500": "Portée 500 ft (150 m)",
     "TraitRange60": "Portée 60 ft (18 m)",
     "TraitRange70": "Portée 70 ft (21 m)",
     "TraitRange80": "Portée 80 ft (24 m)",
@@ -3311,7 +3323,6 @@
     "TraitRangeIncrement40": "Facteur de portée 40 ft (12m)",
     "TraitRangeIncrement5": "Facteur de portée 5 ft (1,5m)",
     "TraitRangeIncrement50": "Facteur de portée 50 ft (15m)",
-    "TraitRangeIncrement500": "Facteur de portée 500 ft (150m)",
     "TraitRangeIncrement60": "Facteur de portée 60 ft (18m)",
     "TraitRangeIncrement70": "Facteur de portée 70 ft (21m)",
     "TraitRangeIncrement75": "Facteur de portée 75 ft (22,5m)",
@@ -3854,7 +3865,7 @@
       "anarchic": {
         "Name": "Rune anarchique",
         "Note": {
-          "criticalSuccess": "<b>Rune anarchique</b> Quand vous obtenez un succès critique en Frappant une créature d’alignement loyal avec cette arme, lancez [[/r 1d6]]{1d6}. Sur un 1 ou 2, vous infligez le double des dégâts minimums ; sur un 3 ou 4, doublez les dégâts normalement ; sur un 5 ou 6, vous infligez le double des dégâts maximums."
+          "criticalSuccess": "<strong>Rune anarchique</strong> Quand vous obtenez un succès critique en Frappant une créature d’alignement loyal avec cette arme, lancez [[/r 1d6]]{1d6}. Sur un 1 ou 2, vous infligez le double des dégâts minimums ; sur un 3 ou 4, doublez les dégâts normalement ; sur un 5 ou 6, vous infligez le double des dégâts maximums."
         }
       },
       "ancestralEchoing": {
@@ -3863,13 +3874,13 @@
       "anchoring": {
         "Name": "Rune à ancre",
         "Note": {
-          "criticalSuccess": "<b>Rune à ancre</b> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Ancre dimensionnelle}</em> sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"27\">Volonté</span>, modificateur de contre [[/r 1d20+17 # Test de contre Rune à ancre]]{+17})."
+          "criticalSuccess": "<strong>Rune à ancre</strong> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancre dimensionnelle}</em> sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"27\">Volonté</span>, modificateur de contre [[/r 1d20+17 # Test de contre Rune à ancre]]{+17})."
         }
       },
       "axiomatic": {
         "Name": "Rune axiomatique",
         "Note": {
-          "criticalSuccess": "<b>Rune axiomatique</b> Quand vous obtenez un coup critique sur un jet d’attaque avec cette arme contre une créature d’alignement chaotique, au lieu de faire un jet de dégâts, considérez que chaque dé de dégâts de l’arme donne un résultat moyen arrondi au supérieur (3 pour un d4, 4 pour un d6, 5 pour un d8, 7 pour un d12)."
+          "criticalSuccess": "<strong>Rune axiomatique</strong> Quand vous obtenez un coup critique sur un jet d’attaque avec cette arme contre une créature d’alignement chaotique, au lieu de faire un jet de dégâts, considérez que chaque dé de dégâts de l’arme donne un résultat moyen arrondi au supérieur (3 pour un d4, 4 pour un d6, 5 pour un d8, 7 pour un d12)."
         }
       },
       "bane": {
@@ -3881,13 +3892,13 @@
       "bloodthirsty": {
         "Name": "Assoiffée de sang",
         "Note": {
-          "criticalSuccess": "<b>Rune assoiffée de sang</b> Lorsque vous obtenez un coup critique sur une cible qui subit des dégâts persistants de saignement, votre cible devient @Compendium[pf2e.conditionitems.Drained]{drainée 1}."
+          "criticalSuccess": "<strong>Rune assoiffée de sang</strong> Lorsque vous obtenez un coup critique sur une cible qui subit des dégâts persistants de saignement, votre cible devient @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{drainée 1}."
         }
       },
       "brilliant": {
         "Name": "Rune brillante",
         "Note": {
-          "criticalSuccess": "<b>Rune brillante</b> En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Brilliant Rune\" data-pf2-dc=\"29\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Blinded]{aveuglée} pendant 1 round."
+          "criticalSuccess": "<strong>Rune brillante</strong> En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Brilliant Rune\" data-pf2-dc=\"29\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{aveuglée} pendant 1 round."
         }
       },
       "conducting": {
@@ -3896,13 +3907,13 @@
       "corrosive": {
         "Name": "Rune corrosive",
         "Note": {
-          "criticalSuccess": "<b>Rune corrosive</b> En cas de coup critique, l’armure de la cible (si elle en porte une) subit [[/r {3d6}[acid] # Corrosive Rune]]{3d6 dégâts d’acide} (avant d’appliquer la Solidité) ; si la cible a un bouclier levé, celui-ci subit ces dégâts à la place."
+          "criticalSuccess": "<strong>Rune corrosive</strong> En cas de coup critique, l’armure de la cible (si elle en porte une) subit [[/r {3d6}[acid] # Corrosive Rune]]{3d6 dégâts d’acide} (avant d’appliquer la Solidité) ; si la cible a un bouclier levé, celui-ci subit ces dégâts à la place."
         }
       },
       "crushing": {
         "Name": "Rune écrasante",
         "Note": {
-          "criticalSuccess": "<b>Rune écrasante</b> Lorsque vous portez un coup critique avec cette arme, votre cible devient @Compendium[pf2e.conditionitems.Clumsy]{Maladroit 1} et @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 1} jusqu'à la fin de votre prochain tour."
+          "criticalSuccess": "<strong>Rune écrasante</strong> Lorsque vous portez un coup critique avec cette arme, votre cible devient @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroit 1} et @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaiblie 1} jusqu'à la fin de votre prochain tour."
         }
       },
       "cunning": {
@@ -3914,7 +3925,7 @@
       "disrupting": {
         "Name": "Rune perturbatrice",
         "Note": {
-          "criticalSuccess": "<b>Rune perturbatrice</b> . En cas de coup critique, le mort-vivant est également @Compendium[pf2e.conditionitems.Enfeebled]{Affaibli 1} jusqu’à la fin de votre prochain tour."
+          "criticalSuccess": "<strong>Rune perturbatrice</strong> . En cas de coup critique, le mort-vivant est également @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaibli 1} jusqu’à la fin de votre prochain tour."
         }
       },
       "energizing": {
@@ -3929,30 +3940,30 @@
       "fearsome": {
         "Name": "Rune effrayante",
         "Note": {
-          "criticalSuccess": "<b>Rune effrayante</b> En cas de coup critique avec cette arme, la cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 1}."
+          "criticalSuccess": "<strong>Rune effrayante</strong> En cas de coup critique avec cette arme, la cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}."
         }
       },
       "flaming": {
         "Name": "Rune enflammée",
         "Note": {
-          "criticalSuccess": "<b>Rune enflammée</b> En cas de coup critique avec cette arme, vous infligez [[/r {1d10}[persistent,fire]]] # Rune enflammée]]]{1d10 dégâts de feu persistant} supplémentaires."
+          "criticalSuccess": "<strong>Rune enflammée</strong> En cas de coup critique avec cette arme, vous infligez [[/r {1d10}[persistent,fire]]] # Rune enflammée]]]{1d10 dégâts de feu persistant} supplémentaires."
         }
       },
       "frost": {
         "Name": "Rune de froid",
         "Note": {
-          "criticalSuccess": "<b>Rune de froid</b> En cas de coup critique, la cible est également @Compendium[pf2e.conditionitems.Slowed]{ranlentie 1} jusqu’à la fin de votre prochain tour, à moins qu’elle ne réussisse un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune\" data-pf2-dc=\"24\">Vigueur</span> DD 24."
+          "criticalSuccess": "<strong>Rune de froid</strong> En cas de coup critique, la cible est également @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{ranlentie 1} jusqu’à la fin de votre prochain tour, à moins qu’elle ne réussisse un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune\" data-pf2-dc=\"24\">Vigueur</span> DD 24."
         }
       },
       "ghostTouch": {
         "Name": "Rune spectrale",
-        "Note": "<b>Rune spectrale</p> L’arme peut blesser les créatures dénuées de forme physique. Une arme spectrale est particulièrement efficace contre les créatures intangibles dont la plupart ont toujours une faiblesse particulière aux armes spectrales. Les créatures intangibles peuvent toucher, tenir et manier des armes spectrales (au contraire de la plupart des objets physiques)."
+        "Note": "<strong>Rune spectrale</p> L’arme peut blesser les créatures dénuées de forme physique. Une arme spectrale est particulièrement efficace contre les créatures intangibles dont la plupart ont toujours une faiblesse particulière aux armes spectrales. Les créatures intangibles peuvent toucher, tenir et manier des armes spectrales (au contraire de la plupart des objets physiques)."
       },
       "greaterAnchoring": {
         "Name": "Rune à ancre supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune à ancre supérieure</b> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Ancre dimensionnelle}</em> au niveau 8 sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"38\">Volonté</span>, modificateur de contre [[/r 1d20+28 # Test de contre Rune à ancre]]{+28}), sauf que si la cible obtient une réussite critique à son jet de Volonté, au lie de n'avoir aucun effet, <em>Ancre dimensionnelle</em> dure pendant 1 round.",
-          "success": "<b>Rune à ancre supérieure</b> Si vous touchez avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Ancre dimensionnelle}</em> au niveau 8 sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"38\">Volonté</span>, modificateur de contre [[/r 1d20+28 # Test de contre Rune à ancre]]{+28})."
+          "criticalSuccess": "<strong>Rune à ancre supérieure</strong> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancre dimensionnelle}</em> au niveau 8 sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"38\">Volonté</span>, modificateur de contre [[/r 1d20+28 # Test de contre Rune à ancre]]{+28}), sauf que si la cible obtient une réussite critique à son jet de Volonté, au lie de n'avoir aucun effet, <em>Ancre dimensionnelle</em> dure pendant 1 round.",
+          "success": "<strong>Rune à ancre supérieure</strong> Si vous touchez avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancre dimensionnelle}</em> au niveau 8 sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"38\">Volonté</span>, modificateur de contre [[/r 1d20+28 # Test de contre Rune à ancre]]{+28})."
         }
       },
       "greaterBloodbane": {
@@ -3961,27 +3972,27 @@
       "greaterBrilliant": {
         "Name": "Rune brillante supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune brillante supérieure</b> Les dégâts infligés par cette arme ignore la résistance au feu, au bien ou au positif de la cible. Sur un coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune brillante supérieure\" data-pf2-dc=\"41\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Blinded]{aveuglée} pendant 1 round.",
-          "success": "<b>Rune brillante supérieure</b> Les dégâts infligés par cette arme ignore la résistance au feu, au bien ou au positif de la cible."
+          "criticalSuccess": "<strong>Rune brillante supérieure</strong> Les dégâts infligés par cette arme ignore la résistance au feu, au bien ou au positif de la cible. Sur un coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune brillante supérieure\" data-pf2-dc=\"41\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{aveuglée} pendant 1 round.",
+          "success": "<strong>Rune brillante supérieure</strong> Les dégâts infligés par cette arme ignore la résistance au feu, au bien ou au positif de la cible."
         }
       },
       "greaterCorrosive": {
         "Name": "Rune corrosive supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune corrosive supérieure</b> Les dégâts d'acide infligés par cette arme ignorent la résistance à l'acide de la cible.  En cas de coup critique, l’armure de la cible (si elle en porte une) subit  [[/r {6d6}[acid] # Rune corrosive]]{6d6 dégâts d'acide} (avant d’appliquer la Solidité) ; si la cible a un bouclier levé, celui-ci subit ces dégâts à la place.",
-          "success": "<b>Rune corrosive supérieure</b> Les dégâts d'acide infligés par cette arme ignorent la résistance à l'acide de la cible."
+          "criticalSuccess": "<strong>Rune corrosive supérieure</strong> Les dégâts d'acide infligés par cette arme ignorent la résistance à l'acide de la cible.  En cas de coup critique, l’armure de la cible (si elle en porte une) subit  [[/r {6d6}[acid] # Rune corrosive]]{6d6 dégâts d'acide} (avant d’appliquer la Solidité) ; si la cible a un bouclier levé, celui-ci subit ces dégâts à la place.",
+          "success": "<strong>Rune corrosive supérieure</strong> Les dégâts d'acide infligés par cette arme ignorent la résistance à l'acide de la cible."
         }
       },
       "greaterCrushing": {
         "Name": "Rune écrasante supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune écrasante supérieure</b> Lorsque vous portez un coup critique avec cette arme, votre cible devient @Compendium[pf2e.conditionitems.Clumsy]{Maladroit 2} et @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 2} jusqu'à la fin de votre prochain tour."
+          "criticalSuccess": "<strong>Rune écrasante supérieure</strong> Lorsque vous portez un coup critique avec cette arme, votre cible devient @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroit 2} et @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaiblie 2} jusqu'à la fin de votre prochain tour."
         }
       },
       "greaterDisrupting": {
         "Name": "Rune perturbatrice supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune perturbatrice supérieure</b> En cas de coup critique, le mort-vivant doit faire un jet de <span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Rune perturbatrice supérieure\" data-pf2-dc=\"34\">Vigueur</span> avec les effets suivants. C'est un effet de mise hors de combat.<br /><br /><b>Succès critique</b> il est Compendium[pf2e.conditionitems.Enfeebled]{affaibli 1} jusqu'à la fin de votre prochain tour.<br /><b>Succès</b> Il est @Compendium[pf2e.conditionitems.Enfeebled]{Affaibli 2} jusqu'à la fin de votre prochain tour.<br /><b>Échec</b> Il est @Compendium[pf2e.conditionitems.Enfeebled]{Affaibli 3} jusqu'à la fin de votre prochain tour.<br /><b>Échec critique</b> Il est détruit."
+          "criticalSuccess": "<strong>Rune perturbatrice supérieure</strong> En cas de coup critique, le mort-vivant doit faire un jet de <span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Rune perturbatrice supérieure\" data-pf2-dc=\"34\">Vigueur</span> avec les effets suivants. C'est un effet de mise hors de combat.<br /><br /><strong>Succès critique</strong> il est Compendium[pf2e.conditionitems.Enfeebled]{affaibli 1} jusqu'à la fin de votre prochain tour.<br /><strong>Succès</strong> Il est @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaibli 2} jusqu'à la fin de votre prochain tour.<br /><strong>Échec </strong>Il est @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaibli 3} jusqu'à la fin de votre prochain tour.<br /><strong>Échec critique</strong> Il est détruit."
         }
       },
       "greaterExtending": {
@@ -3993,21 +4004,21 @@
       "greaterFearsome": {
         "Name": "Rune effrayante supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune effrayante supérieure</b> En cas de coup critique avec cette arme, la cible devient @Compendium[pf2e.conditionitems.Frightened]{Effrayée 2}."
+          "criticalSuccess": "<strong>Rune effrayante supérieure</strong> En cas de coup critique avec cette arme, la cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}."
         }
       },
       "greaterFlaming": {
         "Name": "Rune enflammée supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible. En cas de coup critique avec cette arme, vous infligez [[/r {2d10}[persistent,fire]]] # Rune enflammée]]{2d10 dégâts de feu persistant} supplémentaires.",
-          "success": "<b>Rune enflammée supérieure</b> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible."
+          "criticalSuccess": "<strong>Rune enflammée supérieure</strong> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible. En cas de coup critique avec cette arme, vous infligez [[/r {2d10}[persistent,fire]]] # Rune enflammée]]{2d10 dégâts de feu persistant} supplémentaires.",
+          "success": "<strong>Rune enflammée supérieure</strong> Les dégâts de feu infligés par cette arme (y compris les dégâts de feu persistants) ignorent la résistance au feu de la cible."
         }
       },
       "greaterFrost": {
         "Name": "Rune de froid supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune de froid supérieure</b> Les dégâts de froid infligés par cette arme ignorent la résistance au froid de la cible. En cas de coup critique, la cible est également  @Compendium[pf2e.conditionitems.Slowed]{ralentie 1} jusqu'à la fin de votre prochain tour à moins qu'elle ne réussisse un jet de  <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de froid\" data-pf2-dc=\"34\">Vigueur</span>.",
-          "success": "<b>Rune de froid supérieure</b> Les dégâts de froid infligés par cette arme ignorent la résistance au froid de la cible."
+          "criticalSuccess": "<strong>Rune de froid supérieure</strong> Les dégâts de froid infligés par cette arme ignorent la résistance au froid de la cible. En cas de coup critique, la cible est également @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{ralentie 1} jusqu'à la fin de votre prochain tour à moins qu'elle ne réussisse un jet de  <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de froid\" data-pf2-dc=\"34\">Vigueur</span>.",
+          "success": "<strong>Rune de froid supérieure</strong> Les dégâts de froid infligés par cette arme ignorent la résistance au froid de la cible."
         }
       },
       "greaterHauling": {
@@ -4016,40 +4027,40 @@
       "greaterImpactful": {
         "Name": "Rune impactante supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune impactante supérieure</b> Sur un coup critique, vous pouvez choisir de forcer la cible à réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune impactante supérieure\" data-pf2-dc=\"37\">Vigueur</span> ou être poussée à 3 m par rapport à vous."
+          "criticalSuccess": "<strong>Rune impactante supérieure</strong> Sur un coup critique, vous pouvez choisir de forcer la cible à réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune impactante supérieure\" data-pf2-dc=\"37\">Vigueur</span> ou être poussée à 3 m par rapport à vous."
         }
       },
       "greaterShock": {
         "Name": "Rune de foudre supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune de foudre supérieure</b> Les dégâts d’électricité infligés par cette arme ignorent la résistance à l’électricité de la cible (et celles des autres créatures en cas de coup critique).Sur un coup critique, des arcs électriques plus importants infligent un montant identique de dégâts d’électricité à une ou deux autres créatures de votre choix situées à 3 m ou moins de la cible.",
-          "success": "<b>Rune de foudre supérieure</b> Les dégâts d’électricité infligés par cette arme ignorent la résistance à l’électricité de la cible (et celles des autres créatures en cas de coup critique)."
+          "criticalSuccess": "<strong>Rune de foudre supérieure</strong> Les dégâts d’électricité infligés par cette arme ignorent la résistance à l’électricité de la cible (et celles des autres créatures en cas de coup critique).Sur un coup critique, des arcs électriques plus importants infligent un montant identique de dégâts d’électricité à une ou deux autres créatures de votre choix situées à 3 m ou moins de la cible.",
+          "success": "<strong>Rune de foudre supérieure</strong> Les dégâts d’électricité infligés par cette arme ignorent la résistance à l’électricité de la cible (et celles des autres créatures en cas de coup critique)."
         }
       },
       "greaterThundering": {
         "Name": "Rune de tonnerre supérieure",
         "Note": {
-          "criticalSuccess": "<b>Rune de tonnerre supérieure</b> Les dégâts de son infligés par cette arme ignorent la résistance au son de la cible. En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de tonnerre supérieure\" data-pf2-dc=\"34\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Deafened]{sourde} de manière permanente.",
-          "success": "<b>Rune de tonnerre supérieure</b> Les dégâts de son infligés par cette arme ignorent la résistance au son de la cible."
+          "criticalSuccess": "<strong>Rune de tonnerre supérieure</strong> Les dégâts de son infligés par cette arme ignorent la résistance au son de la cible. En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de tonnerre supérieure\" data-pf2-dc=\"34\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{sourde} de manière permanente.",
+          "success": "<strong>Rune de tonnerre supérieure</strong> Les dégâts de son infligés par cette arme ignorent la résistance au son de la cible."
         }
       },
       "grievous": {
         "Name": "Rune douloureuse",
         "Note": {
-          "Axe": "<b>Rune douloureuse</b> Vous pouvez faire des dégâts à une troisième créatures avec les mêmes restrictions.",
-          "Bow": "<b>Rune douloureuse</b> Le test d'Athlétisme pour retirer le projectile est contre un DD 20.",
-          "Brawling": "<b>Rune douloureuse</b> La cible subit un malus de circonstances de -4 à son jet de sauvegarde.",
-          "Club": "<b>Rune douloureuse</b> Vous pouvez envoyez la cible à 4,5 m de distance.",
-          "Dart": "<b>Rune douloureuse</b> Les dégât persistants de saignement augmentent à 2d6.",
-          "Flail": "<b>Rune douloureuse</b> Vous déplacez la cible de 1,5 m. Vous ne pouvez pas la bouger loin de vous, mais vous pouvez la déplacer dans une autre direction de votre choix.",
-          "Hammer": "<b>Rune douloureuse</b> Vous pouvez renvoyer la cible à 1,5 m de vous.",
-          "Knife": "<b>Rune douloureuse</b> La cible subit une pénalité de statut de -1,5 m à sa vitesse tant qu'elle subit les dégâts de saignement persistants.",
-          "Pick": "<b>Rune douloureuse</b> Les dégâts supplémentaires de l'effet de critique spécialisé augmentent à 4 par dé de dégâts de l'arme.",
-          "Polearm": "<b>Rune douloureuse</b> Vous pouvez déplacer la cible d'un maximum de 3 m.",
-          "Shield": "<b>Rune douloureuse</b> Vous pouvez renvoyer la cible à 3 m .",
-          "Sling": "<b>Rune douloureuse</b> La cible subit aussi une pénalité de statut de -3 m à sa Vitesse si elle obtient un échec à son jet de sauvegarde.",
-          "Spear": "<b>Rune douloureuse</b> La condition maladroit dure pendant 2 rounds.",
-          "Sword": "<b>Rune douloureuse</b> La cible est Prise au dépourvu jusqu'à la fin de votre prochain tour."
+          "Axe": "<strong>Rune douloureuse</strong> Vous pouvez faire des dégâts à une troisième créatures avec les mêmes restrictions.",
+          "Bow": "<strong>Rune douloureuse</strong> Le test d'Athlétisme pour retirer le projectile est contre un DD 20.",
+          "Brawling": "<strong>Rune douloureuse</strong> La cible subit un malus de circonstances de -4 à son jet de sauvegarde.",
+          "Club": "<strong>Rune douloureuse</strong> Vous pouvez envoyez la cible à 4,5 m de distance.",
+          "Dart": "<strong>Rune douloureuse</strong> Les dégât persistants de saignement augmentent à 2d6.",
+          "Flail": "<strong>Rune douloureuse</strong> Vous déplacez la cible de 1,5 m. Vous ne pouvez pas la bouger loin de vous, mais vous pouvez la déplacer dans une autre direction de votre choix.",
+          "Hammer": "<strong>Rune douloureuse</strong> Vous pouvez renvoyer la cible à 1,5 m de vous.",
+          "Knife": "<strong>Rune douloureuse</strong> La cible subit une pénalité de statut de -1,5 m à sa vitesse tant qu'elle subit les dégâts de saignement persistants.",
+          "Pick": "<strong>Rune douloureuse</strong> Les dégâts supplémentaires de l'effet de critique spécialisé augmentent à 4 par dé de dégâts de l'arme.",
+          "Polearm": "<strong>Rune douloureuse</strong> Vous pouvez déplacer la cible d'un maximum de 3 m.",
+          "Shield": "<strong>Rune douloureuse</strong> Vous pouvez renvoyer la cible à 3 m .",
+          "Sling": "<strong>Rune douloureuse</strong> La cible subit aussi une pénalité de statut de -3 m à sa Vitesse si elle obtient un échec à son jet de sauvegarde.",
+          "Spear": "<strong>Rune douloureuse</strong> La condition maladroit dure pendant 2 rounds.",
+          "Sword": "<strong>Rune douloureuse</strong> La cible est Prise au dépourvu jusqu'à la fin de votre prochain tour."
         }
       },
       "hauling": {
@@ -4064,18 +4075,18 @@
       "hopeful": {
         "Name": "Rune d'espoir",
         "Note": {
-          "criticalSuccess": "<b>Rune d'espoir</b> En cas de coup critique avec cette arme, vous inspirez vos camarades, les poussant à se battre plus fort et à faire face au nom de vos convictions partagées Les alliés dans les 9 m qui partagent au moins une composante d'alignement avec vous obtiennent aussi un bonus de statut de +1 à leurs jets d'attaque jusqu'à la fin de votre prochain tour."
+          "criticalSuccess": "<strong>Rune d'espoir</strong> En cas de coup critique avec cette arme, vous inspirez vos camarades, les poussant à se battre plus fort et à faire face au nom de vos convictions partagées Les alliés dans les 9 m qui partagent au moins une composante d'alignement avec vous obtiennent aussi un bonus de statut de +1 à leurs jets d'attaque jusqu'à la fin de votre prochain tour."
         }
       },
       "impactful": {
         "Name": "Rune impactante",
         "Note": {
-          "criticalSuccess": "<b>Rune impactante</b> Sur un coup critique, vous pouvez choisir de forcer la cible à réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune impactante\" data-pf2-dc=\"27\">Vigueur</span> ou être poussée à 1,5 m par rapport à vous."
+          "criticalSuccess": "<strong>Rune impactante</strong> Sur un coup critique, vous pouvez choisir de forcer la cible à réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune impactante\" data-pf2-dc=\"27\">Vigueur</span> ou être poussée à 1,5 m par rapport à vous."
         }
       },
       "keen": {
         "Name": "Rune acérée",
-        "Note": "<b>Rune acérée</b> LEs attaques avec cette arme sont un coup critique sur un 19 sur le dé tant que le résultat est un succès. Cette propriété n'a pas d'effet si sur un 19 sur le dé, le résultat devrait être un échec."
+        "Note": "<strong>Rune acérée</strong> LEs attaques avec cette arme sont un coup critique sur un 19 sur le dé tant que le résultat est un succès. Cette propriété n'a pas d'effet si sur un 19 sur le dé, le résultat devrait être un échec."
       },
       "kinWarding": {
         "Name": "Rune garde-alliée"
@@ -4088,7 +4099,7 @@
       },
       "returning": {
         "Name": "Rune boomerang",
-        "Note": "<b>Rune boomerang</b> Lorsque vous faites une Frapp de jet avec cette arme, elle revient dans votre main après avoir terminé la Frappe. Si vos mains sont pleines lorsque l'arme revient, elle tombe au sol dans votre case."
+        "Note": "<strong>Rune boomerang</strong> Lorsque vous faites une Frappe de jet avec cette arme, elle revient dans votre main après avoir terminé la Frappe. Si vos mains sont pleines lorsque l'arme revient, elle tombe au sol dans votre case."
       },
       "serrating": {
         "Name": "Rune dentelée"
@@ -4099,7 +4110,7 @@
       "shock": {
         "Name": "Rune de foudre",
         "Note": {
-          "criticalSuccess": "<b>Rune de foudre</b> Sur un coup critique, des arcs électriques plus importants infligent un montant identique de dégâts d’électricité à une ou deux autres créatures de votre choix situées à 3 m ou moins de la cible."
+          "criticalSuccess": "<strong>Rune de foudre</strong> Sur un coup critique, des arcs électriques plus importants infligent un montant identique de dégâts d’électricité à une ou deux autres créatures de votre choix situées à 3 m ou moins de la cible."
         }
       },
       "speed": {
@@ -4111,7 +4122,7 @@
       "thundering": {
         "Name": "Rune de tonnerre",
         "Note": {
-          "criticalSuccess": "<b>Rune de tonnerre supérieure</b> En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de tonnerre\" data-pf2-dc=\"24\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.Deafened]{sourde} pendant 1 minute (ou 1 heure en cas d'échec critique)."
+          "criticalSuccess": "<strong>Rune de tonnerre supérieure</strong> En cas de coup critique, la cible doit réussir un jet de <span data-pf2-check=\"fortitude\" data-pf2-label=\"Rune de tonnerre\" data-pf2-dc=\"24\">Vigueur</span> ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{sourde} pendant 1 minute (ou 1 heure en cas d'échec critique)."
         }
       },
       "unholy": {
@@ -4129,8 +4140,8 @@
       "wounding": {
         "Name": "Rune sanglante",
         "Note": {
-          "criticalSuccess": "<b>Rune sanglante</b> En cas de coup critique avec une arme sanglante, vous infligez  [[/r {1d12}[persistent,bleed] # Rune sanglante]]{1d12 dégâts de saignement persistants} supplémentaires.",
-          "success": "<b>Rune sanglante</b> Lorsque vous touchez une créature avec une arme sanglante, vous infligez  [[/r {1d6}[persistent,bleed] # Rune sanglante]]{1d6 dégâts de saignement persistants} supplémentaires."
+          "criticalSuccess": "<strong>Rune sanglante</strong> En cas de coup critique avec une arme sanglante, vous infligez  [[/r {1d12}[persistent,bleed] # Rune sanglante]]{1d12 dégâts de saignement persistants} supplémentaires.",
+          "success": "<strong>Rune sanglante</strong> Lorsque vous touchez une créature avec une arme sanglante, vous infligez  [[/r {1d6}[persistent,bleed] # Rune sanglante]]{1d6 dégâts de saignement persistants} supplémentaires."
         }
       }
     },
@@ -4282,7 +4293,7 @@
       },
       "broken": {
         "name": "Brisé",
-        "rules": "<p>Brisé est un état affectant les objets. Un objet est considéré comme brisé lorsque les dégâts qu’il a subis ont réduit ses points de vie en dessous de son Seuil de rupture. On ne peut plus utiliser normalement un objet brisé, pas plus qu’il n’accorde de bonus, à l’exception d’une armure. Une armure brisée accorde toujours son bonus d’objet à la CA, mais inflige en même temps un malus de statut à la CA en fonction de sa catégorie : −1 pour une armure légère brisée, −2 pour une armure intermédiaire brisée ou −3 pour une armure lourde brisée.</p><p> Un objet brisé continue d’imposer les malus et les limitations normalement encourus lorsqu’on le transporte, le tient ou le porte. Par exemple, une armure brisée imposera toujours son bonus de Dextérité maximal, son malus aux tests, etc.</p><p> Si un effet fait se briser un objet automatiquement et que celui‑ci a plus de points de vie que son Seuil de rupture, cet effet réduit également les points de vie actuels de l’objet à son Seuil de rupture.</p>",
+        "rules": "<p>Brisé est un état affectant les objets. Un objet est considéré comme brisé lorsque les dégâts qu’il a subis ont réduit ses points de vie en dessous de son Seuil de rupture. On ne peut plus utiliser normalement un objet brisé, pas plus qu’il n’accorde de bonus, à l’exception d’une armure. Une armure brisée accorde toujours son bonus d’objet à la CA, mais inflige en même temps un malus de statut à la CA en fonction de sa catégorie : −1 pour une armure légère brisée, −2 pour une armure intermédiaire brisée ou −3 pour une armure lourde brisée.</p>\n<p> Un objet brisé continue d’imposer les malus et les limitations normalement encourus lorsqu’on le transporte, le tient ou le porte. Par exemple, une armure brisée imposera toujours son bonus de Dextérité maximal, son malus aux tests, etc.</p>\n<p>Si un effet fait se briser un objet automatiquement et que celui‑ci a plus de points de vie que son Seuil de rupture, cet effet réduit également les points de vie actuels de l’objet à son Seuil de rupture.</p>",
         "summary": "Cet objet ne peut plus être utilisé à ses fins normales jusqu’à ce qu’il soit réparé."
       },
       "clumsy": {
@@ -4292,12 +4303,12 @@
       },
       "concealed": {
         "name": "Masqué",
-        "rules": "<p>Cet état protège une créature qui se trouve dissimulée dans du brouillard, éclairée par une lumière faible, ou dans une situation qui empêche de la voir correctement, sans pour autant lui conférer une barrière physique contre les effets. Si un effet ou un type de terrain est associé à une zone de masquage, toutes les créatures qui se trouvent dans cette zone sont masquées. Quand vous prenez pour cible une créature masquée, vous devez faire un test nu DD 5 avant de lancer les dés liés à votre effet. Si vous échouez, la cible n’est pas affectée.</p><p>L’état masqué ne modifie pas les grandes catégories de détection qui s’appliquent à la créature. Une créature qui se trouve au cœur d’une volute de brume est toujours observée, même si elle est masquée.</p>",
+        "rules": "<p>Cet état protège une créature qui se trouve dissimulée dans du brouillard, éclairée par une lumière faible, ou dans une situation qui empêche de la voir correctement, sans pour autant lui conférer une barrière physique contre les effets. Si un effet ou un type de terrain est associé à une zone de masquage, toutes les créatures qui se trouvent dans cette zone sont masquées. Quand vous prenez pour cible une créature masquée, vous devez faire un test nu DD 5 avant de lancer les dés liés à votre effet. Si vous échouez, la cible n’est pas affectée.</p>\n<p>L’état masqué ne modifie pas les grandes catégories de détection qui s’appliquent à la créature. Une créature qui se trouve au cœur d’une volute de brume est toujours observée, même si elle est masquée.</p>",
         "summary": "Du brouillard ou un obscurcissement similaire vous rend plus difficile à voir et à cibler."
       },
       "confused": {
         "name": "Confus",
-        "rules": "<p>Vous êtes déconcerté et vous attaquez à l’aveuglette. Vous êtes pris au dépourvu et ne considérez plus personne comme votre allié (ce qui n’empêche pas nécessairement ces créatures de vous considérer comme leur allié) et vous ne pouvez pas utiliser les actions Retarder et Préparer ni utiliser de réactions.<p></p>Vous utilisez toutes vos actions pour Frapper ou lancer des tours de magie offensifs. Le MJ peut cependant vous permettre de faire d’autres actions vous permettant d’attaquer plus facilement, comme dégainer une arme, vous rapprocher d’une cible pour qu’elle soit à portée, et ainsi de suite. Le MJ détermine vos cibles aléatoirement. Si vous n’avez pas d’autre cible valide, vous vous prenez vous-même pour cible. Vous réussissez alors automatiquement vos coups, mais ne portez pas de coup critique. Si vous êtes dans l’impossibilité d’attaquer ou de lancer des sorts, vous marmonnez des choses incohérentes et perdez vos actions. </p><p>À chaque fois que vous subissez des dégâts provenant d’une attaque ou d’un sort, vous pouvez faire un test nu DD 11 afin de vous remettre de votre confusion et mettre un terme à cet état. </p>",
+        "rules": "<p>Vous êtes déconcerté et vous attaquez à l’aveuglette. Vous êtes pris au dépourvu et ne considérez plus personne comme votre allié (ce qui n’empêche pas nécessairement ces créatures de vous considérer comme leur allié) et vous ne pouvez pas utiliser les actions Retarder et Préparer ni utiliser de réactions.<p></p>Vous utilisez toutes vos actions pour Frapper ou lancer des tours de magie offensifs. Le MJ peut cependant vous permettre de faire d’autres actions vous permettant d’attaquer plus facilement, comme dégainer une arme, vous rapprocher d’une cible pour qu’elle soit à portée, et ainsi de suite. Le MJ détermine vos cibles aléatoirement. Si vous n’avez pas d’autre cible valide, vous vous prenez vous-même pour cible. Vous réussissez alors automatiquement vos coups, mais ne portez pas de coup critique. Si vous êtes dans l’impossibilité d’attaquer ou de lancer des sorts, vous marmonnez des choses incohérentes et perdez vos actions. </p>\n<p>À chaque fois que vous subissez des dégâts provenant d’une attaque ou d’un sort, vous pouvez faire un test nu DD 11 afin de vous remettre de votre confusion et mettre un terme à cet état. </p>",
         "summary": "Vous attaquez sans discrimination."
       },
       "controlled": {
@@ -4317,17 +4328,17 @@
       },
       "doomed": {
         "name": "Condamné",
-        "rules": "<p>Votre âme se trouve sous le joug d’une puissante force qui vous pousse toujours plus près de la mort. L’état condamné est toujours accompagné d’une intensité. L’intensité maximale de l’état mourant à partir de laquelle vous mourez est diminuée de l’intensité de votre état condamné. Si votre intensité maximale d’état mourant est réduite à 0, vous mourez instantanément. Si vous mourez, vous perdez l’état condamné.</p><p>L’intensité de votre état condamné est diminuée de 1 à chaque fois que vous vous reposez pendant une nuit complète.</p>",
+        "rules": "<p>Votre âme se trouve sous le joug d’une puissante force qui vous pousse toujours plus près de la mort. L’état condamné est toujours accompagné d’une intensité. L’intensité maximale de l’état mourant à partir de laquelle vous mourez est diminuée de l’intensité de votre état condamné. Si votre intensité maximale d’état mourant est réduite à 0, vous mourez instantanément. Si vous mourez, vous perdez l’état condamné.</p>\n<p>L’intensité de votre état condamné est diminuée de 1 à chaque fois que vous vous reposez pendant une nuit complète.</p>",
         "summary": "Avec votre âme en péril, vous êtes maintenant plus proche de la mort."
       },
       "drained": {
         "name": "Drainé",
-        "rules": "<p>Vous vous affaiblissez quand une créature réussit à drainer votre sang ou votre force vitale. L’état drainé est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à l’intensité de votre état drainé et qui s’applique à vos tests basés sur la Constitution comme les jets de Vigueur. Vous perdez également une quantité de points de vie égale à votre niveau (avec un minimum de 1) multiplié par l’intensité de votre état drainé, et votre maximum de points de vie est réduit de ce montant. Perdre de ces points de vie n’est pas considéré comme subir des dégâts.</p><p>À chaque fois que vous vous reposez une nuit complète, l’intensité de votre état drainé décroît de 1. Votre maximum de points de vie remonte alors, mais vous ne regagnez pas immédiatement les points de vie que vous avez perdus.</p>",
+        "rules": "<p>Vous vous affaiblissez quand une créature réussit à drainer votre sang ou votre force vitale. L’état drainé est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à l’intensité de votre état drainé et qui s’applique à vos tests basés sur la Constitution comme les jets de Vigueur. Vous perdez également une quantité de points de vie égale à votre niveau (avec un minimum de 1) multiplié par l’intensité de votre état drainé, et votre maximum de points de vie est réduit de ce montant. Perdre de ces points de vie n’est pas considéré comme subir des dégâts.</p>\n<p>À chaque fois que vous vous reposez une nuit complète, l’intensité de votre état drainé décroît de 1. Votre maximum de points de vie remonte alors, mais vous ne regagnez pas immédiatement les points de vie que vous avez perdus.</p>",
         "summary": "Une perte de sang ou quelque chose de similaire a sapé votre vitalité."
       },
       "dying": {
         "name": "Mourant",
-        "rules": "<p>Vous vous videz de votre sang ou vous trouvez aux portes de la mort pour une autre raison. Tant que vous êtes dans cet état, vous êtes inconscient. L’état mourant est toujours associé à une intensité et, si celle-ci atteint mourant 4, vous mourez. Si vous êtes mourant, vous devez faire un test de récupération au début de chacun de vos tours afin de déterminer si votre état s’améliore ou empire. L’intensité de votre état mourant augmente de 1 si vous subissez des dégâts pendant que vous êtes mourant, ou de 2 si vous subissez des dégâts infligés par un coup critique ou que vous obtenez un échec critique à votre jet de sauvegarde.</p><p>Si vous quittez l’état mourant parce que vous avez réussi un test de récupération mais que vous êtes toujours à 0 point de vie, vous restez dans l’état inconscient, mais vous pouvez vous réveiller comme expliqué dans le descriptif de cet état. Si jamais vous regagnez un point de vie ou plus, vous quittez l’état mourant automatiquement et vous vous réveillez. À chaque fois que vous quittez l’état mourant, vous gagnez l’état blessé 1, ou augmentez l’intensité de votre état blessé de 1 si vous êtes déjà affecté par cet état.</p>",
+        "rules": "<p>Vous vous videz de votre sang ou vous trouvez aux portes de la mort pour une autre raison. Tant que vous êtes dans cet état, vous êtes inconscient. L’état mourant est toujours associé à une intensité et, si celle-ci atteint mourant 4, vous mourez. Si vous êtes mourant, vous devez faire un test de récupération au début de chacun de vos tours afin de déterminer si votre état s’améliore ou empire. L’intensité de votre état mourant augmente de 1 si vous subissez des dégâts pendant que vous êtes mourant, ou de 2 si vous subissez des dégâts infligés par un coup critique ou que vous obtenez un échec critique à votre jet de sauvegarde.</p>\n<p>Si vous quittez l’état mourant parce que vous avez réussi un test de récupération mais que vous êtes toujours à 0 point de vie, vous restez dans l’état inconscient, mais vous pouvez vous réveiller comme expliqué dans le descriptif de cet état. Si jamais vous regagnez un point de vie ou plus, vous quittez l’état mourant automatiquement et vous vous réveillez. À chaque fois que vous quittez l’état mourant, vous gagnez l’état blessé 1, ou augmentez l’intensité de votre état blessé de 1 si vous êtes déjà affecté par cet état.</p>",
         "summary": "Vous glissez vers la mort."
       },
       "encumbered": {
@@ -4347,12 +4358,12 @@
       },
       "fatigued": {
         "name": "Fatigué",
-        "rules": "<p>Vous êtes fatigué et n’arrivez pas à rassembler vos forces. Vous subissez un malus de statut de −1 à votre CA et à vos jets de sauvegarde. Quand vous explorez, vous ne pouvez pas choisir d’activité d’exploration. Vous vous remettez de l’état fatigué au terme d’une nuit complète de repos.</p>",
+        "rules": "<p>Vous êtes fatigué et n’arrivez pas à rassembler vos forces. Vous subissez un malus de statut de −1 à votre CA et à vos jets de sauvegarde. Quand vous explorez, vous ne pouvez pas choisir d’activité d’exploration.</p>\n<p>Vous vous remettez de l’état fatigué au terme d’une nuit complète de repos.</p>",
         "summary": "Vos défenses sont plus basses et vous ne parvenez pas à vous concentrer lors de votre exploration."
       },
       "flat-footed": {
         "name": "Pris au dépourvu",
-        "rules": "<p>Vous êtes distrait, ou quelque chose d’autre vous empêche de vous concentrer entièrement sur vos défenses. Vous subissez un malus de circonstances de −2 à votre CA. Certains effets vous confèrent l’état pris au dépourvu seulement face à certaines créatures ou certaines attaques. D’autres, notamment les états, vous rendent pris au dépourvu contre tout. Si une règle ne précise pas que cet état est seulement valable dans une situation donnée, il est valable pour toutes les situations. Par exemple, de nombreux effets précisent simple ment : « la cible est prise au dépourvu ».</p>",
+        "rules": "<p>Vous êtes distrait, ou quelque chose d’autre vous empêche de vous concentrer entièrement sur vos défenses. Vous subissez un malus de circonstances de −2 à votre CA. Certains effets vous confèrent l’état pris au dépourvu seulement face à certaines créatures ou certaines attaques. D’autres, notamment les états, vous rendent pris au dépourvu contre tout. Si une règle ne précise pas que cet état est seulement valable dans une situation donnée, il est valable pour toutes les situations. Par exemple, de nombreux effets précisent simplement : « la cible est prise au dépourvu ».</p>",
         "summary": "Vous êtes incapable de vous défendre avec toutes vos capacités"
       },
       "fleeing": {
@@ -4372,7 +4383,7 @@
       },
       "grabbed": {
         "name": "Agrippé",
-        "rules": "<p>Vous êtes maintenu en place par une autre créature, ce qui vous confère les états Pris au dépourvu et Immobilisé. Si vous entreprenez une action de manipulation pendant que vous êtes empoigné, vous devez réussir un test nu DD 5 ou perdre cette action. Vous faites le test après avoir dépensé l’action et avant que ses effets s’appliquent. </p>",
+        "rules": "<p>Vous êtes maintenu en place par une autre créature, ce qui vous confère les états Pris au dépourvu et Immobilisé. Si vous entreprenez une action de manipulation pendant que vous êtes empoigné/agrippé, vous devez réussir un test nu DD 5 ou perdre cette action. Vous faites le test après avoir dépensé l’action et avant que ses effets ne s’appliquent. </p>",
         "summary": "Une créature, un objet ou la magie vous maintient à votre place."
       },
       "group": {
@@ -4388,7 +4399,7 @@
       },
       "hidden": {
         "name": "Caché",
-        "rules": "<p>Quand vous êtes caché d’une créature, celle-ci sait dans quel espace vous vous trouvez, mais elle ne peut pas dire précisément où vous vous trouvez. Vous devenez généralement caché après avoir utilisé Discrétion pour Vous cacher. Quand vous Cherchez une créature en utilisant seulement des sens imprécis, celle-ci se trouve dans l’état caché plutôt qu’observé. Une créature par rapport à laquelle vous êtes caché est prise au dépourvu face à vous. Elle doit réussir un test nu DD 11 quand elle vous cible avec une attaque, un sort ou un autre effet pour avoir une chance de vous affecter. Les zones d’effet ne sont pas sujettes à ce test nu.</p><p>Une créature peut tenter de faire appel à l’action Chercher pour tenter de changer votre état en observé.</p>",
+        "rules": "<p>Quand vous êtes caché d’une créature, celle-ci sait dans quel espace vous vous trouvez, mais elle ne peut pas dire précisément où vous vous trouvez. Vous devenez généralement caché après avoir utilisé Discrétion pour Vous cacher. Quand vous Cherchez une créature en utilisant seulement des sens imprécis, celle-ci se trouve dans l’état caché plutôt qu’observé. Une créature par rapport à laquelle vous êtes caché est prise au dépourvu face à vous. Elle doit réussir un test nu DD 11 quand elle vous cible avec une attaque, un sort ou un autre effet pour avoir une chance de vous affecter. Les zones d’effet ne sont pas sujettes à ce test nu.</p>\n<p>Une créature peut tenter de faire appel à l’action Chercher pour tenter de changer votre état en observé.</p>",
         "summary": "Une créature sait où vous vous trouvez mais ne peut vous voir."
       },
       "hostile": {
@@ -4433,7 +4444,7 @@
       },
       "prone": {
         "name": "À terre",
-        "rules": "<p>Vous êtes étendu au sol. Vous êtes Pris au dépourvu et subissez un malus de circonstances de −2 à vos jets d’attaque. Les seules actions de déplacement que vous pouvez entreprendre quand vous êtes à terre sont Ramper ou Vous relever. Si vous Vous relevez, vous mettez un terme à l’état à terre. Quand vous êtes à terre, vous pouvez vous Mettre à l’abri pour vous accroupir et bénéficier d’un abri contre les attaques à distances, même si vous ne vous abritez pas derrière un objet. Vous gagnez alors un bonus de circonstances de +4 à votre CA contre les attaques à distance (mais restez dans l’état pris au dépourvu).</p><p>Si vous tombez à terre alors que vous étiez en train d’Escalader ou de Voler, vous chutez (consultez la page 464 pour voir les règles relatives aux chutes). Vous ne pouvez pas être renversé et tomber à terre quand vous nagez.</p>",
+        "rules": "<p>Vous êtes étendu au sol. Vous êtes Pris au dépourvu et subissez un malus de circonstances de −2 à vos jets d’attaque. Les seules actions de déplacement que vous pouvez entreprendre quand vous êtes à terre sont Ramper ou Vous relever. Si vous Vous relevez, vous mettez un terme à l’état à terre. Quand vous êtes à terre, vous pouvez vous Mettre à l’abri pour vous accroupir et bénéficier d’un abri contre les attaques à distances, même si vous ne vous abritez pas derrière un objet. Vous gagnez alors un bonus de circonstances de +4 à votre CA contre les attaques à distance (mais restez dans l’état pris au dépourvu).</p>\n<p>Si vous tombez à terre alors que vous étiez en train d’Escalader ou de Voler, vous chutez. Vous ne pouvez pas être renversé et tomber à terre quand vous nagez.</p>",
         "summary": "Vous vous retrouvez au sol et plus facile à attaquer."
       },
       "quickened": {
@@ -4443,12 +4454,12 @@
       },
       "restrained": {
         "name": "Entravé",
-        "rules": "<p>Vous êtes attaché et ne pouvez pas bouger, ou une créature vous a saisi et immobilisé. Vous vous trouvez dans les états Pris au dépourvu et Immobilisé, et vous ne pouvez entreprendre aucune action dotée des traits attaque ou manipulation, sauf si vous tentez ainsi de Vous échapper ou d’Ouvrir vos liens de force. L’état entravé est prépondérant sur l’état empoigné.</p>",
+        "rules": "<p>Vous êtes attaché et ne pouvez pas bouger ou une créature vous a saisi et immobilisé. Vous vous trouvez dans les états Pris au dépourvu et Immobilisé et vous ne pouvez entreprendre aucune action dotée des traits attaque ou manipulation, sauf si vous tentez ainsi de Vous échapper ou d’Ouvrir de force vos liens. L’état entravé est prépondérant sur l’état empoigné/agrippé.</p>",
         "summary": "Vous êtes attaché et ne pouvez pas bouger ou une créature vous a empoigné."
       },
       "sickened": {
         "name": "Malade",
-        "rules": "<p>Vous vous sentez malade. L’état malade est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette valeur à tous vos tests et DD. Quand vous êtes malade, vous ne pouvez pas volontairement ingérer quelque chose, y compris des élixirs et des potions.</p><p>Vous pouvez dépenser une action unique pour tenter de vomir afin de vous remettre de cet état. Vous faites alors immédiatement un jet de Vigueur contre le DD de l’effet qui vous a rendu malade. Sur un succès, vous réduisez l’intensité de l’état malade de 1 (ou de 2 sur un succès critique).</p>",
+        "rules": "<p>Vous vous sentez nauséeux. L’état malade est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette valeur à tous vos tests et DD. Quand vous êtes malade, vous ne pouvez pas volontairement ingérer quelque chose, y compris des élixirs et des potions.</p>\n<p>Vous pouvez dépenser une action unique pour tenter de vomir afin de vous remettre de cet état. Vous faites alors immédiatement un jet de Vigueur contre le DD de l’effet qui vous a rendu malade. Sur un succès, vous réduisez l’intensité de l’état malade de 1 (ou de 2 sur un succès critique).</p>",
         "summary": "Vous vous sentez mal."
       },
       "slowed": {
@@ -4458,22 +4469,22 @@
       },
       "stunned": {
         "name": "Étourdi",
-        "rules": "<p>Vous êtes hébété. Vous ne pouvez pas agir tant que vous êtes étourdi. L’état étourdi est toujours accompagné d’une intensité qui indique la quantité d’actions que vous perdez, parfois pendant plusieurs tours, du fait de cet état. À chaque fois que vous regagnez des actions (au début de votre tour, par exemple), vous réduisez la quantité d’actions regagnées de l’intensité de votre état étourdi, puis réduisez l’intensité de votre état par le nombre d’actions que vous avez perdues. Par exemple, si vous êtes étourdi 4, vous perdez vos 3 actions au début de votre tour et vous devenez alors étourdi 1. Lors de votre prochain tour, vous perdrez une action supplémentaire, puis vous pourrez utiliser vos 2 actions restantes normalement. L’état étourdi peut également être accompagné d’une durée à la place d’une intensité, comme « étourdi pendant 1 min ». Dans ce cas-là, vous perdez toutes vos actions pour la durée indiquée.</p><p>L’état Étourdi est prépondérant sur l’état Ralenti. Si la durée de votre état étourdi prend fin alors que vous êtes ralenti, les actions perdues du fait de l’état étourdi sont prises en compte dans le décompte des actions perdues du fait de l’état ralenti. Ainsi, si vous êtes étourdi 1 et ralenti 2 au début de votre tour, vous perdez 1 action à cause de l’état étourdi puis perdez 1 action supplémentaire car vous êtes ralenti, et il vous reste 1 action à utiliser pour ce tour.</p>",
+        "rules": "<p>Vous êtes hébété. Vous ne pouvez pas agir tant que vous êtes étourdi. L’état étourdi est toujours accompagné d’une intensité qui indique la quantité d’actions que vous perdez, parfois pendant plusieurs tours, du fait de cet état. À chaque fois que vous regagnez des actions (au début de votre tour, par exemple), vous réduisez la quantité d’actions regagnées de l’intensité de votre état étourdi, puis réduisez l’intensité de votre état par le nombre d’actions que vous avez perdues. Par exemple, si vous êtes étourdi 4, vous perdez vos 3 actions au début de votre tour et vous devenez alors étourdi 1. Lors de votre prochain tour, vous perdrez une action supplémentaire, puis vous pourrez utiliser vos 2 actions restantes normalement. L’état étourdi peut également être accompagné d’une durée à la place d’une intensité, comme « étourdi pendant 1 minute ». Dans ce cas-là, vous perdez toutes vos actions pour la durée indiquée.</p>\n<p>L’état Étourdi est prépondérant sur l’état Ralenti. Si la durée de votre état étourdi prend fin alors que vous êtes ralenti, les actions perdues du fait de l’état étourdi sont prises en compte dans le décompte des actions perdues du fait de l’état ralenti. Ainsi, si vous êtes étourdi 1 et ralenti 2 au début de votre tour, vous perdez 1 action à cause de l’état étourdi puis perdez 1 action supplémentaire car vous êtes ralenti et il vous reste 1 action à utiliser pour ce tour.</p>",
         "summary": "Vous êtes plus ou moins hébété."
       },
       "stupefied": {
         "name": "Stupéfié",
-        "rules": "<p>Vos pensées et votre instinct sont embrouillés. L’état stupéfié est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette intensité qui s’applique à vos tests et vos DD basés sur l’Intelligence, la Sagesse et le Charisme, dont vos jets de Volonté, vos jets d’attaques de sorts, vos DD de sorts et vos tests de compétences basés sur ces caractéristiques. À chaque fois que vous tentez de Lancer un sort quand vous êtes stupéfié, ce sort est interrompu, sauf si vous réussissez un test nu dont le DD est égal à 5 + l’intensité de votre état stupéfié.</p>",
+        "rules": "<p>Vos pensées et vos instincts sont embrouillés. L’état stupéfié est toujours accompagné d’une intensité. Vous subissez un malus de statut égal à cette intensité qui s’applique à vos tests et vos DD basés sur l’Intelligence, la Sagesse et le Charisme, dont vos jets de Volonté, vos jets d’attaques de sorts, vos DD de sorts et vos tests de compétences basés sur ces caractéristiques. À chaque fois que vous tentez de Lancer un sort quand vous êtes stupéfié, ce sort est interrompu, sauf si vous réussissez un test nu dont le DD est égal à 5 + l’intensité de votre état stupéfié.</p>",
         "summary": "Vous n’avez pas accès à l’ensemble de vos capacités mentales et avez des difficultés à lancer des sorts."
       },
       "unconscious": {
         "name": "Inconscient",
-        "rules": "<p>Vous dormez ou avez été assommé. Vous ne pouvez pas faire d’action. Vous subissez un malus de −4 à votre CA, à votre Perception et à vos jets de Réflexes et vous vous trouvez dans les états aveugle et pris au dépourvu. Quand vous gagnez cet état, vous tombez à terre et lâchez les objets que vous tenez en main, sauf si l’effet précise le contraire ou que le MJ détermine que vous êtes dans une situation qui ne s’y prête pas.</p><p>Si vous êtes inconscient parce que vous êtes mourant, vous ne pouvez pas vous réveiller tant que vous êtes réduit à 0 point de vie. Si vous regagnez 1 point de vie ou plus grâce à des soins, vous perdez les états mourant et inconscient et vous pouvez agir normalement lors de votre prochain tour.</p><p>Si vous êtes inconscient et avez 0 point de vie mais n’êtes pas mourant, vous regagnez naturellement 1 point de vie et vous éveillez au bout d’un certain temps. Le MJ détermine alors combien de temps vous êtes inconscient : un intervalle allant de 10 min à plusieurs heures. Si vous recevez des soins pendant cet intervalle de temps, vous perdez l’état inconscient et pouvez agir normalement lors de votre prochain tour.</p><p>Si vous êtes inconscient et avez plus de 1 point de vie (généralement parce qu’un effet vous a endormi ou rendu inconscient), vous pouvez vous réveiller pour l’une des raisons suivantes. Chacune vous fait perdre l’état inconscient.</p><ul><li>• Vous subissez des dégâts qui ne vous réduisent pas à 0 point de vie. Si ces dégâts vous réduisent à 0 point de vie, vous restez inconscient et gagnez également l’état mourant.</li><li>• Vous êtes soumis à un effet de guérison, autre que la guérison naturelle dont vous bénéficiez en vous reposant. • Quelqu’un vous réveille avec une action d’Interaction.</li><li>• Un bruit fort se produit alentour. Vous ne vous réveillez cependant pas automatiquement. Au début de votre tour, vous faites automatiquement un test de Perception contre le DD du bruit (ou, s’il s’agit de plusieurs bruits, le DD le moins élevé). Sur un succès, vous vous réveillez. Si des créatures se trouvent autour de vous et tentent de rester discrètes, ce test de Perception est fait contre leur DD de Discrétion. Certains effets magiques vous font sombrer dans un sommeil si profond que vous ne pouvez pas faire ce test de Perception.</li><li>• Si vous êtes simplement endormi, le MJ peut décider que vous vous réveillez parce que vous avez assez dormi ou parce que quelque chose a troublé votre sommeil.</ul>",
+        "rules": "<p>Vous dormez ou avez été assommé. Vous ne pouvez pas faire d’action. Vous subissez un malus de −4 à votre CA, à votre Perception et à vos jets de Réflexes et vous vous trouvez dans les états aveugle et pris au dépourvu. Quand vous gagnez cet état, vous tombez à terre et lâchez les objets que vous tenez en main, sauf si l’effet précise le contraire ou que le MJ détermine que vous êtes dans une situation qui ne s’y prête pas.</p>\n<p>Si vous êtes inconscient parce que vous êtes mourant, vous ne pouvez pas vous réveiller tant que vous êtes réduit à 0 point de vie. Si vous regagnez 1 point de vie ou plus grâce à des soins, vous perdez les états mourant et inconscient et vous pouvez agir normalement lors de votre prochain tour.</p>\n<p>Si vous êtes inconscient et avez 0 point de vie mais n’êtes pas mourant, vous regagnez naturellement 1 point de vie et vous éveillez au bout d’un certain temps. Le MJ détermine alors combien de temps vous êtes inconscient : un intervalle allant de 10 min à plusieurs heures. Si vous recevez des soins pendant cet intervalle de temps, vous perdez l’état inconscient et pouvez agir normalement lors de votre prochain tour.</p>\n<p>Si vous êtes inconscient et avez plus de 1 point de vie (généralement parce qu’un effet vous a endormi ou rendu inconscient), vous pouvez vous réveiller pour l’une des raisons suivantes. Chacune vous fait perdre l’état inconscient.</p><ul><li>Vous subissez des dégâts qui ne vous réduisent pas à 0 point de vie. Si ces dégâts vous réduisent à 0 point de vie, vous restez inconscient et gagnez également l’état mourant.</li><li>Vous êtes soumis à un effet de guérison, autre que la guérison naturelle dont vous bénéficiez en vous reposant.</li><li>Quelqu’un vous réveille avec une action d’Interaction.</li><li>Un bruit fort se produit alentour. Vous ne vous réveillez cependant pas automatiquement. Au début de votre tour, vous faites automatiquement un test de Perception contre le DD du bruit (ou, s’il s’agit de plusieurs bruits, le DD le moins élevé). Sur un succès, vous vous réveillez. Si des créatures se trouvent autour de vous et tentent de rester discrètes, ce test de Perception est fait contre leur DD de Discrétion. Certains effets magiques vous font sombrer dans un sommeil si profond que vous ne pouvez pas faire ce test de Perception.</li><li>Si vous êtes simplement endormi, le MJ peut décider que vous vous réveillez parce que vous avez assez dormi ou parce que quelque chose a troublé votre sommeil.</ul></p>",
         "summary": "Vous êtes endormi ou avez été assommé."
       },
       "undetected": {
         "name": "Non détecté",
-        "rules": "<p>Quand vous êtes non détecté par une créature, celle-ci ne peut pas vous voir du tout, elle n’a aucune idée de l’espace que vous occupez et elle ne peut pas vous prendre pour cible. Vous pouvez cependant toujours être affecté par les pouvoirs qui ciblent une zone. Quand vous êtes non détecté par une créature, celle-ci se trouve prise au dépourvu face à vous.</p><p>Une créature face à laquelle vous êtes non détecté peut tenter de deviner quelle case vous occupez afin de vous prendre pour cible. Elle doit alors désigner une case et tenter une attaque. Le fonctionnement est alors le même que pour cibler une créature cachée (qui nécessite de faire un test nu DD 11, comme expliqué en page 466), mais le test nu et le jet d’attaque sont faits en secret par le MJ qui ne précise alors pas si l’attaque échoue à cause d’un échec du test nu, du jet d’attaque ou d’un mauvais choix de case.</p><p>Une créature peut entreprendre l’action Chercher pour tenter de vous trouver, comme décrit en page 470.</p>",
+        "rules": "<p>Quand vous êtes non détecté par une créature, celle-ci ne peut pas vous voir du tout, elle n’a aucune idée de l’espace que vous occupez et elle ne peut pas vous prendre pour cible. Vous pouvez cependant toujours être affecté par les pouvoirs qui ciblent une zone. Quand vous êtes non détecté par une créature, celle-ci se trouve prise au dépourvu face à vous.</p>\n<p>Une créature face à laquelle vous êtes non détecté peut tenter de deviner quelle case vous occupez afin de vous prendre pour cible. Elle doit alors désigner une case et tenter une attaque. Le fonctionnement est alors le même que pour cibler une créature cachée (qui nécessite de faire un test nu DD 11, comme expliqué en page 466), mais le test nu et le jet d’attaque sont faits en secret par le MJ qui ne précise alors pas si l’attaque échoue à cause d’un échec du test nu, du jet d’attaque ou d’un mauvais choix de case.</p>\n<p>Une créature peut entreprendre l’action Chercher pour tenter de vous trouver</p>",
         "summary": "Une créature qui ne vous a pas détecté ne sait pas que vous êtes là."
       },
       "unfriendly": {
@@ -4488,7 +4499,7 @@
       },
       "wounded": {
         "name": "Blessé",
-        "rules": "<p>Vous avez été gravement blessé. Si vous perdez l’état mourant et que vous n’êtes pas encore dans l’état blessé, vous devenez blessé 1. Si vous êtes déjà dans l’état blessé quand vous perdez l’état mourant, l’intensité de votre état blessé augmente de 1. Si vous gagnez l’état mourant alors que vous êtes blessé, vous ajoutez alors à l’intensité de votre état mourant celle de votre état blessé.</p><p>L’état blessé prend fin si quelqu’un réussit à vous rendre des points de vie grâce à Soigner les blessures, ou si vous regagnez l’ensemble de vos points de vie et vous reposez pendant 10 min.</p>",
+        "rules": "<p>Vous avez été gravement blessé. Si vous perdez l’état mourant et que vous n’êtes pas encore dans l’état blessé, vous devenez blessé 1. Si vous êtes déjà dans l’état blessé quand vous perdez l’état mourant, l’intensité de votre état blessé augmente de 1. Si vous gagnez l’état mourant alors que vous êtes blessé, vous ajoutez alors à l’intensité de votre état mourant celle de votre état blessé.</p>\n<p>L’état blessé prend fin si quelqu’un réussit à vous rendre des points de vie grâce à Soigner les blessures, ou si vous regagnez l’ensemble de vos points de vie et vous reposez pendant 10 minutes.</p>",
         "summary": "Vous avez été ramené des portes de la mort mais n’avez pas entièrement recouvré votre santé."
       }
     },
@@ -4597,7 +4608,7 @@
       "NamePlaceholder": "Véhicule",
       "PassengersLabel": "Passagers",
       "PilotingCheckLabel": "Test de pilotage",
-      "PropertyDescriptionCollisionDC": "Le DD du véhicule pour les jets de sauvegarde pour modérer les dégâtss.",
+      "PropertyDescriptionCollisionDC": "Le DD du véhicule pour les jets de sauvegarde pour modérer les dégâts.",
       "PropertyDescriptionCollisionDamage": "Les dégâts de collision du véhicule. Sauf changement, les collisions infligent des dégâts contondants.",
       "PropertyDescriptionCrew": "Les membres d'équipage nécessaires pour manier le véhicule",
       "PropertyDescriptionPassengers": "Le nombre de passagers que le véhicule peut habituellement emporter, s'il y en a",
