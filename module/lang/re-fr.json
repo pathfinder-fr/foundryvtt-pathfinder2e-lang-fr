@@ -54,27 +54,27 @@
       "ForestsOrSwamps": "dans les forêts ou les marais",
       "HighJumpOrLongJump": "pour sauter en hauteur ou en longueur",
       "ImitateStone": "pour imiter la pierre",
-      "Impersonate": "pour se déguiser",
+      "Impersonate": "pour Se déguiser",
       "ImpersonateCloakSheetRay": "Pour Se déguiser en une cape, une feuille ou un rayon",
       "Lair": "dans son antre",
-      "Sewers": "Dans les égoûts",
+      "Sewers": "dans les égoûts",
       "Shove": "pour Pousser",
-      "Singing": "chanter",
+      "Singing": "pour chanter",
       "Squeeze": "pour se faufiler",
-      "StonyOrIcyAreas": "Dans les zones rocheusees ou glacées",
+      "StonyOrIcyAreas": "Dans les zones rocheuses ou glacées",
       "Swamps": "dans les marais",
       "Swim": "pour nager",
       "Track": "pour pister",
       "TrackBleedingCreature": "pour pister une créature qui saigne",
       "Traps": "pièges",
       "TrashAndRubbish": "Dans les déchets et les poubelles",
-      "Underground": "souterrain",
+      "Underground": "en souterrain",
       "Undergrowth": "dans les sous-bois",
       "VsArthropods": "contre les arthropodes",
       "VsControlled": "contre les effets de contrôle",
       "VsDiseases": "contre les maladies",
       "VsProne": "contre les effets de mise à terre",
-      "VsShoveOrTrip": "contre pousser ou croc-en-jambe",
+      "VsShoveOrTrip": "contre Pousser ou Croc-en-jambe",
       "Water": "dans l'eau",
       "Weave": "pour Tisser"
     },
@@ -137,13 +137,13 @@
       },
       "MartialProficiency": {
         "AdvancedAzarketiWeapons": "Armes azarketies avancées",
-        "AdvancedCatfolkWeapons": "Armes homme-félin avancées",
-        "AdvancedConrasuWeapons": "Armes Conrasu avancées ",
+        "AdvancedCatfolkWeapons": "Armes félides avancées",
+        "AdvancedConrasuWeapons": "Armes conrasues avancées ",
         "AdvancedDwarfWeapons": "Armes naines avancées",
         "AdvancedElfWeapons": "Armes elfes avancées",
         "AdvancedFirearmsCrossbows": "Armes à feu et arbalètes avancées",
         "AdvancedGeniekinWeapons": "Armes des descendants de génie avancées",
-        "AdvancedGnollWeapons": "Armes gnolls avancées",
+        "AdvancedGnollWeapons": "Armes gnolles avancées",
         "AdvancedGnomeWeapons": "Arme gnomes avancées",
         "AdvancedGoblinWeapons": "Armes gobelines avancées",
         "AdvancedGrippliWeapons": "Armes gripplies avancées",
@@ -154,7 +154,7 @@
         "AdvancedTenguWeapons": "Armes tengues avancées",
         "MartialAzarketiWeapons": "Armes de guerre azarketies",
         "MartialCatfolkWeapons": "Armes de guerre félides",
-        "MartialConrasuWeapons": "Armes de guerre conrasu",
+        "MartialConrasuWeapons": "Armes de guerre conrasues",
         "MartialDwarfWeapons": "Armes de guerre naines",
         "MartialElfWeapons": "Armes de guerre elfes",
         "MartialFirearmsCrossbows": "Armes à feu et arbalètes de guerre",
@@ -178,8 +178,8 @@
       "Prompt": {
         "CreatureSize": "Choisir une taille de créature",
         "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
-        "PathToPerfection": "Choisissez une Voie vers la perfection",
-        "Skill": "Choisissez une compétence",
+        "PathToPerfection": "Choisir une Voie vers la perfection",
+        "Skill": "Choisir une compétence",
         "WeaponGroup": "Choisir un groupe d'arme"
       },
       "SpecialtyCrafting": {
@@ -190,7 +190,7 @@
         "Glassmaking": "Verrerie",
         "Leatherworking": "Maroquinerie",
         "Pottery": "Poterie",
-        "Prompt": "Choisissez une spécialité",
+        "Prompt": "Choisir une spécialité",
         "Shipbuilding": "Construction navale",
         "Stonemasonry": "Taille de pierre",
         "Tailoring": "Couture",
@@ -204,14 +204,14 @@
           "DragHomebrewItem": "Glisser un objet maison ici si vous en utilisez un au lieu des options ci-dessus",
           "HomebrewItem": "Objet maison",
           "Prompt": "Faites une sélection",
-          "SaveLabel": "Sauvegarde"
+          "SaveLabel": "Sauvegarder"
         },
         "EffectTarget": {
           "Prompt": "Choisissez la cible de cet effet."
         },
         "Prompt": {
           "NoSelectionMade": "Aucune sélection n'a été faite : {item} est inactif.",
-          "NoValidOptions": "{actor} n'a pas de cible valide  pour {item}."
+          "NoValidOptions": "{actor} n'a pas de cible valide pour {item}."
         }
       }
     }
