@@ -1,5 +1,8 @@
 {
   "PF2E": {
+    "NPCAbility": {
+      "IncreasedCriticalChance": "Si l'attaque touche et que la créature obtient un 19 sur le d20, l'attaque est un coup critique. Cela n'a pas d'effet si le 19 aurait dû être un échec."
+    },
     "RuleElement": {
       "ActiveEffectLike": "sorte d'effet actif",
       "ActorTraits": "Traits de l'acteur",
@@ -39,32 +42,47 @@
       "WeaponPotency": "Puissance d'arme"
     },
     "SkillVariant": {
+      "AboutCaves": "à propos des grottes",
       "Blacksmithing": "pour forger",
       "Climb": "pour escalader",
       "ClimbOrSwim": "pour escalader ou nager",
+      "CraftTrapSnare": "pour Fabriquer des pièges et des pièges artisanaux",
       "Disarm": "pour désarmer",
+      "DisarmMetal": "Pour désarmer un objet métallique",
       "Escape": "pour s'échapper",
       "Forests": "dans les forêts",
       "ForestsOrSwamps": "dans les forêts ou les marais",
       "HighJumpOrLongJump": "pour sauter en hauteur ou en longueur",
       "ImitateStone": "pour imiter la pierre",
       "Impersonate": "pour se déguiser",
+      "ImpersonateCloakSheetRay": "Pour Se déguiser en une cape, une feuille ou un rayon",
       "Lair": "dans son antre",
+      "Sewers": "Dans les égoûts",
+      "Shove": "pour Pousser",
       "Singing": "chanter",
       "Squeeze": "pour se faufiler",
+      "StonyOrIcyAreas": "Dans les zones rocheusees ou glacées",
       "Swamps": "dans les marais",
       "Swim": "pour nager",
       "Track": "pour pister",
       "TrackBleedingCreature": "pour pister une créature qui saigne",
       "Traps": "pièges",
+      "TrashAndRubbish": "Dans les déchets et les poubelles",
       "Underground": "souterrain",
       "Undergrowth": "dans les sous-bois",
       "VsArthropods": "contre les arthropodes",
+      "VsControlled": "contre les effets de contrôle",
+      "VsDiseases": "contre les maladies",
       "VsProne": "contre les effets de mise à terre",
       "VsShoveOrTrip": "contre pousser ou croc-en-jambe",
-      "Water": "dans l'eau"
+      "Water": "dans l'eau",
+      "Weave": "pour Tisser"
     },
     "SpecificRule": {
+      "AdvancedGeneralTraining": {
+        "AllowedDrops": "don général de niveau 7 ou inférieur",
+        "Prompt": "Choisissez un don général de niveau 7 ou inférieur"
+      },
       "ClanWeapon": {
         "Label": "Arme de clan",
         "Prompt": "Choisir une arme de clan"
@@ -113,6 +131,10 @@
           "sword": "Épées simples et de guerre"
         }
       },
+      "GeneralTraining": {
+        "AllowedDrops": "don général de niveau 1",
+        "Prompt": "Choisissez un don général de niveau 1"
+      },
       "MartialProficiency": {
         "AdvancedAzarketiWeapons": "Armes azarketies avancées",
         "AdvancedCatfolkWeapons": "Armes homme-félin avancées",
@@ -146,6 +168,7 @@
         "MartialKoboldWeapons": "Armes de guerre koboldes",
         "MartialOrcWeapons": "Armes de guerre orques",
         "MartialTenguWeapons": "Armes de guerre tengues",
+        "MonasticArchery": "Archerie monastique",
         "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples"
       },
       "Multitalented": {
@@ -155,7 +178,24 @@
       "Prompt": {
         "CreatureSize": "Choisir une taille de créature",
         "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
+        "PathToPerfection": "Choisissez une Voie vers la perfection",
+        "Skill": "Choisissez une compétence",
         "WeaponGroup": "Choisir un groupe d'arme"
+      },
+      "SpecialtyCrafting": {
+        "Alchemy": "Alchimie",
+        "Artistry": "Sens artistique",
+        "Blacksmithing": "Forge",
+        "Bookmaking": "Confection de livres",
+        "Glassmaking": "Verrerie",
+        "Leatherworking": "Maroquinerie",
+        "Pottery": "Poterie",
+        "Prompt": "Choisissez une spécialité",
+        "Shipbuilding": "Construction navale",
+        "Stonemasonry": "Taille de pierre",
+        "Tailoring": "Couture",
+        "Weaving": "Tissage",
+        "Woodworking": "Ébénisterie"
       }
     },
     "UI": {
