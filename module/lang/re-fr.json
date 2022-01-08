@@ -177,6 +177,7 @@
       },
       "Prompt": {
         "CreatureSize": "Choisir une taille de créature",
+        "Lesson": "Choisir une leçon",
         "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
         "PathToPerfection": "Choisir une Voie vers la perfection",
         "Skill": "Choisir une compétence",
