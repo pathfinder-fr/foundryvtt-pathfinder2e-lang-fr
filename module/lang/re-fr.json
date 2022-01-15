@@ -1,7 +1,16 @@
 {
   "PF2E": {
     "NPCAbility": {
-      "IncreasedCriticalChance": "Si l'attaque touche et que la créature obtient un 19 sur le d20, l'attaque est un coup critique. Cela n'a pas d'effet si le 19 aurait dû être un échec."
+      "FormationArea": "Formation (contre Effets de zone)",
+      "HuntedFear": {
+        "Demoralize": "La cible est dans un labyrinthe ou une structure similaire dans laquelle il est difficile de naviguer",
+        "Survival": "Pour éviter de se perdre"
+      },
+      "IgnoreConcealed": "L'attaque ignore l'état @Compendium[pf2e.conditionitems.Concealed]{Masqué}",
+      "IgnoreCover": "La cible ne bénéficie pas d'un abri inférieur et réduit le bonus à la CA d'un abri standard de 2 contre l'attaque.",
+      "IncreasedCriticalChance": "Si l'attaque touche et que la créature obtient un 19 sur le d20, l'attaque est un coup critique. Cela n'a pas d'effet si le 19 aurait dû être un échec.",
+      "IncreasedReach5": "Allonge augmentée de 1,5 m",
+      "NightmareGuardianRage": "Rage du gardien de cauchemar"
     },
     "RuleElement": {
       "ActiveEffectLike": "sorte d'effet actif",
@@ -16,6 +25,7 @@
       "DamageDice": "Dé de dégât",
       "DexterityModifierCap": "Modif. Max. de Dextérité",
       "EffectTarget": "Cible de l'effet",
+      "FastHealing": "Guérison accélérée/régénération",
       "FixedProficiency": "Compétence fixe",
       "FlatModifier": "Test nu/pur",
       "GrantItem": "Objet accordé",
@@ -47,20 +57,32 @@
       "Climb": "pour escalader",
       "ClimbOrSwim": "pour escalader ou nager",
       "CraftTrapSnare": "pour Fabriquer des pièges et des pièges artisanaux",
+      "Darkness": "dans l'obscurité",
+      "Deserts": "dans les déserts",
       "Disarm": "pour désarmer",
       "DisarmMetal": "Pour désarmer un objet métallique",
+      "DisarmStoneMetal": "Pour désarmer les objets en pierre ou en métal",
       "Escape": "pour s'échapper",
       "Forests": "dans les forêts",
       "ForestsOrSwamps": "dans les forêts ou les marais",
+      "Grapple": "pour Agripper",
+      "Hide": "Pour se cacher",
       "HighJumpOrLongJump": "pour sauter en hauteur ou en longueur",
       "ImitateStone": "pour imiter la pierre",
       "Impersonate": "pour Se déguiser",
       "ImpersonateCloakSheetRay": "Pour Se déguiser en une cape, une feuille ou un rayon",
+      "Jungles": "Dans la jungle",
       "Lair": "dans son antre",
+      "Mountains": "Dans les montagnes",
+      "Navigate": "Pour naviguer",
+      "Paint": "Pour peindre",
+      "Sand": "Dans le sable",
       "Sewers": "dans les égoûts",
       "Shove": "pour Pousser",
       "Singing": "pour chanter",
+      "Snow": "Dans la neige",
       "Squeeze": "pour se faufiler",
+      "Steal": "Pour voler",
       "StonyOrIcyAreas": "Dans les zones rocheuses ou glacées",
       "Swamps": "dans les marais",
       "Swim": "pour nager",
@@ -68,8 +90,10 @@
       "TrackBleedingCreature": "pour pister une créature qui saigne",
       "Traps": "pièges",
       "TrashAndRubbish": "Dans les déchets et les poubelles",
+      "Trip": "Pour mettre à terre",
       "Underground": "en souterrain",
       "Undergrowth": "dans les sous-bois",
+      "Vegetation": "Dans la végétation",
       "VsArthropods": "contre les arthropodes",
       "VsControlled": "contre les effets de contrôle",
       "VsDiseases": "contre les maladies",
@@ -83,7 +107,12 @@
         "AllowedDrops": "don général de niveau 7 ou inférieur",
         "Prompt": "Choisissez un don général de niveau 7 ou inférieur"
       },
+      "AncestralParagon": {
+        "AllowedDrops": "don ancestral de niveau 1",
+        "Prompt": "Choisissez un don ancestral de niveau 1"
+      },
       "ClanWeapon": {
+        "ClanPistol": "Pistoler de clan (don ancestral)",
         "Label": "Arme de clan",
         "Prompt": "Choisir une arme de clan"
       },
@@ -197,6 +226,21 @@
         "Tailoring": "Couture",
         "Weaving": "Tissage",
         "Woodworking": "Ébénisterie"
+      },
+      "SterlingDynamo": {
+        "AutomaticPercussive": "Dynamo sterling percussive automatique",
+        "AutomaticPower": "Dynamo sterling conductrice de puissance automatique",
+        "ManualPercussive": "Dynamo sterling percussive automatique",
+        "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
+      },
+      "TwoHanded": {
+        "BastardSword": "Utiliser l'épée bâtarde à deux mains",
+        "Broom": "Utiliser le balai à deux mains",
+        "Cane": "Utiliser la canne à deux mains",
+        "Katana": "Utiliser le katana à deux mains",
+        "Khakkhara": "Utiliser le khakkhara à deux mains",
+        "RhokaSword": "Utiliser l'épée rhoka à deux mains",
+        "Staff": "Utiliser le bâton à deux mains"
       }
     },
     "UI": {
