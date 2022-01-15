@@ -478,6 +478,18 @@
       "Label": "Effets actifs"
     },
     "Actor": {
+      "ApplyDamage": {
+        "AtFullHealth": "{actor} est déjà en pleine santé.",
+        "DamagedForN": "{actor} subit {hpDamage} dégâts.",
+        "DamagedForNShield": "Le bouclier de {actor} absorbe {absorbedDamage} dégâts, mais , mais {hpDamage} dégâts passent à travers.",
+        "HealedForN": "{actor} est soigné de {hpDamage} dégâts.",
+        "ShieldAbsorbsAll": "{actor} est épargné, son bouclier a complètement absorbé {absorbedDamage} dégâts.",
+        "ShieldDamagedForN": "son bouclier est aussi endommagé de {shieldDamage}.",
+        "ShieldDamagedForNBroken": "Son bouclier subit {shieldDamage} dégâts, le brisant.",
+        "ShieldDamagedForNDestroyed": "Son bouclier subit {shieldDamage} dégâts, le détruisant.",
+        "ShieldNotRaised": "{actor} n'a pas son bouclier levé.",
+        "TakesNoDamage": "{actor} ne subit pas de dégât."
+      },
       "Character": {
         "AncestryClass": "{ancestry} {class}"
       },
@@ -946,6 +958,7 @@
       "CraftQuantityTitle": "Quantité",
       "ExpendFormula": "formule dépensée",
       "ToggleFreeCrafting": "Activer la fabrication libre",
+      "ToggleQuickAlchemy": "Alchimie rapide",
       "UndeletableTooltip": "Cette formule de fabrication est une partie d'un autre objet et ne peut être supprimée individuellement"
     },
     "CreateActionTitle": "Créer une action",
@@ -1025,6 +1038,7 @@
     "DamageDieD8": "d8",
     "DamageLabel": "Dégâts",
     "DamageRoll": "Jet de dégât",
+    "DecrementEffectTitle": "Baissez le niveau de l'effet",
     "DefencesLabel": "Défenses",
     "Deity": "Divinité",
     "DeityTitle": "Votre divinité",
@@ -1052,7 +1066,9 @@
     "EditNPCLabel": "Éditer le PNJ ?",
     "EffectPanel": {
       "AppliedBy": "Appliqué par : {condition-list}",
+      "DecrementToolTip": "[Clic droit] Diminuez la valeur ou supprimer l'effet",
       "Expired": "Expiré",
+      "IncrementToolTip": "[Clic gauche] augmenter la valeur",
       "RemainingDuration": {
         "MultipleDays": "{days} jours restants",
         "MultipleHours": "{hours} heures restantes",
@@ -1076,6 +1092,11 @@
     "EmptySlot": "Emplacement vide",
     "Encounter": {
       "Broadcast": {
+        "FastHealing": {
+          "DeactivatedBy": "Désactivée par {types}",
+          "FastHealingLabel": "Guérison accélérée reçue",
+          "RegenerationLabel": "Régénération reçue"
+        },
         "TempHP": {
           "PluralNew": "{actor} a maintenant {newQuantity} pv temporaires {wasAt} provenant de {item}.",
           "SingleNew": "{actor} a maintenant {newQuantity} pv temporaire {wasAt} provenant de {item}.",
@@ -1248,10 +1269,18 @@
     "HitPointsShortLabel": "PV",
     "ImageLabel": "Image",
     "ImmunitiesLabel": "Immunités",
+    "IncrementEffectTitle": "Augmenter le niveau de l'effet",
     "InitativeIsNow": "L'initiatve de {name} est désormais {value} !",
     "InitiativeHeader": "Bonus à l’Initiative",
     "InitiativeLabel": "Initiative",
     "InitiativeWithSkill": "Initiative: {skillName}",
+    "InlineCheck": {
+      "BasicWithSave": "{save} basique",
+      "DCWithName": "DD {name}",
+      "Errors": {
+        "TypeMissing": "Erreur dans @Check: paramètre de type est obligatoire"
+      }
+    },
     "InlineTemplateErrors": {
       "DistanceMissing": "Erreur dans @Template : le paramètre de distance est obligatoire",
       "DistanceNoNumber": "Erreur dans @Template: : la dimension {distance} n'est pas un nombre",
@@ -1558,6 +1587,12 @@
       "Label": "Mentions légales",
       "LandingPageText": "Utiliser les onglets ci-dessus pour lire les informations légales"
     },
+    "ListPartsOr": {
+      "end": "{first} ou {second}",
+      "middle": "{first}, {second}",
+      "start": "{first}, {second}",
+      "two": "{first} ou {second}"
+    },
     "Lore": "Connaissance",
     "LoreProficiencyDisclaimer": "Pour information seulement. Ne va pas changer le modificateur de compétence",
     "LoreSkillFormat": "Connaissance {name}",
@@ -1729,6 +1764,7 @@
       "EditSpeed": "Éditer la Vitesse",
       "EditTraits": "Éditer les traits",
       "EditWeaknesses": "Éditer les faiblesses",
+      "EffectsTab": "Effets",
       "HPExtraInfoLabelPlaceholder": "Détails PV...",
       "Inventory": {
         "Header": {
@@ -1855,20 +1891,30 @@
     },
     "PotencyRuneLabel": "Rune de Puissance",
     "PreciousMaterialAdamantine": "Adamantium",
+    "PreciousMaterialAdamantineDescription": "Extrait de rochers tombés du ciel, l’adamantium est l’un des métaux connus les plus solides. Il est d’un noir luisant et très prisé pour son incroyable résistance et sa capacité à conserver un tranchant époustouflant.",
     "PreciousMaterialColdIron": "Fer froid",
+    "PreciousMaterialColdIronDescription": "Les armes faites en fer froid sont mortelles pour les démons et les fées. Le fer froid ressemble à du fer normal, mais il est extrait de gisements très purs et forgé sans chaleur ou presque. Ce processus est très compliqué, en particulier pour les objets de haute qualité.",
     "PreciousMaterialDarkwood": "Ébénite",
+    "PreciousMaterialDarkwoodDescription": "L’ébénite est un bois très léger que l’on trouve principalement dans les vieilles forêts du sud central de l’Avistan. Elle est aussi sombre que l’ébène, mais présente une légère teinte violette. Un objet en ébénite est 1 Encombrement plus léger que la normale (ou d’un Encombrement léger si son Encombrement normal est de 1, sans effet s’il est déjà normalement d’Encombrement léger). Le prix d’un objet en ébénite est basé sur son Encombrement normal, non son Encombrement réduit grâce à la légèreté du matériau. En revanche, réduisez son Encombrement avant de faire les ajustements d’Encombrement en fonction de sa taille.",
     "PreciousMaterialDragonhide": "Peau de dragon",
+    "PreciousMaterialDragonhideDescription": "La peau et les écailles d’un dragon peuvent servir à Fabriquer n’importe quel objet normalement fait de cuir ou de peau. La peau de dragon se présente sous plusieurs couleurs, du bleu au doré, en fonction du dragon sur lequel elle a été prélevée. Grâce à la résilience des écailles, elle peut aussi servir à Fabriquer une armure habituellement faite de plaques de métal (comme une cuirasse, une armure de plates ou un harnois), ce qui permet de les forger sans utiliser de métal. Chaque objet en peau de dragon est immunisé contre un type de dégâts selon le type de dragon.",
     "PreciousMaterialGradeLabel": "Qualité du métal",
     "PreciousMaterialGrisantianPelt": "Fourrure de grisantien",
+    "PreciousMaterialGrisantianPeltDescription": "Cette peau d’animal surnaturellement robuste est dorée et brille sous le soleil. Elle peut être utilisée pour Fabriquer tout objet habituellement fait de tissu, de cuir ou de peau. Ce matériau est immunisé au feu et sa Solidité est doublée contre les dégâts contondants ou perforants. Jusqu’à 4 Encombrements de peau de grisantien peut être récoltée d’une unique créature (c’est habituellement plus qu’assez pour 4 armures de qualité standard ou 2 armure de haute qualité).",
     "PreciousMaterialHighGrade": "haute qualité",
     "PreciousMaterialLabel": "Matériau précieux",
     "PreciousMaterialLowGrade": "basse qualité",
     "PreciousMaterialMithral": "Mithril",
+    "PreciousMaterialMithralDescription": "Le mithral est réputé pour sa légèreté, sa solidité et son efficacité contre un large éventail de créatures, y compris les diables et les lycanthropes. Il a le même éclat que l’argent, mais il est un peu plus clair. Les armes et les armures en mithral sont considérées comme étant en argent quand il s’agit de blesser des créatures dotées d’une faiblesse face à l’argent. Un objet en mithral est plus léger que son équivalent en fer ou en acier : son Encombrement est réduit de 1 (il est léger s’il avait un Encombrement de 1, par contre cette réduction n’a pas d’effet sur un objet déjà d’Encombrement léger). Le prix d’un objet conçu avec ce matériau est basé sur son Encombrement normal et non sur son Encombrement réduit grâce à la légèreté du matériau. En revanche, réduisez son Encombrement avant de faire les ajustements d’Encombrement en fonction de sa taille.",
     "PreciousMaterialOrichalcum": "Orichalque",
+    "PreciousMaterialOrichalcumDescription": "L’orichalque est le plus rare et le plus précieux des métaux célestes et il est très recherché pour ses incroyables propriétés magiques liées au passage du temps. Ce métal cuivré terne n’est pas aussi résistant que l’adamantium, mais sa capacité à modifier le temps le protège et lui donne une Solidité et des points de vie supérieurs. Si un objet en orichalque subit des dégâts, mais n’est pas détruit, il se répare complètement en 24 heures.",
     "PreciousMaterialSilver": "Argent",
+    "PreciousMaterialSilverDescription": "Les armes en argent sont un fléau pour les créatures telles que les diables et les loups-garous. Les objets en argent sont moins solides que ceux en acier et les objets en argent de basse qualité sont généralement seulement plaqués.",
     "PreciousMaterialSovereignSteel": "Acier souverain",
+    "PreciousMaterialSovereignSteelDescription": "Créé par le souverain noir Kevoth-Kul, cet alliage unique de fer froid et de noqual, le métal céleste, peut offrir une protection contre les attaques magiques. Le processus de forge à froid des deux matériaux est assez compliqué et précis. Les personnages à la recherche d'armes et d'armures en acier souverain devront presque certainement se rendre à Chute d'étoiles pour se procurer des équipements fabriqués à partir de cet alliage rare. Bien que certains pensent qu'il est également possible de fabriquer des boucliers en acier souverain, lors d'une de ses crises, Kevoth-Kul a hurlé qu'il n'en avait pas l'utilité et a interdit à quiconque de fabriquer de telles choses. Jusqu'à présent, ses forgerons ont eu trop peur pour confirmer s'il s'agissait ou non d'une blague. Tous les objets en acier souverain (y compris les armes et armures ci-dessous) bénéficient d'un bonus de circonstances de +4 aux jets de sauvegarde contre la magie que l'objet fabrique, et accordent leur bonus aux jets de sauvegarde que le propriétaire effectue spécifiquement pour protéger l'objet de la magie (comme contre le sort @Compendium[pf2e.spells-srd.0fYE64odlKqISzft]).",
     "PreciousMaterialStandardGrade": "qualité standard",
     "PreciousMaterialWarpglass": "Verre déformé",
+    "PreciousMaterialWarpglassDescription": "Cette substance bizarre est façonnée à partir de la quintessence brute et chaotique du Maelström. Il peut être façonné en armes et en objets, mais est trop instable pour en faire une armure ou des boucliers utiles. Le verre déformé brut est un matériau vitreux opalescent d’une résistance surprenante. Lorsqu’il est travaillé, il change d’apparence – mais pas de propriétés – pour apparaître comme des stries aléatoires d’autres métaux et types de pierre.",
     "PreparationTypeInnate": "Inné",
     "PreparationTypePrepared": "Preparé",
     "PreparationTypeSpontaneous": "Spontané",
@@ -3336,6 +3382,7 @@
     "TraitReach0": "Allonge 0ft (0 m)",
     "TraitReach10": "Allonge 10 ft (3m)",
     "TraitReach100": "Allonge 100 ft (30 m)",
+    "TraitReach1000": "Allonge 1000 ft (300 m)",
     "TraitReach15": "Allonge 15 ft (4,5m)",
     "TraitReach20": "Allonge 20 ft (6m)",
     "TraitReach25": "Allonge 25 ft (7,5m)",
@@ -3470,6 +3517,7 @@
     "TraitVolley30": "Volée 30 ft (9m)",
     "TraitVolley50": "Volée 50 ft (15m)",
     "TraitVorpalFear": "Peur du vorpal",
+    "TraitVulnerableToSunlight": "Vulnérable à la lumière du soleil",
     "TraitWand": "Baguette",
     "TraitWater": "Eau",
     "TraitWayang": "Wayang",
