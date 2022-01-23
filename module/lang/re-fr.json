@@ -1,6 +1,7 @@
 {
   "PF2E": {
     "NPCAbility": {
+      "BarghestFeed": "Combien de fois le barghest s'est-il alimenté ?",
       "FormationArea": "Formation (contre Effets de zone)",
       "HuntedFear": {
         "Demoralize": "La cible est dans un labyrinthe ou une structure similaire dans laquelle il est difficile de naviguer",
@@ -56,8 +57,10 @@
       "Blacksmithing": "pour forger",
       "Climb": "pour escalader",
       "ClimbOrSwim": "pour escalader ou nager",
+      "CraftTrap": "pour fabriquer des pièges",
       "CraftTrapSnare": "pour Fabriquer des pièges et des pièges artisanaux",
       "Darkness": "dans l'obscurité",
+      "Demoralize": "pour démoraliser",
       "Deserts": "dans les déserts",
       "Disarm": "pour désarmer",
       "DisarmMetal": "Pour désarmer un objet métallique",
@@ -110,6 +113,10 @@
       "AncestralParagon": {
         "AllowedDrops": "don ancestral de niveau 1",
         "Prompt": "Choisissez un don ancestral de niveau 1"
+      },
+      "AncientElf": {
+        "AllowedDrops": "don de dévouement multiclasse",
+        "Prompt": "Choisissez un don de dévouement multiclasse"
       },
       "ClanWeapon": {
         "ClanPistol": "Pistoler de clan (don ancestral)",
