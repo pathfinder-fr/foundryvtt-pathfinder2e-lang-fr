@@ -82,22 +82,22 @@
       "wis": "Sag"
     },
     "AbilityInt": "Intelligence",
-    "AbilityModifierLabel": "Modif. de Carac.",
+    "AbilityModifierLabel": "Modif. de carac.",
     "AbilityScoresHeader": "Valeurs de Caractéristique",
     "AbilityStr": "Force",
     "AbilityTitle": "Caractéristique",
     "AbilityWis": "Sagesse",
-    "AccessoryPropertyRuneCalled": "Invoqué",
-    "AccessoryPropertyRuneDragonsBreath": "Souffle du dragon",
-    "AccessoryPropertyRuneGreaterPaired": "Apparié supérieur",
-    "AccessoryPropertyRuneGreaterWindCatcher": "Attrape-vent supérieur",
-    "AccessoryPropertyRuneMajorPaired": "Apparié majeur",
-    "AccessoryPropertyRunePaired": "Apparié",
-    "AccessoryPropertyRunePresentable": "Présentable",
-    "AccessoryPropertyRuneSnagging": "Accroché",
-    "AccessoryPropertyRuneSoftLanding": "Atterrissage en douceur",
-    "AccessoryPropertyRuneSpellBastion": "Bastion de sort",
-    "AccessoryPropertyRuneWindCatcher": "Attrape-vent",
+    "AccessoryPropertyRuneCalled": "invoquée",
+    "AccessoryPropertyRuneDragonsBreath": "de souffle du dragon",
+    "AccessoryPropertyRuneGreaterPaired": "appariée supérieure",
+    "AccessoryPropertyRuneGreaterWindCatcher": "attrape-vent supérieure",
+    "AccessoryPropertyRuneMajorPaired": "appariée majeure",
+    "AccessoryPropertyRunePaired": "appariée",
+    "AccessoryPropertyRunePresentable": "présentable",
+    "AccessoryPropertyRuneSnagging": "accrochée",
+    "AccessoryPropertyRuneSoftLanding": "d'atterrissage en douceur",
+    "AccessoryPropertyRuneSpellBastion": "bastion de sort",
+    "AccessoryPropertyRuneWindCatcher": "attrape-vent",
     "ActionActionTypeLabel": "Type d’action",
     "ActionActionsLabel": "Actions",
     "ActionBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Exemple: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
@@ -110,7 +110,7 @@
     "ActionNumber3": "Trois",
     "ActionSkillRequirementLabel": "Condition",
     "ActionTypeAction": "Action",
-    "ActionTypeFree": "Action Gratuite",
+    "ActionTypeFree": "Action gratuite",
     "ActionTypePassive": "Passif",
     "ActionTypeReaction": "Réaction",
     "ActionTypeSingle": "Action unique",
@@ -152,11 +152,11 @@
       },
       "Craft": {
         "Details": {
-          "DaysForNoCost": "Jours avant qu'il n'y ait plus de coûts supplémentaires :",
+          "DaysForNoCost": "jours avant qu'il n'y ait plus de coûts supplémentaires :",
           "Discount": "Remise par jour:",
-          "LostMaterials": "Perd {cost} de Matériaux",
+          "LostMaterials": "Perd {cost} en matériaux",
           "PayFull": "paie {cost} pour la totalité des coûts de fabrication.",
-          "PayMaterials": "paie {cost} pour les coûts de Fabrication"
+          "PayMaterials": "paie {cost} pour les coûts de fabrication"
         },
         "Error": {
           "ItemReferenceMismatch": "Accepte seulement des objets physiques pour les Fabriquer issus d'un compendium ou du Dossier objet du monde."
@@ -176,7 +176,7 @@
           "CancelButtonLabel": "Annuler",
           "CraftButtonLabel": "Fabriquer",
           "DropItemZoneLabel": "Glisser l'objet ici...",
-          "Title": "Choisissez lobjet à Fabriquer"
+          "Title": "Choisissez l'objet à Fabriquer"
         },
         "SelectSpellDialog": {
           "CraftButtonLabel": "Fabriquer",
@@ -184,7 +184,7 @@
         },
         "Title": "Fabrication",
         "Warning": {
-          "CantAddItem": "Vous ne pouvez pas ajouter ses objets",
+          "CantAddItem": "Vous ne pouvez pas ajouter ces objets",
           "InsufficientCoins": "Pas de quoi payer",
           "MissingItem": "Incapable de Fabriquer l'objet avec l'ID {uuid}.",
           "NotPhysicalItem": "L'objet {item} n'est pas un objet physique."
@@ -220,10 +220,10 @@
         "ContentLabel1": "DD de Diplomatie:",
         "ContentLabel2": "Modificateur de DD:",
         "ContentMain": "Choisissez un DD cible. Souvenez vous que vous ne pouvez pas tenter un test au dessus de votre rang de maitrise. Le faire fera descendre le DD et le montant soigné au niveau le plus élevé dont vous êtes capable.",
-        "ContentOption1": "Qualifié DD15",
-        "ContentOption2": "Expert DD20, +5 Endurance",
-        "ContentOption3": "Maître DD30, +15 Endurance",
-        "ContentOption4": "Légendaire DD40, +25 Endurance",
+        "ContentOption1": "Qualifié DD 15",
+        "ContentOption2": "Expert DD 20, +5 Endurance",
+        "ContentOption3": "Maître DD 30, +15 Endurance",
+        "ContentOption4": "Légendaire DD 40, +25 Endurance",
         "CritFailure": "Échec critique",
         "CritSuccess": "Succès critique",
         "Damage": "Dégâts",
@@ -279,7 +279,7 @@
           "failure": "<strong>Échec</strong> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
           "success": "<strong>Succès</strong> Augmentez la distance verticale maximale à 1,50 m."
         },
-        "Title": "Saut en hauteur"
+        "Title": "Sauter en hauteur"
       },
       "Impersonate": {
         "Notes": {
@@ -302,7 +302,7 @@
           "failure": "<strong>Échec</strong> Vous @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bondissez} normalement.",
           "success": "<strong>Succès</strong> La distance horizontale maximale de votre @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Bond} est égale à la distance voulue."
         },
-        "Title": "Saut en longueur"
+        "Title": "Sauter en longueur"
       },
       "MakeAnImpression": {
         "Notes": {
@@ -449,7 +449,7 @@
       "survival": "Test de Survie",
       "thievery": "Test de Vol"
     },
-    "ActionsFreeActionsHeader": "Actions Gratuites",
+    "ActionsFreeActionsHeader": "Actions gratuites",
     "ActionsReactionsHeader": "Réactions",
     "ActionsWarning": {
       "DeceptionUnknownVariant": "Variante inconnue '{variant}' utilisée pour Duperie, utilisez soit des paroles, des gestes ou un tour de passe-passe",
@@ -481,13 +481,13 @@
       "ApplyDamage": {
         "AtFullHealth": "{actor} est déjà en pleine santé.",
         "DamagedForN": "{actor} subit {hpDamage} dégâts.",
-        "DamagedForNShield": "Le bouclier de {actor} absorbe {absorbedDamage} dégâts, mais , mais {hpDamage} dégâts passent à travers.",
+        "DamagedForNShield": "Le bouclier de {actor} absorbe {absorbedDamage} dégâts, mais {hpDamage} dégâts passent à travers.",
         "HealedForN": "{actor} est soigné de {hpDamage} dégâts.",
         "ShieldAbsorbsAll": "{actor} est épargné, son bouclier a complètement absorbé {absorbedDamage} dégâts.",
         "ShieldDamagedForN": "son bouclier est aussi endommagé de {shieldDamage}.",
-        "ShieldDamagedForNBroken": "Son bouclier subit {shieldDamage} dégâts, le brisant.",
-        "ShieldDamagedForNDestroyed": "Son bouclier subit {shieldDamage} dégâts, le détruisant.",
-        "ShieldNotRaised": "{actor} n'a pas son bouclier levé.",
+        "ShieldDamagedForNBroken": "son bouclier subit {shieldDamage} dégâts, le brisant.",
+        "ShieldDamagedForNDestroyed": "son bouclier subit {shieldDamage} dégâts, le détruisant.",
+        "ShieldNotRaised": "Le bouclier de {actor} n'est pas levé.",
         "TakesNoDamage": "{actor} ne subit pas de dégât."
       },
       "Character": {
@@ -508,15 +508,15 @@
     "ActorSizeMedium": "Moyenne",
     "ActorSizeSmall": "Petite",
     "ActorSizeTiny": "Très petite",
-    "AdamantineStrikes": "Frappes Adamantium",
+    "AdamantineStrikes": "Frappes adamantium",
     "AddCoinsCombineStacksLabel": "Cumuler",
     "AddCoinsTitle": "Ajouter des pièces",
     "AddCombatProficiency": {
-      "Message": "Choisissez un groupe d'arme ou une arme de base",
+      "Message": "Choisir un groupe d'arme ou une arme de base",
       "Title": "Ajouter une maîtrise d'arme"
     },
     "AddLoreSkill": "Ajouter une compétence de connaissance",
-    "AddModifierTitle": "Ajouter Modificateur",
+    "AddModifierTitle": "Ajouter un modificateur",
     "AddShortLabel": "Ajouter",
     "AddSpellTitle": "Ajouter un sort",
     "AddSpellcastingEntryTitle": "Ajouter une entrée d'incantation",
@@ -584,43 +584,43 @@
     "ArmorPotencyRune2": "de puissance d'armure (+2)",
     "ArmorPotencyRune3": "du puissance d'armure (+3)",
     "ArmorPotencyRune4": "de puissance d'armure (+4)",
-    "ArmorPropertyRuneAcidResistant": "Résistance à l'acide",
-    "ArmorPropertyRuneAntimagic": "Antimagie",
-    "ArmorPropertyRuneBitter": "Amère",
-    "ArmorPropertyRuneColdResistant": "Résistance au froid",
-    "ArmorPropertyRuneDeathless": "Impérissable",
-    "ArmorPropertyRuneDread": "Redoutable",
-    "ArmorPropertyRuneElectricityResistant": "Résistance à l'électricité",
-    "ArmorPropertyRuneEthereal": "Éthérée",
-    "ArmorPropertyRuneFireResistant": "Résistance au feu",
-    "ArmorPropertyRuneFortification": "Fortification",
-    "ArmorPropertyRuneGlamered": "Mimétisme",
-    "ArmorPropertyRuneGreaterAcidResistant": "Résistance supérieure à l'acide",
-    "ArmorPropertyRuneGreaterColdResistant": "Résistance supérieure au froid",
-    "ArmorPropertyRuneGreaterElectricityResistant": "Résistance supérieure à l'électricité",
-    "ArmorPropertyRuneGreaterFireResistant": "Résistance supérieure au feu",
-    "ArmorPropertyRuneGreaterFortification": "Fortification supérieure",
-    "ArmorPropertyRuneGreaterInvisibility": "Invisibilité supérieure",
-    "ArmorPropertyRuneGreaterReady": "Prête supérieure",
-    "ArmorPropertyRuneGreaterShadow": "Ombre supérieure",
-    "ArmorPropertyRuneGreaterSlick": "Glissante supérieure",
-    "ArmorPropertyRuneGreaterStanching": "Étancheuse supérieure",
-    "ArmorPropertyRuneGreaterWinged": "Ailée supérieure",
-    "ArmorPropertyRuneImplacable": "Implacable",
-    "ArmorPropertyRuneInvisibility": "Invisibilité",
-    "ArmorPropertyRuneMajorShadow": "Ombre majeure",
-    "ArmorPropertyRuneMajorSlick": "Glissante majeure",
-    "ArmorPropertyRuneMajorStanching": "Étancheuse majeure",
-    "ArmorPropertyRuneReady": "Prête",
-    "ArmorPropertyRuneRockBraced": "Renfort de pierre",
-    "ArmorPropertyRuneShadow": "Ombre",
-    "ArmorPropertyRuneSinisterKnight": "Chevalier sinistre",
-    "ArmorPropertyRuneSlick": "Glissante",
-    "ArmorPropertyRuneSoaring": "Flambante",
-    "ArmorPropertyRuneStanching": "Étancheuse",
-    "ArmorPropertyRuneTrueStanching": "Étancheuse véritable",
-    "ArmorPropertyRuneWinged": "Ailée",
-    "ArmorResilientRune": "Résiliente",
+    "ArmorPropertyRuneAcidResistant": "de résistance à l'acide",
+    "ArmorPropertyRuneAntimagic": "d'antimagie",
+    "ArmorPropertyRuneBitter": "amère",
+    "ArmorPropertyRuneColdResistant": "de résistance au froid",
+    "ArmorPropertyRuneDeathless": "impérissable",
+    "ArmorPropertyRuneDread": "redoutable",
+    "ArmorPropertyRuneElectricityResistant": "de résistance à l'électricité",
+    "ArmorPropertyRuneEthereal": "éthérée",
+    "ArmorPropertyRuneFireResistant": "de résistance au feu",
+    "ArmorPropertyRuneFortification": "de fortification",
+    "ArmorPropertyRuneGlamered": "de mimétisme",
+    "ArmorPropertyRuneGreaterAcidResistant": "de résistance supérieure à l'acide",
+    "ArmorPropertyRuneGreaterColdResistant": "de résistance supérieure au froid",
+    "ArmorPropertyRuneGreaterElectricityResistant": "de résistance supérieure à l'électricité",
+    "ArmorPropertyRuneGreaterFireResistant": "de résistance supérieure au feu",
+    "ArmorPropertyRuneGreaterFortification": "de fortification supérieure",
+    "ArmorPropertyRuneGreaterInvisibility": "d'nvisibilité supérieure",
+    "ArmorPropertyRuneGreaterReady": "prête supérieure",
+    "ArmorPropertyRuneGreaterShadow": "d'ombre supérieure",
+    "ArmorPropertyRuneGreaterSlick": "glissante supérieure",
+    "ArmorPropertyRuneGreaterStanching": "étancheuse supérieure",
+    "ArmorPropertyRuneGreaterWinged": "ailée supérieure",
+    "ArmorPropertyRuneImplacable": "implacable",
+    "ArmorPropertyRuneInvisibility": "d'invisibilité",
+    "ArmorPropertyRuneMajorShadow": "d'ombre majeure",
+    "ArmorPropertyRuneMajorSlick": "glissante majeure",
+    "ArmorPropertyRuneMajorStanching": "étancheuse majeure",
+    "ArmorPropertyRuneReady": "prête",
+    "ArmorPropertyRuneRockBraced": "de renfort de pierre",
+    "ArmorPropertyRuneShadow": "d'ombre",
+    "ArmorPropertyRuneSinisterKnight": "de chevalier sinistre",
+    "ArmorPropertyRuneSlick": "glissante",
+    "ArmorPropertyRuneSoaring": "flambante",
+    "ArmorPropertyRuneStanching": "étancheuse",
+    "ArmorPropertyRuneTrueStanching": "étancheuse véritable",
+    "ArmorPropertyRuneWinged": "ailée",
+    "ArmorResilientRune": "résiliente",
     "ArmorSpeedLabel": "Pénalité à la vitesse",
     "ArmorStrengthLabel": "Seuil de force",
     "ArmorStrengthRequiredLabel": "Force requise",
@@ -713,13 +713,13 @@
     "BiographyAllies": "Alliés",
     "BiographyAlliesTitle": "Les alliés de votre personnage",
     "BiographyAppearance": "Apparence",
-    "BiographyAppearanceTitle": "À quoi votre personnage ressemble",
+    "BiographyAppearanceTitle": "À quoi ressemble votre personnage",
     "BiographyAttitude": "Attitude",
     "BiographyAttitudeTitle": "À quoi ressemble le comportement de votre personnage",
     "BiographyBackStory": "Histoire",
     "BiographyBackStoryTitle": "L'histoire de votre personnage",
     "BiographyBeliefs": "Croyances",
-    "BiographyBeliefsTitle": "À quoi votre personnage croit",
+    "BiographyBeliefsTitle": "En quoi croit votre personnage",
     "BiographyBirthPlace": "Lieu de naissance",
     "BiographyBirthPlaceTitle": "Le lieu de naissance de votre personnage",
     "BiographyCampaignNotes": "Notes",
@@ -736,7 +736,7 @@
     "BiographyOrganizations": "Organisations",
     "BiographyOrganizationsTitle": "Les organisations de votre personnage",
     "BiographyPersonalityHeader": "Personnalité",
-    "BonusBulk": "Encombrement Maximal",
+    "BonusBulk": "Encombr. Max.",
     "BonusBulkTitle": "Ajoutez ou retirez à votre limite d'Encombrement",
     "BonusEncumbranceBulkLabel": "Ajouter un encombrement supplémentaire",
     "BonusHPLabel": "PV Bonus",
@@ -783,8 +783,8 @@
     "BrowserSortyByNameLabel": "Nom",
     "BrowserSortyByPriceLabel": "Prix",
     "BulkCapacityLabel": "Contient un encombrement de",
-    "BulkLabel": "Encombrement porté",
-    "BulkMaxLabel": "Encombrement Max",
+    "BulkLabel": "Enc. porté",
+    "BulkMaxLabel": "Enc. Max",
     "BulkReductionLabel": "Réduit l'encombrement de",
     "BulkShortLabel": "Enc.",
     "BulkTypeLight": "Léger",
@@ -804,14 +804,14 @@
     "CircumstanceBonusShortLabel": "Circonstances",
     "CircumstanceBonusTitle": "Bonus de circonstances",
     "Class": "Classe",
-    "ClassDCBase": "Base DD de classe 10",
+    "ClassDCBase": "Base du DD de classe 10",
     "ClassDCHeader": "DD de classe",
     "ClassDCLabel": "DD classe",
     "ClassFeatLevels": "Niveaux des dons de classe",
     "ClassFeatures": "Capacités de classe",
     "ClassHP": "PV de classe",
     "ClassTitle": "Votre classe de personnage",
-    "ClickToSetInitiative": "Cliquez pour définir l’Initiative du/des jeton(s) sélectionné(s).",
+    "ClickToSetInitiative": "Cliquez pour définir l’initiative du/des jeton(s) sélectionné(s).",
     "ClickToSetInitiativeContext": "Choisir comme initiative",
     "ColdIronStrikes": "Frappes en fer froid",
     "CompendiumBrowser": {
@@ -931,11 +931,11 @@
     "CoreSkillsHeader": "Compétences diverses",
     "Counteract": "Contrer",
     "CounteractDescription": {
-      "CritFailure": "Vous manquez de contrer la cible",
-      "CritSuccess": "Contrer la cible si son niveau de contre est {level} ou moins.",
-      "Failure": "Contrer la cible si son niveau de contre est de moins de {level}.",
-      "Hint": "Si vous contrez une affliction, le DD est dans les statistiques de l'affliction. Si c'est un sort, utilisez le DD du lanceur. Le MJ peut aussi calculer un DD basé sur le niveau de l'effet cible.",
-      "Success": "Contrer la cible si son niveau de contre est {level} ou moins."
+      "CritFailure": "Vous ne réussissez pas à contrer la cible",
+      "CritSuccess": "contre la cible si son niveau de contre est {level} ou moins.",
+      "Failure": "contre la cible si son niveau de contre est de moins de {level}.",
+      "Hint": "Si vous contrez une affliction, le DD se trouve dans les statistiques de l'affliction. Si c'est un sort, utilisez le DD du lanceur. Le MJ peut aussi calculer un DD basé sur le niveau de l'effet cible.",
+      "Success": "contre la cible si son niveau de contre est {level} ou moins."
     },
     "Counteractable": "Contrable",
     "CraftDCTitle": "DD",
@@ -945,13 +945,13 @@
         "AdvancedAlchemy": "Alchimie avancée",
         "AdvancedAlchemyLevel": "Niveau d'alchimie avancée",
         "InfusedReagents": "Réactifs imprégnés :",
-        "ReagentCost": "Coût de réactifs :",
+        "ReagentCost": "Coût en réactifs :",
         "ToggleSignatureItem": "Activer un objet emblématique",
         "TotalCost": "Coût total :"
       },
       "Alerts": {
         "CharacterLevel": "Le niveau de l'objet excède le niveau de personnage",
-        "ItemMissingTraits": "L'objet n'est pas compatible avec les conditions du trait d'entrée de fabrication, doit correspondre à un : {traits}",
+        "ItemMissingTraits": "L'objet n'est pas compatible avec les conditions du trait d'entrée de fabrication, doit correspondre à : {traits}",
         "MaxItemLevel": "Le niveau de l'objet excède le niveau de l'objet pour l'entrée.",
         "MissingReagents": "Les réactifs imprégnés sont insuffisants pour terminer la fabrication quotidienne."
       },
@@ -971,9 +971,9 @@
     "CreateSpellTitle": "Créer un sort",
     "CreatureStatisticDC": {
       "ac": "CA de {creature} : {dc}",
-      "deception": "DD Duperie de {creature} : {dc}",
-      "fortitude": "DD Vigueur de {creature} : {dc}",
-      "perception": "DD Perception de {creature} : {dc}",
+      "deception": "DD de Duperie de {creature} : {dc}",
+      "fortitude": "DD de Vigueur de {creature} : {dc}",
+      "perception": "DD de Perception de {creature} : {dc}",
       "reflex": "DD de Réflexes de {creature} : {dc}",
       "stealth": "DD de Discrétion de {creature} : {dc}",
       "will": "DD de Volonté de {creature} : {dc}"
@@ -989,10 +989,10 @@
       "pp": "pp",
       "sp": "pa"
     },
-    "CurrencyCP": "Cuivre",
-    "CurrencyGP": "Or",
-    "CurrencyPP": "Platine",
-    "CurrencySP": "Argent",
+    "CurrencyCP": "cuivre",
+    "CurrencyGP": "or",
+    "CurrencyPP": "platine",
+    "CurrencySP": "argent",
     "CurrentHPTitle": "Points de vie actuels",
     "CurrentHitPointsShortLabel": "PV actuels",
     "CurrentStaminaPointsShortLabel": "PE actuels",
@@ -1004,27 +1004,27 @@
     "DCAdjustmentNormal": "normal",
     "DCAdjustmentVeryEasy": "très facile",
     "DCAdjustmentVeryHard": "très difficile",
-    "DCBase": "Base DD 10",
+    "DCBase": "DD de Base 10",
     "DCLabel": "DD",
     "DCWithValue": "DD {dc} de {text}",
     "Damage": {
       "NoDamageFormulaLabel": "Pas de dégât"
     },
     "DamageButton": {
-      "Double": "Appliquer double dégâts aux cibles sélectionnées",
+      "Double": "Appliquer le double des dégâts aux cibles sélectionnées",
       "DoubleContext": "Double dégâts",
       "DoubleShort": "Double",
       "Full": "Appliquer les dégâts normaux aux cibles sélectionnées",
       "FullContext": "Appliquer les dégâts",
       "FullShort": "Dégâts",
-      "Half": "Appliquer demi-dégâts aux cibles sélectionnées",
+      "Half": "Appliquer la moitié des dégâts aux cibles sélectionnées",
       "HalfContext": "Demi dégâts",
       "HalfShort": "Demi",
       "Healing": "Appliquer les soins normaux aux cibles sélectionnées",
       "HealingContext": "Appliquer les soins",
       "HealingShort": "Soins",
       "ShieldBlock": "Activer le blocage au bouclier des cibles sélectionnées",
-      "ShieldBlockContext": "Bolcage au bouclier",
+      "ShieldBlockContext": "Blocage au bouclier",
       "ShieldBlockShort": "Blocage",
       "Triple": "Appliquer triple dégâts aux jetons sélectionnés",
       "TripleContext": "Appliquer triple dégâts",
@@ -1043,9 +1043,9 @@
     "Deity": "Divinité",
     "DeityTitle": "Votre divinité",
     "DeleteConditionQuestion": "Êtes vous certain d'effacer {condition}?",
-    "DeleteConditionTitle": "Effacer l'état",
+    "DeleteConditionTitle": "Effacer la condition",
     "DeleteItemQuestion": "Êtes vous certain d'effacer :",
-    "DeleteItemTitle": "Effacer l’objet",
+    "DeleteItemTitle": "Effacer l'objet",
     "DeleteShortLabel": "Effacer",
     "DeleteSpellcastEntryQuestion": "Êtes vous certain de vouloir effacer cette entrée d’incantation des sorts ?",
     "DeleteSpellcastEntryWarning": "ATTENTION: Tous les sorts de cette entrée d’incantation des sorts vont aussi être effacés",
@@ -1060,7 +1060,7 @@
       "PT24H": "24 heures",
       "day": "jour(s)"
     },
-    "EditHazardLabel": "Éditer un Danger ?",
+    "EditHazardLabel": "Éditer un danger ?",
     "EditItemTitle": "Éditer l’objet",
     "EditLabel": "Éditer ?",
     "EditNPCLabel": "Éditer le PNJ ?",
@@ -1084,6 +1084,7 @@
         "ZeroRoundsExpireTurnEnd": "0 round restant, expire à la fin de l'initiative {initiative}",
         "ZeroRoundsExpireTurnStart": "0 round restant, expire au début de l'initiative {initiative}"
       },
+      "RemoveToolTip": "[Clic droit] Retirer l'effet",
       "Sustained": "Maintenu(e)",
       "UnlimitedDuration": "Sans limite de durée",
       "UntilEncounterEnds": "Jusqu'à la fin de la rencontre"
@@ -1147,13 +1148,14 @@
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
       "ActorMustHaveToken": "Ajouter des conditions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
-      "CantImportTooHighVersion": "Incapable d'importer {sourceName}: sa version de shéma ({sourceSchemaVersion}) étant supérieur à celle du monde ({worldSchemaVersion}).",
+      "CantImportTooHighVersion": "Incapable d'importer {sourceName}: la version de son schéma ({sourceSchemaVersion}) étant supérieure à celle du monde ({worldSchemaVersion}).",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnage",
       "MinimumProfLevelSetByFeatures": "La maîtrise choisie est inférieure à la maîtrise obtenue par des capacités.",
       "NoTokenSelected": "Pas de jeton valide sélectionné",
       "NoUpdatePermission": "Vous n'avez pas la permission de mettre à jour cet acteur",
-      "NotEnoughAmmo": "Pas assez de munitions pour cette frappe"
+      "NotEnoughAmmo": "Pas assez de munitions pour cette frappe",
+      "WeaponQuantityZero": "Vous n'êtes plus équipé de ces armes"
     },
     "Ethnicity": "Ethnie",
     "ExpendSpellTitle": "Sort dépensé",
@@ -1182,16 +1184,16 @@
     "FeatArchetypeHeader": "Dons d’archétype",
     "FeatBackgroundShort": "Hist",
     "FeatBonusHeader": "Dons supplémentaires",
-    "FeatBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
+    "FeatBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br>source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
     "FeatClassHeader": "Dons de classe",
     "FeatCurseHeader": "Malédictions",
     "FeatDeityBoonCursesHeader": "Bénédictions/Malédictions",
     "FeatDeityBoonHeader": "Faveurs de la divinité",
-    "FeatDeityboonHeader": "Bénédiction de divinité",
+    "FeatDeityboonHeader": "Bénédiction de la divinité",
     "FeatDualClassHeader": "Dons de double classe",
     "FeatGeneralHeader": "Dons généraux",
     "FeatLevelLabel": "Niveau",
-    "FeatPFSBoonHeader": "Avantages Société des Éclaireurs",
+    "FeatPFSBoonHeader": "Avantages de la Société des Éclaireurs",
     "FeatPrereqLabel": "Prérequis",
     "FeatSkillHeader": "Dons de compétences",
     "FeatTypeAncestry": "Don ancestral",
@@ -1264,27 +1266,27 @@
     },
     "HeroPointsLabel": "Points d’Héroïsme",
     "HitPointsDetailsLabel": "Détails PV",
-    "HitPointsDetailsTitle": "Informations supplémentaires relatives aux Points de vie, tels que Guérison accélérée ou Régénération",
+    "HitPointsDetailsTitle": "Informations supplémentaires relatives aux Points de vie (ex: Guérison accélérée ou Régénération)",
     "HitPointsHeader": "Points de Vie",
     "HitPointsShortLabel": "PV",
     "ImageLabel": "Image",
     "ImmunitiesLabel": "Immunités",
     "IncrementEffectTitle": "Augmenter le niveau de l'effet",
-    "InitativeIsNow": "L'initiatve de {name} est désormais {value} !",
-    "InitiativeHeader": "Bonus à l’Initiative",
+    "InitativeIsNow": "L'initiative de {name} est désormais {value} !",
+    "InitiativeHeader": "Bonus à l’initiative",
     "InitiativeLabel": "Initiative",
     "InitiativeWithSkill": "Initiative: {skillName}",
     "InlineCheck": {
       "BasicWithSave": "{save} basique",
       "DCWithName": "DD {name}",
       "Errors": {
-        "TypeMissing": "Erreur dans @Check: paramètre de type est obligatoire"
+        "TypeMissing": "Erreur dans @Check: le paramètre de type est obligatoire"
       }
     },
     "InlineTemplateErrors": {
       "DistanceMissing": "Erreur dans @Template : le paramètre de distance est obligatoire",
       "DistanceNoNumber": "Erreur dans @Template: : la dimension {distance} n'est pas un nombre",
-      "TypeMissing": "Erreur dans @Template ; le paramètre type est obligatoire",
+      "TypeMissing": "Erreur dans @Template ; le paramètre de type est obligatoire",
       "TypeUnsupported": "Erreur dans @Template : type {type] n'est pas possible",
       "WidthNoNumber": "Erreur dans @Template : la largeur {width} n'est pas un nombre"
     },
@@ -1294,7 +1296,7 @@
     "InventoryEquipmentHeader": "Équipement",
     "InventoryTreasureHeader": "Trésor",
     "InventoryWeaponsHeader": "Armes",
-    "InventroyBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom contenant feu et des d6 pour les dégâts.",
+    "InventroyBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br>source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom contenant feu et des d6 pour les dégâts.",
     "InvestedLabel": "Investi",
     "Item": {
       "ABC": {
@@ -1374,13 +1376,17 @@
       "Plural": "Objets",
       "SidebarSummary": "Résumé {type}",
       "Spells": {
-        "PlaceMeasuredTemplate": "Placer un(e) {shape} de {size}-{unit}"
+        "PlaceMeasuredTemplate": "Placer un(e) {shape} de {size} {unit}"
       },
       "Weapon": {
-        "FromMaterialAndRunes": "Du fait des matériaux et runes, son {property} a été ajusté à {value}",
+        "FromMaterialAndRunes": "Du fait des matériaux et runes, sa {property} a été ajustée à {value}",
         "GeneratedName": {
+          "FourProperties": "{base} {property1} {property2} {property3} {property4}",
+          "FourPropertiesMaterial": "{base} en {material} {property1} {property2} {property3} {property4}",
           "Hint": "C’est le nom de l’arme de base. Pour la plupart des armes, la base est utilisée pour générer un nom plus complet, en prenant en compte le matériau de composition et/ou les runes. Donner à cette arme un nom différent ou la marquer comme \"specific\" empêchera de faire apparaître le nom généré.",
           "Material": "{base} en {material}",
+          "OneProperty": "{base} {property1}",
+          "OnePropertyMaterial": "{base} en {material} {property1}",
           "Potency": "{base} +{potency}",
           "PotencyFourProperties": "{base} {property1} {property2} {property3} {property4} +{potency}",
           "PotencyFourPropertiesMaterial": "{base} en {material} {property1} {property2} {property3} {property4} +{potency}",
@@ -1400,24 +1406,28 @@
           "PotencyThreeProperties": "{base} {property1} {property2} {property3} +{potency}",
           "PotencyThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3} +{potency}",
           "PotencyTwoProperties": "{base} {property1} {property2} +{potency}",
-          "PotencyTwoPropertiesMaterial": "{base} en {material} {property1} {property2} +{potency}"
+          "PotencyTwoPropertiesMaterial": "{base} en {material} {property1} {property2} +{potency}",
+          "ThreeProperties": "{base} {property1} {property2} {property3}",
+          "ThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3}",
+          "TwoProperties": "{base} {property1} {property2}",
+          "TwoPropertiesMaterial": "{base} en {material} {property1} {property2}"
         },
         "HandsLabel": "Mains",
-        "MandatoryMelee": "Cette arme possède un traait qui ne peut être utilisé qu'avec les armes au corps-à-corps.",
+        "MandatoryMelee": "Cette arme possède un trait qui ne peut être utilisé qu'avec les armes au corps-à-corps.",
         "MaterialAndRunes": {
-          "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquer la comme une <i>arme magique spécifique</i>.",
+          "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquez la comme une <i>arme magique spécifique</i>.",
           "MaterialOption": "{type} ({grade})",
           "Title": "Matériau et runes"
         },
         "MeleeUsage": {
-          "Hint": "Une arme combinée possède la forme ou un usage d'une arme à feu et une forme ou un usage d'arme au corps-à-corps. Passer de l'usage de l'arme à feu à celle d'arme au corps-à-corps nécessite une action Intaragir. Quoi qu'il en soit, si votre dernière action était une Frappe réussie au corps-à-corps en utilisant une arme combinée, vous pouvez faire une Frappe d'arme à feu avec l'arme combinée contre cet adversaire sans avoir à plainement passer à l'usage d'arme à feu, tirant avec l'arme à feu lorsque vous touchez avec l'attaque au corps-à-corps. Dans ce cas, l'arme combinée revient à son usage au corps-à-corps après la Frappe d'arme à feu.",
+          "Hint": "Une arme combinée possède la forme ou un usage d'une arme à feu et une forme ou un usage d'arme de corps-à-corps. Passer de l'usage de l'arme à feu à celle d'arme au corps-à-corps nécessite une action Interagir. Quoi qu'il en soit, si votre dernière action était une Frappe réussie au corps-à-corps en utilisant une arme combinée, vous pouvez faire une Frappe d'arme à feu avec l'arme combinée contre cet adversaire sans avoir à pleinement passer à l'usage d'arme à feu, tirant avec l'arme à feu lorsque vous touchez avec l'attaque au corps-à-corps. Dans ce cas, l'arme combinée revient à son usage au corps-à-corps après la Frappe d'arme à feu.",
           "Label": "Usage au corps-à-corps",
           "StrikeLabel": {
             "Melee": "Frappe au corps-à-corps : {weapon}",
             "Ranged": "Frappe à distance : {weapon}"
           }
         },
-        "NoRangeMelee": "Aucun (Corps-à-corps)",
+        "NoRangeMelee": "Aucun (corps-à-corps)",
         "OtherTags": {
           "Hint": "Il s'agit de trait indiquant des classifications dans les règles de la 2e édition qui n'ont pas de statut/définition explicite mais qui sont néanmoins très utilisés. Certains peuvent être ajoutés automatiquement lorsque d'autres propriétés sont présentes.",
           "Label": "Autres traits"
@@ -1452,8 +1462,8 @@
     "JournalEntry": {
       "Plural": "Entrées de journal"
     },
-    "KeyAbility": "Carac. principale",
-    "KeyAbilityLabel": "Caractéristique principale",
+    "KeyAbility": "Carac. essentielle",
+    "KeyAbilityLabel": "Caractéristique essentielle",
     "KitItems": "Objets",
     "KitWorldItem": "Cet objet n'apparaît pas dans un compendium et ne fonctionnera pas dans d'autres mondes",
     "LackCastConsumableCapability": "Vous n'êtes pas qualifié pour utiliser {name} et ne possédez pas le don Usurpation d'objet magique",
@@ -1632,13 +1642,13 @@
     "MaxHPTitle": "Votre maximum de Points de Vie. Ce montant est automatiquement calculé.",
     "MaxHPTitleNPC": "Maximum de Points de Vie",
     "MaxHitPointsBaseLabel": "PV Base max {base}",
-    "MaxHitPointsHeader": "Points de vie Maximum",
-    "MaxHitPointsShortLabel": "PV Max",
-    "MaxStaminaPointsShortLabel": "PE Max",
+    "MaxHitPointsHeader": "Points de vie maximum",
+    "MaxHitPointsShortLabel": "PV max",
+    "MaxStaminaPointsShortLabel": "PE max",
     "MaxStaminaTitle": "Votre Maximum de Points d’Endurance",
     "MetalStrikes": "Frappe de métal",
     "Migrations": {
-      "Finished": "La migration du Système PF2 vers la version {version} terminée !",
+      "Finished": "La migration du Système PF2 vers la version {version} est terminée !",
       "OnlyGMCanUse": "Seul un MJ peut utiliser cet outil.",
       "OutsideSchemaRange": "La portée spécifiée est en dehors du schéma du système (entre {minimum} et {maximum}).",
       "Starting": "L'ordinateur migre le système PF2 vers sa version {version}. Soyez patient et ne fermez pas votre partie ou n'éteignez pas votre serveur.",
@@ -1660,17 +1670,17 @@
     "ModifierNamePlaceholder": "Nom",
     "ModifierTitle": "Modif.",
     "ModifierType": {
-      "ability": "Caractéristique",
-      "circumstance": "Circonstance",
-      "item": "Objet",
-      "potency": "Puissance",
-      "proficiency": "Maîtrise",
-      "status": "Statut",
-      "untyped": "Sans-type"
+      "ability": "caractéristique",
+      "circumstance": "circonstance",
+      "item": "objet",
+      "potency": "puissance",
+      "proficiency": "maîtrise",
+      "status": "statut",
+      "untyped": "sans-type"
     },
     "ModifierTypeTitle": "[Type]",
     "ModifiersTitle": "Modif.",
-    "MultipleAttackPenalty": "Pénalité d'Attaque Multiple",
+    "MultipleAttackPenalty": "Pénalité d'attaques multiples",
     "MysticStrikes": "Frappes mystiques",
     "NPC": {
       "Abilities": {
@@ -1794,7 +1804,7 @@
       "Spells": {
         "AttackLabel": "Attaque",
         "DCLabel": "DD",
-        "PreparedLabel": "Préparés",
+        "PreparedLabel": "préparés",
         "PreparedShortLabel": "Prép."
       },
       "SpellsTab": "Sorts"
@@ -1818,9 +1828,9 @@
       "Armor": "Nouvelle armure",
       "Background": "Nouvel historique",
       "Backpack": "Nouveau contenant",
-      "Condition": "Nouvelle Condition",
+      "Condition": "Nouvelle condition",
       "Consumable": "Nouveau consommable",
-      "Equipment": "Nouvel Équipement",
+      "Equipment": "Nouvel équipement",
       "Feat": "Nouveau don",
       "Kit": "Nouveau kit",
       "Lore": "Nouvelle connaissance",
@@ -1840,8 +1850,8 @@
     "OpenActionBrowserTitle": "Ouvrir le menu des Actions",
     "OpenFeatBrowserTitle": "Ouvrir le menu des Dons",
     "OpenInventoryBrowser": "Ouvrir le Menu Inventaire",
-    "OpenItemTitle": "Activer le contenu du conteneur",
-    "OpenSpellBrowserTitle": "Ouvrir le Menu Sort",
+    "OpenItemTitle": "Activer le contenu du contenant",
+    "OpenSpellBrowserTitle": "Ouvrir le menu des sorts",
     "OrdinalNumber": "{value}{suffix}",
     "OrdinalSuffixes": {
       "few": "e",
@@ -1889,35 +1899,35 @@
     "Playlist": {
       "Plural": "Listes de lecture"
     },
-    "PotencyRuneLabel": "Rune de Puissance",
-    "PreciousMaterialAdamantine": "Adamantium",
+    "PotencyRuneLabel": "Rune de puissance",
+    "PreciousMaterialAdamantine": "adamantium",
     "PreciousMaterialAdamantineDescription": "Extrait de rochers tombés du ciel, l’adamantium est l’un des métaux connus les plus solides. Il est d’un noir luisant et très prisé pour son incroyable résistance et sa capacité à conserver un tranchant époustouflant.",
-    "PreciousMaterialColdIron": "Fer froid",
+    "PreciousMaterialColdIron": "fer froid",
     "PreciousMaterialColdIronDescription": "Les armes faites en fer froid sont mortelles pour les démons et les fées. Le fer froid ressemble à du fer normal, mais il est extrait de gisements très purs et forgé sans chaleur ou presque. Ce processus est très compliqué, en particulier pour les objets de haute qualité.",
-    "PreciousMaterialDarkwood": "Ébénite",
+    "PreciousMaterialDarkwood": "ébénite",
     "PreciousMaterialDarkwoodDescription": "L’ébénite est un bois très léger que l’on trouve principalement dans les vieilles forêts du sud central de l’Avistan. Elle est aussi sombre que l’ébène, mais présente une légère teinte violette. Un objet en ébénite est 1 Encombrement plus léger que la normale (ou d’un Encombrement léger si son Encombrement normal est de 1, sans effet s’il est déjà normalement d’Encombrement léger). Le prix d’un objet en ébénite est basé sur son Encombrement normal, non son Encombrement réduit grâce à la légèreté du matériau. En revanche, réduisez son Encombrement avant de faire les ajustements d’Encombrement en fonction de sa taille.",
-    "PreciousMaterialDragonhide": "Peau de dragon",
+    "PreciousMaterialDragonhide": "peau de dragon",
     "PreciousMaterialDragonhideDescription": "La peau et les écailles d’un dragon peuvent servir à Fabriquer n’importe quel objet normalement fait de cuir ou de peau. La peau de dragon se présente sous plusieurs couleurs, du bleu au doré, en fonction du dragon sur lequel elle a été prélevée. Grâce à la résilience des écailles, elle peut aussi servir à Fabriquer une armure habituellement faite de plaques de métal (comme une cuirasse, une armure de plates ou un harnois), ce qui permet de les forger sans utiliser de métal. Chaque objet en peau de dragon est immunisé contre un type de dégâts selon le type de dragon.",
     "PreciousMaterialGradeLabel": "Qualité du métal",
-    "PreciousMaterialGrisantianPelt": "Fourrure de grisantien",
+    "PreciousMaterialGrisantianPelt": "fourrure de grisantien",
     "PreciousMaterialGrisantianPeltDescription": "Cette peau d’animal surnaturellement robuste est dorée et brille sous le soleil. Elle peut être utilisée pour Fabriquer tout objet habituellement fait de tissu, de cuir ou de peau. Ce matériau est immunisé au feu et sa Solidité est doublée contre les dégâts contondants ou perforants. Jusqu’à 4 Encombrements de peau de grisantien peut être récoltée d’une unique créature (c’est habituellement plus qu’assez pour 4 armures de qualité standard ou 2 armure de haute qualité).",
     "PreciousMaterialHighGrade": "haute qualité",
     "PreciousMaterialLabel": "Matériau précieux",
     "PreciousMaterialLowGrade": "basse qualité",
-    "PreciousMaterialMithral": "Mithril",
+    "PreciousMaterialMithral": "mithril",
     "PreciousMaterialMithralDescription": "Le mithral est réputé pour sa légèreté, sa solidité et son efficacité contre un large éventail de créatures, y compris les diables et les lycanthropes. Il a le même éclat que l’argent, mais il est un peu plus clair. Les armes et les armures en mithral sont considérées comme étant en argent quand il s’agit de blesser des créatures dotées d’une faiblesse face à l’argent. Un objet en mithral est plus léger que son équivalent en fer ou en acier : son Encombrement est réduit de 1 (il est léger s’il avait un Encombrement de 1, par contre cette réduction n’a pas d’effet sur un objet déjà d’Encombrement léger). Le prix d’un objet conçu avec ce matériau est basé sur son Encombrement normal et non sur son Encombrement réduit grâce à la légèreté du matériau. En revanche, réduisez son Encombrement avant de faire les ajustements d’Encombrement en fonction de sa taille.",
-    "PreciousMaterialOrichalcum": "Orichalque",
+    "PreciousMaterialOrichalcum": "orichalque",
     "PreciousMaterialOrichalcumDescription": "L’orichalque est le plus rare et le plus précieux des métaux célestes et il est très recherché pour ses incroyables propriétés magiques liées au passage du temps. Ce métal cuivré terne n’est pas aussi résistant que l’adamantium, mais sa capacité à modifier le temps le protège et lui donne une Solidité et des points de vie supérieurs. Si un objet en orichalque subit des dégâts, mais n’est pas détruit, il se répare complètement en 24 heures.",
-    "PreciousMaterialSilver": "Argent",
+    "PreciousMaterialSilver": "argent",
     "PreciousMaterialSilverDescription": "Les armes en argent sont un fléau pour les créatures telles que les diables et les loups-garous. Les objets en argent sont moins solides que ceux en acier et les objets en argent de basse qualité sont généralement seulement plaqués.",
-    "PreciousMaterialSovereignSteel": "Acier souverain",
+    "PreciousMaterialSovereignSteel": "acier souverain",
     "PreciousMaterialSovereignSteelDescription": "Créé par le souverain noir Kevoth-Kul, cet alliage unique de fer froid et de noqual, le métal céleste, peut offrir une protection contre les attaques magiques. Le processus de forge à froid des deux matériaux est assez compliqué et précis. Les personnages à la recherche d'armes et d'armures en acier souverain devront presque certainement se rendre à Chute d'étoiles pour se procurer des équipements fabriqués à partir de cet alliage rare. Bien que certains pensent qu'il est également possible de fabriquer des boucliers en acier souverain, lors d'une de ses crises, Kevoth-Kul a hurlé qu'il n'en avait pas l'utilité et a interdit à quiconque de fabriquer de telles choses. Jusqu'à présent, ses forgerons ont eu trop peur pour confirmer s'il s'agissait ou non d'une blague. Tous les objets en acier souverain (y compris les armes et armures ci-dessous) bénéficient d'un bonus de circonstances de +4 aux jets de sauvegarde contre la magie que l'objet fabrique, et accordent leur bonus aux jets de sauvegarde que le propriétaire effectue spécifiquement pour protéger l'objet de la magie (comme contre le sort @Compendium[pf2e.spells-srd.0fYE64odlKqISzft]).",
     "PreciousMaterialStandardGrade": "qualité standard",
-    "PreciousMaterialWarpglass": "Verre déformé",
+    "PreciousMaterialWarpglass": "verre déformé",
     "PreciousMaterialWarpglassDescription": "Cette substance bizarre est façonnée à partir de la quintessence brute et chaotique du Maelström. Il peut être façonné en armes et en objets, mais est trop instable pour en faire une armure ou des boucliers utiles. Le verre déformé brut est un matériau vitreux opalescent d’une résistance surprenante. Lorsqu’il est travaillé, il change d’apparence – mais pas de propriétés – pour apparaître comme des stries aléatoires d’autres métaux et types de pierre.",
-    "PreparationTypeInnate": "Inné",
-    "PreparationTypePrepared": "Preparé",
-    "PreparationTypeSpontaneous": "Spontané",
+    "PreparationTypeInnate": "inné",
+    "PreparationTypePrepared": "preparé",
+    "PreparationTypeSpontaneous": "spontané",
     "Prerequisite1": "Prérequis 1",
     "Prerequisite2": "Prérequis 2",
     "Prerequisite3": "Prérequis 3",
@@ -1925,7 +1935,7 @@
     "Prerequisite5": "Prérequis 5",
     "PriceLabel": "Prix",
     "ProficiencyLabel": "Maîtrise",
-    "ProficiencyLevel0": "Inexp.",
+    "ProficiencyLevel0": "Inexpér.",
     "ProficiencyLevel1": "Qualifié",
     "ProficiencyLevel2": "Expert",
     "ProficiencyLevel3": "Maître",
@@ -1937,8 +1947,9 @@
     "PropertyRuneLabel4": "Rune de propriété (4e)",
     "QuantityLabel": "Quantité",
     "QuantityShortLabel": "Qté",
+    "RangePenalty": "Pénalité de portée",
     "Rarity": "Rareté",
-    "Reach": "Allonge (feet)",
+    "Reach": "Allonge (pieds)",
     "RecallKnowledge": {
       "Breakdown": "Essais",
       "BreakdownTitle": "Essais d'identification d'une créature",
@@ -1955,12 +1966,12 @@
       "UnspecificLore": "Connaissance non spécifique"
     },
     "Recovery": {
-      "critFailure": "Augmentez l'intensité mourant de 2.",
-      "critSuccess": "Réduisez l'intensité mourant de 2.",
-      "failure": "Augmentez l'intensité mourant de 1.",
+      "critFailure": "Augmentez l'intensité de mourant de 2.",
+      "critSuccess": "Réduisez l'intensité de mourant de 2.",
+      "failure": "Augmentez l'intensité de mourant de 1.",
       "roll": "Cliquez pour lancer le Test de récupération",
       "rollingDescription": "Test de récupération contre un DD {dc} (mourant {dying})",
-      "success": "Réduisez l'intensité mourant de 1."
+      "success": "Réduisez l'intensité de mourant de 1."
     },
     "RemoveCoinsByValueLabel": "Retirer la valeur, pas de type particulier",
     "RemoveCoinsTitle": "Retirer des pièces",
@@ -1978,11 +1989,11 @@
       "KeepBest": "Relancer et garder le meilleur",
       "KeepNew": "relancer et garder le nouveau",
       "KeepWorst": "Relancer et garder le pire",
-      "MessageHeroPoint": "Relancé en utilisant un point d'héroïsme",
+      "MessageHeroPoint": "a été relancé en utilisant un point d'héroïsme",
       "MessageKeep": {
-        "best": "Relancé et le meilleur a été conservé",
-        "new": "Relancé et le nouveau a été conservé",
-        "worst": "Relancé et le pire a été conservé"
+        "best": "a été relancé en conservant le meilleur",
+        "new": "a été relancé en conservant le dernier",
+        "worst": "a été relancé en conservant le pire"
       },
       "WarnNoHeroPoint": "{name} n'a plus de point d'héroïsme"
     },
@@ -2100,7 +2111,7 @@
         "Instructions": "Ces réglages permettent aux MJ d'ajouter des traits, des langues et d'autres éléments pour fabriquer leur règles maison. Pour ajouter de tels éléments, taper simplement les termes désirés dans les champs appropriés, séparés par des virgules ou la touche tabulation.ils vont alors apparaître dans les lieux appropriés sur les feuilles des acteurs et des objets. Pour mettre à jour un terme, cliquez dessus pour faire les changements désirés.",
         "Label": "Choisir les réglages maison",
         "Languages": {
-          "Hint": "Langues à savoir ou à apprendre pour les personnages (ex: draconique, gnomien)",
+          "Hint": "Langues connues ou apprises pour les personnages (ex: draconique, gnomien)",
           "Name": "Langues"
         },
         "MagicSchools": {
@@ -2113,7 +2124,7 @@
           "Name": "Traits de sort"
         },
         "WeaponCategories": {
-          "Hint": "Le niveau maximal de la taxonomie des armes de Pathfinder 2 (ex : Simple, de guerre)",
+          "Hint": "Le niveau maximal de la taxonomie des armes de Pathfinder 2 (ex : simple, de guerre)",
           "Name": "Catégories d'arme"
         },
         "WeaponGroups": {
@@ -2132,7 +2143,7 @@
           "2": "+2",
           "5": "+5"
         },
-        "Hint": "Modificateur pour ajouter au DD du test de Compétence pour Identifier la magie si la compétence ne correspond pas à la tradition magique du personnage",
+        "Hint": "Modificateur pour ajouter au DD du test de compétence pour Identifier la magie si la compétence ne correspond pas à la tradition magique du personnage",
         "Name": "Modificateur de compétence pour Identifier la magie"
       },
       "IgnoreCoinBulk": {
@@ -2184,12 +2195,12 @@
       },
       "Player": {
         "QuickRolls": {
-          "DialogHint": "Montrez cette fenêtre seulement si je Shift-click pour lancer les dés"
+          "DialogHint": "Montrez cette fenêtre seulement si je Shift-clic pour lancer les dés"
         }
       },
       "RAI": {
         "TreatWoundsAltSkills": {
-          "Hint": "Lorsqu'il est activé, les personnages avec le don Médecine naturelle ou le champ de découverte Chirurgien peuvent lancer les dés contre des DD supérieurs.",
+          "Hint": "Lorsqu'il est activé, les personnages avec le don Médecine naturelle ou le domaine de découverte de Chirurgien peuvent lancer les dés contre des DD supérieurs.",
           "Name": "Les compétences alternatives pour Soigner les blessures peuvent lancer les dés contre des DD supérieurs."
         }
       },
@@ -2214,22 +2225,22 @@
       },
       "Variant": {
         "AncestryParagon": {
-          "Hint": "Accorde des emplacements de dons supplémentaires pour les variantes de règles du Guide du maître (p.194)",
+          "Hint": "Accorde des emplacements de dons supplémentaires pour les variantes de règles du Guide du maître",
           "Name": "Variantes de règles : Parangon ancestral",
           "Title": "Parangon ancestral"
         },
         "AutomaticBonus": {
           "Choices": {
             "ABPFundamentalPotency": "Traiter la progression des bonus comme les runes fondamentales",
-            "ABPRulesAsWritten": "Utilisez les règles varaibles telles qu'écrites",
+            "ABPRulesAsWritten": "Utilisez les règles variables telles qu'écrites",
             "noABP": "Utiliser les règles par défaut"
           },
-          "Hint": "rechargement nécessaire : supporte la variante de règle de progression automatique du bonus, sauf les capacité de compétences et d'apogée",
+          "Hint": "rechargement nécessaire : supporte la variante de règle de progression automatique du bonus, sauf les capacités de compétences et d'apogée",
           "Name": "Variantes de règles de bonus automatique",
           "Title": "Progression automatique du bonus"
         },
         "DualClass": {
-          "Hint": "Accorde des emplacements de dons supplémentaires pour la variane de classe double issue du guide du maître (p. 192). Cette variante ajoute seulement des emplacements de sorts et toujours un emplacement de don de niveau 1.",
+          "Hint": "Accorde des emplacements de dons supplémentaires pour la variante de classe double issue du guide du maître (p. 192). Cette variante ajoute seulement des emplacements de sorts et toujours un emplacement de don de niveau 1.",
           "Name": "Variante des règles de classe double",
           "Title": "Classe double"
         },
@@ -2238,8 +2249,8 @@
           "Name": "Modificateur de maîtrise experte"
         },
         "FreeArchetype": {
-          "Hint": "Accorde les emplacements de dons des variantes de règle du Guide du maître (p.194)",
-          "Name": "Variantes de règles d'Archétype libre",
+          "Hint": "Accorde les emplacements de dons des variantes de règle du Guide du maître",
+          "Name": "Variantes de règles d'archétype libre",
           "Title": "Archétype supplémentaire"
         },
         "Hint": "Autoriser et configurer les variantes de règles comme la maîtrise sans niveau ou le système d'Endurance.",
@@ -2258,7 +2269,7 @@
             "ProficiencyWithLevel": "Utiliser les règles de base",
             "ProficiencyWithoutLevel": "Utiliser les variantes de règles"
           },
-          "Hint": "Jouer avec les variantes de règles de maîtrise sans niveau issues du Guide du Maître (p.198)",
+          "Hint": "Jouer avec les variantes de règles de maîtrise sans niveau issues du Guide du maître",
           "Name": "Variantes de règles de maîtrise sans niveau",
           "Title": "Maîtrise sans niveau"
         },
@@ -2267,7 +2278,7 @@
             "0": "Ne pas utilisez l'Endurance",
             "1": "Utiliser l'Endurance"
           },
-          "Hint": "Jouer avec les variantes de règles d'Endurance issues du Guide du maître (p.200)",
+          "Hint": "Jouer avec les variantes de règles d'Endurance issues du Guide du maître",
           "Name": "Variantes de règles de l'Endurance",
           "Title": "Endurance"
         },
@@ -2321,7 +2332,7 @@
           "Disabled": "Désactivé",
           "Enabled": "Activé",
           "Hint": "Activer pour que l'obscurité de la scène correspondent au moment de la journée.",
-          "Name": "Synchroniser l'Obscurité (Scène actuelle)"
+          "Name": "Synchroniser l'obscurité (scène actuelle)"
         },
         "TimeConvention": {
           "Hint": "Montrer une horloge soit sur 24h, soit sur 12h",
@@ -2347,8 +2358,8 @@
         "name": "Icônes par défaut de Foundry"
       },
       "statusEffectShowCombatMessage": {
-        "hint": "Afficher dans le chat textuel l'état des Effets en cours sur le combattant à chaque tour.",
-        "name": "Afficher l'état des Effets en combat"
+        "hint": "Afficher dans le chat textuel l'état des effets en cours sur le combattant à chaque tour.",
+        "name": "Afficher l'état des effets en combat"
       },
       "statusEffectType": {
         "blackWhite": "icônes Noir et Blanc",
@@ -2379,7 +2390,7 @@
       "label": "Crée un parchemin ou une baguette à partir du sort déposé",
       "scroll": "Parchemin",
       "spellLevelLabel": "Niveau intensifié:",
-      "submit": "Créer l'objer",
+      "submit": "Créer l'objet",
       "title": "Crée un parchemin ou une baguette",
       "wand": "Baguette"
     },
@@ -2446,7 +2457,7 @@
     "SkillArcana": "Arcanes",
     "SkillAth": "Athlétisme",
     "SkillAthletics": "Athlétisme",
-    "SkillCheckWithName": "Jet de Compétence : {skillName}",
+    "SkillCheckWithName": "Test de compétence : {skillName}",
     "SkillCra": "Artisanat",
     "SkillCrafting": "Artisanat",
     "SkillDec": "Duperie",
@@ -2563,7 +2574,7 @@
       "Add": "Ajouter l'intervalle d'intensification",
       "Header": "intensification (intervalle)",
       "Label": "intervalle",
-      "Selection": "Intesifié (+{interval})"
+      "Selection": "Intensifié (+{interval})"
     },
     "SpellScalingLabel": "Intensification",
     "SpellSchoolLabel": "École de Magie",
@@ -2584,9 +2595,9 @@
     "SpellTypeHeal": "Guérison",
     "SpellTypeLabel": "Type de sort",
     "SpellTypeRitual": "Rituel",
-    "SpellTypeSave": "Jet de Sauvegarde",
+    "SpellTypeSave": "Jet de sauvegarde",
     "SpellTypeUtility": "Utilitaire",
-    "SpellcastingTypeLabel": "Type d'Incantation",
+    "SpellcastingTypeLabel": "Type d'incantation",
     "SpellsActionHeader": "Action",
     "SpellsSchoolHeader": "École",
     "StackGroupArrows": "Flêches",
@@ -2594,7 +2605,7 @@
     "StackGroupBolts": "Carreaux",
     "StackGroupCoins": "Pièces",
     "StackGroupGems": "Gemmes",
-    "StackGroupLabel": "S'empile avec",
+    "StackGroupLabel": "Cumul avec",
     "StackGroupRations": "Rations",
     "StackGroupRounds10": "Rounds (10)",
     "StackGroupRounds5": "Rounds (5)",
@@ -2648,7 +2659,7 @@
     "TabFeatsLabel": "Dons",
     "TabInventoryLabel": "Inventaire",
     "TabManageTabsLabel": "Gérer les onglets",
-    "TabPathfinderSociety": "Société des Éclaireurs",
+    "TabPathfinderSociety": "Jeu organisé",
     "TabSkillsLabel": "Compétences",
     "TabSpellbookLabel": "Grimoire",
     "TargetFlatFootedLabel": "Cible prise au dépourvu",
@@ -2670,8 +2681,8 @@
       }
     },
     "ToggleSignatureSpellTitle": "Activer les sorts emblématiques",
-    "ToggleSlotlessSpellLevelsTitle": "Active la visibilité des niveaux de sort sans emplacement dans votre grimoire",
-    "ToggleSpellVisibilityLevelTitle": "Activer un chapitre de votre Grimoire",
+    "ToggleSlotlessSpellLevelsTitle": "Activer la visibilité des niveaux de sort sans emplacement dans votre grimoire",
+    "ToggleSpellVisibilityLevelTitle": "Activer un chapitre de votre grimoire",
     "ToggleSpellVisibilityTitle": "Activez la visibilité des sorts",
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
     "ToggleWithName": "Activer : {property}",
@@ -3001,6 +3012,7 @@
     "TraitDescriptionLitany": "Les litanies sont des sorts de dévotion spéciaux, typiquement utilisés par les champions, qui coûtent une action unique et qui confèrent généralement une immunité temporaire aux autres litanies.",
     "TraitDescriptionLizardfolk": "Ces humanoïdes reptiliens, connus aussi sous le nom d'iruxis, sont extrêmement adaptables et patients.",
     "TraitDescriptionMagical": "Chaque chose dotée du trait magique est imprégnée d’énergies magiques qui ne sont pas liées à une tradition magique spécifique. Un objet magique possède une aura magique imprégnée de l’école de magie dominante qui le caractérise. Certains objets ou effets sont étroitement liés à une tradition magique particulière. L’objet possède alors le trait arcanique, divin, occulte ou primordial au lieu de magique. Ces traits indiquent tous que l’objet est magique.",
+    "TraitDescriptionMagus": "Cela indique les capacités de la classe de magus.",
     "TraitDescriptionManipulate": "Afin de pouvoir entreprendre une action dotée de ce trait, vous devez manipuler physiquement un objet ou faire certains gestes. Les créatures qui ne possèdent pas de membre adapté ne peuvent pas entreprendre les actions dotées de ce trait. Les actions de manipulation déclenchent souvent des réactions.",
     "TraitDescriptionMechanical": "Un danger doté de ce trait est un objet physique artificiel.",
     "TraitDescriptionMental": "Un effet mental peut influencer l’esprit de sa cible. Il n’aura aucun effet sur un objet ou une créature dénuée d’intelligence.",
@@ -3087,6 +3099,7 @@
     "TraitDescriptionSylph": "Un type de descendant de génie issu d'un être du plan de l'Air",
     "TraitDescriptionTalisman": "Un talisman est un petit objet fixé sur une armure, un bouclier ou une arme (appelé l’objet support). Vous devez manier ou porter l’objet pour activer le talisman fixé dessus. Une fois activé, un talisman se consume de manière permanente.",
     "TraitDescriptionTattoo": "Un tatouage est un type d’objet qui est dessiné ou gravé sur la peau d’une creature et qui prend habituellement la forme d’images ou de symboles.",
+    "TraitDescriptionTelepathy": "Une créature disposant de la télépathie peut communiquer mentalement avec les créatures. Cela ne lui donne aucun aspect spécifique à leurs pensées et ne permet pas de communiquer davantage d’information qu’un discours ordinaire.",
     "TraitDescriptionTeleportation": "Les effets de téléportations vous permettent de vous déplacer instantanément d’un point donné à un autre. La téléportation ne déclenche généralement pas de réactions causées par les déplacements.",
     "TraitDescriptionTengu": "Une créature avec ce trait possède l'héritage tengu.",
     "TraitDescriptionTethered": "Cette arme est attachée à une longueur de corde ou à une chaîne qui vous permet de la récupérer après l’avoir lancée. Si vous avez une main libre alors que vous maniez cette arme, vous pouvez utiliser une action Interagir pour la reprendre en main après l’avoir lancée lors d’une attaque à distance ou si vous avez été désarmé (à moins qu’elle ne soit tenue par une autre créature).",
@@ -3263,6 +3276,7 @@
     "TraitModular": "Modulaire C, P ou T",
     "TraitMonitor": "Veilleur",
     "TraitMonk": "Moine",
+    "TraitMorlock": "Morlock",
     "TraitMorph": "Transformation",
     "TraitMortic": "Mortique",
     "TraitMounted": "Monté",
@@ -3331,6 +3345,7 @@
     "TraitRange240": "Portée 240 ft (72 m)",
     "TraitRange25": "Portée 25 ft (7,5 m)",
     "TraitRange30": "Portée 30 ft (9 m)",
+    "TraitRange300": "Portée 300 ft (90 m)",
     "TraitRange40": "Portée 40 ft (12 m)",
     "TraitRange5": "Portée 5 ft (1,5 m)",
     "TraitRange50": "Portée 50 ft (15 m)",
@@ -3465,6 +3480,7 @@
     "TraitTattoo": "Tatouage",
     "TraitTattooedOnTheBody": "Tatoué sur le corps",
     "TraitTechnological": "Technologique",
+    "TraitTelepathy": "Télépathie",
     "TraitTeleportation": "Téléportation",
     "TraitTengu": "Tengu",
     "TraitTethered": "Rappel",
@@ -3568,7 +3584,7 @@
       "DetectBeforeRunningIntoIt": "Tout remarquer à l'avance",
       "DetectEverything": "Remarquer tout",
       "DetectionMode": "Mode de détection",
-      "DifficultTerrain": "Vitesse sur Terrain difficile",
+      "DifficultTerrain": "Vitesse sur un Terrain difficile",
       "Distance": "Distance",
       "ExplorationActivities": {
         "AvoidNotice": "Échapper aux regards",
@@ -3587,7 +3603,7 @@
       "ExplorationSpeed": "Vitesse d'exploration",
       "Feet": "Pieds",
       "FeetAcronym": "ft",
-      "GreaterDifficultTerrain": "Vitesse sur Terrain très difficile",
+      "GreaterDifficultTerrain": "Vitesse sur un terrain très difficile",
       "Hours": "Heures",
       "HoursPerDay": "Heures passées à voyager par jour",
       "HustleMinutes": "Minutes passées à se presser par jour",
@@ -3599,7 +3615,7 @@
       "PartySpeed": "Vitesse du groupe",
       "Speed": "Vitesse",
       "TerrainSlowdown": "Vitesse du terrain",
-      "Title": "Calculateur de Durée du voyage (Prévisualiser)",
+      "Title": "Calculateur de durée du voyage (Prévisualiser)",
       "TravelDuration": "Durée du voyage",
       "Weeks": "Semaine"
     },
@@ -3613,12 +3629,12 @@
     "UI": {
       "applyDamage": {
         "by": "par",
-        "damaged": "est blessé de : ",
+        "damaged": "est blessé de :",
         "healed": "est soigné de :",
         "shieldActive": "et son bouclier subit",
         "shieldInActive": "subit"
       },
-      "errorTargetToken": "Vous n'avez pas ciblé de Jeton.",
+      "errorTargetToken": "Vous n'avez pas ciblé de jeton.",
       "noDamageInfoForOutcome": "Pas d'informations sur les dégâts de l'issue {outcome}",
       "shiftModifyDamageLabel": "Modificateur :",
       "shiftModifyDamageTitle": "Modifier les dégâts/soins obtenus"
@@ -3631,7 +3647,7 @@
     },
     "UnprepareItemTitle": "Abandonner un sort préparé",
     "UnpreparedSpellsLabel": "Liste de préparation",
-    "UpdateActorLabel": "Mettre à jour l’Acteur",
+    "UpdateActorLabel": "Mettre à jour l’acteur",
     "UpdateLabelUniversal": "Mise à jour",
     "Usage": "Usage",
     "UserSettings": {
@@ -3855,7 +3871,7 @@
         "wooden-taws": "Billes en bois"
       }
     },
-    "WeaponAbilityLabel": "Capacité d’arme",
+    "WeaponAbilityLabel": "Capacité d'arme",
     "WeaponBaseDamageLabel": "Dégâts de base de l'arme",
     "WeaponBaseDamageTitle": "Cette section permet de configurer les dégâts de base de l'arme. Il ne faut pas ajouter de dé supplémentaire des runes de frappe ici, mais le configurer dans la section Runes d'arme ci-dessus.",
     "WeaponBaseLabel": "Base",
@@ -3901,7 +3917,7 @@
     "WeaponHands1": "Une",
     "WeaponHands1Plus": "Une-plus",
     "WeaponHands2": "Deux",
-    "WeaponMAPDefaultOption": "Défaut (utiliser le trait Agile si présent)",
+    "WeaponMAPDefaultOption": "Défaut (utiliser le trait agile s'il est présent)",
     "WeaponMAPLabel": "Pén. Att. Mult.",
     "WeaponPotencyRune1": "Puissance d'arme (+1)",
     "WeaponPotencyRune2": "Puissance d'arme (+2)",
@@ -3917,7 +3933,7 @@
         }
       },
       "ancestralEchoing": {
-        "Name": "Rune Écho ancestral"
+        "Name": "Rune d'écho ancestral"
       },
       "anchoring": {
         "Name": "Rune à ancre",
@@ -3935,10 +3951,10 @@
         "Name": "Rune tueuse"
       },
       "bloodbane": {
-        "Name": "Rune Ennemi ancestral"
+        "Name": "Rune d'ennemi ancestral"
       },
       "bloodthirsty": {
-        "Name": "Assoiffée de sang",
+        "Name": "Rune assoiffée de sang",
         "Note": {
           "criticalSuccess": "<strong>Rune assoiffée de sang</strong> Lorsque vous obtenez un coup critique sur une cible qui subit des dégâts persistants de saignement, votre cible devient @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{drainée 1}."
         }
@@ -3977,7 +3993,7 @@
         }
       },
       "energizing": {
-        "Name": "Rune Énergisante"
+        "Name": "Rune énergisante"
       },
       "extending": {
         "Name": "Rune extensible"
@@ -4015,7 +4031,7 @@
         }
       },
       "greaterBloodbane": {
-        "Name": "Rune ennemi ancestral supérieur"
+        "Name": "Rune d'ennemi ancestral supérieur"
       },
       "greaterBrilliant": {
         "Name": "Rune brillante supérieure",
@@ -4070,7 +4086,7 @@
         }
       },
       "greaterHauling": {
-        "Name": "Rune traction supérieure"
+        "Name": "Rune de traction supérieure"
       },
       "greaterImpactful": {
         "Name": "Rune impactante supérieure",
@@ -4112,7 +4128,7 @@
         }
       },
       "hauling": {
-        "Name": "Rune traction"
+        "Name": "Rune de traction"
       },
       "holy": {
         "Name": "Rune sainte",
@@ -4193,62 +4209,62 @@
         }
       }
     },
-    "WeaponPropertyRuneAnarchic": "Anarchique",
-    "WeaponPropertyRuneAncestralEchoing": "Écho ancestral",
-    "WeaponPropertyRuneAnchoring": "À ancre",
-    "WeaponPropertyRuneAxiomatic": "Axiomatique",
-    "WeaponPropertyRuneBane": "Tueuse",
-    "WeaponPropertyRuneBloodbane": "Ennemi ancestral",
-    "WeaponPropertyRuneBloodthirsty": "Assoiffée de sang",
-    "WeaponPropertyRuneBrilliant": "Brillante",
-    "WeaponPropertyRuneConducting": "Conductrice",
-    "WeaponPropertyRuneCorrosive": "Corrosif",
-    "WeaponPropertyRuneCrushing": "Écrasante",
-    "WeaponPropertyRuneCunning": "Astucieuse",
-    "WeaponPropertyRuneDancing": "Dansante",
-    "WeaponPropertyRuneDisrupting": "Perturbatrice",
-    "WeaponPropertyRuneEnergizing": "Énergisante",
-    "WeaponPropertyRuneExtending": "Extensible",
-    "WeaponPropertyRuneFanged": "À crocs",
-    "WeaponPropertyRuneFearsome": "Effrayante",
-    "WeaponPropertyRuneFlaming": "Enflammée",
-    "WeaponPropertyRuneFrost": "Froid",
-    "WeaponPropertyRuneGhostTouch": "Spectrale",
-    "WeaponPropertyRuneGreaterAnchoring": "À ancre supérieure",
-    "WeaponPropertyRuneGreaterBloodbane": "Ennemi ancestral supérieure",
-    "WeaponPropertyRuneGreaterBrilliant": "Brillante supérieure",
-    "WeaponPropertyRuneGreaterCorrosive": "Corrosive supérieure",
-    "WeaponPropertyRuneGreaterCrushing": "Écrasante supérieure",
-    "WeaponPropertyRuneGreaterDisrupting": "Perturbatrice supérieure",
-    "WeaponPropertyRuneGreaterExtending": "Extensible supérieure",
-    "WeaponPropertyRuneGreaterFanged": "À dents supérieure",
-    "WeaponPropertyRuneGreaterFearsome": "Effrayante supérieure",
-    "WeaponPropertyRuneGreaterFlaming": "Enflammée supérieure",
-    "WeaponPropertyRuneGreaterFrost": "Froid supérieure",
-    "WeaponPropertyRuneGreaterHauling": "Traction supérieure",
-    "WeaponPropertyRuneGreaterImpactful": "Impactante supérieure",
-    "WeaponPropertyRuneGreaterShock": "Foudre supérieure",
-    "WeaponPropertyRuneGreaterThundering": "Tonnerre supérieure",
-    "WeaponPropertyRuneGrievous": "Douloureuse",
-    "WeaponPropertyRuneHauling": "Traction",
-    "WeaponPropertyRuneHoly": "Sainte",
-    "WeaponPropertyRuneHopeful": "Espoir",
-    "WeaponPropertyRuneImpactful": "Impactante",
-    "WeaponPropertyRuneKeen": "Acérée",
-    "WeaponPropertyRuneKinWarding": "Garde-alliée",
+    "WeaponPropertyRuneAnarchic": "anarchique",
+    "WeaponPropertyRuneAncestralEchoing": "d'écho ancestral",
+    "WeaponPropertyRuneAnchoring": "à ancre",
+    "WeaponPropertyRuneAxiomatic": "axiomatique",
+    "WeaponPropertyRuneBane": "tueuse",
+    "WeaponPropertyRuneBloodbane": "d'ennemi ancestral",
+    "WeaponPropertyRuneBloodthirsty": "assoiffée de sang",
+    "WeaponPropertyRuneBrilliant": "brillante",
+    "WeaponPropertyRuneConducting": "conductrice",
+    "WeaponPropertyRuneCorrosive": "corrosive",
+    "WeaponPropertyRuneCrushing": "écrasante",
+    "WeaponPropertyRuneCunning": "astucieuse",
+    "WeaponPropertyRuneDancing": "dansante",
+    "WeaponPropertyRuneDisrupting": "perturbatrice",
+    "WeaponPropertyRuneEnergizing": "énergisante",
+    "WeaponPropertyRuneExtending": "extensible",
+    "WeaponPropertyRuneFanged": "à crocs",
+    "WeaponPropertyRuneFearsome": "effrayante",
+    "WeaponPropertyRuneFlaming": "enflammée",
+    "WeaponPropertyRuneFrost": "de froid",
+    "WeaponPropertyRuneGhostTouch": "spectrale",
+    "WeaponPropertyRuneGreaterAnchoring": "à ancre supérieure",
+    "WeaponPropertyRuneGreaterBloodbane": "d'ennemi ancestral supérieure",
+    "WeaponPropertyRuneGreaterBrilliant": "brillante supérieure",
+    "WeaponPropertyRuneGreaterCorrosive": "corrosive supérieure",
+    "WeaponPropertyRuneGreaterCrushing": "écrasante supérieure",
+    "WeaponPropertyRuneGreaterDisrupting": "perturbatrice supérieure",
+    "WeaponPropertyRuneGreaterExtending": "extensible supérieure",
+    "WeaponPropertyRuneGreaterFanged": "à crocs supérieure",
+    "WeaponPropertyRuneGreaterFearsome": "effrayante supérieure",
+    "WeaponPropertyRuneGreaterFlaming": "enflammée supérieure",
+    "WeaponPropertyRuneGreaterFrost": "de froid supérieure",
+    "WeaponPropertyRuneGreaterHauling": "de traction supérieure",
+    "WeaponPropertyRuneGreaterImpactful": "impactante supérieure",
+    "WeaponPropertyRuneGreaterShock": "de foudre supérieure",
+    "WeaponPropertyRuneGreaterThundering": "de tonnerre supérieure",
+    "WeaponPropertyRuneGrievous": "douloureuse",
+    "WeaponPropertyRuneHauling": "de traction",
+    "WeaponPropertyRuneHoly": "sainte",
+    "WeaponPropertyRuneHopeful": "d'espoir",
+    "WeaponPropertyRuneImpactful": "impactante",
+    "WeaponPropertyRuneKeen": "acérée",
+    "WeaponPropertyRuneKinWarding": "garde-alliée",
     "WeaponPropertyRuneLabel": "Rune de propriété",
-    "WeaponPropertyRuneMajorFanged": "À crocs majeure",
-    "WeaponPropertyRunePacifying": "Pacifiante",
-    "WeaponPropertyRuneReturning": "Boomerang",
-    "WeaponPropertyRuneSerrating": "Dentelée",
-    "WeaponPropertyRuneShifting": "Changeante",
-    "WeaponPropertyRuneShock": "Foudre",
-    "WeaponPropertyRuneSpeed": "Rapide",
-    "WeaponPropertyRuneSpellStoring": "Stockage de sort",
-    "WeaponPropertyRuneThundering": "Tonnerre",
-    "WeaponPropertyRuneUnholy": "Impie",
-    "WeaponPropertyRuneVorpal": "Vorpale",
-    "WeaponPropertyRuneWounding": "Sanglante",
+    "WeaponPropertyRuneMajorFanged": "à crocs majeure",
+    "WeaponPropertyRunePacifying": "pacifiante",
+    "WeaponPropertyRuneReturning": "boomerang",
+    "WeaponPropertyRuneSerrating": "dentelée",
+    "WeaponPropertyRuneShifting": "changeante",
+    "WeaponPropertyRuneShock": "de foudre",
+    "WeaponPropertyRuneSpeed": "de rapidité",
+    "WeaponPropertyRuneSpellStoring": "de stockage de sort",
+    "WeaponPropertyRuneThundering": "de tonnerre",
+    "WeaponPropertyRuneUnholy": "impie",
+    "WeaponPropertyRuneVorpal": "vorpale",
+    "WeaponPropertyRuneWounding": "sanglante",
     "WeaponPropertyStrikeDamageLabel": "Dégâts de frappe",
     "WeaponPropertyStrikeEffectLabel": "Effet de frappe",
     "WeaponRange10": "10 ft (3m)",
@@ -4554,7 +4570,7 @@
     "identification": {
       "Identified": "Identifié",
       "Identify": "Identifier un objet",
-      "IdentifyAlchemyDCs": "DD pour identifier l'Alchimie",
+      "IdentifyAlchemyDCs": "DD pour identifier l'alchimie",
       "IdentifyGenericDCs": "DD pour identifier générique",
       "IdentifyMagicDCs": "DD pour Identifier la magie",
       "IsIdentified": "Identifié ?",
@@ -4563,8 +4579,8 @@
       "MystificationStatus": "Statut d'identification",
       "Mystify": "Mystifier un objet",
       "PostSkillsToChat": "Poster le test de compétence dans le chat",
-      "PostSkillsToChatText": "Identifier objet : test de compétence",
-      "TraitGMNote": "Note: ce trait est caché aux joueurs",
+      "PostSkillsToChatText": "Identifier un objet : test de compétence",
+      "TraitGMNote": "Note : ce trait est caché aux joueurs",
       "Unidentified": "Non identifié",
       "UnidentifiedDescription": "{item} dont la nature n'est pas claire.",
       "UnidentifiedHint": "Changez les détails de l'affichage de base de cet élément lorsqu'il n'est pas identifié.",
@@ -4601,7 +4617,7 @@
       "BuySubtitle": "Acheter l'objet",
       "DepositMessage": "{depositor} dépose {quantity} × {item} dans {container}.",
       "DepositSubtitle": "Déposer un objet",
-      "EditLootLabel": "Editer le butin ?",
+      "EditLootLabel": "Éditer le butin ?",
       "GMSettings": "Réglages MJ",
       "GMSupervisionError": "Un MJ doit être en ligne en vue d'interagir avec {loot}.",
       "GiveMessage": "{giver} donne {quantity} × {item} à {recipient}.",
