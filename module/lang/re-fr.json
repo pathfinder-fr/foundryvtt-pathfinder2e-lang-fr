@@ -1,22 +1,43 @@
 {
   "PF2E": {
+    "AttackEffects": {
+      "IgnoreConcealed": "L'attaque ignore la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée}",
+      "IgnoreCover": "La cible ne bénéficie pas d'un abri inférieur et réduit le bonus à la CA d'un abri ordinaire de 2 contre l'attaque.",
+      "IncreasedCriticalChance": "Si l'attaque est réussie et que la créature obtient un 19 ou un 20, l'attaque est un coup critique. Cela n'a pas d'effet en cas d'échec avec un 19.",
+      "IncreasedReach5": "Allonge augmentée de 1,5 m",
+      "InterruptAction": "Sur une frappe réussie, l'action de la cible est interrompue.",
+      "KnockProne": "Sur une frappe réussie, la cible est @Compendium[pf2e.conditionitems.Prone]{mise à terre}."
+    },
     "NPCAbility": {
       "BarghestFeed": "Combien de fois le barghest s'est-il alimenté ?",
-      "FormationArea": "Formation (contre Effets de zone)",
-      "HuntedFear": {
-        "Demoralize": "La cible est dans un labyrinthe ou une structure similaire dans laquelle il est difficile de naviguer",
-        "Survival": "Pour éviter de se perdre"
+      "DemonInfuseWeapons": "Inflige des dégâts chaotiques au mieu de mauvais",
+      "HobgoblinFormationArea": "Formation contre les effets de zone",
+      "MarilithDefensiveAssault": "Armes utilisées pour se défendre ?",
+      "MarilithFocusedAssault": "Combien la marilith manie d'épées longues ?",
+      "MinotaurHuntedFear": {
+        "Demoralize": "La cible est dans un labyrinthe ou une structure dont il est difficile de sortir",
+        "Survival": "pour éviter de se perdre"
       },
-      "IgnoreConcealed": "L'attaque ignore l'état @Compendium[pf2e.conditionitems.Concealed]{Masqué}",
-      "IgnoreCover": "La cible ne bénéficie pas d'un abri inférieur et réduit le bonus à la CA d'un abri standard de 2 contre l'attaque.",
-      "IncreasedCriticalChance": "Si l'attaque touche et que la créature obtient un 19 sur le d20, l'attaque est un coup critique. Cela n'a pas d'effet si le 19 aurait dû être un échec.",
-      "IncreasedReach5": "Allonge augmentée de 1,5 m",
-      "NightmareGuardianRage": "Rage du gardien de cauchemar"
+      "PoltergeistTelekineticStorm": {
+        "MultiAttackLabel": "Tempête télékinétique - plusieurs cibles",
+        "SingleAttackEffect": "L'attaque inflige [[/r {1d12}]]{1d12 damage} en cas d'échec",
+        "SingleAttackLabel": "Tempête télékinétique - cible unique"
+      },
+      "TreerazerPlantAttack": "attaque une plante",
+      "YetiNightmareGuardianRage": "Rage du gardien de cauchemar"
+    },
+    "PersistentDamage": {
+      "Bleed1d6": {
+        "critical": "[[/r {2*1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants}",
+        "regular": "[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants}"
+      }
     },
     "RuleElement": {
       "ActiveEffectLike": "sorte d'effet actif",
       "ActorTraits": "Traits de l'acteur",
       "AdjustDegreeOfSuccess": "Ajuster le degré de succès",
+      "AdjustModifier": "Ajuster le modificateur",
+      "AdjustStrike": "Ajuster la Frappe",
       "BaseSpeed": "Vitesse de base",
       "BattleForm": "Forme de combat",
       "ChoiceSet": "Ensemble de choix",
@@ -103,7 +124,8 @@
       "VsProne": "contre les effets de mise à terre",
       "VsShoveOrTrip": "contre Pousser ou Croc-en-jambe",
       "Water": "dans l'eau",
-      "Weave": "pour Tisser"
+      "Weave": "pour Tisser",
+      "Woodworking": "pour la menuiserie"
     },
     "SpecificRule": {
       "AdvancedGeneralTraining": {
@@ -212,9 +234,11 @@
         "Prompt": "Choisir un don de dévouement multiclasse"
       },
       "Prompt": {
+        "AdvancedMulticlassFeat": "Choisissez un don de classe jusqu'à la moitié de votre niveau de personnage.",
         "CreatureSize": "Choisir une taille de créature",
         "Lesson": "Choisir une leçon",
         "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
+        "LevelOneOrTwoClassFeat": "Choisissez un don de classe de niveau 1 ou 2",
         "PathToPerfection": "Choisir une Voie vers la perfection",
         "Skill": "Choisir une compétence",
         "WeaponGroup": "Choisir un groupe d'arme"
@@ -239,6 +263,9 @@
         "AutomaticPower": "Dynamo sterling conductrice de puissance automatique",
         "ManualPercussive": "Dynamo sterling percussive automatique",
         "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
+      },
+      "ToggleProperty": {
+        "Triangulate": "L'observateur peut voir la cible."
       },
       "TwoHanded": {
         "BastardSword": "Utiliser l'épée bâtarde à deux mains",
