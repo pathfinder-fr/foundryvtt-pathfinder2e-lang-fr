@@ -9,9 +9,21 @@
       "KnockProne": "Sur une frappe réussie, la cible est @Compendium[pf2e.conditionitems.Prone]{mise à terre}."
     },
     "NPCAbility": {
+      "AnimatedObjectsConstructArmor": "L'armure de la créature artificielle est Brisée",
       "BarghestFeed": "Combien de fois le barghest s'est-il alimenté ?",
       "DemonInfuseWeapons": "Inflige des dégâts chaotiques au mieu de mauvais",
+      "DuskwalkerHuntPrey": {
+        "AC": "La proie désignée attaque le crépusculaire",
+        "Checks": "Le crépusculaire fait un test contre sa proie désignée"
+      },
+      "GiantAnimatedStatueBrazier": "Brasier est allumé",
       "HobgoblinFormationArea": "Formation contre les effets de zone",
+      "LegionArchonFlameOfJustice": "Flamme de justice - coup critique",
+      "LemureSubservience": {
+        "Defend": "Servilité - Protégez",
+        "Fetch": "Servilité - Rapportez",
+        "Kill": "Servilité - Tuez"
+      },
       "MarilithDefensiveAssault": "Armes utilisées pour se défendre ?",
       "MarilithFocusedAssault": "Combien la marilith manie d'épées longues ?",
       "MinotaurHuntedFear": {
@@ -27,9 +39,17 @@
       "YetiNightmareGuardianRage": "Rage du gardien de cauchemar"
     },
     "PersistentDamage": {
+      "Bleed1d4": {
+        "critical": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants}",
+        "regular": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants}"
+      },
       "Bleed1d6": {
         "critical": "[[/r {2*1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants}",
         "regular": "[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants}"
+      },
+      "Fire1d10": {
+        "critical": "[[/r {2*1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de feu persistants}",
+        "regular": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de feu persistants}"
       }
     },
     "RuleElement": {
@@ -68,7 +88,7 @@
       "ToggleProperty": "Activer la propriété",
       "TokenEffectIcon": "Icône du jeton de l'effet",
       "TokenImage": "Image du jeton",
-      "TokenSize": "Taille du jeton",
+      "TokenLight": "Lumière du jeton",
       "Unrecognized": "Élément de règle non reconnu",
       "Weakness": "Faiblesse",
       "WeaponPotency": "Puissance d'arme"
@@ -205,6 +225,24 @@
         "AdvancedGnomeWeapons": "Arme gnomes avancées",
         "AdvancedGoblinWeapons": "Armes gobelines avancées",
         "AdvancedGrippliWeapons": "Armes gripplies avancées",
+        "AdvancedGroup": {
+          "axe": "Haches avancées",
+          "bomb": "Bombes avancées",
+          "bow": "Arcs avancés",
+          "brawling": "Pugilat avancé",
+          "club": "Gourdins avancés",
+          "dart": "Fléchettes avancées",
+          "firearm": "Armes à feu avancées",
+          "flail": "Fléaux avancés",
+          "hammer": "Marteaux avancés",
+          "knife": "Couteaux avancés",
+          "pick": "Pics avancés",
+          "polearm": "Armes d'hast avancés",
+          "shield": "Boucliers avancés",
+          "sling": "Frondes avancées",
+          "spear": "Lances avancées",
+          "sword": "Épées avancées"
+        },
         "AdvancedHalflingWeapons": "Armes halfelines avancées",
         "AdvancedHobgoblinWeapons": "Armes hobgobelines avancées",
         "AdvancedKoboldWeapons": "Armes koboldes avancées",
@@ -221,6 +259,24 @@
         "MartialGnomeWeapons": "Armes de guerre gnomes",
         "MartialGoblinWeapons": "Armes de guerre gobelines",
         "MartialGrippliWeapons": "Armes de guerre gripplies",
+        "MartialGroup": {
+          "axe": "Haches de guerre",
+          "bomb": "Bombes de guerre",
+          "bow": "Arcs de guerre",
+          "brawling": "Pugilat de guerre",
+          "club": "Gourdins de guerre",
+          "dart": "Fléchettes de guerre",
+          "firearm": "Armes à feu de guerre",
+          "flail": "Fléaux de guerre",
+          "hammer": "Marteaux de guerre",
+          "knife": "Couteaux de guerre",
+          "pick": "Pics de guerre",
+          "polearm": "Armes d'hast de guerre",
+          "shield": "Boucliers de guerre",
+          "sling": "Frondes de guerre",
+          "spear": "Lances de guerre",
+          "sword": "Épées de guerre"
+        },
         "MartialHalflingWeapons": "Armes de guerre halfelines",
         "MartialHobgoblinWeapons": "Armes de guerre hobgobelines",
         "MartialKoboldWeapons": "Armes de guerre koboldes",
@@ -280,6 +336,7 @@
     "UI": {
       "RuleElements": {
         "ChoiceSet": {
+          "Decline": "Décliner",
           "DragHomebrewItem": "Glisser un objet maison ici si vous en utilisez un au lieu des options ci-dessus",
           "HomebrewItem": "Objet maison",
           "Prompt": "Faites une sélection",
