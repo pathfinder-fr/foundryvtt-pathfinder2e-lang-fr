@@ -14,7 +14,7 @@
     "CombatantNotInScene": "Le participant {name} n'est pas présent sur la scène que vous voyez actuellement.",
     "CombatantRemove": "Retirer un participant",
     "CombatantStatus": "Statut du participant",
-    "CombatantUpdate": "Mettre à jour le participant",
+    "CombatantUpdate": "Mise à jour du participant",
     "End": "Fin de rencontre",
     "EndConfirmation": "Terminer cette rencontre et videz le compteur d'initiative ?",
     "EndTitle": "Terminer la rencontre ?",
@@ -289,6 +289,42 @@
         },
         "Title": "Se déguiser"
       },
+      "Interact": {
+        "Draw1H": {
+          "Description": "{actor} dégaine sa/son {weapon}.",
+          "Title": "Dégaîner (1M)"
+        },
+        "Draw2H": {
+          "Description": "{actor} dégaine sa/son {weapon}.",
+          "Title": "Dégaîner (2M)"
+        },
+        "Grip": {
+          "Description": "{actor} prend sa/son {weapon} à deux mains.",
+          "Title": "Changer la prise (2M)"
+        },
+        "Parenthetical": "Interagir {purpose}",
+        "PickUp1H": {
+          "Description": "{actor} ramasse sa/son {weapon} au sol.",
+          "Title": "Ramasser (1M)"
+        },
+        "PickUp2H": {
+          "Description": "{actor} ramasse sa/son {weapon} au sol.",
+          "Title": "Ramasser (2M)"
+        },
+        "Retrieve1H": {
+          "Description": "{actor} récupère sa/son {weapon}.",
+          "Title": "Récupérer (1M)"
+        },
+        "Retrieve2H": {
+          "Description": "{actor} récupère sa/son {weapon}.",
+          "Title": "Récupérer (2M)"
+        },
+        "Sheathe": {
+          "Description": "{actor} rengaine sa/son {weapon}.",
+          "Title": "Rengainer"
+        },
+        "Title": "Interagir"
+      },
       "Lie": {
         "Notes": {
           "failure": "<strong>Échec</strong> La cible ne croit pas à votre mensonge et bénéficie d’un bonus de circonstances de +4 contre vos tentatives pour Mentir pendant toute la durée de votre conversation. Elle se montrera également  plus suspicieuse à votre encontre à l’avenir.",
@@ -335,6 +371,17 @@
         "ReactionTitle": "Bouclier réactif",
         "ShieldIsBroken": "{shield} de {actor} est cassé.",
         "SingleActionTitle": "Lever un bouclier"
+      },
+      "Release": {
+        "Drop": {
+          "Description": "{actor} lâche sa/son {weapon} au sol.",
+          "Title": "Lâcher"
+        },
+        "Grip": {
+          "Description": "{actor} lâche une main de sa/son {weapon}.",
+          "Title": "Changer de prise (1M)"
+        },
+        "Title": "Relâcher"
       },
       "Request": {
         "Notes": {
@@ -665,49 +712,6 @@
     "BackgroundTitle": "Historique de votre personnage",
     "BaseModifier": "Modif. Base",
     "BaseWeapons": "Armes de base",
-    "BattleForm": {
-      "Attack": {
-        "Antler": "bois",
-        "Beak": "bec",
-        "Beard": "barbe",
-        "Body": "Corps",
-        "BoneShard": "éclats d'os",
-        "Boot": "botte",
-        "Branch": "Branche",
-        "CubeFace": "face du cube",
-        "Fangs": "crochets",
-        "FireMote": "grain de feu",
-        "Foot": "pied",
-        "Foreleg": "antérieur",
-        "Gust": "bourrasque",
-        "HolyMace": "sainte masse",
-        "Hoof": "sabot",
-        "Horn": "corne",
-        "Leaf": "Feuille",
-        "Leg": "Patte",
-        "LightingLash": "fouet d'éclair",
-        "Mandibles": "mandibules",
-        "Moonbeam": "rayon de lune",
-        "PiercingHymn": "hymne perçant",
-        "Pincer": "pince",
-        "Pseudopod": "pseudopode",
-        "Rock": "rocher",
-        "Spikes": "Piques",
-        "Spine": "Épine",
-        "Stinger": "dard",
-        "Sunbeam": "rayon de soleil",
-        "Tail": "queue",
-        "Talon": "ergot",
-        "Tendril": "liane",
-        "Tentacle": "tentacule",
-        "TentacleArm": "bras à tentacule",
-        "Tongue": "langue",
-        "Vine": "Liane",
-        "WaterSpout": "jet d'eau",
-        "Wave": "vague",
-        "Wing": "aile"
-      }
-    },
     "BestiaryBrowserSearchHint": "Vous pouvez chercher par nom ou par un autre critère. Les critères possibles sont : <br>source, type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Example: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
     "Biography": "Biographie",
     "BiographyAllies": "Alliés",
@@ -796,7 +800,7 @@
       "held2": "tenu 2M",
       "stowed": "rangé",
       "worn": "porté",
-      "worn-slotted": "porté (emplt)"
+      "worn-in-slot": "Porté (emplt)"
     },
     "CastLabel": "Lancer",
     "CharacterDetails": "Détails du personnage",
@@ -804,6 +808,11 @@
     "CharacterNamePlaceholder": "Nom du Personnage",
     "CharacterTraits": "Traits du personnage",
     "CharacterTraitsHeader": "Traits & autres détails",
+    "Check": {
+      "AC": "CA : {dc}",
+      "DC": "DD : {dc}",
+      "TargetDC": "{dcLabel} de {target}"
+    },
     "CheckOutcome": {
       "criticalFailure": "Échec critique",
       "criticalSuccess": "Succès critique",
@@ -969,6 +978,7 @@
       },
       "CraftQuantityTitle": "Quantité",
       "ExpendFormula": "formule dépensée",
+      "QuickAddTitle": "Ajout rapide de cette formule à la liste des fabrications quotidiennes.",
       "ToggleFreeCrafting": "Activer la fabrication libre",
       "ToggleQuickAlchemy": "Alchimie rapide",
       "UndeletableTooltip": "Cette formule de fabrication est une partie d'un autre objet et ne peut être supprimée individuellement"
@@ -982,7 +992,6 @@
     "CreateSkillTitle": "Créer une compétence",
     "CreateSpellTitle": "Créer un sort",
     "CreatureStatisticDC": {
-      "ac": "CA de {creature} : {dc}",
       "deception": "DD de Duperie de {creature} : {dc}",
       "fortitude": "DD de Vigueur de {creature} : {dc}",
       "perception": "DD de Perception de {creature} : {dc}",
@@ -1017,7 +1026,6 @@
     "DCAdjustmentVeryEasy": "très facile",
     "DCAdjustmentVeryHard": "très difficile",
     "DCBase": "DD de Base 10",
-    "DCLabel": "DD",
     "DCWithValue": "DD {dc} de {text}",
     "Damage": {
       "NoDamageFormulaLabel": "Pas de dégât"
@@ -1349,6 +1357,9 @@
         }
       },
       "CannotAddType": "les objets {type} ne peuvent être ajoutés à cet acteur.",
+      "Condition": {
+        "Flanked": "Pris au dépourvu (En tenaille)"
+      },
       "Deity": {
         "Alignment": "Alignement",
         "Anathema": "Anathème",
@@ -1374,6 +1385,21 @@
         "ShowTokenIcon": "Montrer l'icône du jeton ?",
         "Sustained": "Maintenu"
       },
+      "Feat": {
+        "OnlyLevel1": "Doit être pris au niveau 1",
+        "TakeMultiple": {
+          "Four": "Jusqu'à 4×",
+          "Label": "Peut être pris plusieurs fois",
+          "NoLimit": "Pas de limite",
+          "Three": "Jusqu'à 3×",
+          "Two": "Jusqu'à 2×"
+        },
+        "Warning": {
+          "TakenAfterLevel1": "{item} doit être pris au niveau 1, mais {actor} est au niveau {actorLevel}.",
+          "TakenMoreThanMax": "{item} peut seulement être pris {maxTaken} fois, mais {actor} l'a pris {timesTaken} fois.",
+          "TakenMoreThanOnce": "{item} peut seulement être pris une fois, mais {actor} l'a pris une fois de plus."
+        }
+      },
       "Heritage": {
         "AncestryNotFound": "L'ascendance de l'objet indiqué n'a pas été trouvé.",
         "DragAncestryHere": "Glisser un objet d'ascendance ici pour choisir l'héritage de l'ascendance requise.",
@@ -1384,7 +1410,40 @@
       "NameLabel": "Nom",
       "Physical": {
         "LevelLabel": "objet {level}",
-        "PriceLabel": "Prix: {price}"
+        "PriceLabel": "Prix: {price}",
+        "Usage": {
+          "WornParenthetical": "Porté ({where})",
+          "WornSlot": {
+            "amulet": "Amulette",
+            "anklets": "Chaines de cheville",
+            "armbands": "Brassards",
+            "armor": "Armure",
+            "backpack": "Sac à dos",
+            "barding": "Bardes",
+            "belt": "Ceinture",
+            "beltpouch": "Bourse de ceinture",
+            "bracelet": "Bracelet",
+            "bracers": "Bracelets",
+            "circlet": "Serre-tête",
+            "cloak": "Cape",
+            "clothing": "Tenue",
+            "collar": "Pendentif",
+            "crown": "Couronne",
+            "epaulet": "épaulette",
+            "eyepiece": "Oculaire",
+            "garment": "Vêtement",
+            "gloves": "Gants",
+            "headwear": "Couvre-chef",
+            "horseshoes": "Fers à cheval",
+            "mask": "Masque",
+            "necklace": "Collier",
+            "onbelt": "À la ceinture",
+            "ring": "Anneau",
+            "saddle": "Selle",
+            "shoes": "Chaussures",
+            "wrist": "Aux poignets"
+          }
+        }
       },
       "Plural": "Objets",
       "SidebarSummary": "Résumé {type}",
@@ -1715,7 +1774,7 @@
           "FastHealing": "<p>Un monstre qui possède ce pouvoir regagne la quantité de points de vie indiquée à chaque round, au début de son tour.</p>",
           "Ferocity": "<p data-visibility=\"gm\"><strong>Déclencheur</strong> Le monstre est réduit à 0 PV.</p>\n<p><strong>Effet</strong> Le monstre n’est pas assommé et conserve 1 PV, mais son intensité d’état @Compendium[pf2e.conditionitems.Yl48xTdMh3aeQYL2]{Blessé} augmente de 1. Il ne peut plus faire appel à ce pouvoir à partir de l’état blessé 3.</p>",
           "FormUp": "<p>La troupe choisit une des cases qu’elle occupe actuellement et redistribue ses cases dans n’importe quelle configuration dans laquelle les cases sont contigus et dans les 4,5 m de la case choisie. La troupe ne peut partager son espace avec d’autres créatures.</p>",
-          "FrightfulPresence": "<hr />\n<p>Une créature qui pénètre dans la zone d’effet doit faire un jet de Volonté.</p>\n<div data-visibility=\"gm\">\n<p>Quel que soit le résultat du jet de sauvegarde, la créature est tempo\u0002rairement immunisée contre la Présence terrifiante du monstre  pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée par la présence.</p>\n<p><strong>Succès</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 4}.</p>\n</div>",
+          "FrightfulPresence": "<hr />\n<p>Une créature qui pénètre dans la zone d’effet doit faire un jet de Volonté.</p>\n<div data-visibility=\"gm\">\n<p>Quel que soit le résultat du jet de sauvegarde, la créature est temporairement immunisée contre la Présence terrifiante du monstre  pendant 1 minute.</p>\n<hr />\n<p><strong>Succès critique</strong> La créature n'est pas affectée par la présence.</p>\n<p><strong>Succès</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 1}.</p>\n<p><strong>Échec</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 2}.</p>\n<p><strong>Échec critique</strong> La créature est @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayée 4}.</p>\n</div>",
           "Grab": "<p data-visibility=\"gm\"><strong>Conditions</strong> La dernière action du monstre est une Frappe réussie avec le trait Empoignade dans l’entrée des dégâts ou il a déjà empoigné une créature grâce à cette action.</p>\n<p><strong>Effet</strong> Le monstre Empoigne/Agrippe automatiquement la cible qui reste empoignée jusqu’à la fin du prochain tour du monstre. La créature est empoignée par la partie du corps que le monstre a utilisée pour porter son attaque et il ne peut pas utiliser celle-ci pour Frapper tant qu’il s’en sert pour empoigner/agripper sa cible. Le monstre peut réutiliser Empoignade pour allonger la durée de ce pouvoir et maintenir ainsi toutes les créatures empoignées/agrippées jusqu’à la fin de son prochain tour. Une créature empoignée/agrippée peut utiliser l’action @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{S’échapper} pour se libérer de l’Empoignade. Celle-ci prend également fin si le monstre s’éloigne des créatures qu’il empoigne/agrippe.</p>",
           "GreaterConstrict": "<p>Le monstre inflige la quantité de dégâts indiquée à toutes les créatures qu’il a @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{empoignées/agrippées} ou @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{entravées}. Chacune d’entre elles peut faire un jet de Vigueur basique avec le DD indiqué. Si une créature échoue à son jet de sauvegarde, elle perd connaissance. Si elle réussit, elle est temporairement immunisée contre l’état @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{inconscient} causé par la Constriction supérieure pendant 1 minute.</p>",
           "GreaterDarkvision": "<p>Un monstre qui possède vision dans le noir supérieure n’a aucun mal à voir dans les zones plongées dans les ténèbres ou la lumière faible, mais il ne voit alors qu’en noir et blanc. Un monstre qui possède vision dans le noir supérieure peut voir même à travers les ténèbres magiques.</p>",
@@ -2212,7 +2271,7 @@
       },
       "Player": {
         "QuickRolls": {
-          "DialogHint": "Montrez cette fenêtre seulement si je Shift-clic pour lancer les dés"
+          "DialogHint": "Si décochée, cette fenêtre n'apparaîtra qu'en faisant shift + clic pour lancer le dé."
         }
       },
       "RAI": {
