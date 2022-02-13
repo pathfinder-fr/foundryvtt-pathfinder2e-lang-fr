@@ -8,6 +8,69 @@
       "InterruptAction": "Sur une frappe réussie, l'action de la cible est interrompue.",
       "KnockProne": "Sur une frappe réussie, la cible est @Compendium[pf2e.conditionitems.Prone]{mise à terre}."
     },
+    "BattleForm": {
+      "Attack": {
+        "Antler": "bois",
+        "Beak": "bec",
+        "Beard": "barbe",
+        "Body": "Corps",
+        "BoneShard": "éclats d'os",
+        "Boot": "botte",
+        "Branch": "Branche",
+        "CubeFace": "face du cube",
+        "Fangs": "crochets",
+        "FireMote": "grain de feu",
+        "Foot": "pied",
+        "Foreleg": "antérieur",
+        "Gust": "bourrasque",
+        "HolyMace": "sainte masse",
+        "Hoof": "sabot",
+        "Horn": "corne",
+        "Leaf": "Feuille",
+        "Leg": "Patte",
+        "LightingLash": "fouet d'éclair",
+        "Mandibles": "mandibules",
+        "Moonbeam": "rayon de lune",
+        "PiercingHymn": "hymne perçant",
+        "Pincer": "pince",
+        "Pseudopod": "pseudopode",
+        "Rock": "rocher",
+        "Spikes": "Piques",
+        "Spine": "Épine",
+        "Stinger": "dard",
+        "Sunbeam": "rayon de soleil",
+        "Tail": "queue",
+        "Talon": "ergot",
+        "Tendril": "liane",
+        "Tentacle": "tentacule",
+        "TentacleArm": "bras à tentacule",
+        "Tongue": "langue",
+        "Vine": "Liane",
+        "WaterSpout": "jet d'eau",
+        "Wave": "vague",
+        "Wing": "aile"
+      }
+    },
+    "BombNotes": {
+      "VexingVapor": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,mental]]]{4 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        }
+      }
+    },
     "NPCAbility": {
       "AnimatedObjectsConstructArmor": "L'armure de la créature artificielle est Brisée",
       "BarghestFeed": "Combien de fois le barghest s'est-il alimenté ?",
@@ -38,18 +101,85 @@
       "TreerazerPlantAttack": "attaque une plante",
       "YetiNightmareGuardianRage": "Rage du gardien de cauchemar"
     },
+    "OracleCurses": {
+      "Ancestor": {
+        "Label": {
+          "ExtremeBattle": "combattant extrême",
+          "ExtremeSkillful": "talentueux extrême",
+          "ExtremeSpellcasting": "incantateur extrême",
+          "MajorBattle": "combattant majeure",
+          "MajorSkillful": "talentueux majeure",
+          "MajorSpellcasting": "incantateur majeure",
+          "MinorBattle": "combattant mineure",
+          "MinorSkillful": "talentueux mineure",
+          "MinorSpellcasting": "incantateur mineure",
+          "ModerateBattle": "combattant modérée",
+          "ModerateSkillful": "talentueux modérée",
+          "ModerateSpellcasting": "incantateur modérée"
+        },
+        "MajorFailure": "Votre malédiction interfère avec cette action et vous devez faire un test @Check[type:flat|dc:8|showDC:owner].",
+        "MinorFailure": "Votre malédiction interfère avec cette action et vous devez faire un test @Check[type:flat|dc:4|showDC:owner].",
+        "ModerateFailure": "Votre malédiction interfère avec cette action et vous devez faire un test @Check[type:flat|dc:6|showDC:owner]."
+      },
+      "Battle": {
+        "MadeAStrike": "Vous avez porté une Frappe ce round",
+        "NonTrivialEncounter": "dans une rencontre de combat non triviale"
+      },
+      "Bones": {
+        "MajorUpgrade": "Lorsque vous obtenez un échec critique sur un jet de sauvegarde contre une maladie, un poison ou un effet de mort, vous obtenez un échec à la place.",
+        "ModerateUpgrade": "Lorsque vous obtenez un succès sur un jet de sauvegarde contre une maladie, un poison ou un effet de mort, vous obtenez un succès critique à la place."
+      },
+      "Label": {
+        "Extreme": "extrême",
+        "Major": "majeure",
+        "Minor": "mineure",
+        "Moderate": "modérée"
+      }
+    },
     "PersistentDamage": {
+      "Acid2d6": {
+        "criticalSuccess": "[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
+        "success": "[[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
+      },
       "Bleed1d4": {
-        "critical": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants}",
-        "regular": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
+        "success": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
       },
       "Bleed1d6": {
-        "critical": "[[/r {2*1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants}",
-        "regular": "[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
+        "success": "[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+      },
+      "Bleed1d8": {
+        "criticalSuccess": "[[/r {2*1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
+        "success": "[[/r {1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
       },
       "Fire1d10": {
-        "critical": "[[/r {2*1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de feu persistants}",
-        "regular": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Fire1d4": {
+        "criticalSuccess": "[[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Fire2d10": {
+        "criticalSuccess": "[[/r {2*2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Fire2d4": {
+        "criticalSuccess": "[[/r {2*2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Fire2d6": {
+        "criticalSuccess": "[[/r {2*2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Fire2d8": {
+        "criticalSuccess": "[[/r {2*2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Fire3d8": {
+        "criticalSuccess": "[[/r {2*3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
+        "success": "[[/r {3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
       }
     },
     "RuleElement": {
@@ -313,6 +443,11 @@
         "Tailoring": "Couture",
         "Weaving": "Tissage",
         "Woodworking": "Ébénisterie"
+      },
+      "Stance": {
+        "Attack": {
+          "WolfJaws": "Mâchoires de loup"
+        }
       },
       "SterlingDynamo": {
         "AutomaticPercussive": "Dynamo sterling percussive automatique",
