@@ -52,22 +52,323 @@
       }
     },
     "BombNotes": {
-      "VexingVapor": {
+      "AcidFlask": {
         "Greater": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
-          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*3d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {3}[splash,acid]]]{3 dégâts d'éclaboussure d'acide}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {3}[splash,acid]]]{2 dégâts d'éclaboussure d'acide}."
         },
         "Lesser": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
-          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {1}[splash,acid]]]{1 dégât d'éclaboussure d'acide}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {1}[splash,acid]]]{1 dégât d'éclaboussure d'acide}."
         },
         "Major": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,mental]]]{4 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
-          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*4d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {4}[splash,acid]]]{4 dégâts d'éclaboussure d'acide}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {4}[splash,acid]]]{4 dégâts d'éclaboussure d'acide}."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
-          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {2}[splash,acid]]]{2 dégâts d'éclaboussure d'acide}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants} et  [[/r {2}[splash,acid]]]{2 dégâts d'éclaboussure d'acide}."
+        }
+      },
+      "AlchemistsFire": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégât de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*4d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}.",
+          "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}."
+        }
+      },
+      "BlightBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {3}[splash,poison]]]{2 dégâts d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {3}[splash,poison]]]{2 dégâts d'éclaboussure de poison}"
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {1}[splash,poison]]]{1 dégât d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {1}[splash,poison]]]{1 dégât d'éclaboussure de poison}"
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {4}[splash,poison]]]{4 dégâts d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {4}[splash,poison]]]{4 dégâts d'éclaboussure de poison}"
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {2}[splash,poison]]]{2 dégâts d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {2}[splash,poison]]]{2 dégâts d'éclaboussure de poison}"
+        }
+      },
+      "BottledLightning": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,electricity]]]{3 dégâts déclaboussure d'électricité} et la cible touchée est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu’au début de votre prochain tour."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,electricity]]]{1 dégât déclaboussure d'électricité} et la cible touchée est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu’au début de votre prochain tour."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,electricity]]]{4 dégâts déclaboussure d'électricité} et la cible touchée est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu’au début de votre prochain tour."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,electricity]]]{2 dégâts déclaboussure d'électricité} et la cible touchée est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} jusqu’au début de votre prochain tour."
+        }
+      },
+      "CrystalShards": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {5}[splash,piercing]]]{5 points d'éclaboussure perforants} et l'éclaboussure crée des cristaux qui sont des @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Chausse-trappes} sur les surfaces planes et des prises sur des surfaces verticales, accordant un bonus de +2 aux tests d'Athlétisme pour Grimper."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {6}[splash,piercing]]]{6 points d'éclaboussure perforants} et l'éclaboussure crée des cristaux qui sont des @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Chausse-trappes} sur les surfaces planes et des prises sur des surfaces verticales, accordant un bonus de +3 aux tests d'Athlétisme pour Grimper."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,piercing]]]{4 points d'éclaboussure perforants} et l'éclaboussure crée des cristaux qui sont des @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Chausse-trappes} sur les surfaces planes et des prises sur des surfaces verticales, accordant un bonus de +1 aux tests d'Athlétisme pour Grimper."
+        }
+      },
+      "DreadAmpoule": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayé 1} ou Effrayé 2 en cas de coup critique."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayé 1} ou Effrayé 2 en cas de coup critique."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,mental]]]{4 dégâts d'éclaboussure mentaux} et la cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayé 1} ou Effrayé 2 en cas de coup critique."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible devient @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Effrayé 1} ou Effrayé 2 en cas de coup critique."
+        }
+      },
+      "DwarvenDaisy": {
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu} et la cible touchée doit réussir un jet de @Check[type:fortitude|dc:16|name:Marguerite naine inférieure|traits:damaging-effect|showDC:all]{Vigueur} ou être @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh][Éblouie} pendant 1 round."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu} la cible touchée doit réussir un jet de @Check[type:fortitude|dc:18|name:Marguerite naine modérée|traits:damaging-effect|showDC:all] ou être @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh][Éblouie} pendant 1 round."
+        }
+      },
+      "FrostVial": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,cold]]]{3 dégâts d'éclaboussure de froid} et la cible subit une pénalité de statut de -3 m à ses Vitesses jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Effet : Fiole givrée supérieure})."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,cold]]]{1 dégât d'éclaboussure de froid} et la cible subit une pénalité de statut de -1,5 m à ses Vitesses jusqu'à la fin de son prochain tour  (@Compendium[pf2e.equipment-effects.RLsdvhmTh64Mmty9]{Effet : Fiole givrée inférieure})"
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,cold]]]{4 dégâts d'éclaboussure de froid} et la cible subit une pénalité de statut de -4,5 m à ses Vitesses jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Effet : Fiole givrée supérieure})."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,cold]]]{2 dégâts d'éclaboussure de froid} et la cible subit une pénalité de statut de -3 m à ses Vitesses jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.dv0IKm5syOdP759w]{Effet : Fiole givrée modérée})."
+        }
+      },
+      "GhostCharge": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,positive]]]{3 dégâts d'éclaboussure positif} et la cible qui subit des dégâts est @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaiblie 2} jusqu'au début de votre prochain tour."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,positive]]]{1 dégât d'éclaboussure positif} et la cible qui subit des dégâts est @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaiblie} 1 jusqu'au début de votre prochain tour."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,positive]]]{4 dégâts d'éclaboussure positif} et la cible qui subit des dégâts est @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaiblie 2} jusqu'au début de votre prochain tour."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,positive]]]{2 dégâts d'éclaboussure positif} et la cible qui subit des dégâts est @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Affaiblie} 1 jusqu'au début de votre prochain tour."
+        }
+      },
+      "JunkBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégât de saignement persistant} et [[/r {3}[splash,slashing]]]{3 dégâts d'éclaboussure tranchant}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} et [[/r {3}[splash,slashing]]]{3 dégâts d'éclaboussure tranchants}"
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégât de saignement persistant} et [[/r {1}[splash,slashing]]]{1 dégât d'éclaboussure tranchant}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégât de saignement persistant} et [[/r {1}[splash,slashing]]]{1 dégât d'éclaboussure tranchant}"
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} et [[/r {4}[splash,slashing]]]{4 dégâts d'éclaboussure tranchants}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} et [[/r {4}[splash,slashing]]]{4 dégâts d'éclaboussure tranchants}"
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} et [[/r {2}[splash,slashing]]]{2 dégâts d'éclaboussure tranchants}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} et [[/r {2}[splash,slashing]]]{2 dégâts d'éclaboussure tranchants}"
+        }
+      },
+      "NecroticBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,negative]]]{3 dégâts d'éclaboussure négatifs}  et elle rend @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 3} la cible principale.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,negative]]]{3 dégâts d'éclaboussure négatifs}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,negative]]]{1 dégât d'éclaboussure négatif} et elle rend @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1} la cible principale.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,negative]]]{1 dégât d'éclaboussure négatif}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,negative]]]{4 dégâts d'éclaboussure négatifs}  et elle rend @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 4} la cible principale.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,negative]]]{4 dégâts d'éclaboussure négatifs}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,negative]]]{2 dégâts d'éclaboussure négatifs} et elle rend @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 2} la cible principale.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,negative]]]{2 dégâts d'éclaboussure négatifs}."
+        }
+      },
+      "PeshspineGrenade": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,piercing]]]{3 dégâts d'éclaboussure perforants} et la cible est @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefiée 2} jusqu'à la fin de son prochain tour."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,piercing]]]{1 dégâts d'éclaboussure perforant} et la cible est @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefiée 1} jusqu'à la fin de son prochain tour."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,piercing]]]{4 dégâts d'éclaboussure perforants} et la cible est @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefiée 3} jusqu'à la fin de son prochain tour."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,piercing]]]{2 dégâts d'éclaboussure perforants} et la cible est @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefiée 1} jusqu'à la fin de son prochain tour."
+        }
+      },
+      "PressureBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,bludgeoning]]]{3 dégâts d'éclaboussure contondants}. Les cibles de taille Moyenne ou inférieure sont repoussées à 1,5 mètres de vous. Les cibles de taille Moyenne ou inférieure sont repoussées à 1,5 mètres de vous et la cible tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,bludgeoning]]]{3 dégâts d'éclaboussure contondants}. Les cibles de taille Moyenne ou inférieure sont repoussées à 1,5 mètres de vous."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,bludgeoning]]]{1 dégât d'éclaboussure contondant}. Les cibles de taille Très petite ou inférieure sont repoussées à 1,5 mètres de vous et la cible tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,bludgeoning]]]{1 dégât d'éclaboussure contondant}. Les cibles de taille Très petite ou inférieure sont repoussées à 1,5 mètres de vous."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,bludgeoning]]]{4 dégâts d'éclaboussure contondants}. Les cibles de taille Moyenne ou inférieure qui subissent des dégâts d'éclaboussure sont repoussées à 1,5 mètres de la cible et puis, si la cible est de taille Grande ou inférieure, elle est repoussée de 1,5 m et elle tombe @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,bludgeoning]]]{4 dégâts d'éclaboussure contondants}. Les cibles de taille Moyenne ou inférieure qui subissent des dégâts d'éclaboussure sont repoussées à 1,5 mètres de la cible et si la cible est Grande ou supérieure, elle est repoussée de 1,5 m."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,bludgeoning]]]{2 dégâts d'éclaboussure contondants}. Les cibles de taille Très petite ou inférieure sont repoussées à 1,5 mètres de vous et tombent @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{À terre}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,bludgeoning]]]{2 dégâts d'éclaboussure contondants}. Les cibles de taille Très petite ou inférieure sont repoussées à 1,5 mètres de vous."
+        }
+      },
+      "RedpitchBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{3d4 dégâts de feu persistants} et [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroite 2} jusqu'au début de votre prochain tour..",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{3d4 dégâts de feu persistants} et [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{1d4 dégâts de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'au début de votre prochain tour..",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{1d4 dégâts de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{4d4 dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroite 3} jusqu'au début de votre prochain tour.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{4d4 dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{2d4 dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Maladroite 1} jusqu'au début de votre prochain tour.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{2d4 dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}."
+        }
+      },
+      "SulfurBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}{splash,acid}]]{3 dégâts d'éclaboussure d'acide} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}{splash,acid}]]{3 dégâts d'éclaboussure d'acide} et la cible subit une pénalité de statut de -1 aux tests de Perception et aux jets d'attaque jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Effet : Bombe de soufre (Échec)})."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}{splash,acid}]]{1 dégât d'éclaboussure d'acide} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}{splash,acid}]]{1 dégât d'éclaboussure d'acide} et la cible subit une pénalité de statut de -1 aux tests de Perception et aux jets d'attaque jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Effet : Bombe de soufre (Échec)})."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}{splash,acid}]]{4 dégâts d'éclaboussure d'acide} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}{splash,acid}]]{4 dégâts d'éclaboussure d'acide} et la cible subit une pénalité de statut de -1 aux tests de Perception et aux jets d'attaque jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Effet : Bombe de soufre (Échec)})."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}{splash,acid}]]{2 dégâts d'éclaboussure d'acide} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}{splash,acid}]]{2 dégâts d'éclaboussure d'acide} et la cible subit une pénalité de statut de -1 aux tests de Perception et aux jets d'attaque jusqu'à la fin de son prochain tour (@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Effet : Bombe de soufre (Échec)})."
+        }
+      },
+      "TallowBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La cible subit aussi [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1} à cause de l'odeur de la graisse brûlante et ne peut réduire son état malade en dessous de 1 tant qu'elle subit des dégâts de feu persistants.",
+          "success": "<strong>Effet</strong> La cible subit aussi [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La cible subit aussi [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1} à cause de l'odeur de la graisse brûlante et ne peut réduire son état malade en dessous de 1 tant qu'elle subit des dégâts de feu persistants.",
+          "success": "<strong>Effet</strong> La cible subit aussi [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La cible subit aussi [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1} à cause de l'odeur de la graisse brûlante et ne peut réduire son état malade en dessous de 1 tant qu'elle subit des dégâts de feu persistants.",
+          "success": "<strong>Effet</strong> La cible subit aussi [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La cible subit aussi [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu} et la cible est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1} à cause de l'odeur de la graisse brûlante et ne peut réduire son état malade en dessous de 1 tant qu'elle subit des dégâts de feu persistants.",
+          "success": "<strong>Effet</strong> La cible subit aussi [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}."
+        }
+      },
+      "TanglefootBag": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -4,5 mètres à ses Vitesses pendant 1 minute. La cible est @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{immobilisée} pendant 1 round si elle se tient sur une surface. Une créature qui vole grâce à des ailes tombe au sol, sans se blesser, et est incapable de Voler pendant 1 round.<i>Les sacoches immobilisantes ne font pas de dégâts</i>.",
+          "success": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -4,5 mètres à ses Vitesses pendant 1 minute. <i>Les sacoches immobilisantes ne font pas de dégâts</i>."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -3 mètres à ses Vitesses pendant 1 minute. La cible est @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{immobilisée} pendant 1 round si elle se tient sur une surface. Une créature qui vole grâce à des ailes tombe au sol, sans se blesser, et est incapable de Voler pendant 1 round.<i>Les sacoches immobilisantes ne font pas de dégâts</i>.",
+          "success": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -3 mètres à ses Vitesses pendant 1 minute. <i>Les sacoches immobilisantes ne font pas de dégâts</i>."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -6 mètres à ses Vitesses pendant 1 minute. La cible est @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{immobilisée} pendant 1 round si elle se tient sur une surface. Une créature qui vole grâce à des ailes tombe au sol, sans se blesser, et est incapable de Voler pendant 1 round.<i>Les sacoches immobilisantes ne font pas de dégâts</i>.",
+          "success": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -6 mètres à ses Vitesses pendant 1 minute. <i>Les sacoches immobilisantes ne font pas de dégâts</i>."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -4,5 mètres à ses Vitesses pendant 1 minute. La cible est @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{immobilisée} pendant 1 round si elle se tient sur une surface. Une créature qui vole grâce à des ailes tombe au sol, sans se blesser, et est incapable de Voler pendant 1 round.<i>Les sacoches immobilisantes ne font pas de dégâts</i>.",
+          "success": "<strong>Effet</strong> Si elle touche, subit un malus de statut de -4,5 mètres à ses Vitesses pendant 1 minute. <i>Les sacoches immobilisantes ne font pas de dégâts</i>."
+        }
+      },
+      "Thunderstone": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,sonic]]]{3 dégâts d’éclaboussure de son} et chaque créature dans un rayon de 3 mètres doit réussir un jet de @Check[type:fortitude|dc:28|name:Pierre à tonnerre supérieure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {1}[splash,sonic]]]{1 dégât d’éclaboussure de son}. Chaque créature dans un rayon de 3 mètres autour de la case où elle a explosé doit réussir un jet de @Check[type:fortitude|dc:17|name:Pierre à tonnerre inférieure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,sonic]]]{4 dégâts d’éclaboussure de son} et chaque créature dans un rayon de 3 mètres doit réussir un jet de @Check[type:fortitude|dc:36|name:Pierre à tonnerre majeure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,sonic]]]{2 dégâts d’éclaboussure de son} et chaque créature dans un rayon de 3 mètres doit réussir un jet de @Check[type:fortitude|dc:20|name:Pierre à tonnerre modérée|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
+        }
+      },
+      "TwigjackSack": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {3}[splash,piercing]]]{3 dégâts d'éclaboussure perforants}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {3}[splash,piercing]]]{3 dégâts d'éclaboussure perforants}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {1}[splash,piercing]]]{1 dégât d'éclaboussure perforant}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégât de saignement persistant} et [[/r {1}[splash,piercing]]]{1 dégât d'éclaboussure perforant}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {4}[splash,piercing]]]{4 dégâts d'éclaboussure perforants}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {5}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {4}[splash,piercing]]]{4 dégâts d'éclaboussure perforants}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {2}[splash,piercing]]]{2 dégâts d'éclaboussure perforants}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistant} et [[/r {2}[splash,piercing]]]{2 dégâts d'éclaboussure perforants}."
+        }
+      },
+      "VexingVapor": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong>  La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {3}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong>  La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {1}[splash,mental]]]{1 dégât d'éclaboussure mental} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong>  La bombe inflige aussi [[/r {4}[splash,mental]]]{4 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {4}[splash,mental]]]{3 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong>  La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
+          "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
         }
       }
     },
@@ -137,6 +438,10 @@
       }
     },
     "PersistentDamage": {
+      "Acid1d6": {
+        "criticalSuccess": "[[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
+        "success": "[[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
+      },
       "Acid2d6": {
         "criticalSuccess": "[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
         "success": "[[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
@@ -225,6 +530,7 @@
     },
     "SkillVariant": {
       "AboutCaves": "à propos des grottes",
+      "Aid": "pour Aider",
       "Blacksmithing": "pour forger",
       "Climb": "pour escalader",
       "ClimbOrSwim": "pour escalader ou nager",
