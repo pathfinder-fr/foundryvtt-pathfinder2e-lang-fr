@@ -207,10 +207,11 @@
         "Title": "Démoraliser"
       },
       "Disarm": {
+        "EffectLabel": "en ayant une prise affaiblie sur l'arme utilisée",
         "Notes": {
           "criticalFailure": "<strong>Échec critique</strong> Vous perdez l’équilibre et êtes Pris au dépourvu  jusqu’au début de votre prochain tour.",
           "criticalSuccess": "<strong>Succès critique</strong> Votre adversaire lâche l’objet qu’il tient. Cet objet tombe par terre dans l’espace qu’occupe l’adversaire.",
-          "success": "<strong>Succès</strong> Vous affaiblissez la prise de votre adversaire sur l’objet. Jusqu’au début du tour de cette créature, les tentatives pour la Désarmer et l’obliger à lâcher l’objet bénéficient d’un bonus de circonstances de +2 et la cible subit un malus de circonstances de −2 aux attaques effectuées avec l’objet ou aux autres tests nécessitant une prise ferme sur l’objet"
+          "success": "<strong>Succès</strong> Vous affaiblissez la prise de votre adversaire sur l’objet. Jusqu’au début du tour de cette créature, les tentatives pour la Désarmer et l’obliger à lâcher l’objet bénéficient d’un bonus de circonstances de +2 et la cible subit un malus de circonstances de −2 aux attaques effectuées avec l’objet ou aux autres tests nécessitant une prise ferme sur l’objet. @Compendium[pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effet: Désarmer (Succès)}"
         },
         "Title": "Désarmer"
       },
@@ -538,7 +539,10 @@
         "TakesNoDamage": "{actor} ne subit pas de dégât."
       },
       "Character": {
-        "AncestryClass": "{ancestry} {class}"
+        "AncestryClass": "{ancestry} {class}",
+        "Rest": {
+          "Label": "Se reposer la nuit"
+        }
       },
       "Dead": "Mort",
       "Hazard": {
@@ -686,12 +690,6 @@
     "AttackEffectPush": "Bousculade",
     "AttackEffectTrip": "Croc-en-jambe",
     "AttackLabel": "Attaque",
-    "AttackOutcome": {
-      "criticalFailure": "Échec critique",
-      "criticalSuccess": "Coup critique",
-      "failure": "Manqué",
-      "success": "Touché"
-    },
     "AttitudeLabel": "Attitude",
     "Attitudes": {
       "Friendly": "Amicale",
@@ -809,15 +807,50 @@
     "CharacterTraits": "Traits du personnage",
     "CharacterTraitsHeader": "Traits & autres détails",
     "Check": {
-      "AC": "CA : {dc}",
-      "DC": "DD : {dc}",
-      "TargetDC": "{dcLabel} de {target}"
-    },
-    "CheckOutcome": {
-      "criticalFailure": "Échec critique",
-      "criticalSuccess": "Succès critique",
-      "failure": "Échec",
-      "success": "Succès"
+      "DC": {
+        "Label": {
+          "AdjustedTarget": "<target>Cible : {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
+          "NoTarget": "{dcType} {dc}",
+          "WithTarget": "<target>Cible : {target}</target> <dc>({dcType} {dc})</dc>"
+        },
+        "Specific": {
+          "ac": "CA",
+          "athletics": "DD d'Athlétisme",
+          "deception": "DD de Duperie",
+          "fortitude": "DD de Vigueur",
+          "perception": "DD de Perception",
+          "reflex": "DD de Réflexes",
+          "stealth": "DD de Discrétion",
+          "will": "DD de Volonté"
+        },
+        "Unspecific": "DD"
+      },
+      "Label": "Test",
+      "Result": {
+        "AdjustedLabel": "Résultat : <degree>{degree}</degree> <offset>de {offset}</offset> ({adjustment})",
+        "Degree": {
+          "Attack": {
+            "criticalFailure": "Raté critique",
+            "criticalSuccess": "Coup critique",
+            "failure": "Raté",
+            "success": "Touché"
+          },
+          "Check": {
+            "criticalFailure": "Échec critique",
+            "criticalSuccess": "Succès critique",
+            "failure": "Échec",
+            "success": "Succès"
+          }
+        },
+        "Label": "Résultat : <degree>{degree}</degree> <offset>de {offset}</offset>"
+      },
+      "Specific": {
+        "Perception": {
+          "Label": "Test de Perception",
+          "Secret": "Test de Perception (secret)"
+        },
+        "Recovery": "Test de Récupération"
+      }
     },
     "CircumstanceBonusShortLabel": "Circonstances",
     "CircumstanceBonusTitle": "Bonus de circonstances",
@@ -991,14 +1024,6 @@
     "CreateLabelUniversal": "Créer",
     "CreateSkillTitle": "Créer une compétence",
     "CreateSpellTitle": "Créer un sort",
-    "CreatureStatisticDC": {
-      "deception": "DD de Duperie de {creature} : {dc}",
-      "fortitude": "DD de Vigueur de {creature} : {dc}",
-      "perception": "DD de Perception de {creature} : {dc}",
-      "reflex": "DD de Réflexes de {creature} : {dc}",
-      "stealth": "DD de Discrétion de {creature} : {dc}",
-      "will": "DD de Volonté de {creature} : {dc}"
-    },
     "CritFailure": "<strong>Échec critique</strong>",
     "CritSuccess": "<strong>Succès Critique</strong>",
     "CriticalDamageLabel": "Critique",
@@ -1028,6 +1053,7 @@
     "DCBase": "DD de Base 10",
     "DCWithValue": "DD {dc} de {text}",
     "Damage": {
+      "Base": "Base",
       "NoDamageFormulaLabel": "Pas de dégât"
     },
     "DamageButton": {
@@ -1175,11 +1201,11 @@
       "NoTokenSelected": "Pas de jeton valide sélectionné",
       "NoUpdatePermission": "Vous n'avez pas la permission de mettre à jour cet acteur",
       "NotEnoughAmmo": "Pas assez de munitions pour cette frappe",
+      "SubV9Module": "{module} ne supporte pas la V9  de Foundry est est susceptible d'introduire des problèmes de stabilité pour tous les utilisateurs.",
       "WeaponQuantityZero": "Vous n'êtes plus équipé de ces armes"
     },
     "Ethnicity": "Ethnie",
     "ExpendSpellTitle": "Sort dépensé",
-    "ExperimentalLabel": "Expérimental",
     "Failure": "<strong>Échec</strong>",
     "Familiar": {
       "ArmorClass": "Classe d'armure",
@@ -1485,6 +1511,7 @@
           "TwoPropertiesMaterial": "{base} en {material} {property1} {property2}"
         },
         "HandsLabel": "Mains",
+        "Improvised": "Improvisé",
         "MandatoryMelee": "Cette arme possède un trait qui ne peut être utilisé qu'avec les armes au corps-à-corps.",
         "MaterialAndRunes": {
           "Hint": "Les matériaux précieux et les runes permettent l’adaptation en profondeur d’une arme. Au-delà d’améliorer la capacité à blesser des ennemis, elles affectent aussi le niveau, la rareté, le prix et le nom de l’arme. Pour supprimer le renommage de l’arme, donnez-lui un nom particulier ou marquez la comme une <i>arme magique spécifique</i>.",
@@ -1972,24 +1999,34 @@
       "Plural": "Listes de lecture"
     },
     "PotencyRuneLabel": "Rune de puissance",
+    "PreciousMaterialAbysium": "Abysium",
+    "PreciousMaterialAbysiumDescription": "Métal bleu-vert doté d'une sinistre luminescence verte, l'abysium dégage un pouvoir hostile à la vie. Une exposition imprudente à ce matériau peut entraîner des dégâts à long terme sur le système immunitaire ; à ce titre, l'exploitation de l'abysium est dangereuse, car de grandes quantités de ce métal dans une zone rendent malades toutes les créatures à proximité. Une créature portant un objet en abysium est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade} 1 pour un objet de qualité standard d'Encombrement léger, Malade 2 pour un objet de qualité standard d'Encombrement 1 ou supérieur ou un objet de qualité supérieure d'Encombrement léger, ou Malade 3 pour un objet de qualité supérieure d'Encombrement 1 ou supérieur. Cet effet et tous les autres effets de l'abysium qui rendent malades sont des effets de poison. Les artisans peuvent utiliser 1 morceau d'abysium pour créer jusqu'à 6 doses de @Compendium[pf2e.equipment-srd.sav38slFFlUVu75Z]{Poudre d'abysium}. Des forgerons peu scrupuleux ont exploité les propriétés toxiques de l'abysium pour créer des armes nocives et des substances mortelles. Tous les objets artisanaux fabriqués à partir d'abysium diffusent une lumière faible dans un rayon de 3 mètres.",
     "PreciousMaterialAdamantine": "adamantium",
     "PreciousMaterialAdamantineDescription": "Extrait de rochers tombés du ciel, l’adamantium est l’un des métaux connus les plus solides. Il est d’un noir luisant et très prisé pour son incroyable résistance et sa capacité à conserver un tranchant époustouflant.",
     "PreciousMaterialColdIron": "fer froid",
     "PreciousMaterialColdIronDescription": "Les armes faites en fer froid sont mortelles pour les démons et les fées. Le fer froid ressemble à du fer normal, mais il est extrait de gisements très purs et forgé sans chaleur ou presque. Ce processus est très compliqué, en particulier pour les objets de haute qualité.",
     "PreciousMaterialDarkwood": "ébénite",
     "PreciousMaterialDarkwoodDescription": "L’ébénite est un bois très léger que l’on trouve principalement dans les vieilles forêts du sud central de l’Avistan. Elle est aussi sombre que l’ébène, mais présente une légère teinte violette. Un objet en ébénite est 1 Encombrement plus léger que la normale (ou d’un Encombrement léger si son Encombrement normal est de 1, sans effet s’il est déjà normalement d’Encombrement léger). Le prix d’un objet en ébénite est basé sur son Encombrement normal, non son Encombrement réduit grâce à la légèreté du matériau. En revanche, réduisez son Encombrement avant de faire les ajustements d’Encombrement en fonction de sa taille.",
+    "PreciousMaterialDjezet": "Djezet",
+    "PreciousMaterialDjezetDescription": "Ce métal rouge rouille est liquide à température ambiante, ce qui rend son utilisation difficile pour tous les métallurgistes, sauf les plus compétents, et qui lui vaut le nom de \"fer rapide\" dans certains lieux. Le djezet est également extrêmement réactif à la magie, même sous sa forme d'alliage solide et exploitable. Il brille lorsqu'il est ciblé par la magie et les objets fabriqués avec des alliages de djezet brillent de stries écarlates, ce qui amène certains forgerons à le surnommer \"fer du tigre\". Lorsqu'ils sont ciblés par des sorts, les objets fabriqués à partir d'alliages de djezet présentent ces marques rouges incandescentes qui durent 1 round ou toute la durée du sort si elle est plus élevée. Une masse de djezet contient suffisamment de djezet pour fournir deux @Compendium[pf2e.equipment-srd.bLmuVUkaMeyq5QlI]{Doses de djezet} raffinées.",
     "PreciousMaterialDragonhide": "peau de dragon",
     "PreciousMaterialDragonhideDescription": "La peau et les écailles d’un dragon peuvent servir à Fabriquer n’importe quel objet normalement fait de cuir ou de peau. La peau de dragon se présente sous plusieurs couleurs, du bleu au doré, en fonction du dragon sur lequel elle a été prélevée. Grâce à la résilience des écailles, elle peut aussi servir à Fabriquer une armure habituellement faite de plaques de métal (comme une cuirasse, une armure de plates ou un harnois), ce qui permet de les forger sans utiliser de métal. Chaque objet en peau de dragon est immunisé contre un type de dégâts selon le type de dragon.",
     "PreciousMaterialGradeLabel": "Qualité du métal",
     "PreciousMaterialGrisantianPelt": "fourrure de grisantien",
     "PreciousMaterialGrisantianPeltDescription": "Cette peau d’animal surnaturellement robuste est dorée et brille sous le soleil. Elle peut être utilisée pour Fabriquer tout objet habituellement fait de tissu, de cuir ou de peau. Ce matériau est immunisé au feu et sa Solidité est doublée contre les dégâts contondants ou perforants. Jusqu’à 4 Encombrements de peau de grisantien peut être récoltée d’une unique créature (c’est habituellement plus qu’assez pour 4 armures de qualité standard ou 2 armure de haute qualité).",
     "PreciousMaterialHighGrade": "haute qualité",
+    "PreciousMaterialInubrix": "Inubrix",
+    "PreciousMaterialInubrixDescription": "La structure moléculaire inhabituelle de ce métal pâle et malléable lui permet de traverser partiellement le fer et l'acier sans les toucher. Si cette propriété est utile pour fabriquer des armes qui contournent les armures métalliques, l'inubrix est à peine plus robuste que le plomb. Même à l'état d'alliage, ce métal céleste est si fragile qu'il est difficile à utiliser pour fabriquer des boucliers fiables et moins qu'idéal pour l'artisanat des armures.",
     "PreciousMaterialLabel": "Matériau précieux",
     "PreciousMaterialLowGrade": "basse qualité",
     "PreciousMaterialMithral": "mithril",
     "PreciousMaterialMithralDescription": "Le mithral est réputé pour sa légèreté, sa solidité et son efficacité contre un large éventail de créatures, y compris les diables et les lycanthropes. Il a le même éclat que l’argent, mais il est un peu plus clair. Les armes et les armures en mithral sont considérées comme étant en argent quand il s’agit de blesser des créatures dotées d’une faiblesse face à l’argent. Un objet en mithral est plus léger que son équivalent en fer ou en acier : son Encombrement est réduit de 1 (il est léger s’il avait un Encombrement de 1, par contre cette réduction n’a pas d’effet sur un objet déjà d’Encombrement léger). Le prix d’un objet conçu avec ce matériau est basé sur son Encombrement normal et non sur son Encombrement réduit grâce à la légèreté du matériau. En revanche, réduisez son Encombrement avant de faire les ajustements d’Encombrement en fonction de sa taille.",
+    "PreciousMaterialNoqual": "Noqual",
+    "PreciousMaterialNoqualDescription": "Léger et robuste, le noqual fait également preuve d'une puissante résistance à la magie. Un effet secondaire de cette résistance est que la fabrication d'armes magiques à partir de noqual nécessite des traitements alchimiques complexes et coûteux. Kevoth-Kul, le souverain noir de Numérie, a mis au point un alliage de noqual et de fer froid connu sous le nom d'acier souverain pour atténuer cette propriété. L'aspect cristallin du métal pourrait laisser penser qu'il est fragile, mais le matériau vert pâle peut être travaillé de la même manière que le fer. Les objets fabriqués en noqual bénéficient d'un bonus de circonstances de +4 aux jets de sauvegarde contre la magie que l'objet tente et accordent leur bonus à leur propriétaire pour les jets de sauvegarde qui visent spécifiquement à protéger l'objet de la magie (comme avec le sort <em>@Compendium[pf2e.spells-srd.0fYE64odlKqISzft]{Poigne oxydante}</em>).",
     "PreciousMaterialOrichalcum": "orichalque",
     "PreciousMaterialOrichalcumDescription": "L’orichalque est le plus rare et le plus précieux des métaux célestes et il est très recherché pour ses incroyables propriétés magiques liées au passage du temps. Ce métal cuivré terne n’est pas aussi résistant que l’adamantium, mais sa capacité à modifier le temps le protège et lui donne une Solidité et des points de vie supérieurs. Si un objet en orichalque subit des dégâts, mais n’est pas détruit, il se répare complètement en 24 heures.",
+    "PreciousMaterialSiccatite": "Siccatite",
+    "PreciousMaterialSiccatiteDescription": "À l'état brut, ce minerai argenté est soit brûlant, soit glacial. Les métallurgistes ne s'accordent pas sur la question de savoir si la siccatite est constituée de deux substances apparentées ou d'une seule substance qui détermine son rendement thermique par un processus inconnu. Quelle qu'en soit la raison, la température extrême de ce matériau signifie qu'il doit être manipulé avec précaution. La siccatite chaude peut facilement enflammer des matières inflammables comme le papier et les broussailles sèches et la siccatite froide laissée dans des endroits humides s'entoure rapidement d'une épaisse couche de glace. Une créature qui entre en contact physique avec une quantité importante de siccatite subit 1 dégât d'énergie pour chaque round de contact continu (dégâts de feu ou de froid, respectivement pour la siccatite de chaleur et la siccatite de froid).",
     "PreciousMaterialSilver": "argent",
     "PreciousMaterialSilverDescription": "Les armes en argent sont un fléau pour les créatures telles que les diables et les loups-garous. Les objets en argent sont moins solides que ceux en acier et les objets en argent de basse qualité sont généralement seulement plaqués.",
     "PreciousMaterialSovereignSteel": "acier souverain",
@@ -2041,7 +2078,6 @@
       "critFailure": "Augmentez l'intensité de mourant de 2.",
       "critSuccess": "Réduisez l'intensité de mourant de 2.",
       "failure": "Augmentez l'intensité de mourant de 1.",
-      "roll": "Cliquez pour lancer le Test de récupération",
       "rollingDescription": "Test de récupération contre un DD {dc} (mourant {dying})",
       "success": "Réduisez l'intensité de mourant de 1."
     },
@@ -2074,8 +2110,6 @@
     "ResolvePointsShortLabel": "Persévérance",
     "ResolveTitle": "Le nombre de points de Persévérance que vous possédez",
     "RestoreSpellTitle": "Restaurer le sort",
-    "ResultLabel": "Résultat",
-    "ResultOffset": "par {offset}",
     "Roll": {
       "Add": "Ajouter",
       "CriticalHit": "Coup critique",
@@ -2108,10 +2142,6 @@
         "EffectExpiration": {
           "Hint": "Les effets désactivent automatiquement les éléments de règle attachées lorsque la durée expire.",
           "Name": "Expiration auto des effets"
-        },
-        "ExperimentalDamageFormatting": {
-          "Hint": "Distribuez les données des jets de dégâts et décorez la carte dans la conversation avec des formules de jets de dégâts formatées différemment, selon les types et les catégories de dégâts avec des notes pour les jets de dégâts persistants et d'éclaboussures.",
-          "Name": "Utiliser le formatage expérimental des cartes de dégâts dans la conversation"
         },
         "Hint": "Décidez combien et quelle sorte d'automatisation appliquer à votre monde.",
         "Label": "régler l'automatisation",
@@ -2713,6 +2743,7 @@
       },
       "Ranged": {
         "Description": "Vous attaquez avec une arme que vous tenez en main, en prenant pour cible une créature qui se trouve à portée. Faites le jet d’attaque pour l’arme et comparez le résultat à la CA de la créature ciblée afin de déterminer son effet.",
+        "NoAmmo": "Pas de munition assignée à {weapon}.",
         "Success": "Vous infligez les dégâts de l’arme en tenant compte de tous les modificateurs, bonus et malus aux dégâts appropriés."
       },
       "Unarmed": {
