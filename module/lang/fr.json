@@ -1011,6 +1011,7 @@
       },
       "CraftQuantityTitle": "Quantité",
       "ExpendFormula": "formule dépensée",
+      "NoEligibleEntry": "Aucune entrée Artisanat éligible n'a été trouvée.",
       "QuickAddTitle": "Ajout rapide de cette formule à la liste des fabrications quotidiennes.",
       "ToggleFreeCrafting": "Activer la fabrication libre",
       "ToggleQuickAlchemy": "Alchimie rapide",
@@ -1193,7 +1194,6 @@
     "EquippedBulkLabel": "Enc. équipé",
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
-      "ActorMustHaveToken": "Ajouter des conditions à des acteurs qui n'ont pas de jetons n'est pas encore possible.",
       "CantImportTooHighVersion": "Incapable d'importer {sourceName}: la version de son schéma ({sourceSchemaVersion}) étant supérieure à celle du monde ({worldSchemaVersion}).",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnage",
@@ -4050,7 +4050,7 @@
       "anchoring": {
         "Name": "Rune à ancre",
         "Note": {
-          "criticalSuccess": "<strong>Rune à ancre</strong> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancre dimensionnelle}</em> sur la cible(<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"27\">Volonté</span>, modificateur de contre [[/r 1d20+17 # Test de contre Rune à ancre]]{+17})."
+          "criticalSuccess": "<strong>Rune à ancre</strong> Si vous obtenez un coup critique avec une rune à ancre, l'arme lance <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Ancre dimensionnelle}</em> sur la cible (<span data-pf2-check=\"will\" data-pf2-label=\"Rune à ancre\" data-pf2-dc=\"27\">Volonté</span>, modificateur de contre [[/r 1d20+17 # Test de contre Rune à ancre]]{+17})."
         }
       },
       "axiomatic": {
