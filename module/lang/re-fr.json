@@ -13,10 +13,10 @@
         "Antler": "bois",
         "Beak": "bec",
         "Beard": "barbe",
-        "Body": "Corps",
+        "Body": "corps",
         "BoneShard": "éclats d'os",
         "Boot": "botte",
-        "Branch": "Branche",
+        "Branch": "branche",
         "CubeFace": "face du cube",
         "Fangs": "crochets",
         "FireMote": "grain de feu",
@@ -26,8 +26,8 @@
         "HolyMace": "sainte masse",
         "Hoof": "sabot",
         "Horn": "corne",
-        "Leaf": "Feuille",
-        "Leg": "Patte",
+        "Leaf": "feuille",
+        "Leg": "patte",
         "LightingLash": "fouet d'éclair",
         "Mandibles": "mandibules",
         "Moonbeam": "rayon de lune",
@@ -35,17 +35,17 @@
         "Pincer": "pince",
         "Pseudopod": "pseudopode",
         "Rock": "rocher",
-        "Spikes": "Piques",
-        "Spine": "Épine",
+        "Spikes": "piques",
+        "Spine": "dos",
         "Stinger": "dard",
         "Sunbeam": "rayon de soleil",
         "Tail": "queue",
         "Talon": "ergot",
-        "Tendril": "liane",
+        "Tendril": "vrille",
         "Tentacle": "tentacule",
         "TentacleArm": "bras à tentacule",
         "Tongue": "langue",
-        "Vine": "Liane",
+        "Vine": "liane",
         "WaterSpout": "jet d'eau",
         "Wave": "vague",
         "Wing": "aile"
@@ -72,19 +72,19 @@
       },
       "AlchemistsFire": {
         "Greater": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu}.",
-          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}."
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*3}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{3 dégâts de feu persistants} et [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu}.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {3}[splash,fire]]]{3 dégâts d'éclaboussure de feu}."
         },
         "Lesser": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}.",
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*1}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{2 dégâts de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}.",
           "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégât de feu persistants} et [[/r {1}[splash,fire]]]{1 dégât d'éclaboussure de feu}."
         },
         "Major": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*4d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}.",
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{8 dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}.",
           "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {4}[splash,fire]]]{4 dégâts d'éclaboussure de feu}."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}.",
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2*2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{4 dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}.",
           "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {2}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants} et [[/r {2}[splash,fire]]]{2 dégâts d'éclaboussure de feu}."
         }
       },
@@ -199,6 +199,24 @@
           "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} et [[/r {2}[splash,slashing]]]{2 dégâts d'éclaboussure tranchants}"
         }
       },
+      "MudBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,bludgeoning]]]{3 dégâts d'éclaboussure contondants}. La cible est @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'au début de votre prochain tour.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,bludgeoning]]]{3 dégâts d'éclaboussure contondants}."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,bludgeoning]]]{1 dégât d'éclaboussure contondant}. La cible est @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'au début de votre prochain tour.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,bludgeoning]]]{1 dégât d'éclaboussure contondant}."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,bludgeoning]]]{4 dégâts d'éclaboussure contondants}. La cible est @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'au début de votre prochain tour.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,bludgeoning]]]{4 dégâts d'éclaboussure contondants}."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,bludgeoning]]]{2 dégâts d'éclaboussure contondants}. La cible est @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Éblouie} jusqu'au début de votre prochain tour.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,bludgeoning]]]{2 dégâts d'éclaboussure contondants}."
+        }
+      },
       "NecroticBomb": {
         "Greater": {
           "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,negative]]]{3 dégâts d'éclaboussure négatifs}  et elle rend @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 3} la cible principale.",
@@ -215,6 +233,24 @@
         "Moderate": {
           "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,negative]]]{2 dégâts d'éclaboussure négatifs} et elle rend @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 2} la cible principale.",
           "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[splash,negative]]]{2 dégâts d'éclaboussure négatifs}."
+        }
+      },
+      "PerniciousSporeBomb": {
+        "Greater": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {6d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{6d4 dégâts perforants persistants} et [[/r {3}[splash,poison]]]{3 dégâts de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 round.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{3d4 dégâts perforants persistants} et [[/r {3}[splash,poison]]]{3 dégâts de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 round."
+        },
+        "Lesser": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {2d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{1d4 dégâts perforants persistants} et [[/r {1}[splash,poison]]]{1 dégât de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 round.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{1d4 dégâts perforants persistants} et [[/r {1}[splash,poison]]]{1 dégât de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 round."
+        },
+        "Major": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {8d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{8d4 dégâts perforants persistants} et [[/r {4}[splash,poison]]]{4 dégâts de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 minute.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{4d4 dégâts perforants persistants} et [[/r {4}[splash,poison]]]{4 dégâts de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 minute."
+        },
+        "Moderate": {
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi [[/r {4d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{4d4 dégâts perforants persistants} et [[/r {2}[splash,poison]]]{2 dégâts de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 round.",
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{2d4 dégâts perforants persistants} et [[/r {2}[splash,poison]]]{2 dégâts de poison d'éclaboussure}. La zone d'éclaboussure de la bombe est couverte de végétation, devenant un terrain difficile pendant 1 round."
         }
       },
       "PeshspineGrenade": {
@@ -370,6 +406,25 @@
           "criticalSuccess": "<strong>Effet</strong>  La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration pendant 1 minute.",
           "success": "<strong>Effet</strong>  La bombe inflige aussi [[/r {2}[splash,mental]]]{2 dégâts d'éclaboussure mentaux} et la cible doit réussir un @Check[type:flat|dc:5]{test nu DD 5} avant d'entreprendre des actions ayant le trait concentration jusqu'à la fin de son prochain tour."
         }
+      },
+      "WaterBomb": {
+        "Greater": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[nonlethal,splash,bludgeoning]]]{3 dégâts d'éclaboussure contondants non-létaux}. La bombe éteint les feux non magiques dans sa zone d'éclaboussure."
+        },
+        "Lesser": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[nonlethal,splash,bludgeoning]]]{1 dégât d'éclaboussure contondant non-létal}. La bombe éteint le feu qu'elle touche ou une case de feu."
+        },
+        "Major": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[nonlethal,splash,bludgeoning]]]{4 dégâts d'éclaboussure contondants non-létaux}. La bombe éteint les feux non magiques dans sa zone d'éclaboussure."
+        },
+        "Moderate": {
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {2}[nonlethal,splash,bludgeoning]]]{2 dégâts d'éclaboussure contondants non-létaux}. La bombe éteint le feu non magique qu'elle touche ou une case de feu."
+        }
+      }
+    },
+    "Mutagens": {
+      "BestialMutagen": {
+        "FeralPrompt": "Augmenter la pénalité à la CA pour augmenter la taille du dé de dégâts ?"
       }
     },
     "NPCAbility": {
@@ -458,6 +513,10 @@
         "criticalSuccess": "[[/r {2*1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
         "success": "[[/r {1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
       },
+      "Bleed2d6": {
+        "criticalSuccess": "[[/r {2*2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
+        "success": "[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+      },
       "Fire1d10": {
         "criticalSuccess": "[[/r {2*1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
         "success": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
@@ -534,6 +593,7 @@
       "Blacksmithing": "pour forger",
       "Climb": "pour escalader",
       "ClimbOrSwim": "pour escalader ou nager",
+      "CommandAnAnimal": "pour Diriger un animal",
       "CraftTrap": "pour fabriquer des pièges",
       "CraftTrapSnare": "pour Fabriquer des pièges et des pièges artisanaux",
       "Darkness": "dans l'obscurité",
@@ -546,6 +606,7 @@
       "Forests": "dans les forêts",
       "ForestsOrSwamps": "dans les forêts ou les marais",
       "Grapple": "pour Agripper",
+      "GrappleShove": "Pour Saisir ou Pousser",
       "Hide": "pour se cacher",
       "HighJumpOrLongJump": "pour sauter en hauteur ou en longueur",
       "ImitateStone": "pour imiter la pierre",
@@ -553,6 +614,7 @@
       "ImpersonateCloakSheetRay": "pour Se déguiser en une cape, une feuille ou un rayon",
       "Jungles": "dans la jungle",
       "Lair": "dans son antre",
+      "ManeuverInFlight": "pour Manœuvrer en vol",
       "Mountains": "dans les montagnes",
       "Navigate": "pour naviguer",
       "Paint": "pour peindre",
@@ -596,6 +658,11 @@
         "AllowedDrops": "don de dévouement multiclasse",
         "Prompt": "Choisissez un don de dévouement multiclasse"
       },
+      "AnimalSkin": {
+        "BracersOfArmor": "Cuir animal avec Bracelets d'armure",
+        "ExplorersClothing": "Cuir animal avec Vêtements d'explorateur",
+        "MageArmor": "Cuir animal avec Armure de mage"
+      },
       "ClanWeapon": {
         "ClanPistol": "Pistoler de clan (don ancestral)",
         "Label": "Arme de clan",
@@ -606,6 +673,13 @@
         "Lesser": "Inférieur",
         "Prompt": "Choisissez un degré d'abri.",
         "Standard": "Standard"
+      },
+      "DedicationCraftingEntry": {
+        "FireworkTechnician": "Artificier",
+        "Herbalist": "Herboriste",
+        "Poisoner": "Empoisonneur",
+        "Snarecrafter": "Fabricant de piège artisanal",
+        "TalismanDabbler": "Amateur de talismans"
       },
       "FighterWeaponMasteryLegend": {
         "Advanced": {
@@ -721,12 +795,17 @@
         "MonasticArchery": "Archerie monastique",
         "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples"
       },
+      "MountainStance": {
+        "BracersOfArmor": "Posture de la montagne avec Bracelets d'armure",
+        "ExplorersClothing": "Posture de la montagne avec vêtements d'explorateur",
+        "MageArmor": "Posture de la montagne avec Armure de mage"
+      },
       "Multitalented": {
         "AllowedDrops": "don de dévouement multiclasse de niveau 2",
         "Prompt": "Choisir un don de dévouement multiclasse"
       },
       "Prompt": {
-        "AdvancedMulticlassFeat": "Choisissez un don de classe jusqu'à la moitié de votre niveau de personnage.",
+        "AdvancedMulticlassFeat": "Choisissez un don de classe d'un niveau inférieur à la moitié de votre niveau de personnage.",
         "CreatureSize": "Choisir une taille de créature",
         "Lesson": "Choisir une leçon",
         "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
@@ -758,20 +837,21 @@
       "SterlingDynamo": {
         "AutomaticPercussive": "Dynamo sterling percussive automatique",
         "AutomaticPower": "Dynamo sterling conductrice de puissance automatique",
-        "ManualPercussive": "Dynamo sterling percussive automatique",
+        "ManualPercussive": "Dynamo sterling percussive manuelle",
         "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
       },
       "ToggleProperty": {
         "Triangulate": "L'observateur peut voir la cible."
       },
       "TwoHanded": {
-        "BastardSword": "Utiliser l'épée bâtarde à deux mains",
-        "Broom": "Utiliser le balai à deux mains",
-        "Cane": "Utiliser la canne à deux mains",
-        "Katana": "Utiliser le katana à deux mains",
-        "Khakkhara": "Utiliser le khakkhara à deux mains",
-        "RhokaSword": "Utiliser l'épée rhoka à deux mains",
-        "Staff": "Utiliser le bâton à deux mains"
+        "BastardSword": "Utilise l'épée bâtarde à deux mains",
+        "BattleLute": "utilise le luth de combat à deux mains",
+        "Broom": "Utilise le balai à deux mains",
+        "Cane": "utilise la canne à deux mains",
+        "Katana": "utilise le katana à deux mains",
+        "Khakkhara": "utilise le khakkhara à deux mains",
+        "RhokaSword": "utilise l'épée rhoka à deux mains",
+        "Staff": "utilise le bâton à deux mains"
       }
     },
     "UI": {
