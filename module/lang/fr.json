@@ -503,28 +503,6 @@
       "DeceptionUnknownVariant": "Variante inconnue '{variant}' utilisée pour Duperie, utilisez soit des paroles, des gestes ou un tour de passe-passe",
       "NoActor": "Choisissez au moins un jeton avant de lancer les dés ou assignez un personnage par défaut."
     },
-    "ActiveEffects": {
-      "Controls": {
-        "Delete": "Effacer",
-        "Disable": "Désactiver",
-        "Edit": "Éditer",
-        "Enable": "Activer",
-        "Label": "Contrôles"
-      },
-      "DisableAutomation": "Désactiver l'automatisation",
-      "Duration": {
-        "Label": "Durée",
-        "Permanent": "Permanente",
-        "Round": "{quantity} round",
-        "Rounds": "{quantity} rounds",
-        "Second": "{quantity} seconde",
-        "Seconds": "{quantity} secondes",
-        "Turn": "{quantity} tour",
-        "Turns": "{quantity} tours"
-      },
-      "EnableAutomation": "Activer l'automatisation",
-      "Label": "Effets actifs"
-    },
     "Actor": {
       "ApplyDamage": {
         "AtFullHealth": "{actor} est déjà en pleine santé.",
@@ -587,7 +565,6 @@
     "AlignmentNG": "Neutre Bon",
     "AlignmentTitle": "Votre alignement",
     "AllSavesLabel": "Tous les jets de sauvegarde",
-    "Ancestry": "Ascendance",
     "AncestryFeatLevels": "Niveaux des dons ancestraux",
     "AncestryFeatures": "Capacités d'ascendance",
     "AncestryHP": "PV d’ascendance",
@@ -597,6 +574,7 @@
     "AreaSize100": "100 foot (30 m)",
     "AreaSize120": "120 Feet (36 m)",
     "AreaSize15": "15 Feet (4,5 m)",
+    "AreaSize1Mile": "1,5 km",
     "AreaSize20": "20 Feet (6 m)",
     "AreaSize30": "30 Feet (9 m)",
     "AreaSize40": "40 Feet (12 m)",
@@ -810,6 +788,7 @@
       "DC": {
         "Label": {
           "AdjustedTarget": "<target>Cible : {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
+          "NoChangeTarget": "<target>Cible: {target}</target> <dc>({dcType} <adjusted>{ajusté}</adjusted>)</dc>",
           "NoTarget": "{dcType} {dc}",
           "WithTarget": "<target>Cible : {target}</target> <dc>({dcType} {dc})</dc>"
         },
@@ -1053,6 +1032,7 @@
     "DCAdjustmentVeryHard": "très difficile",
     "DCBase": "DD de Base 10",
     "DCWithValue": "DD {dc} de {text}",
+    "DCWithValueAndVisibility": "{text} <span data-visibility=\"{role}\">DD {dc}</span>",
     "Damage": {
       "Base": "Base",
       "NoDamageFormulaLabel": "Pas de dégât"
@@ -1086,7 +1066,7 @@
     "DamageLabel": "Dégâts",
     "DamageRoll": "Jet de dégât",
     "DecrementEffectTitle": "Baissez le niveau de l'effet",
-    "DefencesLabel": "Défenses",
+    "DefensesLabel": "Défenses",
     "Deity": "Divinité",
     "DeityTitle": "Votre divinité",
     "DeleteConditionQuestion": "Êtes vous certain d'effacer {condition}?",
@@ -1194,6 +1174,7 @@
     "EquippedBulkLabel": "Enc. équipé",
     "EquippedSameBulkValue": "Identique à transporté",
     "ErrorMessage": {
+      "CantCreateEffectMacro": "Un effet pour une activation de macro doit venir d'un objet d'un compendium ou du monde.",
       "CantImportTooHighVersion": "Incapable d'importer {sourceName}: la version de son schéma ({sourceSchemaVersion}) étant supérieure à celle du monde ({worldSchemaVersion}).",
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnage",
@@ -1232,6 +1213,7 @@
     "FeatBackgroundShort": "Hist",
     "FeatBonusHeader": "Dons supplémentaires",
     "FeatBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br>source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Ex : 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
+    "FeatCampaignHeader": "Dons de campagne",
     "FeatClassHeader": "Dons de classe",
     "FeatCurseHeader": "Malédictions",
     "FeatDeityBoonCursesHeader": "Bénédictions/Malédictions",
@@ -1388,18 +1370,265 @@
       },
       "Deity": {
         "Alignment": "Alignement",
-        "Anathema": "Anathème",
-        "AreasOfConcern": "Domaines",
-        "ClericSpells": "Sorts de prêtre",
-        "DivineAbility": "Capacité divine",
+        "ClericSpells": {
+          "Hint": "Pour ajouter un sort, glissez et déposez en un sur cette feuille",
+          "Label": "Sorts de prêtre"
+        },
+        "DivineAbility": {
+          "Hint": "Si vous choisissez l'historique Élevé dans la foi, les options de sa prime de caractéristique vient d'une divinité.",
+          "Label": "Capacité divine"
+        },
         "DivineFont": {
           "Harm": "Mise à mal",
           "Heal": "Guérison",
           "Label": "Source divine"
         },
         "DivineSkill": "Compétence divine",
-        "Edicts": "Édits",
-        "FavoredWeapon": "Arme de prédilection",
+        "Domain": {
+          "Abomination": {
+            "Description": "Vous cherchez à instiller la répulsion et l'horreur à ceux qui vous entourent.",
+            "Label": "Abomination"
+          },
+          "Air": {
+            "Description": "Vous pouvez contrôler les vents et le temps.",
+            "Label": "Air"
+          },
+          "Ambition": {
+            "Description": "Vous vous efforcez d'être au niveau et de dépasser la concurrence.",
+            "Label": "Ambition"
+          },
+          "Change": {
+            "Description": "Vous pouvez restructurer le physique et le métaphysique.",
+            "Label": "Changement"
+          },
+          "Cities": {
+            "Description": "Vous avez des pouvoirs sur les environnements urbains et leurs habitants.",
+            "Label": "Villes"
+          },
+          "Cold": {
+            "Description": "Vous contrôlez la glace, la neige et les températures froides.",
+            "Label": "Froid"
+          },
+          "Confidence": {
+            "Description": "Vous surmontez votre peur et montrer que vous êtes fier.",
+            "Label": "Confiance"
+          },
+          "Creation": {
+            "Description": "Vous possédez des capacités divines en lien avec l'art et l'artisanat",
+            "Label": "Création"
+          },
+          "Darkness": {
+            "Description": "Vous opérez dans les ténèbres et emportez la lumière.",
+            "Label": "Ténèbres"
+          },
+          "Death": {
+            "Description": "Vous avez le pouvoir de mettre un terme à la vie et de détruire la mort-vivance.",
+            "Label": "Mort"
+          },
+          "Decay": {
+            "Description": "Vous avez le pouvoir de gâcher et de détériorer la matière.",
+            "Label": "Décomposition"
+          },
+          "Delirium": {
+            "Description": "Vous pouvez provoquer des hallucinations et de l'agitation.",
+            "Label": "Délire"
+          },
+          "Destruction": {
+            "Description": "Vous êtes un conduit de la dévastation divine.",
+            "Label": "Destruction"
+          },
+          "Dreams": {
+            "Description": "Vous avez le pouvoir d'entrer dans les rèves et de les manipuler",
+            "Label": "Rêves"
+          },
+          "Dust": {
+            "Description": "Vous avez le pouvoir d'assécher et de faire s'écrouler ce qui s'oppose à vous.",
+            "Label": "Poussière"
+          },
+          "Duty": {
+            "Description": "Vous protégez les serments et accomplissez vos missions divines avec un grand dévouement.",
+            "Label": "Devoir"
+          },
+          "Earth": {
+            "Description": "Vous contrôlez le sol et la pierre",
+            "Label": "Terre"
+          },
+          "Family": {
+            "Description": "Vous aidez et protégez votre famille et votre communité plus efficacement.",
+            "Label": "Famille"
+          },
+          "Fate": {
+            "Description": "Vous voyez et comprenez la fatalité cachée.",
+            "Label": "Destin"
+          },
+          "Fire": {
+            "Description": "Vous contrôlez les flammes.",
+            "Label": "Feu"
+          },
+          "Freedom": {
+            "Description": "Vous libérez les autres et vous-même des entraves et des contraintes.",
+            "Label": "Liberté"
+          },
+          "Glyph": {
+            "Description": "Vous maniez le pouvoir des mots écrits et des symboles.",
+            "Label": "Glyphe"
+          },
+          "Healing": {
+            "Description": "Votre magie de guérison est particulièrement puissante.",
+            "Label": "Guérison"
+          },
+          "Indulgence": {
+            "Description": "Vous vous régalez et pouvez vous débarrasser des effets de la surconsommation.",
+            "Label": "Abondance"
+          },
+          "Knowledge": {
+            "Description": "Vous recevez des visions divines.",
+            "Label": "Savoir"
+          },
+          "Lightning": {
+            "Description": "Vous contrôlez l'électricité, le tonnerre et les tempêtes.",
+            "Label": "Éclair"
+          },
+          "Luck": {
+            "Description": "Vous bénéficiez d'une chance surnaturelle et vous tenez à distance du danger.",
+            "Label": "Chance"
+          },
+          "Magic": {
+            "Description": "Vous accomplissez l'inattendu et l'inexplicable.",
+            "Label": "Magie"
+          },
+          "Might": {
+            "Description": "Votre puissance physique est renforcée par la force divine.",
+            "Label": "Puissance"
+          },
+          "Moon": {
+            "Description": "Vous ordonnez aux pouvoirs associés à la lune.",
+            "Label": "Lune"
+          },
+          "Naga": {
+            "Description": "Comme les nagas serpentiformes, vous êtes en phase avec les forces cosmiques que Ravithra contrôlait autrefois.",
+            "Label": "Naga"
+          },
+          "Nature": {
+            "Description": "Vous avez du pouvoir sur les animaux et les plantes.",
+            "Label": "Nature"
+          },
+          "Nightmares": {
+            "Description": "Vous remplissez les esprits d'horreur et d'effroi.",
+            "Label": "Cauchemars"
+          },
+          "Pain": {
+            "Description": "Vous punissez ceux qui vous déplaisent avec la piqûre aiguisée de la douleur.",
+            "Label": "Douleur"
+          },
+          "Passion": {
+            "Description": "Vous évoquez la passion, que ce soit l'amour ou la luxure.",
+            "Label": "Passion"
+          },
+          "Perfection": {
+            "Description": "Vous vous efforcez de perfectionner votre esprit, votre corps et votre âme.",
+            "Label": "Perfection"
+          },
+          "Plague": {
+            "Description": "Vous maniez la maladie et la pestilence comme une arme.",
+            "Label": "Pestilence"
+          },
+          "Protection": {
+            "Description": "Vous gardez les autres et vous-même.",
+            "Label": "Protection"
+          },
+          "Repose": {
+            "Description": "Vous allégez les fardeaux mentaux.",
+            "Label": "Repos"
+          },
+          "Secrecy": {
+            "Description": "Vous protégez les secrets et les gardez enfouis.",
+            "Label": "Secret"
+          },
+          "Sorrow": {
+            "Description": "Vous possédez un lien douloureux avec la mélancolie et la tristesse.",
+            "Label": "Chagrin"
+          },
+          "Soul": {
+            "Description": "Vous maniez le pouvoir sur le spirituel.",
+            "Label": "Âme"
+          },
+          "Star": {
+            "Description": "Vous commandez le pouvoir des étoiles.",
+            "Label": "Étoiles"
+          },
+          "Sun": {
+            "Description": "Vous exploitez le pouvoir du soleil et d'autres sources de lumière et vous punissez les morts-vivants.",
+            "Label": "Soleil"
+          },
+          "Swarm": {
+            "Description": "Vous exercez le contrôle sur les masses de créatures.",
+            "Label": "Nuées"
+          },
+          "Time": {
+            "Description": "Vous régnez sur le cours du temps.",
+            "Label": "Temps"
+          },
+          "Toil": {
+            "Description": "Vous travaillez constamment et refusez de laisser quoi que ce soit se mettre sur votre chemin.",
+            "Label": "Labeur"
+          },
+          "Travel": {
+            "Description": "Vous avez du pouvoir sur les mouvements et les voyages.",
+            "Label": "Voyage"
+          },
+          "Trickery": {
+            "Description": "Vous trompez les autres et causez des ennuis.",
+            "Label": "Tromperie"
+          },
+          "Truth": {
+            "Description": "Vous percez les mensonges et découvrez la vérité.",
+            "Label": "Vérité"
+          },
+          "Tyranny": {
+            "Description": "Vous maniez les pouvoirs qui régissent et asservissent les autres.",
+            "Label": "Tyrannie"
+          },
+          "Undeath": {
+            "Description": "Votre magie possède des liens étroits avec les morts-vivants.",
+            "Label": "Mort-vivance"
+          },
+          "Vigil": {
+            "Description": "Vous surveillez ceux qui sont morts depuis longtemps et gardez leurs secrets.",
+            "Label": "Veille"
+          },
+          "Void": {
+            "Description": "Vous tirez pouvoir du néant.",
+            "Label": "Vide"
+          },
+          "Water": {
+            "Description": "Vous contrôlez l'eau et les étendues d'eau.",
+            "Label": "Eau"
+          },
+          "Wealth": {
+            "Description": "Vous détenez le pouvoir sur les richesses, le commerce et les trésors.",
+            "Label": "Richesse"
+          },
+          "Wyrmkin": {
+            "Description": "Vous puisez dans le pouvoir des dragons, des linnorms et d'autres puissantes créatures reptiliennes.",
+            "Label": "Gent draconique"
+          },
+          "Zeal": {
+            "Description": "Votre flamme intérieure augmente vos prouesses au combat.",
+            "Label": "Zèle"
+          }
+        },
+        "Domains": {
+          "Alternate": {
+            "Hint": "Un prêtre peut prendre le don Initié du domaine étendu pour obtenir un accès à l'un des domaines alternatifs de votre divinité.",
+            "Label": "Domaines alternatifs"
+          },
+          "Primary": "Domaines primaires"
+        },
+        "FavoredWeapons": {
+          "Hint": "LA plupart des divinités ont une arme de prédilection, mais quelques unes ont à la fois les attaques à mains nues et",
+          "Label": "Arme(s) de prédilection"
+        },
         "FollowerAlignments": "Alignement des fidèles"
       },
       "Effect": {
@@ -1414,6 +1643,7 @@
       "Feat": {
         "OnlyLevel1": "Doit être pris au niveau 1",
         "TakeMultiple": {
+          "Five": "Jusqu'à 5x",
           "Four": "Jusqu'à 4×",
           "Label": "Peut être pris plusieurs fois",
           "NoLimit": "Pas de limite",
@@ -1559,6 +1789,8 @@
     "ItemTitle": "Objet",
     "ItemsLabel": "Objets",
     "JournalEntry": {
+      "FoundryTheme": "Entrée de journal de Foundry (Classique)",
+      "PF2ETheme": "Entrée de journal du système PF2e",
       "Plural": "Entrées de journal"
     },
     "KeyAbility": "Carac. essentielle",
@@ -1973,7 +2205,6 @@
         "VS": "Sceau Vigilant",
         "VW": "Roue Verdoyante"
       },
-      "Fame": "Renommée",
       "LevelBump": "Niveau ajusté",
       "OrganizedPlayNumber": "Jeu organisé #",
       "Reputation": "Réputation",
@@ -2115,6 +2346,8 @@
       "CriticalHit": "Coup critique",
       "Fortune": "Fortune",
       "FortuneTitle": "Fortune {title}",
+      "KeepHigher": "Garder le plus haut",
+      "KeepLower": "Garder le plus faible",
       "Misfortune": "Infortune",
       "MisfortuneTitle": "Infortune {title}",
       "Modifier": "Modificateur",
@@ -2143,6 +2376,10 @@
           "Hint": "Les effets désactivent automatiquement les éléments de règle attachées lorsque la durée expire.",
           "Name": "Expiration auto des effets"
         },
+        "FlankingDetection": {
+          "Hint": "Les arrangements et les capacités qui permettent de prédire la tenaille sont pris en compte par le système.",
+          "Name": "Détection de la tenaille"
+        },
         "Hint": "Décidez combien et quelle sorte d'automatisation appliquer à votre monde.",
         "Label": "régler l'automatisation",
         "LootableNPCs": {
@@ -2160,6 +2397,10 @@
           "Name": "vision basée sur les règles."
         }
       },
+      "CampaignFeats": {
+        "Hint": "Ajouter une section à tous les joueurs pour les dons spécifiques à la campagne.",
+        "Name": "Dons de campagne"
+      },
       "CompendiumBrowserPacks": {
         "Hint": "Réglages pour exclure le chargement des compendiums",
         "Name": "Packs de compendiums"
@@ -2175,18 +2416,6 @@
       "DeathIcon": {
         "Hint": "Choisissez l'icône qui se superpose pour marquer les acteurs morts.",
         "Name": "Icône de mort"
-      },
-      "DefaultTokenSettings": {
-        "Hint": "Disposer du prototype de jeton conseillé sur les acteurs nouvellement créés",
-        "Name": "Réglages des prototype de jeton par défaut"
-      },
-      "DefaultTokenSettingsBar": {
-        "Hint": "Le réglage de la vue de la barre du jeton par défaut",
-        "Name": "Vue de la barre de jeton par défaut"
-      },
-      "DefaultTokenSettingsName": {
-        "Hint": "Le réglage de la vue du nom du jeton par défaut",
-        "Name": "Vue du nom du jeton par défaut"
       },
       "EnabledRulesUI": {
         "Hint": "Lorsqu'il est activé, montre l'élément de règle avancé de l'Interface Utilisateur. Soyez précautionneux avec ceci. Cela peut dérégler les acteurs et objets si vous ne savez pas ce que vous faites ou faites une erreur.",
@@ -2255,12 +2484,6 @@
       "IgnoreCoinBulk": {
         "Hint": "Activer pour ignorer le poids de la monnaie",
         "Name": "Les pièces n'ont pas de poids"
-      },
-      "JournalEntryTheme": {
-        "Foundry": "Foundry (Classique)",
-        "Hint": "régler le thème des styles des entrées de journal de ce monde.",
-        "Name": "Thême entrée de journal",
-        "PF2E": "Système PF2"
       },
       "Metagame": {
         "Hint": "Limiter les informations de métajeu auxquelles vos joueurs ont accès.",
@@ -2703,6 +2926,7 @@
     "SpellTypeRitual": "Rituel",
     "SpellTypeSave": "Jet de sauvegarde",
     "SpellTypeUtility": "Utilitaire",
+    "SpellUsesLabel": "Utilise",
     "SpellcastingTypeLabel": "Type d'incantation",
     "SpellsActionHeader": "Action",
     "SpellsSchoolHeader": "École",
@@ -3779,7 +4003,6 @@
         "alchemical-crossbow": "Arbalète alchimique",
         "aldori-dueling-sword": "Épée de duel aldorie",
         "arquebus": "Arquebuse",
-        "arrows": "Flèches",
         "asp-coil": "Serpentin aspic",
         "axe-musket": "Mousquet-hache",
         "bastard-sword": "Épée bâtarde",
@@ -3797,7 +4020,6 @@
         "boarding-axe": "Hache d'abordage",
         "boarding-pike": "Pique d'abordage",
         "bola": "Bolas",
-        "bolts": "Carreaux",
         "butchering-axe": "Hachoir",
         "butterfly-sword": "Épée papillon",
         "buugeng": "Buugeng",
@@ -4449,7 +4671,21 @@
         "AddOneWeek": "1 semaine",
         "AddTenMinutes": "10 minutes",
         "Advance": "Avancer",
-        "Retract": "Retrancher"
+        "Retract": "Retrancher",
+        "TimeOfDay": {
+          "Advance": {
+            "Dawn": "Avancer à l'aube",
+            "Dusk": "Avancer au crépuscule",
+            "Midnight": "Avancer à minuit",
+            "Noon": "Avancer à midi"
+          },
+          "Retract": {
+            "Dawn": "REvenir à l'aube",
+            "Dusk": "Revenir au crépuscule",
+            "Midnight": "Revenir à midi",
+            "Noon": "Revenir à midi"
+          }
+        }
       },
       "CE": {
         "Era": "Ère commune"
@@ -4761,6 +4997,7 @@
       "SheetType": "Type de feuille",
       "SplitCoinsLabel": "Distribuer les pièces",
       "SplitCoinsPopupHeader": "Choisissez les acteurs qui reçoivent une part",
+      "Stack": "Créer une nouvelle pile ?",
       "TakeMessage": "{taker} prend {quantity} × {item} dans {container}.",
       "TakeSubtitle": "Prendre un objet",
       "TransferMessage": "{transferrer} déplace {quantity} × {item} de {fromContainer} à {toContainer}.",
