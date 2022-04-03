@@ -788,7 +788,7 @@
       "DC": {
         "Label": {
           "AdjustedTarget": "<target>Cible : {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
-          "NoChangeTarget": "<target>Cible: {target}</target> <dc>({dcType} <adjusted>{ajusté}</adjusted>)</dc>",
+          "NoChangeTarget": "<target>Cible: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
           "NoTarget": "{dcType} {dc}",
           "WithTarget": "<target>Cible : {target}</target> <dc>({dcType} {dc})</dc>"
         },
@@ -5034,7 +5034,7 @@
       "SpaceWideLabel": "Largeur",
       "VehicleLevelLabel": "Véhicule",
       "VehicleString": "Véhicule",
-      "collisionDCLabel": "DD de Collision",
+      "collisionDCLabel": "DD de collision",
       "collisionDamageLabel": "Dégâts de collision"
     }
   },
