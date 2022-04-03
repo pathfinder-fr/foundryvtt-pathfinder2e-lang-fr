@@ -517,6 +517,14 @@
         "criticalSuccess": "[[/r {2*2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
         "success": "[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
       },
+      "Cold1d6": {
+        "criticalSuccess": "[[/r {2*1d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
+        "success": "[[/r {1d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}"
+      },
+      "Cold2d6": {
+        "criticalSuccess": "[[/r {2*2d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
+        "success": "[[/r {2d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}"
+      },
       "Fire1d10": {
         "criticalSuccess": "[[/r {2*1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
         "success": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
@@ -579,7 +587,6 @@
       "Striking": "de Frappe",
       "TempHP": "Points de Vie temporaires",
       "TempHPShortLabel": "Temp",
-      "ToggleProperty": "Activer la propriété",
       "TokenEffectIcon": "Icône du jeton de l'effet",
       "TokenImage": "Image du jeton",
       "TokenLight": "Lumière du jeton",
@@ -606,13 +613,15 @@
       "Forests": "dans les forêts",
       "ForestsOrSwamps": "dans les forêts ou les marais",
       "Grapple": "pour Agripper",
-      "GrappleShove": "Pour Saisir ou Pousser",
+      "GrappleShove": "Pour saisir ou Pousser",
       "Hide": "pour se cacher",
       "HighJumpOrLongJump": "pour sauter en hauteur ou en longueur",
+      "IceAndSnow": "dans la glace et la naige",
       "ImitateStone": "pour imiter la pierre",
       "Impersonate": "pour Se déguiser",
       "ImpersonateCloakSheetRay": "pour Se déguiser en une cape, une feuille ou un rayon",
       "Jungles": "dans la jungle",
+      "JunkOrDebris": "dans les déchets ou les débris",
       "Lair": "dans son antre",
       "ManeuverInFlight": "pour Manœuvrer en vol",
       "Mountains": "dans les montagnes",
@@ -628,6 +637,7 @@
       "StonyOrIcyAreas": "dans les zones rocheuses ou glacées",
       "Swamps": "dans les marais",
       "Swim": "pour nager",
+      "TarPit": "dans les puits de goudron",
       "Track": "pour pister",
       "TrackBleedingCreature": "pour pister une créature qui saigne",
       "Traps": "pièges",
@@ -642,6 +652,7 @@
       "VsProne": "contre les effets de mise à terre",
       "VsShoveOrTrip": "contre Pousser ou Croc-en-jambe",
       "Water": "dans l'eau",
+      "WaterOrMud": "dans l'eau ou la boue",
       "Weave": "pour Tisser",
       "Woodworking": "pour la menuiserie"
     },
@@ -680,6 +691,10 @@
         "Poisoner": "Empoisonneur",
         "Snarecrafter": "Fabricant de piège artisanal",
         "TalismanDabbler": "Amateur de talismans"
+      },
+      "DeityAndCause": {
+        "AllowedDrops": "Capacité de classe de champion de niveau 1",
+        "Prompt": "Choisissez une cause de champion"
       },
       "FighterWeaponMasteryLegend": {
         "Advanced": {
@@ -805,8 +820,10 @@
         "Prompt": "Choisir un don de dévouement multiclasse"
       },
       "Prompt": {
-        "AdvancedMulticlassFeat": "Choisissez un don de classe d'un niveau inférieur à la moitié de votre niveau de personnage.",
+        "AdvancedMulticlassFeat": "Choisissez un don de classe jusqu'à la moitié de votre niveau de personnage.",
         "CreatureSize": "Choisir une taille de créature",
+        "Deity": "Choisissez une divinité",
+        "DeitysDomain": "Choisissez un domaine de divinité",
         "Lesson": "Choisir une leçon",
         "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
         "LevelOneOrTwoClassFeat": "Choisissez un don de classe de niveau 1 ou 2",
@@ -837,7 +854,7 @@
       "SterlingDynamo": {
         "AutomaticPercussive": "Dynamo sterling percussive automatique",
         "AutomaticPower": "Dynamo sterling conductrice de puissance automatique",
-        "ManualPercussive": "Dynamo sterling percussive manuelle",
+        "ManualPercussive": "Dynamo sterling percussive automatique",
         "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
       },
       "ToggleProperty": {
