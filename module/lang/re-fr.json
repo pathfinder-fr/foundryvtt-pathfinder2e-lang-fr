@@ -1,6 +1,7 @@
 {
   "PF2E": {
     "AttackEffects": {
+      "DropWeapon": "La créature lâche l'arme maniée.",
       "IgnoreConcealed": "L'attaque ignore la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée}",
       "IgnoreCover": "La cible ne bénéficie pas d'un abri inférieur et réduit le bonus à la CA d'un abri ordinaire de 2 contre l'attaque.",
       "IncreasedCriticalChance": "Si l'attaque est réussie et que la créature obtient un 19 ou un 20, l'attaque est un coup critique. Cela n'a pas d'effet en cas d'échec avec un 19.",
@@ -17,6 +18,7 @@
         "BoneShard": "éclats d'os",
         "Boot": "botte",
         "Branch": "branche",
+        "Claw": "Griffe",
         "CubeFace": "face du cube",
         "Fangs": "crochets",
         "FireMote": "grain de feu",
@@ -26,6 +28,7 @@
         "HolyMace": "sainte masse",
         "Hoof": "sabot",
         "Horn": "corne",
+        "Jaws": "Mâchoires",
         "Leaf": "feuille",
         "Leg": "patte",
         "LightingLash": "fouet d'éclair",
@@ -430,6 +433,17 @@
     "NPCAbility": {
       "AnimatedObjectsConstructArmor": "L'armure de la créature artificielle est Brisée",
       "BarghestFeed": "Combien de fois le barghest s'est-il alimenté ?",
+      "Charge": {
+        "AtLeastTen": "S'est déplacé d'au moins 3 m"
+      },
+      "ConstructArmor": {
+        "BrokenArmor": "Armure de créature artificielle brisée",
+        "CriticalHit": "Armure de créature artificielle brisée sur un coup critique"
+      },
+      "CustomArmor": {
+        "BrokenArmor": "Armure brisée",
+        "CriticalHit": "Armure brisée par un coup critique"
+      },
       "DemonInfuseWeapons": "Inflige des dégâts chaotiques au mieu de mauvais",
       "DuskwalkerHuntPrey": {
         "AC": "La proie désignée attaque le crépusculaire",
@@ -493,6 +507,10 @@
       }
     },
     "PersistentDamage": {
+      "Acid1d4": {
+        "criticalSuccess": "[[/r {2*1d4}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts persistants d’acide}",
+        "success": "[[/r {1d4}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts persistants d’acide}"
+      },
       "Acid1d6": {
         "criticalSuccess": "[[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
         "success": "[[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
@@ -533,6 +551,10 @@
         "criticalSuccess": "[[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
         "success": "[[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
       },
+      "Fire1d6": {
+        "criticalSuccess": "[[/r {2*1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}",
+        "success": "[[/r {1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
       "Fire2d10": {
         "criticalSuccess": "[[/r {2*2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
         "success": "[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
@@ -552,6 +574,10 @@
       "Fire3d8": {
         "criticalSuccess": "[[/r {2*3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
         "success": "[[/r {3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+      },
+      "Poison1d6": {
+        "criticalSuccess": "[[/r {2*1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de poison persistants}",
+        "success": "[[/r {1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de poison persistants}"
       }
     },
     "RuleElement": {
@@ -579,7 +605,6 @@
       "MultipleAttackPenalty": "Pénalité d'attaques multiples",
       "NewRuleElement": "Nouvel élément de règle",
       "Note": "Note",
-      "RecoveryCheckDC": "DD du test de récupération",
       "Resistance": "Résistance",
       "RollOption": "Option de lancement",
       "Sense": "Sens",
@@ -674,8 +699,47 @@
         "ExplorersClothing": "Cuir animal avec Vêtements d'explorateur",
         "MageArmor": "Cuir animal avec Armure de mage"
       },
+      "Automaton": {
+        "ArcaneLomotion": {
+          "Prompt": "Choisissez un type de déplacement"
+        },
+        "AutomatonArmament": {
+          "Prompt": "Choisissez une Frappe à mains nues"
+        },
+        "CoreCannon": {
+          "AttackNote": "Vous avez besoin d'appliquer manuellement votre plus importante rune de puissance à ce jet d'attaque.",
+          "CriticalHit": "Sur un coup critique, la cible subit [[/r {10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de feu persistants}. Votre noyau canon n'ajoute pas d'effet de critique spécialisé."
+        },
+        "EnergyBeam": {
+          "CriticalHit": "Sur un coup critique, la cible subit des dégâts de feu persistants égaux aux nombres de dés de dégâts d’arme. Votre rayon d’œil n’ajoute pas d’effet critique spécialisé."
+        },
+        "MagicalResistance": {
+          "Prompt": "Choisissez un type de dégâts d'énergie"
+        }
+      },
+      "Beastkin": {
+        "AnimalSenses": {
+          "Prompt": "Choisissez un sens disponible à votre animal intérieur."
+        },
+        "Senses": {
+          "EcholocationImprecise": "Écholocalisation (imprécis) 9 m",
+          "EcholocationPrecise": "Votre écholocalisation passe à précis",
+          "Scent": "Odorat (imprécis) 9 m",
+          "TremorsenseImprecise": "Perception des vibrations (imprécis) 9 m",
+          "TremorsensePrecise": "Votre Perception des vibrations passe à précis"
+        }
+      },
+      "BountyHunterDedication": {
+        "GatherInfoHuntedPrey": "Pour recueillir l'information sur votre Proie"
+      },
+      "CelestialResistance": {
+        "Prompt": "Choisissez un type d'énergie associé à votre lignage."
+      },
+      "CeremonyEvenedHand": {
+        "Prompt": "Choisissez une attaque à mains nues."
+      },
       "ClanWeapon": {
-        "ClanPistol": "Pistoler de clan (don ancestral)",
+        "ClanPistol": "Pistolet de clan (don ancestral)",
         "Label": "Arme de clan",
         "Prompt": "Choisir une arme de clan"
       },
@@ -695,6 +759,26 @@
       "DeityAndCause": {
         "AllowedDrops": "Capacité de classe de champion de niveau 1",
         "Prompt": "Choisissez une cause de champion"
+      },
+      "DragonDisciple": {
+        "DragonChoice": {
+          "Black": "Dragon noir",
+          "Blue": "Dragon bleu",
+          "Brass": "Dragon d'airain",
+          "Bronze": "Dragon de bronze",
+          "Copper": "Dragon de cuivre",
+          "Gold": "Dragon d'or",
+          "Green": "Dragon vert",
+          "Red": "Dragon rouge",
+          "Silver": "Dragon d'argent",
+          "White": "Dragon blanc"
+        },
+        "Prompt": "Choisissez un dragon",
+        "ScalesOfTheDragon": {
+          "BracersOfArmor": "Écailles de dragon avec Bracelets d'armure",
+          "ExplorersClothing": "Écailles de dragon avec vêtements d'explorateur",
+          "MageArmor": "Écailles de dragon avec Armure de mage"
+        }
       },
       "FighterWeaponMasteryLegend": {
         "Advanced": {
@@ -734,10 +818,19 @@
           "sword": "Épées simples et de guerre"
         }
       },
+      "GameHunterDedication": {
+        "TargetHuntedPrey": "La cible est votre proie (Seulement Animal, Bête ou Dragon)"
+      },
       "GeneralTraining": {
         "AllowedDrops": "don général de niveau 1",
         "Prompt": "Choisissez un don général de niveau 1"
       },
+      "HuntPrey": {
+        "SeekHuntedPrey": "Pour chercher votre proie",
+        "TargetHuntedPrey": "La cible est votre proie",
+        "TrackHuntedPrey": "Pour pister votre proie"
+      },
+      "LitTorch": "La torche est allumée",
       "MartialProficiency": {
         "AdvancedAzarketiWeapons": "Armes azarketies avancées",
         "AdvancedCatfolkWeapons": "Armes félides avancées",
@@ -858,6 +951,7 @@
         "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
       },
       "ToggleProperty": {
+        "GourdHead": "Tête calebasse : Augmenter le DD Perception",
         "Triangulate": "L'observateur peut voir la cible."
       },
       "TwoHanded": {
@@ -869,6 +963,17 @@
         "Khakkhara": "utilise le khakkhara à deux mains",
         "RhokaSword": "utilise l'épée rhoka à deux mains",
         "Staff": "utilise le bâton à deux mains"
+      },
+      "VirtuosicPerformer": {
+        "Prompt": "Choisissez un type de Représentation"
+      },
+      "WildMorph": {
+        "ElementalMatter": "Matière élémentaire",
+        "LongVines": "Longues lianes",
+        "Prompt": "Selectionner une forme",
+        "WildClaws": "Griffes cruelles",
+        "WildJaws": "Mâchoires cruelles",
+        "Wings": "Ailes"
       }
     },
     "UI": {
@@ -882,6 +987,9 @@
         },
         "EffectTarget": {
           "Prompt": "Choisissez la cible de cet effet."
+        },
+        "GrantItem": {
+          "AlreadyHasItem": "{actor} possède déjà {item} de sorte qu'il n'a pas été de nouveau ajouté."
         },
         "Prompt": {
           "NoSelectionMade": "Aucune sélection n'a été faite : {item} est inactif.",
