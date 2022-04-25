@@ -11,7 +11,7 @@
   "compatibleCoreVersion": "9",
   "scripts": [],
   "esmodules": [],
-  "styles": ["css/pf2e.css"],
+  "styles": [],
   "languages": [
     {
       "lang": "fr",
