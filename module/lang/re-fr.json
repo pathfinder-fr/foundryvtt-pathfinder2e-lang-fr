@@ -425,6 +425,11 @@
         }
       }
     },
+    "Dwarf": {
+      "ElementalHeart": {
+        "Prompt": "Choisissez le type de votre cœur élémentaire"
+      }
+    },
     "Mutagens": {
       "BestialMutagen": {
         "FeralPrompt": "Augmenter la pénalité à la CA pour augmenter la taille du dé de dégâts ?"
@@ -469,6 +474,19 @@
         "SingleAttackLabel": "Tempête télékinétique - cible unique"
       },
       "TreerazerPlantAttack": "attaque une plante",
+      "Vampire": {
+        "JiangShi": {
+          "StanceOfDeath": {
+            "CloudlessVoid": {
+              "Label": "Posture du vide sans nuage"
+            },
+            "SunderedVeins": {
+              "Label": "Posture des veines enchevêtrées",
+              "Note": "La cible devient @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 1}"
+            }
+          }
+        }
+      },
       "YetiNightmareGuardianRage": "Rage du gardien de cauchemar"
     },
     "OracleCurses": {
@@ -519,6 +537,10 @@
         "criticalSuccess": "[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
         "success": "[[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
       },
+      "Bleed1d10": {
+        "criticalSuccess": "[[/r {2*1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
+        "success": "[[/r {1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+      },
       "Bleed1d4": {
         "criticalSuccess": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
         "success": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
@@ -534,6 +556,10 @@
       "Bleed2d6": {
         "criticalSuccess": "[[/r {2*2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
         "success": "[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+      },
+      "Bleed2d8": {
+        "criticalSuccess": "[[/r {2*2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
+        "success": "[[/r {2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
       },
       "Cold1d6": {
         "criticalSuccess": "[[/r {2*1d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
@@ -575,6 +601,14 @@
         "criticalSuccess": "[[/r {2*3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
         "success": "[[/r {3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
       },
+      "Mental1d6": {
+        "criticalSuccess": "[[/r {2*1d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}",
+        "success": "[[/r {1d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}"
+      },
+      "Mental2d6": {
+        "criticalSuccess": "[[/r {2*2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}",
+        "success": "[[/r {2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}"
+      },
       "Poison1d6": {
         "criticalSuccess": "[[/r {2*1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de poison persistants}",
         "success": "[[/r {1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de poison persistants}"
@@ -615,6 +649,7 @@
       "TokenEffectIcon": "Icône du jeton de l'effet",
       "TokenImage": "Image du jeton",
       "TokenLight": "Lumière du jeton",
+      "TokenName": "Nom du jeton",
       "Unrecognized": "Élément de règle non reconnu",
       "Weakness": "Faiblesse",
       "WeaponPotency": "Puissance d'arme"
@@ -637,6 +672,7 @@
       "Escape": "pour s'échapper",
       "Forests": "dans les forêts",
       "ForestsOrSwamps": "dans les forêts ou les marais",
+      "GatherInformation": "pour Recueillir des informations",
       "Grapple": "pour Agripper",
       "GrappleShove": "Pour saisir ou Pousser",
       "Hide": "pour se cacher",
@@ -648,11 +684,14 @@
       "Jungles": "dans la jungle",
       "JunkOrDebris": "dans les déchets ou les débris",
       "Lair": "dans son antre",
+      "Lie": "pour Mentir",
+      "MakeAnImpression": "pour Faire bonne impression",
       "ManeuverInFlight": "pour Manœuvrer en vol",
       "Mountains": "dans les montagnes",
       "Navigate": "pour naviguer",
       "Paint": "pour peindre",
       "Sand": "dans le sable",
+      "SenseMotive": "pour Deviner les intentions",
       "Sewers": "dans les égoûts",
       "Shove": "pour Pousser",
       "Singing": "pour chanter",
@@ -673,7 +712,9 @@
       "Vegetation": "dans la végétation",
       "VsArthropods": "contre les arthropodes",
       "VsControlled": "contre les effets de contrôle",
+      "VsDarknessLightShadow": "contre les effets de ténèbres, de lumière et d'ombre",
       "VsDiseases": "contre les maladies",
+      "VsEmotion": "contre les effets d'émotion",
       "VsProne": "contre les effets de mise à terre",
       "VsShoveOrTrip": "contre Pousser ou Croc-en-jambe",
       "Water": "dans l'eau",
@@ -760,12 +801,21 @@
         "AllowedDrops": "Capacité de classe de champion de niveau 1",
         "Prompt": "Choisissez une cause de champion"
       },
+      "Dhampir": {
+        "Adhyabhau": {
+          "SaveNote": "Lorsque vous obtenez un succès sur un jet de Volonté contre un effet d'émotion, vous obtenez un succès critique à la place."
+        },
+        "BloodlettingFangs": {
+          "AttackNote": "Votre Frappe de crocs inflige [[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants} supplémentaires sur un coup critique."
+        }
+      },
       "DragonDisciple": {
         "DragonChoice": {
           "Black": "Dragon noir",
           "Blue": "Dragon bleu",
           "Brass": "Dragon d'airain",
           "Bronze": "Dragon de bronze",
+          "Cloud": "Dragon des nuages",
           "Copper": "Dragon de cuivre",
           "Gold": "Dragon d'or",
           "Green": "Dragon vert",
@@ -778,6 +828,26 @@
           "BracersOfArmor": "Écailles de dragon avec Bracelets d'armure",
           "ExplorersClothing": "Écailles de dragon avec vêtements d'explorateur",
           "MageArmor": "Écailles de dragon avec Armure de mage"
+        }
+      },
+      "Dwarf": {
+        "DeathWardenDwarf": {
+          "Note": "Lorsque vous obtenez un succès contre un effet de nécromantie, vous obtenez un succès critique à la place."
+        },
+        "ForgeBlessedShot": {
+          "Note": "Ignorez la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée} de votre cible, ainsi que l'abri inférieur standard ou supérieur de votre cible."
+        },
+        "KneelForNoGod": {
+          "Note": "Lorsque vous obtenez un succès contre un effet divin, vous obtenez un succès critique à la place."
+        },
+        "RockRunner": {
+          "Note": "Lorsque vous utilisez la compétence Acrobaties pour Garder l'équilibre sur des surfaces étroites ou un sol inégal en pierre ou en terre, vous n'êtes pas Pris au dépourvu et, lorsque vous obtenez un succès à un des ces tests de compétences, vous obtenez un succès critique à la place"
+        },
+        "SparkFist": {
+          "Note": "Chaque fois que vous réussissez une Frappe de poing, vous subissez [[/r (1+@weapon.data.data.runes.striking)[fire]]]{dégâts de feu}."
+        },
+        "TombWatchersGlare": {
+          "Note": "Lorsque vous portez un coup critique à une créature morte-vivante, elle est @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 1} pendant 1 round"
         }
       },
       "FighterWeaponMasteryLegend": {
@@ -825,10 +895,23 @@
         "AllowedDrops": "don général de niveau 1",
         "Prompt": "Choisissez un don général de niveau 1"
       },
+      "Ghoul": {
+        "FullySatiated": "Pleinement rassasié",
+        "Satiated": "Rassasié",
+        "SickeningBite": {
+          "criticalSuccess": "Lorsque vous portez un coup critique avec vos mâchoires, la créature est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}. C'est un effet de maladie.",
+          "success": "Vous pouvez mettre fin à votre satiété pour rendre la cible @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}"
+        }
+      },
       "HuntPrey": {
         "SeekHuntedPrey": "Pour chercher votre proie",
         "TargetHuntedPrey": "La cible est votre proie",
         "TrackHuntedPrey": "Pour pister votre proie"
+      },
+      "Lich": {
+        "HandOfTheLich": {
+          "Note": "La créature est @Compendium[pf2e.conditionitems.Slowed]{Ralentie 1} jusqu'à la fin de votre prochain tour à moins qu'elle ne réussisse un jet de @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)]{Vigueur} contre votre DD de sort."
+        }
       },
       "LitTorch": "La torche est allumée",
       "MartialProficiency": {
@@ -867,6 +950,7 @@
         "AdvancedOrcWeapons": "Armes orques avancées",
         "AdvancedTenguWeapons": "Armes tengues avancées",
         "MartialAzarketiWeapons": "Armes de guerre azarketies",
+        "MartialBombsFirearms": "Bombes & armes à feu de guerre",
         "MartialCatfolkWeapons": "Armes de guerre félides",
         "MartialConrasuWeapons": "Armes de guerre conrasues",
         "MartialDwarfWeapons": "Armes de guerre naines",
@@ -901,6 +985,7 @@
         "MartialOrcWeapons": "Armes de guerre orques",
         "MartialTenguWeapons": "Armes de guerre tengues",
         "MonasticArchery": "Archerie monastique",
+        "SimpleBombsFirearms": "Bombes & armes à feu de guerre",
         "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples"
       },
       "MountainStance": {
@@ -911,6 +996,22 @@
       "Multitalented": {
         "AllowedDrops": "don de dévouement multiclasse de niveau 2",
         "Prompt": "Choisir un don de dévouement multiclasse"
+      },
+      "Mummy": {
+        "AccursedTouch": {
+          "Note": {
+            "Base": "La créature subit [[/r {2d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}.",
+            "FourteenthLevel": "La créature subit [[/r {3d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}.",
+            "TwentiethLevel": "La créature subit [[/r {4d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}."
+          }
+        },
+        "Terrain": {
+          "Arctic": "Arctique",
+          "Desert": "Désert",
+          "Mountain": "Montagne",
+          "Prompt": "Choisissez le terrain lié",
+          "Swamp": "Marais"
+        }
       },
       "Prompt": {
         "AdvancedMulticlassFeat": "Choisissez un don de classe jusqu'à la moitié de votre niveau de personnage.",
@@ -923,6 +1024,15 @@
         "PathToPerfection": "Choisir une Voie vers la perfection",
         "Skill": "Choisir une compétence",
         "WeaponGroup": "Choisir un groupe d'arme"
+      },
+      "SoulWarden": {
+        "SafeguardSoul": {
+          "Label": "se défendant contre la manipulation de votre âme"
+        },
+        "SpiralSworn": {
+          "Label": "La cible possède une âme emprisonnée ou a créé un mort-vivant"
+        },
+        "UndeadNearby": "Mort-vivant proche"
       },
       "SpecialtyCrafting": {
         "Alchemy": "Alchimie",
@@ -964,6 +1074,20 @@
         "RhokaSword": "utilise l'épée rhoka à deux mains",
         "Staff": "utilise le bâton à deux mains"
       },
+      "UndeadSlayer": {
+        "SlayersBlessing": {
+          "Note": "La cible est @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{En fuite} pendant 1 round."
+        }
+      },
+      "Vampire": {
+        "ViciousFangs": {
+          "Note": {
+            "Base": "Votre Frappe de crocs inflige [[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants} supplémentaires.",
+            "FourteenthLevel": "Votre Frappe de crocs inflige [[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants} supplémentaires.",
+            "TwentiethLevel": "Votre Frappe de crocs inflige [[/r {3d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants} supplémentaires."
+          }
+        }
+      },
       "VirtuosicPerformer": {
         "Prompt": "Choisissez un type de Représentation"
       },
@@ -974,6 +1098,9 @@
         "WildClaws": "Griffes cruelles",
         "WildJaws": "Mâchoires cruelles",
         "Wings": "Ailes"
+      },
+      "Zombie": {
+        "Deteriorated": "Détérioré"
       }
     },
     "UI": {
