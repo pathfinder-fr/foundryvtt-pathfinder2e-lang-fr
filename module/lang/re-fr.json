@@ -3,11 +3,11 @@
     "AttackEffects": {
       "DropWeapon": "La créature lâche l'arme maniée.",
       "IgnoreConcealed": "L'attaque ignore la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée}",
-      "IgnoreCover": "La cible ne bénéficie pas d'un abri inférieur et réduit le bonus à la CA d'un abri ordinaire de 2 contre l'attaque.",
+      "IgnoreCover": "La cible ne bénéficie pas d'un abri inférieur et réduit le bonus à la CA d'un abri standard de 2 contre l'attaque.",
       "IncreasedCriticalChance": "Si l'attaque est réussie et que la créature obtient un 19 ou un 20, l'attaque est un coup critique. Cela n'a pas d'effet en cas d'échec avec un 19.",
       "IncreasedReach5": "Allonge augmentée de 1,5 m",
       "InterruptAction": "Sur une frappe réussie, l'action de la cible est interrompue.",
-      "KnockProne": "Sur une frappe réussie, la cible est @Compendium[pf2e.conditionitems.Prone]{mise à terre}."
+      "KnockProne": "Sur une frappe réussie, la cible est @Compendium[pf2e.conditionitems.Prone]{À terre}."
     },
     "BattleForm": {
       "Attack": {
@@ -615,7 +615,7 @@
       }
     },
     "RuleElement": {
-      "ActiveEffectLike": "sorte d'effet actif",
+      "ActiveEffectLike": "Sorte d'effet actif",
       "ActorTraits": "Traits de l'acteur",
       "AdjustDegreeOfSuccess": "Ajuster le degré de succès",
       "AdjustModifier": "Ajuster le modificateur",
@@ -832,10 +832,10 @@
       },
       "Dwarf": {
         "DeathWardenDwarf": {
-          "Note": "Lorsque vous obtenez un succès contre un effet de nécromantie, vous obtenez un succès critique à la place."
+          "Note": "Lorsque vous obtenez un succès contre un effet de nécromancie, vous obtenez un succès critique à la place."
         },
         "ForgeBlessedShot": {
-          "Note": "Ignorez la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée} de votre cible, ainsi que l'abri inférieur standard ou supérieur de votre cible."
+          "Note": "Ignorez la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée} de votre cible, ainsi que l'abri inférieur, standard ou supérieur de votre cible."
         },
         "KneelForNoGod": {
           "Note": "Lorsque vous obtenez un succès contre un effet divin, vous obtenez un succès critique à la place."
