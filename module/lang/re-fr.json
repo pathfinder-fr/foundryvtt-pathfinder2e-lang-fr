@@ -18,7 +18,7 @@
         "BoneShard": "éclats d'os",
         "Boot": "botte",
         "Branch": "branche",
-        "Claw": "Griffe",
+        "Claw": "griffe",
         "CubeFace": "face du cube",
         "Fangs": "crochets",
         "FireMote": "grain de feu",
@@ -28,7 +28,7 @@
         "HolyMace": "sainte masse",
         "Hoof": "sabot",
         "Horn": "corne",
-        "Jaws": "Mâchoires",
+        "Jaws": "mâchoires",
         "Leaf": "feuille",
         "Leg": "patte",
         "LightingLash": "fouet d'éclair",
@@ -48,6 +48,7 @@
         "Tentacle": "tentacule",
         "TentacleArm": "bras à tentacule",
         "Tongue": "langue",
+        "Tusk": "défense",
         "Vine": "liane",
         "WaterSpout": "jet d'eau",
         "Wave": "vague",
@@ -93,20 +94,20 @@
       },
       "BlightBomb": {
         "Greater": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {3}[splash,poison]]]{2 dégâts d'éclaboussure de poison}",
-          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {3}[splash,poison]]]{2 dégâts d'éclaboussure de poison}"
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {3}[splash,poison]]]{2 dégâts d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {3}[splash,poison]]]{2 dégâts d'éclaboussure de poison}"
         },
         "Lesser": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {1}[splash,poison]]]{1 dégât d'éclaboussure de poison}",
-          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {1}[splash,poison]]]{1 dégât d'éclaboussure de poison}"
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {1}[splash,poison]]]{1 dégât d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {1}[splash,poison]]]{1 dégât d'éclaboussure de poison}"
         },
         "Major": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {4}[splash,poison]]]{4 dégâts d'éclaboussure de poison}",
-          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {4}[splash,poison]]]{4 dégâts d'éclaboussure de poison}"
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {4}[splash,poison]]]{4 dégâts d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {4d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {4}[splash,poison]]]{4 dégâts d'éclaboussure de poison}"
         },
         "Moderate": {
-          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {2}[splash,poison]]]{2 dégâts d'éclaboussure de poison}",
-          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de poison persistants} et  [[/r {2}[splash,poison]]]{2 dégâts d'éclaboussure de poison}"
+          "criticalSuccess": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2*2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {2}[splash,poison]]]{2 dégâts d'éclaboussure de poison}",
+          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de poison persistants} et  [[/r {2}[splash,poison]]]{2 dégâts d'éclaboussure de poison}"
         }
       },
       "BottledLightning": {
@@ -365,7 +366,7 @@
           "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {3}[splash,sonic]]]{3 dégâts d’éclaboussure de son} et chaque créature dans un rayon de 3 mètres doit réussir un jet de @Check[type:fortitude|dc:28|name:Pierre à tonnerre supérieure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
         },
         "Lesser": {
-          "success": "<strong>Effet</strong> La bombe inflige aussi  [[/r {1}[splash,sonic]]]{1 dégât d’éclaboussure de son}. Chaque créature dans un rayon de 3 mètres autour de la case où elle a explosé doit réussir un jet de @Check[type:fortitude|dc:17|name:Pierre à tonnerre inférieure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
+          "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {1}[splash,sonic]]]{1 dégât d’éclaboussure de son}. Chaque créature dans un rayon de 3 mètres autour de la case où elle a explosé doit réussir un jet de @Check[type:fortitude|dc:17|name:Pierre à tonnerre inférieure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
         },
         "Major": {
           "success": "<strong>Effet</strong> La bombe inflige aussi [[/r {4}[splash,sonic]]]{4 dégâts d’éclaboussure de son} et chaque créature dans un rayon de 3 mètres doit réussir un jet de @Check[type:fortitude|dc:36|name:Pierre à tonnerre majeure|showDC:all] ou être @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Sourde} jusqu’à la fin de son prochain tour."
@@ -425,11 +426,6 @@
         }
       }
     },
-    "Dwarf": {
-      "ElementalHeart": {
-        "Prompt": "Choisissez le type de votre cœur élémentaire"
-      }
-    },
     "Mutagens": {
       "BestialMutagen": {
         "FeralPrompt": "Augmenter la pénalité à la CA pour augmenter la taille du dé de dégâts ?"
@@ -449,7 +445,7 @@
         "BrokenArmor": "Armure brisée",
         "CriticalHit": "Armure brisée par un coup critique"
       },
-      "DemonInfuseWeapons": "Inflige des dégâts chaotiques au mieu de mauvais",
+      "DemonInfuseWeapons": "Inflige des dégâts chaotiques au lieu de mauvais",
       "DuskwalkerHuntPrey": {
         "AC": "La proie désignée attaque le crépusculaire",
         "Checks": "Le crépusculaire fait un test contre sa proie désignée"
@@ -470,8 +466,11 @@
       },
       "PoltergeistTelekineticStorm": {
         "MultiAttackLabel": "Tempête télékinétique - plusieurs cibles",
-        "SingleAttackEffect": "L'attaque inflige [[/r {1d12}]]{1d12 damage} en cas d'échec",
+        "SingleAttackEffect": "L'attaque inflige [[/r {1d12}]]{1d12 dégâts} en cas d'échec",
         "SingleAttackLabel": "Tempête télékinétique - cible unique"
+      },
+      "PunishingStrike": {
+        "Note": "L'attaque sans pitié rend l'utilisateur @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Pris au dépourvu} jusqu'au début de son prochain tour. S'il touche, il peut ajouter @Compendium[pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Pousser} à la Frappe."
       },
       "TreerazerPlantAttack": "attaque une plante",
       "Vampire": {
@@ -530,88 +529,92 @@
         "success": "[[/r {1d4}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts persistants d’acide}"
       },
       "Acid1d6": {
-        "criticalSuccess": "[[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
-        "success": "[[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
+        "criticalSuccess": "[[/r {2*1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts d'acide persistants}",
+        "success": "[[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts d'acide persistants}"
       },
       "Acid2d6": {
-        "criticalSuccess": "[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}",
-        "success": "[[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts d'acide persistants}"
+        "criticalSuccess": "[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts d'acide persistants}",
+        "success": "[[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts d'acide persistants}"
       },
       "Bleed1d10": {
-        "criticalSuccess": "[[/r {2*1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
-        "success": "[[/r {1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Bleed1d4": {
-        "criticalSuccess": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
-        "success": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Bleed1d6": {
-        "criticalSuccess": "[[/r {2*1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
-        "success": "[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Bleed1d8": {
-        "criticalSuccess": "[[/r {2*1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
-        "success": "[[/r {1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Bleed2d6": {
-        "criticalSuccess": "[[/r {2*2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
-        "success": "[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Bleed2d8": {
-        "criticalSuccess": "[[/r {2*2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}",
-        "success": "[[/r {2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants}"
+        "criticalSuccess": "[[/r {2*2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Cold1d6": {
         "criticalSuccess": "[[/r {2*1d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
         "success": "[[/r {1d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}"
+      },
+      "Cold1d8": {
+        "criticalSuccess": "[[/r {2*1d8}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
+        "success": "[[/r {1d8}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}"
       },
       "Cold2d6": {
         "criticalSuccess": "[[/r {2*2d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
         "success": "[[/r {2d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}"
       },
       "Fire1d10": {
-        "criticalSuccess": "[[/r {2*1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {1d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire1d4": {
-        "criticalSuccess": "[[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {1d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire1d6": {
-        "criticalSuccess": "[[/r {2*1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}",
-        "success": "[[/r {1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}",
+        "success": "[[/r {1d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire2d10": {
-        "criticalSuccess": "[[/r {2*2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire2d4": {
-        "criticalSuccess": "[[/r {2*2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {2d4}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire2d6": {
-        "criticalSuccess": "[[/r {2*2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {2d6}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire2d8": {
-        "criticalSuccess": "[[/r {2*2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {2d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Fire3d8": {
-        "criticalSuccess": "[[/r {2*3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts persistants de feu}",
-        "success": "[[/r {3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de feu persistants}"
+        "criticalSuccess": "[[/r {2*3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts persistants de feu}",
+        "success": "[[/r {3d8}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de feu persistants}"
       },
       "Mental1d6": {
-        "criticalSuccess": "[[/r {2*1d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}",
-        "success": "[[/r {1d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}"
+        "criticalSuccess": "[[/r {2*1d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts mentaux persistants}",
+        "success": "[[/r {1d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts mentaux persistants}"
       },
       "Mental2d6": {
-        "criticalSuccess": "[[/r {2*2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}",
-        "success": "[[/r {2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts mentaux persistants}"
+        "criticalSuccess": "[[/r {2*2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts mentaux persistants}",
+        "success": "[[/r {2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts mentaux persistants}"
       },
       "Poison1d6": {
-        "criticalSuccess": "[[/r {2*1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de poison persistants}",
-        "success": "[[/r {1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de poison persistants}"
+        "criticalSuccess": "[[/r {2*1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
       }
     },
     "RuleElement": {
@@ -628,7 +631,6 @@
       "CreatureSize": "Taille de créature",
       "DamageDice": "Dé de dégât",
       "DexterityModifierCap": "Modif. Max. de Dextérité",
-      "EffectTarget": "Cible de l'effet",
       "FastHealing": "Guérison accélérée/régénération",
       "FixedProficiency": "Compétence fixe",
       "FlatModifier": "Test nu/pur",
@@ -641,6 +643,7 @@
       "Note": "Note",
       "Resistance": "Résistance",
       "RollOption": "Option de lancement",
+      "RollTwice": "Lancez deux fois",
       "Sense": "Sens",
       "Strike": "Frappe",
       "Striking": "de Frappe",
@@ -658,6 +661,7 @@
       "AboutCaves": "à propos des grottes",
       "Aid": "pour Aider",
       "Blacksmithing": "pour forger",
+      "Buried": "Enseveli",
       "Climb": "pour escalader",
       "ClimbOrSwim": "pour escalader ou nager",
       "CommandAnAnimal": "pour Diriger un animal",
@@ -667,6 +671,7 @@
       "Demoralize": "pour démoraliser",
       "Deserts": "dans les déserts",
       "Disarm": "pour désarmer",
+      "DisarmGrapple": "pour Désarmer ou Agripper",
       "DisarmMetal": "Pour désarmer un objet métallique",
       "DisarmStoneMetal": "pour désarmer les objets en pierre ou en métal",
       "Escape": "pour s'échapper",
@@ -699,14 +704,17 @@
       "Squeeze": "pour se faufiler",
       "Steal": "pour voler",
       "StonyOrIcyAreas": "dans les zones rocheuses ou glacées",
+      "Subsist": "pour Subsister",
       "Swamps": "dans les marais",
       "Swim": "pour nager",
       "TarPit": "dans les puits de goudron",
+      "TellTheTruth": "pour dire la vérité",
       "Track": "pour pister",
       "TrackBleedingCreature": "pour pister une créature qui saigne",
       "Traps": "pièges",
       "TrashAndRubbish": "dans les déchets et les poubelles",
       "Trip": "pour mettre à terre",
+      "TripTangle": "pour faire un croc-en-jambe et enchevêtrer",
       "Underground": "en souterrain",
       "Undergrowth": "dans les sous-bois",
       "Vegetation": "dans la végétation",
@@ -749,7 +757,7 @@
         },
         "CoreCannon": {
           "AttackNote": "Vous avez besoin d'appliquer manuellement votre plus importante rune de puissance à ce jet d'attaque.",
-          "CriticalHit": "Sur un coup critique, la cible subit [[/r {10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de feu persistants}. Votre noyau canon n'ajoute pas d'effet de critique spécialisé."
+          "CriticalHit": "Sur un coup critique, la cible subit [[/r {10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de feu persistants}. Votre noyau canon n'ajoute pas d'effet de critique spécialisé."
         },
         "EnergyBeam": {
           "CriticalHit": "Sur un coup critique, la cible subit des dégâts de feu persistants égaux aux nombres de dés de dégâts d’arme. Votre rayon d’œil n’ajoute pas d’effet critique spécialisé."
@@ -776,13 +784,18 @@
       "CelestialResistance": {
         "Prompt": "Choisissez un type d'énergie associé à votre lignage."
       },
-      "CeremonyEvenedHand": {
-        "Prompt": "Choisissez une attaque à mains nues."
-      },
       "ClanWeapon": {
         "ClanPistol": "Pistolet de clan (don ancestral)",
         "Label": "Arme de clan",
         "Prompt": "Choisir une arme de clan"
+      },
+      "Conrasu": {
+        "CeremonyEvenedHand": {
+          "Prompt": "Choisissez une attaque à mains nues"
+        },
+        "RiteOfPassage": {
+          "Note": "Lorsque vous utiliser la compétence Acrobaties pour Garder l'équilibre sur des surfaces étroites ou un sol inégal dans les forêts et que vous obtenez un succès, vous le traitez comme un succès critique à la place."
+        }
       },
       "Cover": {
         "Greater": "Supérieur",
@@ -806,7 +819,7 @@
           "SaveNote": "Lorsque vous obtenez un succès sur un jet de Volonté contre un effet d'émotion, vous obtenez un succès critique à la place."
         },
         "BloodlettingFangs": {
-          "AttackNote": "Votre Frappe de crocs inflige [[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Dégâts de saignement persistants} supplémentaires sur un coup critique."
+          "AttackNote": "Votre Frappe de crocs inflige [[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants} supplémentaires sur un coup critique."
         }
       },
       "DragonDisciple": {
@@ -834,6 +847,9 @@
         "DeathWardenDwarf": {
           "Note": "Lorsque vous obtenez un succès contre un effet de nécromancie, vous obtenez un succès critique à la place."
         },
+        "ElementalHeart": {
+          "Prompt": "Choisissez le type de votre Cœur élémentaire"
+        },
         "ForgeBlessedShot": {
           "Note": "Ignorez la condition @Compendium[pf2e.conditionitems.Concealed]{Masquée} de votre cible, ainsi que l'abri inférieur, standard ou supérieur de votre cible."
         },
@@ -848,6 +864,32 @@
         },
         "TombWatchersGlare": {
           "Note": "Lorsque vous portez un coup critique à une créature morte-vivante, elle est @Compendium[pf2e.conditionitems.Enfeebled]{Affaiblie 1} pendant 1 round"
+        },
+        "VengefulHatred": {
+          "Prompt": "Choisissez un ennemi héréditaire."
+        }
+      },
+      "Elf": {
+        "BrightnessSeeker": {
+          "Label": "Faire appel à la lumière",
+          "Prompt": "Choisissez le résultat de votre <em>Augure</em>.",
+          "Weal": "Bonheur",
+          "WealAndWoe": "Bonheur et Malheur",
+          "Woe": "Malheur"
+        },
+        "DemonbaneWarrior": {
+          "Note": "Si vos actions force un démon à subir des dégâts de sa vulnérabilité au pêché, augmentez ces dégâts de [[/r 2]]{2}"
+        },
+        "UnwaveringMien": {
+          "Note": "Traitez votre jet de sauvegarde contre les effets qui devraient vous endormir comme étant d'un cran de succès supérieur."
+        },
+        "Woodcraft": {
+          "Note": "Lorsque vous êtes dans une forêt ou une jungle, si vous obtenez un échec critique sur un test de Survie pour vous Orienter, Subsister ou Dissimuler vos traces, vous obtenez un échec à la place et si vous obtenez un succès, vous obtenez un succès critique à la place."
+        }
+      },
+      "Fetchling": {
+        "DeepFetchling": {
+          "Prompt": "Choisissez un type d'énergie auquel résister"
         }
       },
       "FighterWeaponMasteryLegend": {
@@ -888,8 +930,27 @@
           "sword": "Épées simples et de guerre"
         }
       },
+      "Fleshwarp": {
+        "CoatingOfSlime": {
+          "CriticalHit": "Sur un coup critique, la cible subit [[/r {1d4}[persistent,acid]]]  @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts d'acide persistants}."
+        },
+        "LivingWeapon": {
+          "Prompt": "Choisissez une partie de votre forme pour l'utiliser comme une arme"
+        },
+        "MutateWeapon": {
+          "Accuracy": "Obtenez un bonus de statut de +1 aux attaques",
+          "Bonus": "Choisissez un bonus",
+          "Reach": "Obtenez une allonge de 3 m",
+          "Target": "Choisissez une de vos armes vivantes."
+        }
+      },
       "GameHunterDedication": {
         "TargetHuntedPrey": "La cible est votre proie (Seulement Animal, Bête ou Dragon)"
+      },
+      "Ganzi": {
+        "Irrepressible": {
+          "SaveNote": "Lorsque vous obtenez un succès sur un jet de sauvegarde contre un effet d'émotion ou de terreur, vous le traitez comme un succès critique à la place."
+        }
       },
       "GeneralTraining": {
         "AllowedDrops": "don général de niveau 1",
@@ -902,6 +963,17 @@
           "criticalSuccess": "Lorsque vous portez un coup critique avec vos mâchoires, la créature est @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}. C'est un effet de maladie.",
           "success": "Vous pouvez mettre fin à votre satiété pour rendre la cible @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}"
         }
+      },
+      "HarrowDeck": {
+        "HarrowSuits": {
+          "Books": "Livres",
+          "Crowns": "Couronnes",
+          "Hammers": "Marteaux",
+          "Keys": "Clés",
+          "Shields": "Boucliers",
+          "Stars": "Étoiles"
+        },
+        "Prompt": "Choisissez une suite du Tourment"
       },
       "HuntPrey": {
         "SeekHuntedPrey": "Pour chercher votre proie",
@@ -1000,9 +1072,9 @@
       "Mummy": {
         "AccursedTouch": {
           "Note": {
-            "Base": "La créature subit [[/r {2d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}.",
-            "FourteenthLevel": "La créature subit [[/r {3d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}.",
-            "TwentiethLevel": "La créature subit [[/r {4d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}."
+            "Base": "La créature subit [[/r {2d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}.",
+            "FourteenthLevel": "La créature subit [[/r {3d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}.",
+            "TwentiethLevel": "La créature subit [[/r {4d6}[persistent,negative]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts négatifs persistants}. Lorsque la créature subit ces dégâts persistants, elle est aussi @Compendium[pf2e.conditionitems.Stupefied]{Stupéfié 1}."
           }
         },
         "Terrain": {
@@ -1015,15 +1087,19 @@
       },
       "Prompt": {
         "AdvancedMulticlassFeat": "Choisissez un don de classe jusqu'à la moitié de votre niveau de personnage.",
-        "CreatureSize": "Choisir une taille de créature",
-        "Deity": "Choisissez une divinité",
-        "DeitysDomain": "Choisissez un domaine de divinité",
-        "Lesson": "Choisir une leçon",
-        "LevelOneClassFeat": "Choisir un don de classe de niveau 1",
+        "CreatureSize": "Choisir une taille de créature.",
+        "Deity": "Choisissez une divinité.",
+        "DeitysDomain": "Choisissez un domaine de la divinité.",
+        "EvolutionFeat": "Choisissez votre premier don d'évolution.",
+        "Lesson": "Choisissez une leçon.",
+        "LevelOneClassFeat": "Choisissez un don de classe de niveau 1",
         "LevelOneOrTwoClassFeat": "Choisissez un don de classe de niveau 1 ou 2",
-        "PathToPerfection": "Choisir une Voie vers la perfection",
-        "Skill": "Choisir une compétence",
-        "WeaponGroup": "Choisir un groupe d'arme"
+        "PathToPerfection": "Choisissez une Voie vers la perfection",
+        "Shillelagh": "Choisissez une massue ou un bâton.",
+        "Skill": "Choisissez une compétence.",
+        "UnarmedAttack": "Choisissez une attaque à mains nues.",
+        "Weapon": "Choisissez une arme",
+        "WeaponGroup": "Choisissez un groupe d'arme."
       },
       "SoulWarden": {
         "SafeguardSoul": {
@@ -1082,9 +1158,9 @@
       "Vampire": {
         "ViciousFangs": {
           "Note": {
-            "Base": "Votre Frappe de crocs inflige [[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants} supplémentaires.",
-            "FourteenthLevel": "Votre Frappe de crocs inflige [[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants} supplémentaires.",
-            "TwentiethLevel": "Votre Frappe de crocs inflige [[/r {3d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Dégâts de saignement persistants} supplémentaires."
+            "Base": "Votre Frappe de crocs inflige [[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants} supplémentaires.",
+            "FourteenthLevel": "Votre Frappe de crocs inflige [[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants} supplémentaires.",
+            "TwentiethLevel": "Votre Frappe de crocs inflige [[/r {3d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts de saignement persistants} supplémentaires."
           }
         }
       },
