@@ -98,6 +98,25 @@
     "AccessoryPropertyRuneSoftLanding": "d'atterrissage en douceur",
     "AccessoryPropertyRuneSpellBastion": "bastion de sort",
     "AccessoryPropertyRuneWindCatcher": "attrape-vent",
+    "Action": {
+      "RestForTheNight": {
+        "Label": "Repos pendant la nuit",
+        "Message": {
+          "Awakens": "{actor} se réveille bien reposé.",
+          "ConditionReduced": "{condition} réduite de 1.",
+          "ConditionRemoved": "Plus {condition}.",
+          "FocusPoints": "point de focalisation récupéré.",
+          "HitPoints": "{hitPoints} points de vie récupérés.",
+          "InfusedReagents": "Réactifs imprégnés récupérés.",
+          "Resolve": "Résolution récupérée.",
+          "SpellSlots": "Tous les emplacements de sorts récupérés.",
+          "StaminaPoints": "Points d'endurance récupérés.",
+          "TemporaryItems": "Objets temporaires retirés.",
+          "WandsCharges": "Baguettes rechargées."
+        },
+        "Prompt": "Se reposer pendant la nuit ?"
+      }
+    },
     "ActionActionTypeLabel": "Type d’action",
     "ActionActionsLabel": "Actions",
     "ActionBrowserSearchHint": "Vous pouvez chercher par le nom ou par un autre critère. Les critères possibles sont : <br> source, Type de sort, niveau, école, composants, matériau, cible, portée, temps, durée, dégâts, Type de dégâts, jet de sauvegarde, concentration, rituel, capacités et classes. <br>Exemple: 'feu, dégâts : d6' pour montrer tous les sorts qui ont un nom avec feu et des d6 pour les dégâts.",
@@ -169,6 +188,14 @@
           "success": "<strong>Succès</strong>  Comme un succès critique, mais une fois la cible inamicale, elle peut décider d’agir contre vous en vous dénonçant aux autorités ou en aidant vos ennemis, par exemple"
         },
         "Title": "Contraindre"
+      },
+      "CommandAnAnimal": {
+        "Notes": {
+          "criticalFailure": "<strong>Échec critique</strong> L’animal ne comprend pas l’ordre ou l’interprète mal et accomplit une autre action déterminée par le MJ",
+          "failure": "<strong>Échec</strong> L'animal hésite ou rechigne et ne fait rien.",
+          "success": "<strong>Succès</strong> L'animal fait ce que vous lui ordonnez lors de son prochain tour."
+        },
+        "Title": "Diriger un animal"
       },
       "Craft": {
         "Details": {
@@ -420,6 +447,16 @@
         },
         "Title": "Chercher"
       },
+      "SenseDirection": {
+        "Modifier": {
+          "NoCompass": "Pas de boussole"
+        },
+        "Notes": {
+          "criticalSuccess": "<strong>Succès critique</strong> Vous savez avec précision où vous vous trouvez. Si vous êtes dans un environnement où existent les points cardinaux, vous savez exactement dans quelles directions ils se trouvent.",
+          "success": "<strong>Succès</strong> Votre sens de l’orientation vous permet de ne pas vous perdre irrémédiablement. Si vous êtes dans un environnement où existent les points cardinaux, vous avez une idée de leur direction."
+        },
+        "Title": "S'orienter"
+      },
       "SenseMotive": {
         "Notes": {
           "criticalFailure": "<strong>Échec critique</strong> Votre impression concernant les intentions de la créature est erronée.",
@@ -471,6 +508,14 @@
           "success": "<strong>Succès</strong> Vous vous déplacez à travers l'eau de 1,5 m, plus 1,5 m par tranche de 6 m de votre Vitesse au sol  (un total de 3 m pour la plupart des PJ)."
         },
         "Title": "Nage"
+      },
+      "Track": {
+        "Notes": {
+          "criticalFailure": "<strong>Échec critique</strong> Vous perdez la piste et vous ne pouvez pas réessayer de nouveau avant 24 heures.",
+          "failure": "<strong>Échec</strong> Vous perdez la piste mais vous pouvez réessayer passé un délai d’une heure.",
+          "success": "<strong>Succès</strong> Vous trouvez la trace ou continuez à suivre celle que vous avez déjà trouvée."
+        },
+        "Title": "Pister"
       },
       "TreatPoison": {
         "Notes": {
@@ -550,12 +595,33 @@
           "Label": "Se reposer la nuit"
         }
       },
+      "Creature": {
+        "Alliance": {
+          "Neutral": "Neutre",
+          "Opposition": "Opposition",
+          "Party": "Groupe"
+        }
+      },
       "Dead": "Mort",
       "Hazard": {
         "Level": "Danger {level}"
       },
       "NPC": {
-        "IsLootableOnDeathLabel": "Rendre ce PNJ pillable à sa mort"
+        "Configure": {
+          "Alliance": {
+            "Hint": "Un PNJ peut être en opposition au groupe, son allié ou neutre. Cela a des conséquences sur certaines mécaniques lors d'une rencontre, comme la prise en tenaille.",
+            "Label": "Alliance"
+          },
+          "Lootable": {
+            "DefaultLootable": "Par défaut (Butin)",
+            "DefaultNotLootable": "Par défaut (Sans butin)",
+            "Hint": "Choisissez si le PNJ se transforme ou non en butin lorsqu'il est vaincu. L'option par défaut peut être configurée dans <a>réglages de l'automatisation</a>.",
+            "Label": "Butin ?",
+            "Lootable": "Butin",
+            "NotLootable": "Sans butin"
+          },
+          "Title": "Configurer le PNJ"
+        }
       },
       "Plural": "Acteurs"
     },
@@ -659,7 +725,7 @@
     "ArmorPropertyRuneGreaterElectricityResistant": "de résistance supérieure à l'électricité",
     "ArmorPropertyRuneGreaterFireResistant": "de résistance supérieure au feu",
     "ArmorPropertyRuneGreaterFortification": "de fortification supérieure",
-    "ArmorPropertyRuneGreaterInvisibility": "d'nvisibilité supérieure",
+    "ArmorPropertyRuneGreaterInvisibility": "d'invisibilité supérieure",
     "ArmorPropertyRuneGreaterReady": "prête supérieure",
     "ArmorPropertyRuneGreaterShadow": "d'ombre supérieure",
     "ArmorPropertyRuneGreaterSlick": "glissante supérieure",
@@ -690,9 +756,9 @@
     "ArmorTypeShield": "Bouclier",
     "ArmorTypeUnarmored": "Sans armure",
     "AttackEffectConstrict": "Constriction",
-    "AttackEffectGrab": "Empoignade",
+    "AttackEffectGrab": "Empoignade/Agrippement",
     "AttackEffectGreaterConstrict": "Constriction supérieure",
-    "AttackEffectImprovedGrab": "Empoignade améliorée",
+    "AttackEffectImprovedGrab": "Empoignade/Agrippement amélioré",
     "AttackEffectImprovedKnockdown": "Renversement amélioré",
     "AttackEffectImprovedPush": "Bousculade améliorée",
     "AttackEffectKnockdown": "Renversement",
@@ -819,7 +885,7 @@
       "DC": {
         "Label": {
           "AdjustedTarget": "<target>Cible : {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
-          "NoChangeTarget": "<target>Cible: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
+          "NoChangeTarget": "<target>Cible : {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>",
           "NoTarget": "{dcType} {dc}",
           "WithTarget": "<target>Cible : {target}</target> <dc>({dcType} {dc})</dc>"
         },
@@ -872,7 +938,7 @@
     "ClassFeatures": "Capacités de classe",
     "ClassHP": "PV de classe",
     "ClassTitle": "Votre classe de personnage",
-    "ClickToSetInitiative": "Cliquez pour définir l’initiative du/des jeton(s) sélectionné(s).",
+    "ClickToSetInitiative": "Cliquer pour définir l’initiative du/des jeton(s) sélectionné(s).",
     "ClickToSetInitiativeContext": "Choisir comme initiative",
     "ClipboardNotification": "\"{clipText}\" copié vers le presse-papier",
     "ColdIronStrikes": "Frappes en fer froid",
@@ -1215,10 +1281,13 @@
       "CantMoveItemDestination": "Vous n'êtes pas autorisé à déplacer les objets vers ce personnage",
       "CantMoveItemSource": "Vous n'êtes pas autorisé à déplacer les objets de ce personnage",
       "MinimumProfLevelSetByFeatures": "La maîtrise choisie est inférieure à la maîtrise obtenue par des capacités.",
+      "NoPCTokenSelected": "Choisissez au moins un jeton associé avec un PJ",
       "NoTokenSelected": "Pas de jeton valide sélectionné",
       "NoUpdatePermission": "Vous n'avez pas la permission de mettre à jour cet acteur",
       "NotEnoughAmmo": "Pas assez de munitions pour cette frappe",
-      "SubV9Module": "{module} ne supporte pas la V9  de Foundry est est susceptible d'introduire des problèmes de stabilité pour tous les utilisateurs.",
+      "NotEnoughCoins": "Pas assez d'argent",
+      "RuleElementSyntax": "Erreur de syntaxe dans la définition de l'élément de règle : {message}",
+      "SubV9Module": "{module} ne supporte pas la V9 de Foundry est est susceptible d'introduire des problèmes de stabilité pour tous les utilisateurs.",
       "WeaponQuantityZero": "Vous n'êtes plus équipé de ces armes"
     },
     "Ethnicity": "Ethnie",
@@ -1350,8 +1419,8 @@
     },
     "InlineTemplateErrors": {
       "DistanceMissing": "Erreur dans @Template : le paramètre de distance est obligatoire",
-      "DistanceNoNumber": "Erreur dans @Template: : la dimension {distance} n'est pas un nombre",
-      "TypeMissing": "Erreur dans @Template ; le paramètre de type est obligatoire",
+      "DistanceNoNumber": "Erreur dans @Template : la dimension {distance} n'est pas un nombre",
+      "TypeMissing": "Erreur dans @Template : le paramètre de type est obligatoire",
       "TypeUnsupported": "Erreur dans @Template : type {type] n'est pas possible",
       "WidthNoNumber": "Erreur dans @Template : la largeur {width} n'est pas un nombre"
     },
@@ -1738,6 +1807,10 @@
         }
       },
       "Plural": "Objets",
+      "Rules": {
+        "Apply": "Appliquer",
+        "Close": "Fermer"
+      },
       "SidebarSummary": "Résumé {type}",
       "Spells": {
         "PlaceMeasuredTemplate": "Placer un(e) {shape} de {size} {unit}"
@@ -1833,6 +1906,12 @@
     },
     "KeyAbility": "Carac. essentielle",
     "KeyAbilityLabel": "Caractéristique essentielle",
+    "Keybinding": {
+      "CycleTokenStack": {
+        "Hint": "Fait défiler les indices Z d'une pile de jetons déplacée par la souris, en poussant le haut vers le bas.",
+        "Label": "Défiler les jetons"
+      }
+    },
     "KitItems": "Objets",
     "KitWorldItem": "Cet objet n'apparaît pas dans un compendium et ne fonctionnera pas dans d'autres mondes",
     "LackCastConsumableCapability": "Vous n'êtes pas qualifié pour utiliser {name} et ne possédez pas le don Usurpation d'objet magique",
@@ -2920,10 +2999,12 @@
     "SpellDCBase": "DD de base du sort 10",
     "SpellDamageLabel": "Dégâts du sort",
     "SpellDurationLabel": "Durée",
+    "SpellFlexibleAvailable": "Flexible : {value} / {max}",
     "SpellFlexibleLabel": "Flexible",
     "SpellFocusLabel": "Focalisation",
     "SpellLabel": "Sort",
     "SpellLabelPlural": "Sorts",
+    "SpellLevel": "Niveau {level}",
     "SpellLevel1": "Niveau 1",
     "SpellLevel10": "Niveau 10",
     "SpellLevel2": "Niveau 2",
