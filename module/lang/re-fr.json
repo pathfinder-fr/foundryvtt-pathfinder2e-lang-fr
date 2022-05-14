@@ -646,6 +646,7 @@
       "Sense": "Sens",
       "Strike": "Frappe",
       "Striking": "de Frappe",
+      "SubstituteRoll": "Résultat substitué",
       "TempHP": "Points de Vie temporaires",
       "TempHPShortLabel": "Temp",
       "TokenEffectIcon": "Icône du jeton de l'effet",
@@ -1134,6 +1135,10 @@
         "AutomaticPower": "Dynamo sterling conductrice de puissance automatique",
         "ManualPercussive": "Dynamo sterling percussive automatique",
         "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
+      },
+      "SubstituteRoll": {
+        "Assurance": "Assurance",
+        "EffectType": "{type} ({substitution})"
       },
       "ToggleProperty": {
         "GourdHead": "Tête calebasse : Augmenter le DD Perception",
