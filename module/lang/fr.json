@@ -417,7 +417,7 @@
         "Content": "{actor} lève son bouclier.",
         "NoShieldEquipped": "{actor} doit avoir un bouclier équipé.",
         "ReactionTitle": "Bouclier réactif",
-        "ShieldIsBroken": "{shield} de {actor} est cassé.",
+        "ShieldIsBroken": "{shield} de {actor} est cassé(e).",
         "SingleActionTitle": "Lever un bouclier"
       },
       "Release": {
@@ -574,13 +574,13 @@
     "ActionsReactionsHeader": "Réactions",
     "ActionsWarning": {
       "DeceptionUnknownVariant": "Variante inconnue '{variant}' utilisée pour Duperie, utilisez soit des paroles, des gestes ou un tour de passe-passe",
-      "NoActor": "Choisissez au moins un jeton avant de lancer les dés ou assignez un personnage par défaut."
+      "NoActor": "Choisissez au moins un jeton avant de lancer les dés ou assignez un acteur par défaut."
     },
     "Actor": {
       "ApplyDamage": {
         "AtFullHealth": "{actor} est déjà en pleine santé.",
         "DamagedForN": "{actor} subit {hpDamage} dégâts.",
-        "DamagedForNShield": "Le bouclier de {actor} absorbe {absorbedDamage} dégâts, mais {hpDamage} dégâts passent à travers.",
+        "DamagedForNShield": "Le bouclier de {actor} absorbe {absorbedDamage} dégâts, mais {hpDamage} franchissent cette protection.",
         "HealedForN": "{actor} est soigné de {hpDamage} dégâts.",
         "ShieldAbsorbsAll": "{actor} est épargné, son bouclier a complètement absorbé {absorbedDamage} dégâts.",
         "ShieldDamagedForN": "son bouclier est aussi endommagé de {shieldDamage}.",
@@ -600,6 +600,10 @@
           "Neutral": "Neutre",
           "Opposition": "Opposition",
           "Party": "Groupe"
+        },
+        "SpellPreparation": {
+          "Hint": "Pour préparer un sort, glisser de cette liste à un emplacement sur la feuille de l'acteur.",
+          "Title": "{actor}: Préparation de sort"
         }
       },
       "Dead": "Mort",
@@ -878,7 +882,7 @@
     "CastLabel": "Lancer",
     "CharacterDetails": "Détails du personnage",
     "CharacterLevelLabel": "Niveau",
-    "CharacterNamePlaceholder": "Nom du Personnage",
+    "CharacterNamePlaceholder": "Nom du personnage",
     "CharacterTraits": "Traits du personnage",
     "CharacterTraitsHeader": "Traits & autres détails",
     "Check": {
@@ -3144,7 +3148,6 @@
     },
     "ToggleSignatureSpellTitle": "Activer les sorts emblématiques",
     "ToggleSlotlessSpellLevelsTitle": "Activer la visibilité des niveaux de sort sans emplacement dans votre grimoire",
-    "ToggleSpellVisibilityLevelTitle": "Activer un chapitre de votre grimoire",
     "ToggleSpellVisibilityTitle": "Activez la visibilité des sorts",
     "ToggleUnreadyStrikes": "Activer les armes non équipées",
     "ToggleWithName": "Activer : {property}",
@@ -3454,7 +3457,7 @@
     "TraitDescriptionHuman": "Une créature dotée de ce trait appartient à l’ascendance des humains. Les humains se présentent sous la forme d’une multitude de peuples et sont réputés pour leurs capacités d’adaptation. Un pouvoir doté de ce trait peut seulement être choisi ou utilisé par des humains.",
     "TraitDescriptionHumanoid": "Les créatures humanoïdes raisonnent et agissent de manière comparable aux humains. Elles se tiennent généralement debout et possèdent deux bras et deux jambes.",
     "TraitDescriptionIfrit": "Un type de descendant de génie issu d'un être du plan du Feu.",
-    "TraitDescriptionIllusion": "Les effets et les objets magiques qui possèdent ce trait sont as‑ sociés à l’école de magie d’illusion, qui privilégie la création de faux stimuli sensoriels.",
+    "TraitDescriptionIllusion": "Les effets et les objets magiques qui possèdent ce trait sont associés à l’école de magie d’illusion, qui privilégie la création de faux stimuli sensoriels.",
     "TraitDescriptionIncapacitation": "Un pouvoir doté de ce trait peut mettre un personnage hors de combat ou même le tuer, mais il est plus difficile à utiliser contre une créature plus puissante que soi. Si un sort est doté du trait mise hors de combat, une créature dont le niveau est supérieur au double du niveau du sort considère le résultat de son test pour éviter d’être mise hors de combat comme étant d’un degré de succès supérieur à son résultat réel, ou considère le résultat du test de l’incantateur pour la mettre hors de combat comme étant d’un degré de succès inférieur à son résultat réel. Si un autre effet est doté du trait mise hors de combat, une créature de plus haut niveau que l’objet, l’être ou le danger qui génère l’effet bénéficie des mêmes avantages.",
     "TraitDescriptionIncapacitationShort": "Si le niveau de la cible est supérieur au niveau de la capacité (ou 2 x le niveau du sort), considérez le résultat comme s'il était d'un degré supérieur.",
     "TraitDescriptionIncarnate": "Un sort avec le trait incarné est similaire aux sorts qui invoquent des créatures, mais il ne conjure pas un sbire avec le trait convoqué. Au lieu de cela, lorsqu'elle est invoquée, la créature incarnée effectue son action Arriver lorsque vous finissez de lancer le sort. À la fin de votre prochain tour, la créature incarnée peut soit faire un pas, soit Marcher rapidement, soit utiliser l'action correspondant à un autre type de mouvement qu'elle possède (comme Grimper ou Creuser) puis elle utilise son action Départ. Le sort prend alors fin. Les noms des actions spécifiques Arrivée et Départ sont indiqués en italique après le mot \"Arrivée\" ou \"Départ\" respectivement, ainsi que leurs traits éventuels. Une créature invoquée par un sort d'incarnation agit dans votre intérêt, dirige ses effets loin de vous et de vos alliés autant que possible, et peut écouter vos demandes mais prend finalement ses propres décisions. Si le sort indique que l'incarnation prend une décision, le MJ détermine ce que l'incarnation ferait. Il se peut même qu'il devienne plus enclin à faire exactement ce que vous souhaitez au fil des conjurations. L'incarnation n'est pas une créature à part entière. Il ne peut pas utiliser d'autres actions, ni être ciblé ou blessé par des coups, des sorts ou d'autres effets, à moins qu'ils ne puissent cibler ou mettre fin à un effet de sort (comme Dissipation de la magie). L'incarnation possède une taille afin de déterminer son placement pour les effets, mais elle ne bloque pas le déplacement. Le cas échéant, ses effets utilisent votre DD de sort et votre modificateur de jet d'attaque de sort.",
