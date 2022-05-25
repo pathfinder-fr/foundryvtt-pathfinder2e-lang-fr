@@ -432,7 +432,6 @@
       }
     },
     "NPCAbility": {
-      "AnimatedObjectsConstructArmor": "L'armure de la créature artificielle est Brisée",
       "BarghestFeed": "Combien de fois le barghest s'est-il alimenté ?",
       "Charge": {
         "AtLeastTen": "S'est déplacé d'au moins 3 m"
@@ -540,6 +539,10 @@
         "criticalSuccess": "[[/r {2*1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
         "success": "[[/r {1d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
+      "Bleed1d12": {
+        "criticalSuccess": "[[/r {2*1d12}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {1d12}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
       "Bleed1d4": {
         "criticalSuccess": "[[/r {2*1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
         "success": "[[/r {1d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
@@ -552,6 +555,18 @@
         "criticalSuccess": "[[/r {2*1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
         "success": "[[/r {1d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
+      "Bleed2d10": {
+        "criticalSuccess": "[[/r {2*2d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {2d10}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
+      "Bleed2d12": {
+        "criticalSuccess": "[[/r {2*2d12}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {2d12}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
+      "Bleed2d4": {
+        "criticalSuccess": "[[/r {2*2d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {2d4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
       "Bleed2d6": {
         "criticalSuccess": "[[/r {2*2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
         "success": "[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
@@ -559,6 +574,22 @@
       "Bleed2d8": {
         "criticalSuccess": "[[/r {2*2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
         "success": "[[/r {2d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
+      "Bleed3d6": {
+        "criticalSuccess": "[[/r {2*3d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {3d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
+      "Bleed3d8": {
+        "criticalSuccess": "[[/r {2*3d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {3d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
+      "Bleed4d6": {
+        "criticalSuccess": "[[/r {2*4d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {4d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
+      },
+      "Bleed4d8": {
+        "criticalSuccess": "[[/r {2*4d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}",
+        "success": "[[/r {4d8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de saignement persistants}"
       },
       "Cold1d6": {
         "criticalSuccess": "[[/r {2*1d6}[persistent,cold]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60{dégâts de froid persistants}",
@@ -612,9 +643,45 @@
         "criticalSuccess": "[[/r {2*2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts mentaux persistants}",
         "success": "[[/r {2d6}[persistent,mental]]] @Compendium[pf2e.conditionitems.Persistent Damage]{dégâts mentaux persistants}"
       },
+      "Poison1d4": {
+        "criticalSuccess": "[[/r {2*1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {1d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
       "Poison1d6": {
         "criticalSuccess": "[[/r {2*1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
         "success": "[[/r {1d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison1d8": {
+        "criticalSuccess": "[[/r {2*1d8}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {1d8}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison2d4": {
+        "criticalSuccess": "[[/r {2*2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {2d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison2d6": {
+        "criticalSuccess": "[[/r {2*2d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {2d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison2d8": {
+        "criticalSuccess": "[[/r {2*2d8}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {2d8}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison3d4": {
+        "criticalSuccess": "[[/r {2*3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {3d4}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison3d6": {
+        "criticalSuccess": "[[/r {2*3d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {3d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poison4d6": {
+        "criticalSuccess": "[[/r {2*4d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {4d6}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
+      },
+      "Poisond1d12": {
+        "criticalSuccess": "[[/r {2*1d12}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}",
+        "success": "[[/r {1d12}[persistent,poison]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{dégâts de poison persistants}"
       }
     },
     "RuleElement": {
@@ -709,6 +776,7 @@
       "Swim": "pour nager",
       "TarPit": "dans les puits de goudron",
       "TellTheTruth": "pour dire la vérité",
+      "ThickVegetation": "sous une épaisse végétation",
       "Track": "pour pister",
       "TrackBleedingCreature": "pour pister une créature qui saigne",
       "Traps": "pièges",
@@ -802,6 +870,9 @@
         "Lesser": "Inférieur",
         "Prompt": "Choisissez un degré d'abri.",
         "Standard": "Standard"
+      },
+      "DancingShield": {
+        "Prompt": "Choisissez le bonus à la CA du bouclier"
       },
       "DedicationCraftingEntry": {
         "FireworkTechnician": "Artificier",
@@ -964,6 +1035,22 @@
           "success": "Vous pouvez mettre fin à votre satiété pour rendre la cible @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Malade 1}"
         }
       },
+      "Gnome": {
+        "GrimInsight": {
+          "SaveNote": "Lorsque vous obtenez un succès sur un jet de sauvegarde contre un effet de peur, vous obtenez un succès critique à la place et la source de l'effet de peur est @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Prise au dépourvu} contre vous jusqu'à la fin de votre prochain tour."
+        }
+      },
+      "Goblin": {
+        "ExtraSquishy": {
+          "Note": "Si vous obtenez un succès pour @Compendium[pf2e.actionspf2e.kMcV8e5EZUxa6evt]{vous Faufiler}, vous obtenez un succès critique à la place."
+        },
+        "RecklessAbandon": {
+          "Note": "Si vous obtenez un échec ou un échec critique sur un jet de sauvegarde contre un effet dommageable, vous obtenez un succès à la place."
+        },
+        "TorchGoblin": {
+          "Note": "Tant que vous subissez des dégâts de feu persistants, toutes les attaques au corps-à-corps contre des créatures adjacentes infligent 1 dégât de feu supplémentaire par dé de dégât d'arme."
+        }
+      },
       "HarrowDeck": {
         "HarrowSuits": {
           "Books": "Livres",
@@ -1058,7 +1145,9 @@
         "MartialTenguWeapons": "Armes de guerre tengues",
         "MonasticArchery": "Archerie monastique",
         "SimpleBombsFirearms": "Bombes & armes à feu de guerre",
-        "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples"
+        "SimpleFirearmsCrossbows": "Armes à feu et arbalètes simples",
+        "SimpleMartialBows": "Arcs simples et de guerre",
+        "SimpleMartialTwoHandedMeleeWeapons": "Armes à deux mains simples et de guerre"
       },
       "MountainStance": {
         "BracersOfArmor": "Posture de la montagne avec Bracelets d'armure",
@@ -1133,6 +1222,7 @@
       "SterlingDynamo": {
         "AutomaticPercussive": "Dynamo sterling percussive automatique",
         "AutomaticPower": "Dynamo sterling conductrice de puissance automatique",
+        "Label": "Dynamo sterling",
         "ManualPercussive": "Dynamo sterling percussive automatique",
         "ManualPower": "Dynamo sterling conductrice de puissance manuelle"
       },
