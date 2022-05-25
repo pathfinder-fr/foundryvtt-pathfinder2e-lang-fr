@@ -509,6 +509,14 @@
         },
         "Title": "Nage"
       },
+      "Tamper": {
+        "Notes": {
+          "criticalFailure": "<strong>Échec critique</strong> Votre bidouillage se retourne contre vous de façon spectaculaire, créant une petite explosion à partir de vos propres outils ou engins. Vous subissez [[/r {@details.level.value}[fire] # retour de flammes]]{dégâts de feu égaux à votre niveau}.",
+          "criticalSuccess": "<strong>Succès critique</strong> Votre bidouillage est incroyablement efficace. Si vous avez trafiqué une arme, l'ennemi subit un malus de circonstances de -2 aux jets d'attaque et aux jets de dégâts avec cette arme. Si vous avez trafiqué une armure, celle-ci entrave le mouvement de l'ennemi, le rendant Pris à dépourvu et lui infligeant une pénalité de -3 m à ses vitesses. L'effet dure jusqu'à ce que l'ennemi interagisse pour l'enlever, quelle que soit celle que vous avez utilisée. @Compendium[pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effet : Armure trafiquée (succès critique)} @Compendium[pf2e.feat-effects.o7qm13OmaYOMwgib]{Effet : Arme trafiquée (succès critique)}",
+          "success": "<strong>Succès</strong> Votre bidouillage est temporairement efficace. Comme un succès critique, mais l'effet prend fin au début de votre prochain tour, même si l'ennemi n'interagit pas pour y mettre fin. @Compendium[pf2e.feat-effects.IfRkgjyh0JzGalIy]{Effet : Armure trafiquée (succès)} @Compendium[pf2e.feat-effects.4QWayYR3JSL9bk2T]{Effet : Arme trafiquée (succès)}"
+        },
+        "Title": "Trafiquer"
+      },
       "Track": {
         "Notes": {
           "criticalFailure": "<strong>Échec critique</strong> Vous perdez la piste et vous ne pouvez pas réessayer de nouveau avant 24 heures.",
@@ -516,6 +524,14 @@
           "success": "<strong>Succès</strong> Vous trouvez la trace ou continuez à suivre celle que vous avez déjà trouvée."
         },
         "Title": "Pister"
+      },
+      "TreatDisease": {
+        "Notes": {
+          "criticalFailure": "<strong>Échec critique</strong> Vos efforts imposent un malus de circonstances de −2 à son prochain jet de sauvegarde contre la maladie.<br/>@Compendium[pf2e.equipment-effects.5oYKYXAexr0vhx84]{Effet : Soigner une maladie (Échec critique)}",
+          "criticalSuccess": "<strong>Succès critique</strong> Vous conférez un bonus de circonstances de +4 à son prochain jet de sauvegarde contre la maladie. <br/>@Compendium[pf2e.equipment-effects.id20P4pj7zDKeLmy]{Effet : Soigner la maladie (Succès critique)}",
+          "success": "<strong>Succès</strong> Vous conférez un bonus de circonstances de +2 à son prochain jet de sauvegarde contre la maladie.<br/>@Compendium[pf2e.equipment-effects.Ee2xfKX1yyqGIDZj]{Effet: Soigner une maladie (Succès)}"
+        },
+        "Title": "Soigner une maladie"
       },
       "TreatPoison": {
         "Notes": {
@@ -603,6 +619,7 @@
         },
         "SpellPreparation": {
           "Hint": "Pour préparer un sort, glisser de cette liste à un emplacement sur la feuille de l'acteur.",
+          "HintFlexible": "Pour préparer un sort, activez le ici. Pour préparer un tour de magie, glisser le de cette liste à un emplacement sur la feuille de l'acteur.",
           "Title": "{actor}: Préparation de sort"
         }
       },
@@ -676,6 +693,7 @@
     "AreaSize1Mile": "1,5 km",
     "AreaSize20": "20 Feet (6 m)",
     "AreaSize30": "30 Feet (9 m)",
+    "AreaSize360": "360 foot (48 m)",
     "AreaSize40": "40 Feet (12 m)",
     "AreaSize45": "45 Feet (13,5 m)",
     "AreaSize5": "5 Feet (1,5 m)",
@@ -969,20 +987,6 @@
       "TabSpell": "Sorts",
       "TakeLabel": "Prendre l'objet",
       "Title": "Navigateur de compendiums"
-    },
-    "CompendiumDirectory": {
-      "Folders": {
-        "bestiaries": "Bestiaires",
-        "bestiaries/campaign": "Campagne",
-        "bestiaries/other": "Autres",
-        "bestiaries/pfs": "Société des Éclaireurs",
-        "bestiaries/rulebook": "Livre de règles",
-        "character-building": "Construction de personnage",
-        "character-building/feats": "Dons",
-        "effects": "Effets",
-        "equipment": "Équipement",
-        "pregenerated": "PJ prêts à l'emploi"
-      }
     },
     "Condition": {
       "ActiveLabel": "Active",
@@ -1366,7 +1370,7 @@
       "poolLabel": "Rés.",
       "poolTitle": "La taille de votre réserve de focalisation"
     },
-    "Foot": "Pied",
+    "Foot": "pied",
     "FormulaKnownTitle": "Formules connues",
     "FormulaListEmpty": "Vide (glisser une formule/un objet ici)",
     "FormulaPlaceholder": "Formule",
@@ -1480,6 +1484,7 @@
       "Deity": {
         "Alignment": "Alignement",
         "ClericSpells": {
+          "DropError": "Les sorts de dévibité de prêtre ne peuvent inclure de tours de magie, de sorts de focalisation ni de rituels.",
           "Hint": "Pour ajouter un sort, glissez et déposez en un sur cette feuille",
           "Label": "Sorts de prêtre"
         },
@@ -1848,6 +1853,8 @@
           "PotencyThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3} +{potency}",
           "PotencyTwoProperties": "{base} {property1} {property2} +{potency}",
           "PotencyTwoPropertiesMaterial": "{base} en {material} {property1} {property2} +{potency}",
+          "Striking": "{base} de {striking}",
+          "StrikingMaterial": "{base} en {material} de {striking}",
           "ThreeProperties": "{base} {property1} {property2} {property3}",
           "ThreePropertiesMaterial": "{base} en {material} {property1} {property2} {property3}",
           "TwoProperties": "{base} {property1} {property2}",
@@ -3189,6 +3196,7 @@
     "TraitAffixedToArmorOrAWeapon": "Fixé à une armure ou à une arme",
     "TraitAffixedToArmorOrTravelersClothing": "Fixé à une armure ou à des vêtements d'explorateur",
     "TraitAffixedToHeadgear": "Fixé à un couvre-chef",
+    "TraitAffixedToMediumHeavyArmor": "Fixé à une armure moyenne ou lourde",
     "TraitAffixedToWeapon": "Fixé à une arme",
     "TraitAffixededToATwoHandedFirearmOrCrossbow": "Fixé à une arme à feu à deux mains ou une arbalète",
     "TraitAffixededToCrossbowOrFirearm": "Fixé à une arbalète ou une arme à feu",
@@ -3214,6 +3222,7 @@
     "TraitAppliedToAnyVisibleArticleOfClothing": "Appliqué à un vêtement visible.",
     "TraitAppliedToBeltCapeCloakOrScarf": "Appliqué à une ceinture, une cape, une écharpe ou un manteau",
     "TraitAppliedToBootsCapeCloakOrUmbrella": "Appliqué à des bottes, une cape, un manteau ou un parapluie",
+    "TraitAppliedToBucklerShield": "Appliqué à une targe ou un bouclier",
     "TraitAppliedToDuelingCapeOrShield": "Appliqué à une cape de duel ou un bouclier",
     "TraitAppliedToShield": "Appliqué à un bouclier",
     "TraitAquatic": "Aquatique",
@@ -4130,7 +4139,6 @@
       "Title": "Annonce : United Paizo Workers"
     },
     "UnprepareItemTitle": "Abandonner un sort préparé",
-    "UnpreparedSpellsLabel": "Liste de préparation",
     "UpdateActorLabel": "Mettre à jour l’acteur",
     "UpdateLabelUniversal": "Mise à jour",
     "Usage": "Usage",
